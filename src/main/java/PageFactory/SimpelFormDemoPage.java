@@ -29,7 +29,14 @@ public class SimpelFormDemoPage extends AbstractComponent {
 	@FindBy(css="#displayvalue")
 	private WebElement doubleInputMessageElement;
 
+    String exerciseLevel = "basic_example";
+    String exercise = "Simple Form Demo";
 
+
+    public void goToExercise()
+    {
+        goTo(exerciseLevel,exercise);
+    }
 
     public SimpelFormDemoPage sendSingelInputValue(String value)
     {
@@ -67,14 +74,7 @@ public class SimpelFormDemoPage extends AbstractComponent {
 
 
 
-    String exerciseLevel = "basic_example";
-    String exercise = "Simple Form Demo";
 
-
-    public void goToExercise()
-    {
-        goTo(exerciseLevel,exercise);
-    }
 
 
 }
