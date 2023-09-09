@@ -16,23 +16,9 @@ public class Brudnopis {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://demo.seleniumeasy.com/");
-        List<WebElement> lista = driver.findElements(By.cssSelector("#myTab a"));
-       // for(int i=0;i<lista.size();i++)
-        //{
-        //    lista.get(i).click();
-        //}
-        WebElement exercise = lista
-                .stream()
-                .filter(a -> a.getAttribute("id").equals("basic_example"))
-                .findFirst()
-                .orElse(null);
-        exercise.click();
-        Thread.sleep(2000);
-        List<WebElement> zadania = driver.findElements(By.cssSelector("#basic .list-group a"));
-        WebElement zada = zadania.stream().filter(a->a.getText().equals("Bootstrap Alerts")).findFirst().orElse(null);
-        zada.click();
-
+        driver.get("https://demo.seleniumeasy.com/basic-checkbox-demo.html");
+        List<WebElement> elemts = driver.findElements(By.cssSelector("div .checkbox .cb1-element"));
+        elemts.stream().forEach(a->a.click());
 
 
     }

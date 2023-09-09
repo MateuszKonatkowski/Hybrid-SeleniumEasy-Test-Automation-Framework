@@ -13,7 +13,7 @@ public class SimpleFormDemo extends BaseTest{
     public void singelInput_Enter_Any_Data_Should_Show_Message() {
         //given
         SimpelFormDemoPage simpel = new SimpelFormDemoPage(driver);
-        String message = "XD";
+        String message = "Mateusz";
         //when
         simpel.goToExercise();
         String wynik = simpel
@@ -27,6 +27,7 @@ public class SimpleFormDemo extends BaseTest{
     public void singelInput_Not_Entering_Any_Data_Should_Show_No_Message() {
         //given
         SimpelFormDemoPage simpel = new SimpelFormDemoPage(driver);
+        String message = "";
         //when
         simpel.goToExercise();
         String wynik = simpel
@@ -55,7 +56,7 @@ public class SimpleFormDemo extends BaseTest{
 
     }
     @Test
-    public void doubleInput_Enter_Singel_Number_Should_Show_Number()
+    public void doubleInput_Enter_Single_Number_Should_Show_Number()
     {
         //give
         SimpelFormDemoPage simpelFormDemoPage = new SimpelFormDemoPage(driver);
@@ -73,7 +74,7 @@ public class SimpleFormDemo extends BaseTest{
 
     }
     @Test
-    public void doubleInput_Enter_Singel_Text_Should_Show_Error()
+    public void doubleInput_Enter_Single_Text_Should_Show_Error()
     {
         //give
         SimpelFormDemoPage simpelFormDemoPage = new SimpelFormDemoPage(driver);

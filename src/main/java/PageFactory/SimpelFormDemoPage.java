@@ -29,8 +29,8 @@ public class SimpelFormDemoPage extends AbstractComponent {
 	@FindBy(css="#displayvalue")
 	private WebElement doubleInputMessageElement;
 
-    String exerciseLevel = "basic_example";
-    String exercise = "Simple Form Demo";
+   private final String exerciseLevel = "basic_example";
+    private final String exercise = "Simple Form Demo";
 
 
     public void goToExercise()

@@ -29,7 +29,7 @@ public class AbstractComponent {
 
     public void waitForElements(List<WebElement> elements)
     {
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(6));
         wait.until(ExpectedConditions.visibilityOfAllElements(elements));
     }
     public void waitForElementToClick(WebElement element)
@@ -40,6 +40,7 @@ public class AbstractComponent {
 
     public void choseExerciseLevel(String choseLevel)
     {
+        waitForElements(exercisesElementsLevel);
         WebElement exercise = exercisesElementsLevel
                 .stream()
                 .filter(a -> a.getAttribute("id").equals(choseLevel))

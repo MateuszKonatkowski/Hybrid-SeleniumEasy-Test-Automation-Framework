@@ -60,7 +60,7 @@ public class BaseTest {
   }
 
   driver.manage().window().maximize();
-  driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+  driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
   driver.get(url);
   return driver;
  }
