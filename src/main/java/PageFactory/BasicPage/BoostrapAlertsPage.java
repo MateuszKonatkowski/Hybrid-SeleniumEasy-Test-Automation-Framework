@@ -3,6 +3,7 @@ package PageFactory.BasicPage;
 import PageFactory.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
 import org.openqa.selenium.support.PageFactory;
@@ -14,38 +15,71 @@ public class BoostrapAlertsPage extends AbstractPage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
 	@FindBy(css="#autoclosable-btn-success")
+    @CacheLookup
 	private WebElement boostrapAutoSuccessElement;
+
 	@FindBy(css=".alert-autocloseable-success")
+    @CacheLookup
 	private WebElement boostrapAutoSuccessAlert;
+
     @FindBy(css="#normal-btn-success")
+    @CacheLookup
 	private WebElement boostrapSuccessElement;
+
 	@FindBy(css=".alert-normal-success")
+    @CacheLookup
 	private WebElement boostrapSuccessAlert;
+
     @FindBy(css="#autoclosable-btn-warning")
+    @CacheLookup
 	private WebElement boostrapAutoWarningElement;
+
 	@FindBy(css=".alert-autocloseable-warning")
+    @CacheLookup
 	private WebElement boostrapAutoWarningAlert;
+
     @FindBy(css="#normal-btn-warning")
+    @CacheLookup
 	private WebElement boostrapWarningElement;
+
 	@FindBy(css=".alert-normal-warning")
+    @CacheLookup
 	private WebElement boostrapWarningAlert;
+
     @FindBy(css="#autoclosable-btn-danger")
+    @CacheLookup
 	private WebElement boostrapAutoDangerElement;
+
 	@FindBy(css=".alert-autocloseable-danger")
+    @CacheLookup
 	private WebElement boostrapAutoDangerAlert;
+
     @FindBy(css="#normal-btn-danger")
+    @CacheLookup
 	private WebElement boostrapDangerElement;
+
 	@FindBy(css=".alert-normal-danger")
+    @CacheLookup
 	private WebElement boostrapDangerAlert;
+
     @FindBy(css="#autoclosable-btn-info")
+    @CacheLookup
 	private WebElement boostrapAutoInfoElement;
+
 	@FindBy(css=".alert-autocloseable-info")
+    @CacheLookup
 	private WebElement boostrapAutoInfoAlert;
+
     @FindBy(css="#normal-btn-info")
+    @CacheLookup
 	private WebElement boostrapInfoElement;
+
 	@FindBy(css=".alert-normal-info")
+    @CacheLookup
 	private WebElement boostrapInfoAlert;
+
 
 
     private final String exerciseLevel = "basic_example";

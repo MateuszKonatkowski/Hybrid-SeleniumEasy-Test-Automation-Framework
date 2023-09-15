@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.Set;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -17,14 +18,23 @@ public class WindowPopupModalPage extends AbstractPage {
         this.driver = driver;
         PageFactory.initElements(driver,this);
     }
+
 	@FindBy(css="a[title='Follow @seleniumeasy on Twitter']")
+    @CacheLookup
 	private WebElement popupTwitterButtonElement;
+
 	@FindBy(css="a[title='Follow @seleniumeasy on Facebook']")
+    @CacheLookup
 	private WebElement popupFacebookButtonElement;
+
 	@FindBy(css=".two-windows a")
+    @CacheLookup
 	private WebElement popupFaceBookAndTwitterButtonElement;
+
 	@FindBy(css="#followall")
+    @CacheLookup
 	private WebElement popupFollowAllButtonElement;
+
     private final String exerciseLevel = "basic_example";
     private final String exercise = "Window Popup Modal";
 

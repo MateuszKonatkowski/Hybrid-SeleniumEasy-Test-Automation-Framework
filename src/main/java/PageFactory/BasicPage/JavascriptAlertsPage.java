@@ -3,26 +3,38 @@ package PageFactory.BasicPage;
 import PageFactory.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class JavascriptAlertsPage extends AbstractPage {
     WebDriver driver;
+
     public JavascriptAlertsPage(WebDriver driver)
     {
         super(driver);
         this.driver = driver;
         PageFactory.initElements(driver,this);
     }
+
 	@FindBy(css="div[class='panel panel-primary']:first-of-type .btn")
+    @CacheLookup
 	private WebElement javaScriptAlertBoxButtonElement;
+
 	@FindBy(css="div[class='panel panel-primary']:nth-of-type(2) .btn")
+    @CacheLookup
 	private WebElement javaScriptConfirmBoxButtonElement;
+
 	@FindBy(css="div[class='panel panel-primary']:last-of-type .btn")
+    @CacheLookup
 	private WebElement javaScriptPromptBoxButtonElement;
+
 	@FindBy(css="#confirm-demo")
+    @CacheLookup
 	private WebElement javaScriptConfirmBoxMessage;
+
     @FindBy(css="#prompt-demo")
+    @CacheLookup
     private WebElement javaScriptPromptBoxMessage;
 
 

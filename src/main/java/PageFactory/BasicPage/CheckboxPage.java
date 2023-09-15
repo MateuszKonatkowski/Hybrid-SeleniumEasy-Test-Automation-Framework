@@ -4,6 +4,7 @@ import PageFactory.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -17,23 +18,37 @@ public class CheckboxPage extends AbstractPage {
         PageFactory.initElements(driver,this);
     }
     @FindBy(css="#isAgeSelected")
+    @CacheLookup
 	private WebElement checkBoxElement;
+
 	@FindBy(css="label:nth-child(2) input")
+    @CacheLookup
 	private WebElement checkBoxCheckedElement;
+
     @FindBy(css="label:nth-child(3) input")
+    @CacheLookup
     private WebElement checkBoxDisableElement;
+
     @FindBy(css="div .checkbox .cb1-element")
+    @CacheLookup
     private List<WebElement> multipleCheckBoxElements;
+
     @FindBy(css="#check1")
+    @CacheLookup
     private WebElement multipleCheckBoxButtonElement;
+
     @FindBy(css="#isChkd")
+    @CacheLookup
     private WebElement multipleCheckBoxIsCheckedElement;
+
 	@FindBy(css="#txtAge")
+    @CacheLookup
 	private WebElement checkBoxMessageElement;
 
 
+
     private final String exerciseLevel = "basic_example";
-   private final String exercise = "Check Box Demo";
+    private final String exercise = "Check Box Demo";
 
 
     public void goToExercise()

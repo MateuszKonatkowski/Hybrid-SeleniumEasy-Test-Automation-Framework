@@ -3,6 +3,7 @@ package PageFactory.BasicPage;
 import PageFactory.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -13,20 +14,33 @@ public class SimpelFormPage extends AbstractPage {
         this.driver = driver;
         PageFactory.initElements(driver,this);
     }
+
 	@FindBy(css="#user-message")
+    @CacheLookup
 	private WebElement singelInputElement;
+
 	@FindBy(css="#get-input button")
+    @CacheLookup
 	private WebElement singelInputButtonElement;
+
 	@FindBy(css="#display")
+    @CacheLookup
 	private WebElement singelInputMessageElement;
+
 	@FindBy(css="#value1")
+    @CacheLookup
 	private WebElement doubelInputFirstValueElement;
+
 	@FindBy(css="#value2")
+    @CacheLookup
 	private WebElement doubelInputSecendValueElement;
+
 	@FindBy(css="#gettotal button")
+    @CacheLookup
 	private WebElement doubelInputButtonElement;
 
 	@FindBy(css="#displayvalue")
+    @CacheLookup
 	private WebElement doubleInputMessageElement;
 
     private final String exerciseLevel = "basic_example";
