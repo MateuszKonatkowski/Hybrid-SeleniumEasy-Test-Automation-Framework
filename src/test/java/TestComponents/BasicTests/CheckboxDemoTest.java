@@ -1,22 +1,22 @@
-package TestComponents;
+package TestComponents.BasicTests;
 
-import PageFactory.CheckboxDemoPage;
-import org.asynchttpclient.util.Assertions;
+import PageFactory.BasicPage.CheckboxPage;
+import TestComponents.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class CheckboxDemo extends BaseTest{
+public class CheckboxDemoTest extends BaseTest {
 
     @Test
     public void checkBox_CLick_Should_Show_Message()
     {
         //given
-        CheckboxDemoPage checkboxDemoPage = new CheckboxDemoPage(driver);
+        CheckboxPage checkboxPage = new CheckboxPage(driver);
         //when
         String message = "Success - Check box is checked";
-        checkboxDemoPage.goToExercise();
-        String wynik = checkboxDemoPage
+        checkboxPage.goToExercise();
+        String wynik = checkboxPage
                 .clickCheckBox()
                 .getCheckBoxMessage();
         //then
@@ -26,11 +26,11 @@ public class CheckboxDemo extends BaseTest{
     public void checkBox_DoubleCLick_Should_Hide_Message()
     {
         //given
-        CheckboxDemoPage checkboxDemoPage = new CheckboxDemoPage(driver);
+        CheckboxPage checkboxPage = new CheckboxPage(driver);
         String message = "";
         //when
-        checkboxDemoPage.goToExercise();
-        String wynik = checkboxDemoPage
+        checkboxPage.goToExercise();
+        String wynik = checkboxPage
                 .doubelClickCheckBox()
                 .getCheckBoxMessage();
         //then
@@ -40,84 +40,83 @@ public class CheckboxDemo extends BaseTest{
     public void checkBoxChecked_CLick_Should_Unchecked_Checkbox()
     {
         //given
-        CheckboxDemoPage checkboxDemoPage = new CheckboxDemoPage(driver);
+        CheckboxPage checkboxPage = new CheckboxPage(driver);
         //when
-        checkboxDemoPage.goToExercise();
-        checkboxDemoPage
+        checkboxPage.goToExercise();
+        checkboxPage
                 .clickCheckBoxChecked();
         //then
-        Assert.assertFalse(checkboxDemoPage.getCheckBoxCheckedStatus());
+        Assert.assertFalse(checkboxPage.getCheckBoxCheckedStatus());
     }
     @Test
     public void checkBoxChecked_DoubleCLick_Should_Check_Checkbox()
     {
         //given
-        CheckboxDemoPage checkboxDemoPage = new CheckboxDemoPage(driver);
+        CheckboxPage checkboxPage = new CheckboxPage(driver);
         //when
-        checkboxDemoPage.goToExercise();
-        checkboxDemoPage
+        checkboxPage.goToExercise();
+        checkboxPage
                 .doubelClickCheckBox();
         //then
-        Assert.assertTrue(checkboxDemoPage.getCheckBoxCheckedStatus());
+        Assert.assertTrue(checkboxPage.getCheckBoxCheckedStatus());
     }
     @Test
     public void checkBoxDisable_Should_Be_Disable()
     {
         //given
-        CheckboxDemoPage checkboxDemoPage = new CheckboxDemoPage(driver);
+        CheckboxPage checkboxPage = new CheckboxPage(driver);
         //when
-        checkboxDemoPage.goToExercise();
-
+        checkboxPage.goToExercise();
         //then
-        Assert.assertFalse(checkboxDemoPage.getCheckBoxDisabelStatus());
+        Assert.assertFalse(checkboxPage.getCheckBoxDisabelStatus());
     }
 
     @Test
     public void multipleCheckBox_Check_All_Should_Change_Button_Name_And_Check_All()
     {
         //given
-        CheckboxDemoPage checkboxDemoPage = new CheckboxDemoPage(driver);
+        CheckboxPage checkboxPage = new CheckboxPage(driver);
         SoftAssert softAssert = new SoftAssert();
         //when
-        checkboxDemoPage.goToExercise();
-        checkboxDemoPage
+        checkboxPage.goToExercise();
+        checkboxPage
                 .clickAllMultipleCheckBox()
                 .getMultipleCheckBoxAllButtonValue();
         //then
-        softAssert.assertEquals(checkboxDemoPage.getMultipleCheckBoxAllButtonValue(),"Uncheck All");
-        softAssert.assertEquals(checkboxDemoPage.getMultipleCheckBoxIsCheckedStatus(),"true");
+        softAssert.assertEquals(checkboxPage.getMultipleCheckBoxAllButtonValue(),"Uncheck All");
+        softAssert.assertEquals(checkboxPage.getMultipleCheckBoxIsCheckedStatus(),"true");
         softAssert.assertAll();
     }
     @Test
     public void multipleCheckBox_Click_MultipleCheckBoxAllButton_Should_Change_Button_Name_And_Check_All()
     {
         //given
-        CheckboxDemoPage checkboxDemoPage = new CheckboxDemoPage(driver);
+        CheckboxPage checkboxPage = new CheckboxPage(driver);
         SoftAssert softAssert = new SoftAssert();
         //when
-        checkboxDemoPage.goToExercise();
-        checkboxDemoPage
+        checkboxPage.goToExercise();
+        checkboxPage
                 .clickAllMultipleCheckBox()
                 .getMultipleCheckBoxAllButtonValue();
         //then
-        softAssert.assertEquals(checkboxDemoPage.getMultipleCheckBoxAllButtonValue(),"Uncheck All");
-        softAssert.assertEquals(checkboxDemoPage.getMultipleCheckBoxIsCheckedStatus(),"true");
+        softAssert.assertEquals(checkboxPage.getMultipleCheckBoxAllButtonValue(),"Uncheck All");
+        softAssert.assertEquals(checkboxPage.getMultipleCheckBoxIsCheckedStatus(),"true");
         softAssert.assertAll();
     }
     @Test
     public void multipleCheckBox_Click_UncheckAll_Should_Change_Button_Name_And_Uncheck_All()
     {
         //given
-        CheckboxDemoPage checkboxDemoPage = new CheckboxDemoPage(driver);
+        CheckboxPage checkboxPage = new CheckboxPage(driver);
         SoftAssert softAssert = new SoftAssert();
         //when
-        checkboxDemoPage.goToExercise();
-        checkboxDemoPage
+        checkboxPage.goToExercise();
+        checkboxPage
                 .doubleClickMultipleCheckBoxAllButton()
                 .getMultipleCheckBoxAllButtonValue();
         //then
-        softAssert.assertEquals(checkboxDemoPage.getMultipleCheckBoxAllButtonValue(),"Check All");
-        softAssert.assertEquals(checkboxDemoPage.getMultipleCheckBoxIsCheckedStatus(),"false");
+        softAssert.assertEquals(checkboxPage.getMultipleCheckBoxAllButtonValue(),"Check All");
+        softAssert.assertEquals(checkboxPage.getMultipleCheckBoxIsCheckedStatus(),"false");
         softAssert.assertAll();
     }
 

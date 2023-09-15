@@ -1,14 +1,14 @@
-package PageFactory;
+package PageFactory.BasicPage;
 
-import AbstractComponents.AbstractComponent;
+import PageFactory.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SimpelFormDemoPage extends AbstractComponent {
+public class SimpelFormPage extends AbstractPage {
     WebDriver driver;
-    public SimpelFormDemoPage(WebDriver driver) {
+    public SimpelFormPage(WebDriver driver) {
         super(driver);
         this.driver = driver;
         PageFactory.initElements(driver,this);
@@ -29,7 +29,7 @@ public class SimpelFormDemoPage extends AbstractComponent {
 	@FindBy(css="#displayvalue")
 	private WebElement doubleInputMessageElement;
 
-   private final String exerciseLevel = "basic_example";
+    private final String exerciseLevel = "basic_example";
     private final String exercise = "Simple Form Demo";
 
 
@@ -38,31 +38,31 @@ public class SimpelFormDemoPage extends AbstractComponent {
         goTo(exerciseLevel,exercise);
     }
 
-    public SimpelFormDemoPage sendSingelInputValue(String value)
+    public SimpelFormPage sendSingelInputValue(String value)
     {
         singelInputElement.sendKeys(value);
-        return new SimpelFormDemoPage(driver);
+        return new SimpelFormPage(driver);
     }
-    public SimpelFormDemoPage sendDoubellInputValue(String first_value,String secend_value)
+    public SimpelFormPage sendDoubellInputValue(String firstValue, String secendValue)
     {
-        doubelInputFirstValueElement.sendKeys(first_value);
-        doubelInputSecendValueElement.sendKeys(secend_value);
-        return new SimpelFormDemoPage(driver);
+        doubelInputFirstValueElement.sendKeys(firstValue);
+        doubelInputSecendValueElement.sendKeys(secendValue);
+        return new SimpelFormPage(driver);
     }
-    public SimpelFormDemoPage clickSingelInputButton()
+    public SimpelFormPage clickSingelInputButton()
     {
         singelInputButtonElement.click();
-        return new SimpelFormDemoPage(driver);
+        return new SimpelFormPage(driver);
     }
     public String getSingleInputMessage()
     {
         return singelInputMessageElement.getText();
 
     }
-    public SimpelFormDemoPage clickDobuelInputValue()
+    public SimpelFormPage clickDobuelInputValue()
     {
         doubelInputButtonElement.click();
-        return new SimpelFormDemoPage(driver);
+        return new SimpelFormPage(driver);
     }
     public String getDobuelInputMessage()
     {

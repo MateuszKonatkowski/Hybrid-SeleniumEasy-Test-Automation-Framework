@@ -1,6 +1,6 @@
-package PageFactory;
+package PageFactory.BasicPage;
 
-import AbstractComponents.AbstractComponent;
+import PageFactory.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -9,9 +9,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class CheckboxDemoPage extends AbstractComponent {
+public class CheckboxPage extends AbstractPage {
     WebDriver driver;
-    public CheckboxDemoPage(WebDriver driver) {
+    public CheckboxPage(WebDriver driver) {
         super(driver);
         this.driver = driver;
         PageFactory.initElements(driver,this);
@@ -41,16 +41,16 @@ public class CheckboxDemoPage extends AbstractComponent {
         goTo(exerciseLevel,exercise);
     }
 
-    public CheckboxDemoPage clickCheckBox()
+    public CheckboxPage clickCheckBox()
     {
         checkBoxElement.click();
-        return new CheckboxDemoPage(driver);
+        return new CheckboxPage(driver);
     }
-    public CheckboxDemoPage doubelClickCheckBox()
+    public CheckboxPage doubelClickCheckBox()
     {
         Actions actions = new Actions(driver);
         actions.moveToElement(checkBoxElement).doubleClick().build().perform();
-        return new CheckboxDemoPage(driver);
+        return new CheckboxPage(driver);
     }
     public String getCheckBoxMessage()
     {
@@ -76,28 +76,28 @@ public class CheckboxDemoPage extends AbstractComponent {
     {
         return checkBoxDisableElement.isEnabled();
     }
-    public CheckboxDemoPage clickMultipleCheckBoxAllButton()
+    public CheckboxPage clickMultipleCheckBoxAllButton()
     {
         multipleCheckBoxButtonElement.click();
-        return new CheckboxDemoPage(driver);
+        return new CheckboxPage(driver);
     }
-    public CheckboxDemoPage doubleClickMultipleCheckBoxAllButton()
+    public CheckboxPage doubleClickMultipleCheckBoxAllButton()
     {
         Actions actions = new Actions(driver);
         actions.moveToElement(multipleCheckBoxButtonElement).doubleClick().build().perform();
-        return new CheckboxDemoPage(driver);
+        return new CheckboxPage(driver);
     }
     public String getMultipleCheckBoxAllButtonValue()
     {
         return multipleCheckBoxButtonElement.getAttribute("value");
 
     }
-    public CheckboxDemoPage  clickAllMultipleCheckBox()
+    public CheckboxPage clickAllMultipleCheckBox()
     {
         multipleCheckBoxElements
                 .stream()
                 .forEach(a->a.click());
-        return new CheckboxDemoPage(driver);
+        return new CheckboxPage(driver);
     }
     public String getMultipleCheckBoxIsCheckedStatus()
     {
