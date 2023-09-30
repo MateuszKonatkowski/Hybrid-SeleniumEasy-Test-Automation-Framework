@@ -2,10 +2,12 @@ package PageFactory;
 
 
 
+import Config.GlobalConsts;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,29 +16,37 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 
-public class AbstractPage {
+public class BasicPage {
     WebDriver driver;
-    public AbstractPage(WebDriver driver) {
+
+    public BasicPage(WebDriver driver) {
         this.driver = driver;
     }
+
     @FindBy(css="#myTab a")
+    @CacheLookup
     private List<WebElement> exercisesElementsLevel;
+
     @FindBy(css="#basic .list-group a")
+    @CacheLookup
     private List<WebElement> exercisesElements;
 
 
 
     public void waitForElementsVisbility(List<WebElement> elements) {
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(8));
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(GlobalConsts.EXPLICITE_TIME));
         wait.until(ExpectedConditions.visibilityOfAllElements(elements));
     }
-    public void waitForElementToClick(WebElement element) {
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
-        wait.until(ExpectedConditions.elementToBeClickable(element));
+
+    public  void  waitForElementVisibility(WebElement element)
+    {
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(GlobalConsts.EXPLICITE_TIME));
+        wait.until(ExpectedConditions.visibilityOf(element));
     }
+
     public void  waitForElementToDisapire(WebElement element)
     {
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(8));
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(GlobalConsts.EXPLICITE_TIME));
         wait.until(ExpectedConditions.invisibilityOf(element));
     }
 
@@ -50,6 +60,7 @@ public class AbstractPage {
         exercise.click();
 
     }
+
     protected void choseExercise(String choseExercise)
     {
         waitForElementsVisbility(exercisesElements);
@@ -66,4 +77,5 @@ public class AbstractPage {
         choseExerciseLevel(level);
         choseExercise(exerciseLevel);
     }
+
 }

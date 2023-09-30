@@ -1,14 +1,17 @@
-package PageFactory.BasicPage;
+package PageFactory.BasicPageFactory;
 
-import PageFactory.AbstractPage;
+import Config.GlobalConsts;
+import PageFactory.BasicPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
 import org.openqa.selenium.support.PageFactory;
-public class BoostrapAlertsPage extends AbstractPage {
+public class BoostrapAlertsPage extends BasicPage {
+
     WebDriver driver;
+
     public BoostrapAlertsPage(WebDriver driver)
     {
         super(driver);
@@ -22,7 +25,7 @@ public class BoostrapAlertsPage extends AbstractPage {
 
 	@FindBy(css=".alert-autocloseable-success")
     @CacheLookup
-	private WebElement boostrapAutoSuccessAlert;
+	private WebElement boostrapAutoSuccessAlertElement;
 
     @FindBy(css="#normal-btn-success")
     @CacheLookup
@@ -30,7 +33,7 @@ public class BoostrapAlertsPage extends AbstractPage {
 
 	@FindBy(css=".alert-normal-success")
     @CacheLookup
-	private WebElement boostrapSuccessAlert;
+	private WebElement boostrapSuccessAlertElement;
 
     @FindBy(css="#autoclosable-btn-warning")
     @CacheLookup
@@ -38,7 +41,7 @@ public class BoostrapAlertsPage extends AbstractPage {
 
 	@FindBy(css=".alert-autocloseable-warning")
     @CacheLookup
-	private WebElement boostrapAutoWarningAlert;
+	private WebElement boostrapAutoWarningAlertElement;
 
     @FindBy(css="#normal-btn-warning")
     @CacheLookup
@@ -46,7 +49,7 @@ public class BoostrapAlertsPage extends AbstractPage {
 
 	@FindBy(css=".alert-normal-warning")
     @CacheLookup
-	private WebElement boostrapWarningAlert;
+	private WebElement boostrapWarningAlertElement;
 
     @FindBy(css="#autoclosable-btn-danger")
     @CacheLookup
@@ -54,7 +57,7 @@ public class BoostrapAlertsPage extends AbstractPage {
 
 	@FindBy(css=".alert-autocloseable-danger")
     @CacheLookup
-	private WebElement boostrapAutoDangerAlert;
+	private WebElement boostrapAutoDangerAlertElement;
 
     @FindBy(css="#normal-btn-danger")
     @CacheLookup
@@ -62,7 +65,7 @@ public class BoostrapAlertsPage extends AbstractPage {
 
 	@FindBy(css=".alert-normal-danger")
     @CacheLookup
-	private WebElement boostrapDangerAlert;
+	private WebElement boostrapDangerAlertElement;
 
     @FindBy(css="#autoclosable-btn-info")
     @CacheLookup
@@ -70,7 +73,7 @@ public class BoostrapAlertsPage extends AbstractPage {
 
 	@FindBy(css=".alert-autocloseable-info")
     @CacheLookup
-	private WebElement boostrapAutoInfoAlert;
+	private WebElement boostrapAutoInfoAlertElement;
 
     @FindBy(css="#normal-btn-info")
     @CacheLookup
@@ -78,112 +81,130 @@ public class BoostrapAlertsPage extends AbstractPage {
 
 	@FindBy(css=".alert-normal-info")
     @CacheLookup
-	private WebElement boostrapInfoAlert;
+	private WebElement boostrapInfoAlertElement;
 
 
 
-    private final String exerciseLevel = "basic_example";
-    private final String exercise = "Bootstrap Alerts";
+    private final String exerciseLevel = GlobalConsts.BASIC;
+    private final String exercise = GlobalConsts.BOOSTRAP_ALERTS;
+
+
 
     public void goToExercise()
     {
         goTo(exerciseLevel,exercise);
     }
+
     public BoostrapAlertsPage clickBoostrapAutoSuccessElement()
     {
         boostrapAutoSuccessElement.click();
         return new BoostrapAlertsPage(driver);
     }
+
     public BoostrapAlertsPage clickBoostrapSuccessElement()
     {
         boostrapSuccessElement.click();
         return new BoostrapAlertsPage(driver);
     }
+
     public BoostrapAlertsPage clickBoostrapAutoWarningElement()
     {
         boostrapAutoWarningElement.click();
         return new BoostrapAlertsPage(driver);
     }
+
     public BoostrapAlertsPage clickBoostrapWarningElement()
     {
         boostrapWarningElement.click();
         return new BoostrapAlertsPage(driver);
     }
+
     public BoostrapAlertsPage clickBoostrapAutoDangerElement()
     {
         boostrapAutoDangerElement.click();
         return new BoostrapAlertsPage(driver);
     }
+
     public BoostrapAlertsPage clickBoostrapDangerElement()
     {
         boostrapDangerElement.click();
         return new BoostrapAlertsPage(driver);
     }
+
     public BoostrapAlertsPage clickBoostrapAutoInfoElement()
     {
         boostrapAutoInfoElement.click();
         return new BoostrapAlertsPage(driver);
     }
+
     public BoostrapAlertsPage clickBoostrapInfoElement()
     {
         boostrapInfoElement.click();
         return new BoostrapAlertsPage(driver);
     }
+
     public String getBoostrapAutoSuccessMessage()
     {
-        return boostrapAutoSuccessAlert.getText();
+        return boostrapAutoSuccessAlertElement.getText();
     }
+
     public String getBoostrapSuccessMessage()
     {
-        return boostrapSuccessAlert.getText();
+        return boostrapSuccessAlertElement.getText();
     }
+
     public String getBoostrapAutoWarningMessage()
     {
-        return boostrapAutoWarningAlert.getText();
+        return boostrapAutoWarningAlertElement.getText();
     }
+
     public String getBoostrapWarningMessage()
     {
-        return boostrapWarningAlert.getText();
+        return boostrapWarningAlertElement.getText();
     }
+
     public String getBoostrapAutoDangerMessage()
     {
-        return boostrapAutoDangerAlert.getText();
+        return boostrapAutoDangerAlertElement.getText();
     }
+
     public String getBoostrapDangerMessage()
     {
-        return boostrapDangerAlert.getText();
+        return boostrapDangerAlertElement.getText();
     }
+
     public String getBoostrapAutoInfoMessage()
     {
-        return boostrapAutoInfoAlert.getText();
+        return boostrapAutoInfoAlertElement.getText();
     }
+
     public String getBoostrapInfoMessage()
     {
-        return boostrapInfoAlert.getText();
+        return boostrapInfoAlertElement.getText();
     }
+
     public boolean getBoostrapAutoSuccessStatus()
     {
-        waitForElementToDisapire(boostrapAutoSuccessAlert);
-        return boostrapAutoSuccessAlert.isDisplayed();
+        waitForElementToDisapire(boostrapAutoSuccessAlertElement);
+        return boostrapAutoSuccessAlertElement.isDisplayed();
     }
+
     public boolean getBoostrapAutoWarningStatus()
     {
-        waitForElementToDisapire(boostrapAutoWarningAlert);
-        return boostrapAutoWarningAlert.isDisplayed();
+        waitForElementToDisapire(boostrapAutoWarningAlertElement);
+        return boostrapAutoWarningAlertElement.isDisplayed();
     }
+
     public boolean getBoostrapAutoDangerStatus()
     {
-        waitForElementToDisapire(boostrapAutoDangerAlert);
-        return boostrapAutoDangerAlert.isDisplayed();
+        waitForElementToDisapire(boostrapAutoDangerAlertElement);
+        return boostrapAutoDangerAlertElement.isDisplayed();
     }
+
     public boolean getBoostrapAutoInfoStatus()
     {
-        waitForElementToDisapire(boostrapAutoSuccessAlert);
-        return boostrapAutoSuccessAlert.isDisplayed();
+        waitForElementToDisapire(boostrapAutoInfoAlertElement);
+        return boostrapAutoInfoAlertElement.isDisplayed();
     }
-
-
-
-
 
 }

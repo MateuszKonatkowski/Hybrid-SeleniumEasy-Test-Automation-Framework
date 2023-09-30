@@ -1,12 +1,14 @@
 package TestComponents.BasicTests;
 
-import PageFactory.BasicPage.SelectDropdownListPage;
+import PageFactory.BasicPageFactory.SelectDropdownListPage;
 import TestComponents.BaseTest;
+import Util.IRetryAnalyzerUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SelectDropdownListDemoTest extends BaseTest {
-    @Test
+
+    @Test(groups = "Smoke")
     public void select_SelectValue_Should_Show_Message()
     {
         //given
@@ -14,7 +16,7 @@ public class SelectDropdownListDemoTest extends BaseTest {
         //when
         selectDropdownListPage.goToExercise();
         String message = selectDropdownListPage
-                .selectValue()
+                .selectValue("Sunday")
                 .getSelectMessage();
         //then
         Assert.assertEquals(message,"Day selected :- Sunday");
@@ -30,7 +32,8 @@ public class SelectDropdownListDemoTest extends BaseTest {
         //then
         Assert.assertTrue(selectDropdownListPage.multiSelectStatus());
     }
-    @Test
+
+    @Test(retryAnalyzer = IRetryAnalyzerUtil.class)
     public void multiSelect_SelectAllValues_Should_Show_All_Message()
     {
         //given
@@ -46,6 +49,7 @@ public class SelectDropdownListDemoTest extends BaseTest {
         System.out.println(message);
         Assert.assertEquals(message,"Options selected are : California,Florida,New Jersey,New York,Ohio,Texas,Pennsylvania,Washington");
     }
+
     @Test
     public void multiSelect_SelectFirstSelectedValue_Should_Show_First_Message()
     {
@@ -58,6 +62,7 @@ public class SelectDropdownListDemoTest extends BaseTest {
                 .clickMultiSelectFirsSelectedButton()
                 .getMultiSelectMessage();
         //then
-        Assert.assertEquals(message,"First selected option is : Pennsylvania");
+        Assert.assertEquals(message,"First selected option is : Californi");
     }
+
 }

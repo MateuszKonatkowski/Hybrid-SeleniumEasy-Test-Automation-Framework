@@ -1,6 +1,6 @@
 package TestComponents.BasicTests;
 
-import PageFactory.BasicPage.CheckboxPage;
+import PageFactory.BasicPageFactory.CheckboxPage;
 import TestComponents.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -16,12 +16,13 @@ public class CheckboxDemoTest extends BaseTest {
         //when
         String message = "Success - Check box is checked";
         checkboxPage.goToExercise();
-        String wynik = checkboxPage
+        String result = checkboxPage
                 .clickCheckBox()
                 .getCheckBoxMessage();
         //then
-        Assert.assertEquals(wynik,message);
+        Assert.assertEquals(result,message);
     }
+
     @Test
     public void checkBox_DoubleCLick_Should_Hide_Message()
     {
@@ -30,12 +31,13 @@ public class CheckboxDemoTest extends BaseTest {
         String message = "";
         //when
         checkboxPage.goToExercise();
-        String wynik = checkboxPage
-                .doubelClickCheckBox()
+        String result = checkboxPage
+                .doubleClickCheckBox()
                 .getCheckBoxMessage();
         //then
-        Assert.assertEquals(wynik,message);
+        Assert.assertEquals(result,message);
     }
+
     @Test
     public void checkBoxChecked_CLick_Should_Unchecked_Checkbox()
     {
@@ -48,6 +50,7 @@ public class CheckboxDemoTest extends BaseTest {
         //then
         Assert.assertFalse(checkboxPage.getCheckBoxCheckedStatus());
     }
+
     @Test
     public void checkBoxChecked_DoubleCLick_Should_Check_Checkbox()
     {
@@ -56,10 +59,11 @@ public class CheckboxDemoTest extends BaseTest {
         //when
         checkboxPage.goToExercise();
         checkboxPage
-                .doubelClickCheckBox();
+                .doubleClickCheckBox();
         //then
         Assert.assertTrue(checkboxPage.getCheckBoxCheckedStatus());
     }
+
     @Test
     public void checkBoxDisable_Should_Be_Disable()
     {
@@ -68,11 +72,11 @@ public class CheckboxDemoTest extends BaseTest {
         //when
         checkboxPage.goToExercise();
         //then
-        Assert.assertFalse(checkboxPage.getCheckBoxDisabelStatus());
+        Assert.assertFalse(checkboxPage.getCheckBoxDisableStatus());
     }
 
     @Test
-    public void multipleCheckBox_Check_All_Should_Change_Button_Name_And_Check_All()
+    public void multipleCheckBox_Check_All_Should_Change_Button_Name_And_CheckAll()
     {
         //given
         CheckboxPage checkboxPage = new CheckboxPage(driver);
@@ -87,8 +91,9 @@ public class CheckboxDemoTest extends BaseTest {
         softAssert.assertEquals(checkboxPage.getMultipleCheckBoxIsCheckedStatus(),"true");
         softAssert.assertAll();
     }
-    @Test
-    public void multipleCheckBox_Click_MultipleCheckBoxAllButton_Should_Change_Button_Name_And_Check_All()
+
+    @Test(groups = {"Smoke"})
+    public void multipleCheckBox_Click_MultipleCheckBoxAllButton_Should_Change_Button_Name_And_CheckAll()
     {
         //given
         CheckboxPage checkboxPage = new CheckboxPage(driver);
@@ -103,8 +108,9 @@ public class CheckboxDemoTest extends BaseTest {
         softAssert.assertEquals(checkboxPage.getMultipleCheckBoxIsCheckedStatus(),"true");
         softAssert.assertAll();
     }
+
     @Test
-    public void multipleCheckBox_Click_UncheckAll_Should_Change_Button_Name_And_Uncheck_All()
+    public void multipleCheckBox_Click_UncheckAll_Should_Change_Button_Name_And_UncheckAll()
     {
         //given
         CheckboxPage checkboxPage = new CheckboxPage(driver);

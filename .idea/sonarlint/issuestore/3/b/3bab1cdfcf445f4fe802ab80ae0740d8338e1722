@@ -1,8 +1,0 @@
-
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ãçœ
-M
-java:S2387"7"driver" is the name of a field in "AbstractComponent".(æ¹•‹
-C
-java:S1170#"!Make this final field static too.(«Ë¢ªşÿÿÿÿ8Æ¢ú­¨1
-=
-java:S1170$"!Make this final field static too.(Ó˜W8ÎÑú­¨1

@@ -1,13 +1,14 @@
-package PageFactory.BasicPage;
+package PageFactory.BasicPageFactory;
 
-import PageFactory.AbstractPage;
+import Config.GlobalConsts;
+import PageFactory.BasicPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class JavascriptAlertsPage extends AbstractPage {
+public class JavascriptAlertsPage extends BasicPage {
     WebDriver driver;
 
     public JavascriptAlertsPage(WebDriver driver)
@@ -31,15 +32,18 @@ public class JavascriptAlertsPage extends AbstractPage {
 
 	@FindBy(css="#confirm-demo")
     @CacheLookup
-	private WebElement javaScriptConfirmBoxMessage;
+	private WebElement javaScriptConfirmBoxMessageElement;
 
     @FindBy(css="#prompt-demo")
     @CacheLookup
-    private WebElement javaScriptPromptBoxMessage;
+    private WebElement javaScriptPromptBoxMessageElement;
 
 
-    private final String exerciseLevel = "basic_example";
-    private final String exercise = "Javascript Alerts";
+
+    private final String exerciseLevel = GlobalConsts.BASIC;
+    private final String exercise = GlobalConsts.JAVASCRIPT_ALERTS;
+
+
 
     public void goToExercise()
     {
@@ -51,11 +55,13 @@ public class JavascriptAlertsPage extends AbstractPage {
         javaScriptAlertBoxButtonElement.click();
         return new JavascriptAlertsPage(driver);
     }
+
     public JavascriptAlertsPage clickJavaScriptConfirmBoxButton()
     {
         javaScriptConfirmBoxButtonElement.click();
         return new JavascriptAlertsPage(driver);
     }
+
     public JavascriptAlertsPage clickJavaScriptPromptBoxButton()
     {
         javaScriptPromptBoxButtonElement.click();
@@ -71,37 +77,45 @@ public class JavascriptAlertsPage extends AbstractPage {
     {
         driver.switchTo().alert().accept();
     }
+
     public JavascriptAlertsPage clickJavaScriptConfirmOkButton()
     {
         driver.switchTo().alert().accept();
         return new JavascriptAlertsPage(driver);
     }
+
     public JavascriptAlertsPage  clickJavaScriptConfirmCancelButton()
     {
         driver.switchTo().alert().dismiss();
         return new JavascriptAlertsPage(driver);
     }
+
     public JavascriptAlertsPage clickJavaScriptPromptCancelButton()
     {
         driver.switchTo().alert().dismiss();
         return new JavascriptAlertsPage(driver);
     }
+
     public JavascriptAlertsPage clickJavaScriptPromptOkButton()
     {
         driver.switchTo().alert().accept();
         return new JavascriptAlertsPage(driver);
     }
-    public JavascriptAlertsPage  sendJavaScriptPromptMessage()
+
+    public JavascriptAlertsPage  sendJavaScriptPromptMessage(String message)
     {
-        driver.switchTo().alert().sendKeys("XD");
+        driver.switchTo().alert().sendKeys(message);
         return new JavascriptAlertsPage(driver);
     }
+
     public String getJavaScriptConfirmMessage()
     {
-        return javaScriptConfirmBoxMessage.getText();
+        return javaScriptConfirmBoxMessageElement.getText();
     }
+
     public String getJavaScriptPromptMessage()
     {
-        return javaScriptPromptBoxMessage.getText();
+        return javaScriptPromptBoxMessageElement.getText();
     }
+
 }

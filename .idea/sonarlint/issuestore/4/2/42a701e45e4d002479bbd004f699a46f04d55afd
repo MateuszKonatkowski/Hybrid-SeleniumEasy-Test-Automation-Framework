@@ -1,8 +1,0 @@
-
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ãçœ
-M
-java:S2387"7"driver" is the name of a field in "AbstractComponent".(æ¹•‹
-T
-java:S1612&">Replace this lambda with method reference 'WebElement::click'.(­œÓ
-`
-java:S1612/">Replace this lambda with method reference 'WebElement::click'.(Á¾Öœúÿÿÿÿ8Í½ý­¨1

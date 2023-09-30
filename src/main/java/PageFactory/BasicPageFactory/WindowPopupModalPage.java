@@ -1,6 +1,7 @@
-package PageFactory.BasicPage;
+package PageFactory.BasicPageFactory;
 
-import PageFactory.AbstractPage;
+import Config.GlobalConsts;
+import PageFactory.BasicPage;
 import java.util.Iterator;
 import java.util.Set;
 import org.openqa.selenium.WebDriver;
@@ -10,8 +11,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class WindowPopupModalPage extends AbstractPage {
-    WebDriver driver; //Driver
+public class WindowPopupModalPage extends BasicPage {
+
+    WebDriver driver;
+
     public WindowPopupModalPage(WebDriver driver)
     {
         super(driver);
@@ -35,30 +38,37 @@ public class WindowPopupModalPage extends AbstractPage {
     @CacheLookup
 	private WebElement popupFollowAllButtonElement;
 
-    private final String exerciseLevel = "basic_example";
-    private final String exercise = "Window Popup Modal";
+
+
+    private final String exerciseLevel = GlobalConsts.BASIC;
+    private final String exercise = GlobalConsts.WINDOWS_POPUP;
+
 
 
     public void goToExercise()
     {
         goTo(exerciseLevel,exercise);
     }
+
     public WindowPopupModalPage clickTwitterButton()
     {
         popupTwitterButtonElement.click();
         return new WindowPopupModalPage(driver);
     }
+
     public WindowPopupModalPage clickFacebookButton()
     {
         popupFacebookButtonElement.click();
         return new WindowPopupModalPage(driver);
     }
+
     public WindowPopupModalPage clickTwitterAndFacebookButton()
     {
         popupFaceBookAndTwitterButtonElement.click();
         return new WindowPopupModalPage(driver);
     }
-    public String getPopUpWidnowAdress()
+
+    public String getPopUpWidowsAddress()
     {
         Set<String> windows = driver.getWindowHandles();
         Iterator<String> it = windows.iterator();
@@ -66,8 +76,5 @@ public class WindowPopupModalPage extends AbstractPage {
         String childid = it.next();
         return driver.switchTo().window(childid).getCurrentUrl();
     }
-
-
-
 
 }

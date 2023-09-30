@@ -1,6 +1,6 @@
 package TestComponents.BasicTests;
 
-import PageFactory.BasicPage.BoostrapAlertsPage;
+import PageFactory.BasicPageFactory.BoostrapAlertsPage;
 import TestComponents.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -8,8 +8,8 @@ import org.testng.asserts.SoftAssert;
 
 public class BoostrapAlertsTest extends BaseTest {
 
-    @Test
-    public void boostrapAlert_Click_AutoSucces_Should_Show_Message_And_Disappear()
+    @Test(groups = {"Smoke"})
+    public void boostrapAlert_Click_AutoSuccess_Should_Show_Message_And_Disappear()
     {
         //given
         BoostrapAlertsPage boostrapAlertsPage = new BoostrapAlertsPage(driver);
@@ -24,12 +24,12 @@ public class BoostrapAlertsTest extends BaseTest {
         softAssert.assertFalse(boostrapAlertsPage.getBoostrapAutoSuccessStatus());
         softAssert.assertAll();
     }
-    @Test
-    public void boostrapAlert_Click_Succes_Should_Show_Message()
+
+    @Test(groups = {"Smoke"})
+    public void boostrapAlert_Click_Success_Should_Show_Message()
     {
         //given
         BoostrapAlertsPage boostrapAlertsPage = new BoostrapAlertsPage(driver);
-
         //when
         boostrapAlertsPage.goToExercise();
         String message = boostrapAlertsPage
@@ -39,6 +39,7 @@ public class BoostrapAlertsTest extends BaseTest {
         Assert.assertEquals(message,"×\nI'm a normal success message. To close use the appropriate button.");
 ;
     }
+
     @Test
     public void boostrapAlert_Click_AutoWarning_Should_Show_Message_And_Disappear()
     {
@@ -55,12 +56,12 @@ public class BoostrapAlertsTest extends BaseTest {
         softAssert.assertFalse(boostrapAlertsPage.getBoostrapAutoWarningStatus());
         softAssert.assertAll();
     }
+
     @Test
     public void boostrapAlert_Click_Warning_Should_Show_Message()
     {
         //given
         BoostrapAlertsPage boostrapAlertsPage = new BoostrapAlertsPage(driver);
-        SoftAssert softAssert = new SoftAssert();
         //when
         boostrapAlertsPage.goToExercise();
         String message = boostrapAlertsPage
@@ -70,7 +71,8 @@ public class BoostrapAlertsTest extends BaseTest {
         Assert.assertEquals(message,"×\nI'm a normal warning message. To close use the appropriate button.");
 
     }
-    @Test
+
+    @Test(groups = {"Smoke"})
     public void boostrapAlert_Click_AutoDanger_Should_Show_Message_And_Disappear()
     {
         //given
@@ -86,12 +88,12 @@ public class BoostrapAlertsTest extends BaseTest {
         softAssert.assertFalse(boostrapAlertsPage.getBoostrapAutoDangerStatus());
         softAssert.assertAll();
     }
+
     @Test
     public void boostrapAlert_Click_Danger_Should_Show_Message_And_Disappear()
     {
         //given
         BoostrapAlertsPage boostrapAlertsPage = new BoostrapAlertsPage(driver);
-        SoftAssert softAssert = new SoftAssert();
         //when
         boostrapAlertsPage.goToExercise();
         String message = boostrapAlertsPage
@@ -101,7 +103,8 @@ public class BoostrapAlertsTest extends BaseTest {
         Assert.assertEquals(message,"×\nI'm a normal danger message. To close use the appropriate button.");
 
     }
-    @Test
+
+    @Test(groups = {"Smoke"})
     public void boostrapAlert_Click_AutoInfo_Should_Show_Message_And_Disappear()
     {
         //given
@@ -117,12 +120,12 @@ public class BoostrapAlertsTest extends BaseTest {
         softAssert.assertFalse(boostrapAlertsPage.getBoostrapAutoInfoStatus());
         softAssert.assertAll();
     }
-    @Test
-    public void boostrapAlert_Click_Info_Should_Show_Message_And()
+
+    @Test(groups = {"Smoke"})
+    public void boostrapAlert_Click_Info_Should_Show_Message()
     {
         //given
         BoostrapAlertsPage boostrapAlertsPage = new BoostrapAlertsPage(driver);
-        SoftAssert softAssert = new SoftAssert();
         //when
         boostrapAlertsPage.goToExercise();
         String message = boostrapAlertsPage

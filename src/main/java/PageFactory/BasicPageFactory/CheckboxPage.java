@@ -1,6 +1,7 @@
-package PageFactory.BasicPage;
+package PageFactory.BasicPageFactory;
 
-import PageFactory.AbstractPage;
+import Config.GlobalConsts;
+import PageFactory.BasicPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -10,13 +11,16 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class CheckboxPage extends AbstractPage {
+public class CheckboxPage extends BasicPage {
+
     WebDriver driver;
+
     public CheckboxPage(WebDriver driver) {
         super(driver);
         this.driver = driver;
         PageFactory.initElements(driver,this);
     }
+
     @FindBy(css="#isAgeSelected")
     @CacheLookup
 	private WebElement checkBoxElement;
@@ -47,8 +51,9 @@ public class CheckboxPage extends AbstractPage {
 
 
 
-    private final String exerciseLevel = "basic_example";
-    private final String exercise = "Check Box Demo";
+    private final String exerciseLevel = GlobalConsts.BASIC;
+    private final String exercise = GlobalConsts.CHECK_BOX;
+
 
 
     public void goToExercise()
@@ -61,52 +66,52 @@ public class CheckboxPage extends AbstractPage {
         checkBoxElement.click();
         return new CheckboxPage(driver);
     }
-    public CheckboxPage doubelClickCheckBox()
+
+    public CheckboxPage doubleClickCheckBox()
     {
         Actions actions = new Actions(driver);
         actions.moveToElement(checkBoxElement).doubleClick().build().perform();
         return new CheckboxPage(driver);
     }
+
     public String getCheckBoxMessage()
     {
         return checkBoxMessageElement.getText();
-
     }
+
     public void clickCheckBoxChecked()
     {
         checkBoxCheckedElement.click();
-
     }
-    public void doubleClickCheckBoxChecked()
-    {
-        Actions actions = new Actions(driver);
-        actions.moveToElement(checkBoxCheckedElement).doubleClick().build().perform();
 
-    }
     public boolean getCheckBoxCheckedStatus()
     {
         return checkBoxCheckedElement.isSelected();
     }
-    public boolean getCheckBoxDisabelStatus()
+
+    public boolean getCheckBoxDisableStatus()
     {
         return checkBoxDisableElement.isEnabled();
     }
+
     public CheckboxPage clickMultipleCheckBoxAllButton()
     {
         multipleCheckBoxButtonElement.click();
         return new CheckboxPage(driver);
     }
+
     public CheckboxPage doubleClickMultipleCheckBoxAllButton()
     {
         Actions actions = new Actions(driver);
         actions.moveToElement(multipleCheckBoxButtonElement).doubleClick().build().perform();
         return new CheckboxPage(driver);
     }
+
     public String getMultipleCheckBoxAllButtonValue()
     {
         return multipleCheckBoxButtonElement.getAttribute("value");
-
     }
+
     public CheckboxPage clickAllMultipleCheckBox()
     {
         multipleCheckBoxElements
@@ -114,10 +119,10 @@ public class CheckboxPage extends AbstractPage {
                 .forEach(a->a.click());
         return new CheckboxPage(driver);
     }
+
     public String getMultipleCheckBoxIsCheckedStatus()
     {
        return multipleCheckBoxIsCheckedElement.getAttribute("value");
-
     }
 
 }

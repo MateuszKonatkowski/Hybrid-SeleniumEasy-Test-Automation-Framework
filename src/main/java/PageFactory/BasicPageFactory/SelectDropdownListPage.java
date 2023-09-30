@@ -1,6 +1,7 @@
-package PageFactory.BasicPage;
+package PageFactory.BasicPageFactory;
 
-import PageFactory.AbstractPage;
+import Config.GlobalConsts;
+import PageFactory.BasicPage;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,7 +13,8 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class SelectDropdownListPage extends AbstractPage {
+public class SelectDropdownListPage extends BasicPage {
+
     WebDriver driver;
 
     public SelectDropdownListPage(WebDriver driver)
@@ -24,7 +26,7 @@ public class SelectDropdownListPage extends AbstractPage {
 
     @FindBy(css="#select-demo")
     @CacheLookup
-    private WebElement selectElemnt;
+    private WebElement selectElement;
 
     @FindBy(css=".selected-value")
     @CacheLookup
@@ -41,12 +43,16 @@ public class SelectDropdownListPage extends AbstractPage {
 	@FindBy(css="#printAll")
     @CacheLookup
 	private WebElement multiSelectAllSelectedButtonElement;
+
 	@FindBy(css=".getall-selected")
     @CacheLookup
-	private WebElement multiSelectMessage;
+	private WebElement multiSelectMessageElement;
 
-    private final String exerciseLevel = "basic_example";
-    private final String exercise = "Select Dropdown List";
+
+
+    private final String exerciseLevel = GlobalConsts.BASIC;
+    private final String exercise = GlobalConsts.SELECT_DROPDOWN_LIST;
+
 
 
     public void goToExercise()
@@ -54,38 +60,44 @@ public class SelectDropdownListPage extends AbstractPage {
         goTo(exerciseLevel,exercise);
     }
 
-
-    public SelectDropdownListPage  selectValue()
+    public SelectDropdownListPage  selectValue(String day)
     {
-        Select select = new Select(selectElemnt);
-        select.selectByValue("Sunday");
+        Select select = new Select(selectElement);
+        select.selectByValue(day);
         return new SelectDropdownListPage(driver);
     }
+
     public String getSelectMessage()
     {
         return selectMessageElement.getText();
     }
+
     public boolean multiSelectStatus()
     {
         Select select = new Select(multiSelectElement);
         return select.isMultiple();
     }
+
     public String getMultiSelectMessage()
     {
-        return multiSelectMessage.getText();
+        return multiSelectMessageElement.getText();
     }
+
     public SelectDropdownListPage  multiSelectSelectAllValues()
     {
         Select select = new Select(multiSelectElement);
         Actions actions = new Actions(driver);
         List<WebElement> options = select.getOptions();
+        waitForElementsVisbility(options);
         options.stream().forEach(option -> actions.keyDown(Keys.CONTROL).click(option).build().perform());
         return new SelectDropdownListPage(driver);
     }
+
     public SelectDropdownListPage  multiSelectSelectFirstValue() {
         Select select = new Select(multiSelectElement);
         Actions actions = new Actions(driver);
         List<WebElement> options = select.getOptions();
+        waitForElementsVisbility(options);
         options.stream().forEach(option -> actions.keyDown(Keys.CONTROL).click(option).build().perform());
         return new SelectDropdownListPage(driver);
     }
@@ -95,9 +107,11 @@ public class SelectDropdownListPage extends AbstractPage {
         multiSelectFirsSelectedButtonElement.click();
         return new SelectDropdownListPage(driver);
     }
+
     public SelectDropdownListPage clickMultiSelectAllSelectedButton()
     {
         multiSelectAllSelectedButtonElement.click();
         return new SelectDropdownListPage(driver);
     }
+
 }

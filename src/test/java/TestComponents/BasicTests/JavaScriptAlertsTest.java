@@ -1,13 +1,14 @@
 package TestComponents.BasicTests;
 
-import PageFactory.BasicPage.JavascriptAlertsPage;
+import PageFactory.BasicPageFactory.JavascriptAlertsPage;
 import TestComponents.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class JavaScriptAlertsTest extends BaseTest {
-    @Test
+
+    @Test(groups = {"Smoke"})
     public void alertBox_Click_Should_ShowAlertMessage_And_Accept()
     {
         //given
@@ -15,12 +16,12 @@ public class JavaScriptAlertsTest extends BaseTest {
         //when
         javaScriptAlertPage.goToExercise();
         javaScriptAlertPage.clickJavaScriptAlertBoxButton();
-        String alertmessage = javaScriptAlertPage.getAlertMessage();
+        String alertMessage = javaScriptAlertPage.getAlertMessage();
         javaScriptAlertPage.clickJavaScriptAlertOkButton();
-
         //then
-        Assert.assertEquals(alertmessage, "I am an alert box!");
+        Assert.assertEquals(alertMessage, "I am an alert box!");
     }
+
     @Test
     public void confirmBox_Click_Should_Show_ConfirmMessage_And_Accept()
     {
@@ -30,16 +31,17 @@ public class JavaScriptAlertsTest extends BaseTest {
         //when
         javascriptAlertsPage.goToExercise();
         javascriptAlertsPage.clickJavaScriptConfirmBoxButton();
-        String alertmessage = javascriptAlertsPage.getAlertMessage();
+        String alertMessage = javascriptAlertsPage.getAlertMessage();
         String message =
                javascriptAlertsPage
                        .clickJavaScriptConfirmOkButton()
                        .getJavaScriptConfirmMessage();
         //then
-        softAssert.assertEquals(alertmessage, "Press a button!");
+        softAssert.assertEquals(alertMessage, "Press a button!");
         softAssert.assertEquals(message, "You pressed OK!");
         softAssert.assertAll();
     }
+
     @Test
     public void confirmBox_Click_Should_Show_ConfirmMessage_And_Dismiss()
     {
@@ -49,17 +51,18 @@ public class JavaScriptAlertsTest extends BaseTest {
         //when
         javascriptAlertsPage.goToExercise();
         javascriptAlertsPage.clickJavaScriptConfirmBoxButton();
-        String alertmessage = javascriptAlertsPage.getAlertMessage();
+        String alertMessage = javascriptAlertsPage.getAlertMessage();
         String message =
                 javascriptAlertsPage
                         .clickJavaScriptConfirmCancelButton()
                         .getJavaScriptConfirmMessage();
         //then
-        softAssert.assertEquals(alertmessage, "Press a button!");
+        softAssert.assertEquals(alertMessage, "Press a button!");
         softAssert.assertEquals(message, "You pressed Cancel!");
         softAssert.assertAll();
     }
-    @Test
+
+    @Test(groups = {"Smoke"})
     public void promptBox_Click_Enter_Value_Should_Show_Message()
     {
         //given
@@ -68,14 +71,14 @@ public class JavaScriptAlertsTest extends BaseTest {
         //when
         javascriptAlertsPage.goToExercise();
         javascriptAlertsPage.clickJavaScriptPromptBoxButton();
-        String alertmessage = javascriptAlertsPage.getAlertMessage();
+        String alertMessage = javascriptAlertsPage.getAlertMessage();
         String message =
                 javascriptAlertsPage
-                        .sendJavaScriptPromptMessage()
+                        .sendJavaScriptPromptMessage("XD")
                         .clickJavaScriptPromptOkButton()
                         .getJavaScriptPromptMessage();
         //then
-        softAssert.assertEquals(alertmessage, "Please enter your name");
+        softAssert.assertEquals(alertMessage, "Please enter your name");
         softAssert.assertEquals(message, "You have entered 'XD' !");
         softAssert.assertAll();
     }

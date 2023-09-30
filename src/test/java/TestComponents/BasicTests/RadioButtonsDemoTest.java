@@ -1,6 +1,6 @@
 package TestComponents.BasicTests;
 
-import PageFactory.BasicPage.RadioButtonPage;
+import PageFactory.BasicPageFactory.RadioButtonPage;
 import TestComponents.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -15,13 +15,14 @@ public class RadioButtonsDemoTest extends BaseTest {
         //when
         radioButtonPage.goToExercise();
         String message = radioButtonPage
-                .checkOneRadioButton()
+                .checkOneRadioButton("Male")
                 .clickRadioButtonButton()
                 .getDarioButtonMessage();
         //then
         Assert.assertEquals(message,"Radio button 'Male' is checked");
     }
-   @Test
+
+   @Test(groups = {"Smoke"})
     public void radioButton_NoButtonClick_Should_Show_Message()
    {
        //given
@@ -35,6 +36,7 @@ public class RadioButtonsDemoTest extends BaseTest {
        Assert.assertEquals(message,"Radio button is Not checked");
 
    }
+
    @Test
     public void groupRadioButton_ClickOnlySex_Should_Show_Message()
    {
@@ -43,13 +45,14 @@ public class RadioButtonsDemoTest extends BaseTest {
        //when
        radioButtonPage.goToExercise();
        String message = radioButtonPage
-               .clickGroupRadioButtonSex()
+               .clickGroupRadioButtonSex("Male")
                .clickGroupRadioButtonButton()
                .getDarioGroupRadioButtonMessage();
        //then
        Assert.assertEquals(message,"Sex : Male\nAge group:");
    }
-   @Test
+
+   @Test(groups = {"Smoke"})
     public void groupRadioButton_ClickOnlyAge_Should_Show_Message()
    {
        //given
@@ -57,12 +60,13 @@ public class RadioButtonsDemoTest extends BaseTest {
        //when
        radioButtonPage.goToExercise();
        String message = radioButtonPage
-              .clickGroupRadioButtonAge()
+              .clickGroupRadioButtonAge("0 - 5")
               .clickGroupRadioButtonButton()
               .getDarioGroupRadioButtonMessage();
        //then
        Assert.assertEquals(message,"Sex :\nAge group: 0 - 5");
    }
+
    @Test
     public void groupRadioButton_ClickBoth_Should_Show_Message()
    {
@@ -71,11 +75,12 @@ public class RadioButtonsDemoTest extends BaseTest {
        //when
        radioButtonPage.goToExercise();
        String message = radioButtonPage
-               .clickGroupRadioButtonSex()
-               .clickGroupRadioButtonAge()
+               .clickGroupRadioButtonSex("Male")
+               .clickGroupRadioButtonAge("0 - 5")
                .clickGroupRadioButtonButton()
                .getDarioGroupRadioButtonMessage();
        //then
        Assert.assertEquals(message,"Sex : Male\nAge group: 0 - 5");
    }
+
 }

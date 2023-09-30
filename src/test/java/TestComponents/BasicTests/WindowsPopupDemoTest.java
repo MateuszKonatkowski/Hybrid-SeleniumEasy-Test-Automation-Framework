@@ -1,6 +1,6 @@
 package TestComponents.BasicTests;
 
-import PageFactory.BasicPage.WindowPopupModalPage;
+import PageFactory.BasicPageFactory.WindowPopupModalPage;
 import TestComponents.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class WindowsPopupDemoTest extends BaseTest {
 
     @Test
-    public void popup_Twitter_Should_Have_Proper_Adres()
+    public void popup_Twitter_Should_Have_Proper_Address()
     {
         //when
         WindowPopupModalPage windowPopupModalPage = new WindowPopupModalPage(driver);
@@ -16,12 +16,13 @@ public class WindowsPopupDemoTest extends BaseTest {
         windowPopupModalPage.goToExercise();
         String message = windowPopupModalPage
                 .clickTwitterButton()
-                .getPopUpWidnowAdress();
+                .getPopUpWidowsAddress();
         //then
         Assert.assertEquals(message,"https://twitter.com/i/flow/login?redirect_after_login=%2Fintent%2Ffollow%3Fscreen_name%3Dseleniumeasy");
     }
-    @Test
-    public void popup_Facebook_Should_Have_Proper_Adres()
+
+    @Test(groups = {"Smoke"})
+    public void popup_Facebook_Should_Have_Proper_Address()
     {
         //when
         WindowPopupModalPage windowPopupModalPage = new WindowPopupModalPage(driver);
@@ -29,9 +30,9 @@ public class WindowsPopupDemoTest extends BaseTest {
         windowPopupModalPage.goToExercise();
         String message = windowPopupModalPage
                 .clickFacebookButton()
-                .getPopUpWidnowAdress();
-
+                .getPopUpWidowsAddress();
         //then
         Assert.assertEquals(message,"https://www.facebook.com/seleniumeasy");
     }
+
 }
