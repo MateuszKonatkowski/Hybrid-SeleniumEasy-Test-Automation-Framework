@@ -1,0 +1,444 @@
+<html>
+<head>
+<title>TestNG:  Regression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/2/1</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Sep 30 20:08:46 CEST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>375 seconds (375607 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestComponents.BasicTests.SelectDropdownListDemoTest.multiSelect_SelectAllValues_Should_Show_All_Message()'><b>multiSelect_SelectAllValues_Should_Show_All_Message</b><br>Test class: TestComponents.BasicTests.SelectDropdownListDemoTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Options selected are : California,Florida,New Jersey,New York,Ohio,Texas,Pennsylvania,Washington] but found [Options selected are : Florida,New Jersey,New York,Ohio,Texas,Pennsylvania,Washington]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at TestComponents.BasicTests.SelectDropdownListDemoTest.multiSelect_SelectAllValues_Should_Show_All_Message(SelectDropdownListDemoTest.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div><a href='#' onClick='toggleBox("stack-trace462775281", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace462775281'><pre>java.lang.AssertionError: expected [Options selected are : California,Florida,New Jersey,New York,Ohio,Texas,Pennsylvania,Washington] but found [Options selected are : Florida,New Jersey,New York,Ohio,Texas,Pennsylvania,Washington]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at TestComponents.BasicTests.SelectDropdownListDemoTest.multiSelect_SelectAllValues_Should_Show_All_Message(SelectDropdownListDemoTest.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>3</td>
+<td>TestComponents.BasicTests.SelectDropdownListDemoTest@1807f5a7</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.SelectDropdownListDemoTest.multiSelect_SelectFirstSelectedValue_Should_Show_First_Message()'><b>multiSelect_SelectFirstSelectedValue_Should_Show_First_Message</b><br>Test class: TestComponents.BasicTests.SelectDropdownListDemoTest</td>
+<td><div><pre>java.lang.AssertionError: expected [First selected option is : California] but found [First selected option is : Florida]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at TestComponents.BasicTests.SelectDropdownListDemoTest.multiSelect_SelectFirstSelectedValue_Should_Show_First_Message(SelectDropdownListDemoTest.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div><a href='#' onClick='toggleBox("stack-trace337422693", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace337422693'><pre>java.lang.AssertionError: expected [First selected option is : California] but found [First selected option is : Florida]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at TestComponents.BasicTests.SelectDropdownListDemoTest.multiSelect_SelectFirstSelectedValue_Should_Show_First_Message(SelectDropdownListDemoTest.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>2</td>
+<td>TestComponents.BasicTests.SelectDropdownListDemoTest@1807f5a7</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestComponents.BasicTests.JavaScriptAlertsTest.alertBox_Click_Should_ShowAlertMessage_And_Accept()'><b>alertBox_Click_Should_ShowAlertMessage_And_Accept</b><br>Test class: TestComponents.BasicTests.JavaScriptAlertsTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.JavaScriptAlertsTest@5276d6ee</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.WindowsPopupDemoTest.popup_Twitter_Should_Have_Proper_Address()'><b>popup_Twitter_Should_Have_Proper_Address</b><br>Test class: TestComponents.BasicTests.WindowsPopupDemoTest</td>
+<td></td>
+<td>3</td>
+<td>TestComponents.BasicTests.WindowsPopupDemoTest@7fb4f2a9</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapModalsTest.multiModal_Lunch_Click_Should_Show_Message_And_Disappear()'><b>multiModal_Lunch_Click_Should_Show_Message_And_Disappear</b><br>Test class: TestComponents.BasicTests.BoostrapModalsTest</td>
+<td></td>
+<td>3</td>
+<td>TestComponents.BasicTests.BoostrapModalsTest@5c86a017</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.CheckboxDemoTest.checkBoxChecked_CLick_Should_Unchecked_Checkbox()'><b>checkBoxChecked_CLick_Should_Unchecked_Checkbox</b><br>Test class: TestComponents.BasicTests.CheckboxDemoTest</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.CheckboxDemoTest@5c7bfdc1</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapAlertsTest.boostrapAlert_Click_Danger_Should_Show_Message_And_Disappear()'><b>boostrapAlert_Click_Danger_Should_Show_Message_And_Disappear</b><br>Test class: TestComponents.BasicTests.BoostrapAlertsTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.BoostrapAlertsTest@7b4c50bc</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.SimpleFormDemoTest.doubleInput_Enter_Single_Text_Should_Show_Error()'><b>doubleInput_Enter_Single_Text_Should_Show_Error</b><br>Test class: TestComponents.BasicTests.SimpleFormDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.SimpleFormDemoTest@1b919693</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapModalsTest.singelModal_Click_Should_Show_Message_And_Disappear()'><b>singelModal_Click_Should_Show_Message_And_Disappear</b><br>Test class: TestComponents.BasicTests.BoostrapModalsTest</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.BoostrapModalsTest@5c86a017</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.RadioButtonsDemoTest.groupRadioButton_ClickBoth_Should_Show_Message()'><b>groupRadioButton_ClickBoth_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.RadioButtonsDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.RadioButtonsDemoTest@71687585</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.RadioButtonsDemoTest.groupRadioButton_ClickOnlyAge_Should_Show_Message()'><b>groupRadioButton_ClickOnlyAge_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.RadioButtonsDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.RadioButtonsDemoTest@71687585</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.RadioButtonsDemoTest.radioButton_NoButtonClick_Should_Show_Message()'><b>radioButton_NoButtonClick_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.RadioButtonsDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.RadioButtonsDemoTest@71687585</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapAlertsTest.boostrapAlert_Click_Info_Should_Show_Message()'><b>boostrapAlert_Click_Info_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.BoostrapAlertsTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.BoostrapAlertsTest@7b4c50bc</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.SimpleFormDemoTest.singleInput_Enter_Any_Data_Should_Show_Message()'><b>singleInput_Enter_Any_Data_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.SimpleFormDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.SimpleFormDemoTest@1b919693</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapAlertsTest.boostrapAlert_Click_AutoSuccess_Should_Show_Message_And_Disappear()'><b>boostrapAlert_Click_AutoSuccess_Should_Show_Message_And_Disappear</b><br>Test class: TestComponents.BasicTests.BoostrapAlertsTest</td>
+<td></td>
+<td>7</td>
+<td>TestComponents.BasicTests.BoostrapAlertsTest@7b4c50bc</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.RadioButtonsDemoTest.groupRadioButton_ClickOnlySex_Should_Show_Message()'><b>groupRadioButton_ClickOnlySex_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.RadioButtonsDemoTest</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.RadioButtonsDemoTest@71687585</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.CheckboxDemoTest.multipleCheckBox_Click_UncheckAll_Should_Change_Button_Name_And_UncheckAll()'><b>multipleCheckBox_Click_UncheckAll_Should_Change_Button_Name_And_UncheckAll</b><br>Test class: TestComponents.BasicTests.CheckboxDemoTest</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.CheckboxDemoTest@5c7bfdc1</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.SimpleFormDemoTest.doubleInput_Enter_Single_Number_Should_Show_Number()'><b>doubleInput_Enter_Single_Number_Should_Show_Number</b><br>Test class: TestComponents.BasicTests.SimpleFormDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.SimpleFormDemoTest@1b919693</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.RadioButtonsDemoTest.radioButton_ButtonClick_Should_Show_Message()'><b>radioButton_ButtonClick_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.RadioButtonsDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.RadioButtonsDemoTest@71687585</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapAlertsTest.boostrapAlert_Click_AutoWarning_Should_Show_Message_And_Disappear()'><b>boostrapAlert_Click_AutoWarning_Should_Show_Message_And_Disappear</b><br>Test class: TestComponents.BasicTests.BoostrapAlertsTest</td>
+<td></td>
+<td>5</td>
+<td>TestComponents.BasicTests.BoostrapAlertsTest@7b4c50bc</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.SelectDropdownListDemoTest.multiSelect_Status_Should_Multiple()'><b>multiSelect_Status_Should_Multiple</b><br>Test class: TestComponents.BasicTests.SelectDropdownListDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.SelectDropdownListDemoTest@1807f5a7</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapAlertsTest.boostrapAlert_Click_Success_Should_Show_Message()'><b>boostrapAlert_Click_Success_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.BoostrapAlertsTest</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.BoostrapAlertsTest@7b4c50bc</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.SelectDropdownListDemoTest.select_SelectValue_Should_Show_Message()'><b>select_SelectValue_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.SelectDropdownListDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.SelectDropdownListDemoTest@1807f5a7</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapAlertsTest.boostrapAlert_Click_AutoInfo_Should_Show_Message_And_Disappear()'><b>boostrapAlert_Click_AutoInfo_Should_Show_Message_And_Disappear</b><br>Test class: TestComponents.BasicTests.BoostrapAlertsTest</td>
+<td></td>
+<td>8</td>
+<td>TestComponents.BasicTests.BoostrapAlertsTest@7b4c50bc</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapModalsTest.multiModal_Click_Should_Show_Message_And_Disappear()'><b>multiModal_Click_Should_Show_Message_And_Disappear</b><br>Test class: TestComponents.BasicTests.BoostrapModalsTest</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.BoostrapModalsTest@5c86a017</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.JavaScriptAlertsTest.confirmBox_Click_Should_Show_ConfirmMessage_And_Dismiss()'><b>confirmBox_Click_Should_Show_ConfirmMessage_And_Dismiss</b><br>Test class: TestComponents.BasicTests.JavaScriptAlertsTest</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.JavaScriptAlertsTest@5276d6ee</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.CheckboxDemoTest.checkBoxDisable_Should_Be_Disable()'><b>checkBoxDisable_Should_Be_Disable</b><br>Test class: TestComponents.BasicTests.CheckboxDemoTest</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.CheckboxDemoTest@5c7bfdc1</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.CheckboxDemoTest.checkBox_CLick_Should_Show_Message()'><b>checkBox_CLick_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.CheckboxDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.CheckboxDemoTest@5c7bfdc1</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.CheckboxDemoTest.checkBoxChecked_DoubleCLick_Should_Check_Checkbox()'><b>checkBoxChecked_DoubleCLick_Should_Check_Checkbox</b><br>Test class: TestComponents.BasicTests.CheckboxDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.CheckboxDemoTest@5c7bfdc1</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.JavaScriptAlertsTest.promptBox_Click_Enter_Value_Should_Show_Message()'><b>promptBox_Click_Enter_Value_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.JavaScriptAlertsTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.JavaScriptAlertsTest@5276d6ee</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.CheckboxDemoTest.multipleCheckBox_Check_All_Should_Change_Button_Name_And_CheckAll()'><b>multipleCheckBox_Check_All_Should_Change_Button_Name_And_CheckAll</b><br>Test class: TestComponents.BasicTests.CheckboxDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.CheckboxDemoTest@5c7bfdc1</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.SimpleFormDemoTest.doubleInput_Enter_No_Data_Should_Show_Error()'><b>doubleInput_Enter_No_Data_Should_Show_Error</b><br>Test class: TestComponents.BasicTests.SimpleFormDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.SimpleFormDemoTest@1b919693</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.WindowsPopupDemoTest.popup_Facebook_Should_Have_Proper_Address()'><b>popup_Facebook_Should_Have_Proper_Address</b><br>Test class: TestComponents.BasicTests.WindowsPopupDemoTest</td>
+<td></td>
+<td>3</td>
+<td>TestComponents.BasicTests.WindowsPopupDemoTest@7fb4f2a9</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.SimpleFormDemoTest.doubleInput_Enter_Double_Number_Should_Show_Sum()'><b>doubleInput_Enter_Double_Number_Should_Show_Sum</b><br>Test class: TestComponents.BasicTests.SimpleFormDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.SimpleFormDemoTest@1b919693</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.CheckboxDemoTest.multipleCheckBox_Click_MultipleCheckBoxAllButton_Should_Change_Button_Name_And_CheckAll()'><b>multipleCheckBox_Click_MultipleCheckBoxAllButton_Should_Change_Button_Name_And_CheckAll</b><br>Test class: TestComponents.BasicTests.CheckboxDemoTest</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.CheckboxDemoTest@5c7bfdc1</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapAlertsTest.boostrapAlert_Click_AutoDanger_Should_Show_Message_And_Disappear()'><b>boostrapAlert_Click_AutoDanger_Should_Show_Message_And_Disappear</b><br>Test class: TestComponents.BasicTests.BoostrapAlertsTest</td>
+<td></td>
+<td>9</td>
+<td>TestComponents.BasicTests.BoostrapAlertsTest@7b4c50bc</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapAlertsTest.boostrapAlert_Click_Warning_Should_Show_Message()'><b>boostrapAlert_Click_Warning_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.BoostrapAlertsTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.BoostrapAlertsTest@7b4c50bc</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.JavaScriptAlertsTest.confirmBox_Click_Should_Show_ConfirmMessage_And_Accept()'><b>confirmBox_Click_Should_Show_ConfirmMessage_And_Accept</b><br>Test class: TestComponents.BasicTests.JavaScriptAlertsTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.JavaScriptAlertsTest@5276d6ee</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.CheckboxDemoTest.checkBox_DoubleCLick_Should_Hide_Message()'><b>checkBox_DoubleCLick_Should_Hide_Message</b><br>Test class: TestComponents.BasicTests.CheckboxDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.CheckboxDemoTest@5c7bfdc1</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.SimpleFormDemoTest.singleInput_Not_Entering_Any_Data_Should_Show_No_Message()'><b>singleInput_Not_Entering_Any_Data_Should_Show_No_Message</b><br>Test class: TestComponents.BasicTests.SimpleFormDemoTest</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.SimpleFormDemoTest@1b919693</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestComponents.BasicTests.SelectDropdownListDemoTest.multiSelect_SelectAllValues_Should_Show_All_Message()'><b>multiSelect_SelectAllValues_Should_Show_All_Message</b><br>Test class: TestComponents.BasicTests.SelectDropdownListDemoTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Options selected are : California,Florida,New Jersey,New York,Ohio,Texas,Pennsylvania,Washington] but found [Options selected are : Florida,New Jersey,New York,Ohio,Texas,Pennsylvania,Washington]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at TestComponents.BasicTests.SelectDropdownListDemoTest.multiSelect_SelectAllValues_Should_Show_All_Message(SelectDropdownListDemoTest.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1705354691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1705354691'><pre>java.lang.AssertionError: expected [Options selected are : California,Florida,New Jersey,New York,Ohio,Texas,Pennsylvania,Washington] but found [Options selected are : Florida,New Jersey,New York,Ohio,Texas,Pennsylvania,Washington]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at TestComponents.BasicTests.SelectDropdownListDemoTest.multiSelect_SelectAllValues_Should_Show_All_Message(SelectDropdownListDemoTest.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>3</td>
+<td>TestComponents.BasicTests.SelectDropdownListDemoTest@1807f5a7</td></tr>
+</table><p>
+</body>
+</html>

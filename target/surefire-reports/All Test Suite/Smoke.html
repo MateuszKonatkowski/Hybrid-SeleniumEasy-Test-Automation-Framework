@@ -1,0 +1,284 @@
+<html>
+<head>
+<title>TestNG:  Smoke</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Smoke</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Sep 30 17:38:01 CEST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>162 seconds (162688 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapAlertsTest.boostrapAlert_Click_AutoInfo_Should_Show_Message_And_Disappear()'><b>boostrapAlert_Click_AutoInfo_Should_Show_Message_And_Disappear</b><br>Test class: TestComponents.BasicTests.BoostrapAlertsTest<br/>
+<a href="#Output-35685505" onClick='toggleBox("Output-35685505", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-35685505" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-35685505">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>TestComponents.BasicTests.BoostrapAlertsTest@97e93f1</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.JavaScriptAlertsTest.promptBox_Click_Enter_Value_Should_Show_Message()'><b>promptBox_Click_Enter_Value_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.JavaScriptAlertsTest<br/>
+<a href="#Output-2023532125" onClick='toggleBox("Output-2023532125", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2023532125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2023532125">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.JavaScriptAlertsTest@7bbc8656</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapModalsTest.singelModal_Click_Should_Show_Message_And_Disapire()'><b>singelModal_Click_Should_Show_Message_And_Disapire</b><br>Test class: TestComponents.BasicTests.BoostrapModalsTest<br/>
+<a href="#Output-1400019312" onClick='toggleBox("Output-1400019312", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1400019312" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1400019312">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.BoostrapModalsTest@7dfd3c81</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.JavaScriptAlertsTest.alertBox_Click_Should_ShowAlertMessage_And_Accept()'><b>alertBox_Click_Should_ShowAlertMessage_And_Accept</b><br>Test class: TestComponents.BasicTests.JavaScriptAlertsTest<br/>
+<a href="#Output-827786547" onClick='toggleBox("Output-827786547", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-827786547" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-827786547">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.JavaScriptAlertsTest@7bbc8656</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.RadioButtonsDemoTest.radioButton_NoButtonClick_Should_Show_Message()'><b>radioButton_NoButtonClick_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.RadioButtonsDemoTest<br/>
+<a href="#Output-1631642758" onClick='toggleBox("Output-1631642758", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1631642758" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1631642758">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.RadioButtonsDemoTest@6933b6c6</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.SelectDropdownListDemoTest.select_SelectValue_Should_Show_Message()'><b>select_SelectValue_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.SelectDropdownListDemoTest<br/>
+<a href="#Output-463314554" onClick='toggleBox("Output-463314554", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-463314554" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-463314554">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.SelectDropdownListDemoTest@7d3e8655</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.SimpleFormDemoTest.singelInput_Enter_Any_Data_Should_Show_Message()'><b>singelInput_Enter_Any_Data_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.SimpleFormDemoTest<br/>
+<a href="#Output-477233142" onClick='toggleBox("Output-477233142", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-477233142" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-477233142">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.SimpleFormDemoTest@7dfb0c0f</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.WindowsPopupDemoTest.popup_Facebook_Should_Have_Proper_Adres()'><b>popup_Facebook_Should_Have_Proper_Adres</b><br>Test class: TestComponents.BasicTests.WindowsPopupDemoTest<br/>
+<a href="#Output-1351123715" onClick='toggleBox("Output-1351123715", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1351123715" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1351123715">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>TestComponents.BasicTests.WindowsPopupDemoTest@626abbd0</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapAlertsTest.boostrapAlert_Click_AutoDanger_Should_Show_Message_And_Disappear()'><b>boostrapAlert_Click_AutoDanger_Should_Show_Message_And_Disappear</b><br>Test class: TestComponents.BasicTests.BoostrapAlertsTest<br/>
+<a href="#Output-792007993" onClick='toggleBox("Output-792007993", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-792007993" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-792007993">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>TestComponents.BasicTests.BoostrapAlertsTest@97e93f1</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.RadioButtonsDemoTest.groupRadioButton_ClickOnlyAge_Should_Show_Message()'><b>groupRadioButton_ClickOnlyAge_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.RadioButtonsDemoTest<br/>
+<a href="#Output-372196610" onClick='toggleBox("Output-372196610", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-372196610" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-372196610">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.RadioButtonsDemoTest@6933b6c6</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.SimpleFormDemoTest.doubleInput_Enter_No_Data_Should_Show_Error()'><b>doubleInput_Enter_No_Data_Should_Show_Error</b><br>Test class: TestComponents.BasicTests.SimpleFormDemoTest<br/>
+<a href="#Output-95844824" onClick='toggleBox("Output-95844824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-95844824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-95844824">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.SimpleFormDemoTest@7dfb0c0f</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapAlertsTest.boostrapAlert_Click_Info_Should_Show_Message_And()'><b>boostrapAlert_Click_Info_Should_Show_Message_And</b><br>Test class: TestComponents.BasicTests.BoostrapAlertsTest<br/>
+<a href="#Output-2034480172" onClick='toggleBox("Output-2034480172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2034480172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2034480172">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.BoostrapAlertsTest@97e93f1</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapAlertsTest.boostrapAlert_Click_Succes_Should_Show_Message()'><b>boostrapAlert_Click_Succes_Should_Show_Message</b><br>Test class: TestComponents.BasicTests.BoostrapAlertsTest<br/>
+<a href="#Output-996570192" onClick='toggleBox("Output-996570192", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-996570192" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-996570192">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.BasicTests.BoostrapAlertsTest@97e93f1</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapModalsTest.multiModal_Click_Should_Show_Message_And_Disapire()'><b>multiModal_Click_Should_Show_Message_And_Disapire</b><br>Test class: TestComponents.BasicTests.BoostrapModalsTest<br/>
+<a href="#Output-894942144" onClick='toggleBox("Output-894942144", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-894942144" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-894942144">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>TestComponents.BasicTests.BoostrapModalsTest@7dfd3c81</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.BoostrapAlertsTest.boostrapAlert_Click_AutoSucces_Should_Show_Message_And_Disappear()'><b>boostrapAlert_Click_AutoSucces_Should_Show_Message_And_Disappear</b><br>Test class: TestComponents.BasicTests.BoostrapAlertsTest<br/>
+<a href="#Output-1537027749" onClick='toggleBox("Output-1537027749", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1537027749" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1537027749">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>TestComponents.BasicTests.BoostrapAlertsTest@97e93f1</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.CheckboxDemoTest.multipleCheckBox_Click_MultipleCheckBoxAllButton_Should_Change_Button_Name_And_CheckAll()'><b>multipleCheckBox_Click_MultipleCheckBoxAllButton_Should_Change_Button_Name_And_CheckAll</b><br>Test class: TestComponents.BasicTests.CheckboxDemoTest<br/>
+<a href="#Output-2084208578" onClick='toggleBox("Output-2084208578", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2084208578" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2084208578">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.CheckboxDemoTest@2584b82d</td></tr>
+<tr>
+<td title='TestComponents.BasicTests.SimpleFormDemoTest.doubleInput_Enter_Double_Number_Should_Show_Sum()'><b>doubleInput_Enter_Double_Number_Should_Show_Sum</b><br>Test class: TestComponents.BasicTests.SimpleFormDemoTest<br/>
+<a href="#Output-1626842990" onClick='toggleBox("Output-1626842990", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1626842990" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1626842990">
+Test Passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.BasicTests.SimpleFormDemoTest@7dfb0c0f</td></tr>
+</table><p>
+</body>
+</html>

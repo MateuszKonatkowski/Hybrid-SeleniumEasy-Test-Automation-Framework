@@ -1,0 +1,18 @@
+
+h
+java:S1192H"FDefine a constant instead of duplicating this literal "value" 3 times.(¯æäýÿÿÿÿ8íø²·®1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¬øÌÿÿÿÿÿ8ïø²·®1
+L
+java:S2387"/"driver" is the name of a field in "BasicPage".(æ¹•‹8øø²·®1
+C
+java:S11705"!Make this final field static too.(ñÐúÿÿÿÿ8øø²·®1
+C
+java:S11706"!Make this final field static too.(Ö•Ïºúÿÿÿÿ8øø²·®1
+[
+java:S1612A">Replace this lambda with method reference 'WebElement::click'.(­œÓ8þø²·®1
+`
+java:S1612K">Replace this lambda with method reference 'WebElement::click'.(Á¾Öœúÿÿÿÿ8€ù²·®1
+`
+java:S1612`">Replace this lambda with method reference 'WebElement::click'.(Á¾Öœúÿÿÿÿ8‚ù²·®1
+`
+java:S1612j">Replace this lambda with method reference 'WebElement::click'.(Á¾Öœúÿÿÿÿ8ƒù²·®1

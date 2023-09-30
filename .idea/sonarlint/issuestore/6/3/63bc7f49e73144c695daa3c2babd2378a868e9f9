@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¬øÌÿÿÿÿÿ
+E
+java:S2387"/"driver" is the name of a field in "BasicPage".(æ¹•‹
+<
+java:S1170?"!Make this final field static too.(ñÐúÿÿÿÿ
+7
+java:S1170@"!Make this final field static too.(ýª®õ
+2
+java:S11163"Remove this empty statement.(Ë¡ÆÞ
