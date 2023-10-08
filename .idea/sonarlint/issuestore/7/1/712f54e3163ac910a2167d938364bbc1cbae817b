@@ -1,0 +1,6 @@
+
+~
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "newFormat".( §Ü8ñÕÊ€°1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê§ö8òÕÊ€°1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Ÿÿ¸Ü8¼ÖÊ€°1

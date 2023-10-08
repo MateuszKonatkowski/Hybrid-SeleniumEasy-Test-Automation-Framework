@@ -1,0 +1,16 @@
+
+g
+java:S1192-"JDefine a constant instead of duplicating this literal "Wait for " 3 times.(êú”í8ËÉß°1
+t
+java:S1104"RMake driver a static final constant or non-public and provide accessors if needed.(ÜçÁÈûÿÿÿÿ8ÌÉß°1
+N
+java:S1444",Make this "public static driver" field final(ÜçÁÈûÿÿÿÿ8ÌÉß°1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ãçœ8ĞÉß°1
+h
+java:S2259F"FA "NullPointerException" could be thrown; "exercise" is nullable here.(ÙûŞğøÿÿÿÿ8ãÉß°1
+h
+java:S2259S"FA "NullPointerException" could be thrown; "exercise" is nullable here.(ÙûŞğøÿÿÿÿ8ãÉß°1
+@
+java:S3010"#Remove this assignment of "driver".(ÁÜÑ¥8çÉß°1
+R
+java:S2209"5Change this instance-reference to a static reference.(ÁÜÑ¥8çÉß°1
