@@ -27,16 +27,20 @@ public class BaseTest{
  {
   driver=BrowserFactory.initializeDriver();
   LoggerUtil.info("Initializing driver");
-
-
  }
 
 
  @AfterMethod(alwaysRun = true)
  public void tearDown()
  {
-   driver.quit();
+  if (driver != null) {
+   try {
+    driver.quit();
+   } catch (Exception e) {
+    System.err.println("Błąd podczas zamykania WebDriver: " + e.getMessage());
+    LoggerUtil.error("Driver doesnt exist");
+   }
+  }
   LoggerUtil.info("Driver tear down");
  }
-
 }

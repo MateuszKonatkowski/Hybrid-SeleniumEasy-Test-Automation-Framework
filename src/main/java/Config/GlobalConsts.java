@@ -42,7 +42,17 @@ public class GlobalConsts {
     public static final int PAGE_LOUD_TIME = 30;
     public static final int EXPLICITE_TIME = 8;
 
+
     //I_RETRY_ANALYZER
     public static final int I_RETRY_ANALYZER_COUNT=1;
+
+
+    //BROWSER_CONFIG
+    public static final String START_MAXIMIZED = "--start-maximized";
+    public static final String DISABLE_INFOBARS = "--disable-infobars";
+    public static final String DISABLE_NOTIFICATIONS = "--disable-notifications";
+    public static final String REMOTE_ALLOW_ORIGINS = "--remote-allow-origins=*";
+    public static final String HEADLESS = "-headless";
+    public static final String DISABLE_EXTENSIONS = "--disable-extensions";
 
 }

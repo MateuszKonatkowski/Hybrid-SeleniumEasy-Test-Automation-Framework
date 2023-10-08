@@ -17,6 +17,7 @@ public class ConfigReaderUtil {
         } catch (Throwable e)
         {
             e.printStackTrace();
+
         }
         String PropertyValue=properties.getProperty(PropertyName);
         LoggerUtil.info("Get "+PropertyName+" value");

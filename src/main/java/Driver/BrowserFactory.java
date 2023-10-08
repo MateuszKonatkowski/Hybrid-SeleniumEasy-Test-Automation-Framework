@@ -37,12 +37,13 @@ public class BrowserFactory {
 
             if(browserName.contains("headless")||ConfigReaderUtil.getProperty("headless").equalsIgnoreCase("TRUE"))
             {
-                options.addArguments("headless");
+                options.addArguments(GlobalConsts.HEADLESS);
             }
-            options.addArguments("--disable-extensions");
-            options.addArguments("--disable-infobars");
-            options.addArguments("--disable-notifications");
-            options.addArguments("--remote-allow-origins=*");
+            options.addArguments(GlobalConsts.START_MAXIMIZED);
+            options.addArguments(GlobalConsts.DISABLE_EXTENSIONS);
+            options.addArguments(GlobalConsts.DISABLE_INFOBARS);
+            options.addArguments(GlobalConsts.DISABLE_NOTIFICATIONS);
+            options.addArguments(GlobalConsts.REMOTE_ALLOW_ORIGINS);
 
             driver = new ChromeDriver(options);
 
@@ -55,12 +56,14 @@ public class BrowserFactory {
 
             if(browserName.contains("headless")||ConfigReaderUtil.getProperty("headless").equalsIgnoreCase("TRUE"))
             {
-                options.addArguments("headless");
+                options.addArguments(GlobalConsts.HEADLESS);
             }
-            options.addArguments("--disable-extensions");
-            options.addArguments("--disable-infobars");
-            options.addArguments("--disable-notifications");
-            options.addArguments("--remote-allow-origins=*");
+            options.addArguments(GlobalConsts.START_MAXIMIZED);
+            options.addArguments(GlobalConsts.DISABLE_EXTENSIONS);
+            options.addArguments(GlobalConsts.DISABLE_INFOBARS);
+            options.addArguments(GlobalConsts.DISABLE_NOTIFICATIONS);
+            options.addArguments(GlobalConsts.REMOTE_ALLOW_ORIGINS);
+
 
             driver = new EdgeDriver(options);
 
@@ -71,18 +74,17 @@ public class BrowserFactory {
             FirefoxOptions options = new FirefoxOptions();
             if(browserName.contains("headless")||ConfigReaderUtil.getProperty("headless").equalsIgnoreCase("TRUE"))
             {
-                options.addArguments("headless");
+                options.addArguments(GlobalConsts.HEADLESS);
             }
-            options.addArguments("--disable-extensions");
-            options.addArguments("--disable-infobars");
-            options.addArguments("--disable-notifications");
-            options.addArguments("--remote-allow-origins=*");
+            options.addArguments(GlobalConsts.START_MAXIMIZED);
+            options.addArguments(GlobalConsts.DISABLE_EXTENSIONS);
+            options.addArguments(GlobalConsts.DISABLE_INFOBARS);
+            options.addArguments(GlobalConsts.DISABLE_NOTIFICATIONS);
+            options.addArguments(GlobalConsts.REMOTE_ALLOW_ORIGINS);
 
             driver = new FirefoxDriver(options);
 
         }
-
-        driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(GlobalConsts.PAGE_LOUD_TIME));
         driver.get(url);

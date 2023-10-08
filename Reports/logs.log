@@ -57,3 +57,129 @@
 12:55:27.123 [TestNG-test=test-1] INFO  Util.LoggerUtil - Capture singleInput_Enter_Data_Should_Show_Message Screenshot
 12:55:27.367 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
 12:55:28.412 [main] INFO  Util.LoggerUtil - Tests finished
+14:13:06.150 [main] INFO  TestComponents.Brudnopis - XD
+14:13:06.207 [main] ERROR TestComponents.Brudnopis - XD
+14:13:06.208 [main] INFO  Util.LoggerUtil - Mateusz
+14:13:35.571 [main] INFO  Util.LoggerUtil - Get browser value
+14:13:35.575 [main] INFO  Util.LoggerUtil - Get url value
+14:13:39.427 [main] INFO  Util.LoggerUtil - Get headless value
+14:14:12.918 [main] INFO  Util.LoggerUtil - Initializing driver
+14:14:13.690 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (da8f2abab1725dd4e05ad8ffe5b50fcb)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (da8f2abab1725dd4e05ad8ffe5b50fcb)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (da8f2abab1725dd4e05ad8ffe5b50fcb)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (da8f2abab1725dd4e05ad8ffe5b50fcb)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (da8f2abab1725dd4e05ad8ffe5b50fcb)] -> css selector: #myTab a]] to be visible
+14:14:14.395 [main] INFO  Util.LoggerUtil - Chose basic_example level
+14:14:15.118 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (da8f2abab1725dd4e05ad8ffe5b50fcb)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (da8f2abab1725dd4e05ad8ffe5b50fcb)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (da8f2abab1725dd4e05ad8ffe5b50fcb)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (da8f2abab1725dd4e05ad8ffe5b50fcb)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (da8f2abab1725dd4e05ad8ffe5b50fcb)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (da8f2abab1725dd4e05ad8ffe5b50fcb)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (da8f2abab1725dd4e05ad8ffe5b50fcb)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (da8f2abab1725dd4e05ad8ffe5b50fcb)] -> css selector: #basic .list-group a]] to be visible
+14:14:18.820 [main] INFO  Util.LoggerUtil - Chose Check Box Demo exercise
+14:14:20.096 [main] INFO  Util.LoggerUtil - Driver tear down
+14:18:12.175 [main] INFO  Util.LoggerUtil - Tests started
+14:18:14.673 [TestNG-test=test-1] INFO  Util.LoggerUtil - Read src/test/java/TestData/BasicTestsData/SimpleFormDemoData.xlsx data
+14:18:14.812 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get url value
+14:19:17.832 [TestNG-test=test-1] INFO  Util.LoggerUtil - Initializing driver
+14:19:17.836 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get author value
+14:19:17.891 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Started
+14:19:19.547 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (18e1aea5d449664c52a445a869f31d66)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (18e1aea5d449664c52a445a869f31d66)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (18e1aea5d449664c52a445a869f31d66)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (18e1aea5d449664c52a445a869f31d66)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (18e1aea5d449664c52a445a869f31d66)] -> css selector: #myTab a]] to be visible
+14:19:20.495 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose basic_example level
+14:19:21.513 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (18e1aea5d449664c52a445a869f31d66)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (18e1aea5d449664c52a445a869f31d66)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (18e1aea5d449664c52a445a869f31d66)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (18e1aea5d449664c52a445a869f31d66)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (18e1aea5d449664c52a445a869f31d66)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (18e1aea5d449664c52a445a869f31d66)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (18e1aea5d449664c52a445a869f31d66)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (18e1aea5d449664c52a445a869f31d66)] -> css selector: #basic .list-group a]] to be visible
+14:19:24.546 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose Simple Form Demo exercise
+14:19:25.203 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Passed
+14:19:25.203 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get screenshotOnSuccess value
+14:19:25.914 [TestNG-test=test-1] INFO  Util.LoggerUtil - Capture singleInput_Enter_Data_Should_Show_Message Screenshot
+14:19:26.295 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
+14:19:26.298 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get url value
+14:19:41.444 [TestNG-test=test-1] INFO  Util.LoggerUtil - Initializing driver
+14:19:41.446 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get author value
+14:19:41.447 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Started
+14:19:41.537 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (3e13071713234e1927545c797bb075c1)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3e13071713234e1927545c797bb075c1)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3e13071713234e1927545c797bb075c1)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3e13071713234e1927545c797bb075c1)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3e13071713234e1927545c797bb075c1)] -> css selector: #myTab a]] to be visible
+14:19:41.619 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose basic_example level
+14:19:42.454 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (3e13071713234e1927545c797bb075c1)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (3e13071713234e1927545c797bb075c1)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (3e13071713234e1927545c797bb075c1)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (3e13071713234e1927545c797bb075c1)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (3e13071713234e1927545c797bb075c1)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (3e13071713234e1927545c797bb075c1)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (3e13071713234e1927545c797bb075c1)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (3e13071713234e1927545c797bb075c1)] -> css selector: #basic .list-group a]] to be visible
+14:19:45.174 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose Simple Form Demo exercise
+14:19:45.889 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Passed
+14:19:45.890 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get screenshotOnSuccess value
+14:19:46.330 [TestNG-test=test-1] INFO  Util.LoggerUtil - Capture singleInput_Enter_Data_Should_Show_Message Screenshot
+14:19:46.593 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
+14:19:46.595 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get url value
+14:19:52.003 [TestNG-test=test-1] INFO  Util.LoggerUtil - Initializing driver
+14:19:52.005 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get author value
+14:19:52.006 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Started
+14:19:52.097 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (48a987338c1f547bc9665d020a1f627d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (48a987338c1f547bc9665d020a1f627d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (48a987338c1f547bc9665d020a1f627d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (48a987338c1f547bc9665d020a1f627d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (48a987338c1f547bc9665d020a1f627d)] -> css selector: #myTab a]] to be visible
+14:19:52.181 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose basic_example level
+14:19:52.833 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (48a987338c1f547bc9665d020a1f627d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (48a987338c1f547bc9665d020a1f627d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (48a987338c1f547bc9665d020a1f627d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (48a987338c1f547bc9665d020a1f627d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (48a987338c1f547bc9665d020a1f627d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (48a987338c1f547bc9665d020a1f627d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (48a987338c1f547bc9665d020a1f627d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (48a987338c1f547bc9665d020a1f627d)] -> css selector: #basic .list-group a]] to be visible
+14:19:53.876 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose Simple Form Demo exercise
+14:19:54.014 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Passed
+14:19:54.014 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get screenshotOnSuccess value
+14:19:54.106 [TestNG-test=test-1] INFO  Util.LoggerUtil - Capture singleInput_Enter_Data_Should_Show_Message Screenshot
+14:19:54.250 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
+14:19:54.252 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get url value
+14:19:58.862 [TestNG-test=test-1] INFO  Util.LoggerUtil - Initializing driver
+14:19:58.863 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get author value
+14:19:58.864 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Started
+14:19:58.954 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (b2b2e205ecb3abda79a7ec19a9c2456d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b2b2e205ecb3abda79a7ec19a9c2456d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b2b2e205ecb3abda79a7ec19a9c2456d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b2b2e205ecb3abda79a7ec19a9c2456d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b2b2e205ecb3abda79a7ec19a9c2456d)] -> css selector: #myTab a]] to be visible
+14:19:59.039 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose basic_example level
+14:19:59.687 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (b2b2e205ecb3abda79a7ec19a9c2456d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (b2b2e205ecb3abda79a7ec19a9c2456d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (b2b2e205ecb3abda79a7ec19a9c2456d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (b2b2e205ecb3abda79a7ec19a9c2456d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (b2b2e205ecb3abda79a7ec19a9c2456d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (b2b2e205ecb3abda79a7ec19a9c2456d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (b2b2e205ecb3abda79a7ec19a9c2456d)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (b2b2e205ecb3abda79a7ec19a9c2456d)] -> css selector: #basic .list-group a]] to be visible
+14:20:00.202 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose Simple Form Demo exercise
+14:20:00.339 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Passed
+14:20:00.339 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get screenshotOnSuccess value
+14:20:00.404 [TestNG-test=test-1] INFO  Util.LoggerUtil - Capture singleInput_Enter_Data_Should_Show_Message Screenshot
+14:20:00.545 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
+14:20:01.106 [main] INFO  Util.LoggerUtil - Tests finished
+17:04:05.062 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/BasicTestsData/BoostrapAlertsData.xlsx data
+17:04:05.172 [main] INFO  Util.LoggerUtil - Get browser value
+17:04:05.173 [main] INFO  Util.LoggerUtil - Get url value
+17:04:12.499 [main] INFO  Util.LoggerUtil - Get headless value
+17:21:06.216 [main] INFO  Util.LoggerUtil - Tests started
+17:21:11.007 [TestNG-test=test-1] INFO  Util.LoggerUtil - Read src/test/java/TestData/BasicTestsData/SimpleFormDemoData.xlsx data
+17:21:11.030 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get browser value
+17:21:11.031 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get url value
+17:21:13.247 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get headless value
+17:21:40.508 [TestNG-test=test-1] INFO  Util.LoggerUtil - Initializing driver
+17:21:40.517 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get author value
+17:21:40.889 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Started
+17:21:42.516 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (5a7e42a38a6fe6156363d0af35d55407)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5a7e42a38a6fe6156363d0af35d55407)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5a7e42a38a6fe6156363d0af35d55407)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5a7e42a38a6fe6156363d0af35d55407)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5a7e42a38a6fe6156363d0af35d55407)] -> css selector: #myTab a]] to be visible
+17:21:43.602 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose basic_example level
+17:21:44.249 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (5a7e42a38a6fe6156363d0af35d55407)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5a7e42a38a6fe6156363d0af35d55407)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5a7e42a38a6fe6156363d0af35d55407)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5a7e42a38a6fe6156363d0af35d55407)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5a7e42a38a6fe6156363d0af35d55407)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5a7e42a38a6fe6156363d0af35d55407)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5a7e42a38a6fe6156363d0af35d55407)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5a7e42a38a6fe6156363d0af35d55407)] -> css selector: #basic .list-group a]] to be visible
+17:21:45.306 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose Simple Form Demo exercise
+17:21:45.820 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Passed
+17:21:45.820 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get screenshotOnSuccess value
+17:21:46.828 [TestNG-test=test-1] INFO  Util.LoggerUtil - Capture singleInput_Enter_Data_Should_Show_Message Screenshot
+17:21:47.651 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
+17:21:47.653 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get browser value
+17:21:47.654 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get url value
+17:21:47.733 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get headless value
+17:21:58.876 [TestNG-test=test-1] INFO  Util.LoggerUtil - Initializing driver
+17:21:58.878 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get author value
+17:21:58.879 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Started
+17:21:59.113 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (9ebf3817c544f1aba3b3341a60fd4c61)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (9ebf3817c544f1aba3b3341a60fd4c61)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (9ebf3817c544f1aba3b3341a60fd4c61)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (9ebf3817c544f1aba3b3341a60fd4c61)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (9ebf3817c544f1aba3b3341a60fd4c61)] -> css selector: #myTab a]] to be visible
+17:21:59.320 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose basic_example level
+17:21:59.984 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (9ebf3817c544f1aba3b3341a60fd4c61)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (9ebf3817c544f1aba3b3341a60fd4c61)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (9ebf3817c544f1aba3b3341a60fd4c61)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (9ebf3817c544f1aba3b3341a60fd4c61)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (9ebf3817c544f1aba3b3341a60fd4c61)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (9ebf3817c544f1aba3b3341a60fd4c61)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (9ebf3817c544f1aba3b3341a60fd4c61)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (9ebf3817c544f1aba3b3341a60fd4c61)] -> css selector: #basic .list-group a]] to be visible
+17:22:02.057 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose Simple Form Demo exercise
+17:22:02.558 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Passed
+17:22:02.558 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get screenshotOnSuccess value
+17:22:03.138 [TestNG-test=test-1] INFO  Util.LoggerUtil - Capture singleInput_Enter_Data_Should_Show_Message Screenshot
+17:22:06.513 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
+17:22:06.514 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get browser value
+17:22:06.514 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get url value
+17:22:06.545 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get headless value
+17:22:16.650 [TestNG-test=test-1] INFO  Util.LoggerUtil - Initializing driver
+17:22:16.651 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get author value
+17:22:16.654 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Started
+17:22:19.666 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (0eb443b43e08e462c8b9a72618f91536)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0eb443b43e08e462c8b9a72618f91536)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0eb443b43e08e462c8b9a72618f91536)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0eb443b43e08e462c8b9a72618f91536)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0eb443b43e08e462c8b9a72618f91536)] -> css selector: #myTab a]] to be visible
+17:22:22.904 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose basic_example level
+17:22:23.624 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (0eb443b43e08e462c8b9a72618f91536)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (0eb443b43e08e462c8b9a72618f91536)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (0eb443b43e08e462c8b9a72618f91536)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (0eb443b43e08e462c8b9a72618f91536)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (0eb443b43e08e462c8b9a72618f91536)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (0eb443b43e08e462c8b9a72618f91536)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (0eb443b43e08e462c8b9a72618f91536)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (0eb443b43e08e462c8b9a72618f91536)] -> css selector: #basic .list-group a]] to be visible
+17:22:26.201 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose Simple Form Demo exercise
+17:22:27.276 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Passed
+17:22:27.276 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get screenshotOnSuccess value
+17:22:28.626 [TestNG-test=test-1] INFO  Util.LoggerUtil - Capture singleInput_Enter_Data_Should_Show_Message Screenshot
+17:22:29.457 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
+17:22:29.459 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get browser value
+17:22:29.459 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get url value
+17:22:29.495 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get headless value
+17:22:39.577 [TestNG-test=test-1] INFO  Util.LoggerUtil - Initializing driver
+17:22:39.578 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get author value
+17:22:39.579 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Started
+17:22:39.652 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (05476f2427150bc07342e57387e46b11)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (05476f2427150bc07342e57387e46b11)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (05476f2427150bc07342e57387e46b11)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (05476f2427150bc07342e57387e46b11)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (05476f2427150bc07342e57387e46b11)] -> css selector: #myTab a]] to be visible
+17:22:39.731 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose basic_example level
+17:22:40.378 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (05476f2427150bc07342e57387e46b11)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (05476f2427150bc07342e57387e46b11)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (05476f2427150bc07342e57387e46b11)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (05476f2427150bc07342e57387e46b11)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (05476f2427150bc07342e57387e46b11)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (05476f2427150bc07342e57387e46b11)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (05476f2427150bc07342e57387e46b11)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (05476f2427150bc07342e57387e46b11)] -> css selector: #basic .list-group a]] to be visible
+17:22:41.354 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose Simple Form Demo exercise
+17:22:41.697 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Passed
+17:22:41.697 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get screenshotOnSuccess value
+17:22:41.893 [TestNG-test=test-1] INFO  Util.LoggerUtil - Capture singleInput_Enter_Data_Should_Show_Message Screenshot
+17:22:42.453 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
+17:22:44.111 [main] INFO  Util.LoggerUtil - Tests finished
