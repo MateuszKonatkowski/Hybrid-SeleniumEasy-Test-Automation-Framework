@@ -1,2 +1,4 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê§ö
+L
+java:S1066"/Merge this if statement with the enclosing one.(è¤çÚ8ÆíÉ†°1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê§ö8ÇíÉ†°1

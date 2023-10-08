@@ -1,19 +1,28 @@
 package PageFactory.BasicPageFactory;
 
 import Config.GlobalConsts;
-import PageFactory.BasicPage;
+import PageFactory.BasePage;
+import Util.ExcelDataUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.DataProvider;
 
+import java.io.IOException;
+import java.lang.reflect.Method;
 import java.util.List;
 
-public class CheckboxPage extends BasicPage {
+public class CheckboxPage extends BasePage {
 
     WebDriver driver;
+
+    public CheckboxPage()
+    {
+
+    }
 
     public CheckboxPage(WebDriver driver) {
         super(driver);
@@ -53,8 +62,15 @@ public class CheckboxPage extends BasicPage {
 
     private final String exerciseLevel = GlobalConsts.BASIC;
     private final String exercise = GlobalConsts.CHECK_BOX;
+    private final String data_path = GlobalConsts.CHECKBOX_DEMO_DATA_PATH;
 
 
+
+    @DataProvider(name = "TestData")
+    public Object[][] getData(Method method) throws IOException
+    {
+        return ExcelDataUtil.getData(method,data_path);
+    }
 
     public void goToExercise()
     {
@@ -78,6 +94,12 @@ public class CheckboxPage extends BasicPage {
     {
         return checkBoxMessageElement.getText();
     }
+
+    public Boolean getCheckBoxStatus()
+    {
+        return checkBoxMessageElement.isDisplayed();
+    }
+
 
     public void clickCheckBoxChecked()
     {

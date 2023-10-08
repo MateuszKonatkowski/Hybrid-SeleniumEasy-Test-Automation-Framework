@@ -9,8 +9,8 @@ import org.testng.asserts.SoftAssert;
 
 public class BoostrapModalsTest extends BaseTest {
 
-    @Test(retryAnalyzer = IRetryAnalyzerUtil.class,groups = {"Smoke"})
-    public void singelModal_Click_Should_Show_Message_And_Disappear()
+    @Test(priority = 1,retryAnalyzer = IRetryAnalyzerUtil.class,groups = {"Smoke"},dataProvider = "TestData",dataProviderClass = BoostrapModalsPage.class,description = "singleModalClickData")
+    public void singleModal_Click_Should_Show_Message_And_Disappear(String expected)
     {
         //when
         BoostrapModalsPage boostrapModalsPage = new BoostrapModalsPage(driver);
@@ -22,12 +22,12 @@ public class BoostrapModalsTest extends BaseTest {
                 .getSingelModalAlertMessage();
         boostrapModalsPage.acceptSingelModalAlert();
         //then
-        softAssert.assertEquals(message,"This is the place where the content for the modal dialog displays");
+        softAssert.assertEquals(message,expected);
         softAssert.assertFalse(boostrapModalsPage.getSingelModalAlertStatus());
         softAssert.assertAll();
     }
 
-    @Test(groups = {"Smoke"},priority = 1)
+    @Test(priority = 1,groups = {"Smoke"})
     public void multiModal_Click_Should_Show_Message_And_Disappear()
     {
         //when
@@ -41,8 +41,8 @@ public class BoostrapModalsTest extends BaseTest {
         Assert.assertFalse(boostrapModalsPage.getMultiModalAlertStatus());
     }
 
-    @Test
-    public void multiModal_Lunch_Click_Should_Show_Message_And_Disappear()
+    @Test(priority = 2,dataProvider = "TestData",dataProviderClass = BoostrapModalsPage.class,description = "multiModalLunchClickData")
+    public void multiModal_Lunch_Click_Should_Show_Message_And_Disappear(String expected)
     {
         //when
         BoostrapModalsPage boostrapModalsPage = new BoostrapModalsPage(driver);
@@ -55,7 +55,7 @@ public class BoostrapModalsTest extends BaseTest {
                 .getMultipleModalLunchMessage();
         boostrapModalsPage.clickMultipleModalLunchAcceptButton();
         //then
-        softAssert.assertEquals(message,"This is the place where the content for the modal dialog displays.");
+        softAssert.assertEquals(message,expected);
         softAssert.assertFalse(boostrapModalsPage.getMultiModalAlertStatus());
         softAssert.assertAll();
     }

@@ -1,8 +1,11 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¬øÌÿÿÿÿÿ
-L
-java:S2387"/"driver" is the name of a field in "BasicPage".(æ¹•‹8À”¬·®1
-<
-java:S11706"!Make this final field static too.(ñĞúÿÿÿÿ
-7
-java:S11707"!Make this final field static too.(·ÿº‡
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¬øÌÿÿÿÿÿ8µÎÅ­¯1
+o	java:S116A"TRename this field "data_path" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ê­r8ÄÎÅ­¯1
+K
+java:S2387"."driver" is the name of a field in "BasePage".(æ¹•‹8ÄÎÅ­¯1
+C
+java:S1170?"!Make this final field static too.(ñĞúÿÿÿÿ8ÄÎÅ­¯1
+>
+java:S1170@"!Make this final field static too.(·ÿº‡8ÄÎÅ­¯1
+=
+java:S1170A"!Make this final field static too.(¦ê­r8ÄÎÅ­¯1

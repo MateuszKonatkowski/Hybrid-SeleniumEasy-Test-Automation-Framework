@@ -1,6 +1,6 @@
 package Util;
 
-import org.apache.commons.io.FileUtils;
+import Config.GlobalConsts;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -11,27 +11,12 @@ import java.io.IOException;
 
 public class ScreenShotUtil {
 
-    public String getScreenshot(String testCaseName,WebDriver driver) throws IOException
-    {
-        TakesScreenshot ts = (TakesScreenshot)driver;
-        File source = ts.getScreenshotAs(OutputType.FILE);
-        File file = new File(System.getProperty("user.dir") + "//Reports//" + testCaseName + ".png");
-        FileUtils.copyFile(source, file);
-        return System.getProperty("user.dir") + "//Reports//" + testCaseName + ".png";
-
-
-    }
-    public static String captureScreenshot(WebDriver driver,String testName) {
+    public static String captureScreenshot(WebDriver driver,String testName,String testClass) throws IOException {
 
         File srcScreenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        String destinationScreenshotPath = System.getProperty("user.dir")+"\\Screenshots\\"+testName+".png";
-
-        try {
-            FileHandler.copy(srcScreenshot,new File(destinationScreenshotPath));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+        String destinationScreenshotPath = GlobalConsts.SCREENSHOT_PATH+testClass+"_"+testName+"_"+DateUtil.getCurrentDate()+".png";
+        FileHandler.copy(srcScreenshot,new File(destinationScreenshotPath));
+        LoggerUtil.info("Capture "+testName+" Screenshot");
         return destinationScreenshotPath;
     }
 }

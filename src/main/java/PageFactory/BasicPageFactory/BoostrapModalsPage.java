@@ -1,16 +1,26 @@
 package PageFactory.BasicPageFactory;
 
 import Config.GlobalConsts;
-import PageFactory.BasicPage;
+import PageFactory.BasePage;
+import Util.ExcelDataUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.DataProvider;
 
-public class BoostrapModalsPage extends BasicPage {
+import java.io.IOException;
+import java.lang.reflect.Method;
+
+public class BoostrapModalsPage extends BasePage {
 
     WebDriver driver;
+
+    public BoostrapModalsPage()
+    {
+
+    }
 
     public BoostrapModalsPage(WebDriver driver) {
         super(driver);
@@ -62,8 +72,15 @@ public class BoostrapModalsPage extends BasicPage {
 
     private final String exerciseLevel = GlobalConsts.BASIC;
     private final String exercise = GlobalConsts.BOOSTRAP_MODALS;
+    private final String data_path = GlobalConsts.BOOSTRAP_MODALS_DATA_PATH;
 
 
+
+    @DataProvider(name = "TestData")
+    public Object[][] getData(Method method) throws IOException
+    {
+        return ExcelDataUtil.getData(method,data_path);
+    }
 
     public void goToExercise()
     {
@@ -96,7 +113,7 @@ public class BoostrapModalsPage extends BasicPage {
 
     public boolean getSingelModalAlertStatus()
     {
-        waitForElementToDisapire(singleModalAlertMessageElement);
+        waitForElementToDisappear(singleModalAlertMessageElement);
         return singleModalAlertMessageElement.isDisplayed();
     }
 
@@ -109,7 +126,7 @@ public class BoostrapModalsPage extends BasicPage {
 
     public boolean getMultiModalAlertStatus()
     {
-        waitForElementToDisapire(multiModalAlertElement);
+        waitForElementToDisappear(multiModalAlertElement);
         return multiModalAlertElement.isDisplayed();
     }
 

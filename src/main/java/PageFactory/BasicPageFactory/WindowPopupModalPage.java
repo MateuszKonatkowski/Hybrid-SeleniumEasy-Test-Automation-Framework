@@ -1,19 +1,30 @@
 package PageFactory.BasicPageFactory;
 
 import Config.GlobalConsts;
-import PageFactory.BasicPage;
+import PageFactory.BasePage;
+
+import java.io.IOException;
+import java.lang.reflect.Method;
 import java.util.Iterator;
 import java.util.Set;
+
+import Util.ExcelDataUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.DataProvider;
 
 
-public class WindowPopupModalPage extends BasicPage {
+public class WindowPopupModalPage extends BasePage {
 
     WebDriver driver;
+
+    public WindowPopupModalPage()
+    {
+
+    }
 
     public WindowPopupModalPage(WebDriver driver)
     {
@@ -42,8 +53,15 @@ public class WindowPopupModalPage extends BasicPage {
 
     private final String exerciseLevel = GlobalConsts.BASIC;
     private final String exercise = GlobalConsts.WINDOWS_POPUP;
+    private final String data_path = GlobalConsts.WINDOWS_POPUP_DEMO_DATA_PATH;
 
 
+
+    @DataProvider(name = "TestData")
+    public Object[][] getData(Method method) throws IOException
+    {
+        return ExcelDataUtil.getData(method, data_path);
+    }
 
     public void goToExercise()
     {

@@ -1,18 +1,27 @@
 package PageFactory.BasicPageFactory;
 
 import Config.GlobalConsts;
-import PageFactory.BasicPage;
+import PageFactory.BasePage;
+import Util.ExcelDataUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.DataProvider;
 
+import java.io.IOException;
+import java.lang.reflect.Method;
 import java.util.List;
 
-public class RadioButtonPage extends BasicPage {
+public class RadioButtonPage extends BasePage {
 
     WebDriver driver;
+
+	public RadioButtonPage()
+	{
+
+	}
 
     public RadioButtonPage(WebDriver driver) {
         super(driver);
@@ -52,8 +61,15 @@ public class RadioButtonPage extends BasicPage {
 
 	private final String exerciseLevel = GlobalConsts.BASIC;
 	private final String exercise = GlobalConsts.RADIO_BUTTON;
+	private final String data_path = GlobalConsts.RADIO_BUTTONS_DATA_PATH;
 
 
+
+	@DataProvider(name = "TestData")
+	public Object[][] getData(Method method) throws IOException
+	{
+		return ExcelDataUtil.getData(method,data_path);
+	}
 
 	public void goToExercise()
 	{

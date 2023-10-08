@@ -6,10 +6,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+
 public class BoostrapAlertsTest extends BaseTest {
 
-    @Test(groups = {"Smoke"})
-    public void boostrapAlert_Click_AutoSuccess_Should_Show_Message_And_Disappear()
+    @Test(priority = 1,groups = {"Smoke"},dataProvider = "TestData",dataProviderClass = BoostrapAlertsPage.class,description = "boostrapAlertAutoSuccess")
+    public void boostrapAlert_Click_AutoSuccess_Should_Show_Message_And_Disappear(String expected)
     {
         //given
         BoostrapAlertsPage boostrapAlertsPage = new BoostrapAlertsPage(driver);
@@ -20,13 +21,13 @@ public class BoostrapAlertsTest extends BaseTest {
                 .clickBoostrapAutoSuccessElement()
                 .getBoostrapAutoSuccessMessage();
         //then
-        softAssert.assertEquals(message,"I'm an autocloseable success message. I will hide in 5 seconds.");
+        softAssert.assertEquals(message,expected);
         softAssert.assertFalse(boostrapAlertsPage.getBoostrapAutoSuccessStatus());
         softAssert.assertAll();
     }
 
-    @Test(groups = {"Smoke"})
-    public void boostrapAlert_Click_Success_Should_Show_Message()
+    @Test(priority = 1,groups = {"Smoke"},dataProvider = "TestData",dataProviderClass = BoostrapAlertsPage.class,description = "boostrapAlertSuccess")
+    public void boostrapAlert_Click_Success_Should_Show_Message(String expected)
     {
         //given
         BoostrapAlertsPage boostrapAlertsPage = new BoostrapAlertsPage(driver);
@@ -36,12 +37,12 @@ public class BoostrapAlertsTest extends BaseTest {
                 .clickBoostrapSuccessElement()
                 .getBoostrapSuccessMessage();
         //then
-        Assert.assertEquals(message,"×\nI'm a normal success message. To close use the appropriate button.");
+        Assert.assertEquals(message,expected);
 ;
     }
 
-    @Test
-    public void boostrapAlert_Click_AutoWarning_Should_Show_Message_And_Disappear()
+    @Test(priority = 2,dataProvider = "TestData",dataProviderClass = BoostrapAlertsPage.class,description = "boostrapAlertAutoWarning")
+    public void boostrapAlert_Click_AutoWarning_Should_Show_Message_And_Disappear(String expected)
     {
         //given
         BoostrapAlertsPage boostrapAlertsPage = new BoostrapAlertsPage(driver);
@@ -52,13 +53,13 @@ public class BoostrapAlertsTest extends BaseTest {
                 .clickBoostrapAutoWarningElement()
                 .getBoostrapAutoWarningMessage();
         //then
-        softAssert.assertEquals(message,"I'm an autocloseable warning message. I will hide in 3 seconds.");
+        softAssert.assertEquals(message,expected);
         softAssert.assertFalse(boostrapAlertsPage.getBoostrapAutoWarningStatus());
         softAssert.assertAll();
     }
 
-    @Test
-    public void boostrapAlert_Click_Warning_Should_Show_Message()
+    @Test(priority = 4,dataProvider = "TestData",dataProviderClass = BoostrapAlertsPage.class,description = "boostrapAlertWarning")
+    public void boostrapAlert_Click_Warning_Should_Show_Message(String expected)
     {
         //given
         BoostrapAlertsPage boostrapAlertsPage = new BoostrapAlertsPage(driver);
@@ -68,12 +69,12 @@ public class BoostrapAlertsTest extends BaseTest {
                 .clickBoostrapWarningElement()
                 .getBoostrapWarningMessage();
         //then
-        Assert.assertEquals(message,"×\nI'm a normal warning message. To close use the appropriate button.");
+        Assert.assertEquals(message,expected);
 
     }
 
-    @Test(groups = {"Smoke"})
-    public void boostrapAlert_Click_AutoDanger_Should_Show_Message_And_Disappear()
+    @Test(priority = 3,groups = {"Smoke"},dataProvider = "TestData",dataProviderClass = BoostrapAlertsPage.class,description = "boostrapAlertAutoDanger")
+    public void boostrapAlert_Click_AutoDanger_Should_Show_Message_And_Disappear(String expected)
     {
         //given
         BoostrapAlertsPage boostrapAlertsPage = new BoostrapAlertsPage(driver);
@@ -84,13 +85,13 @@ public class BoostrapAlertsTest extends BaseTest {
                 .clickBoostrapAutoDangerElement()
                 .getBoostrapAutoDangerMessage();
         //then
-        softAssert.assertEquals(message,"I'm an autocloseable danger message. I will hide in 5 seconds.");
+        softAssert.assertEquals(message,expected);
         softAssert.assertFalse(boostrapAlertsPage.getBoostrapAutoDangerStatus());
         softAssert.assertAll();
     }
 
-    @Test
-    public void boostrapAlert_Click_Danger_Should_Show_Message_And_Disappear()
+    @Test(priority = 4,dataProvider = "TestData",dataProviderClass = BoostrapAlertsPage.class,description = "boostrapAlertDanger")
+    public void boostrapAlert_Click_Danger_Should_Show_Message_And_Disappear(String expected)
     {
         //given
         BoostrapAlertsPage boostrapAlertsPage = new BoostrapAlertsPage(driver);
@@ -100,12 +101,12 @@ public class BoostrapAlertsTest extends BaseTest {
                 .clickBoostrapDangerElement()
                 .getBoostrapDangerMessage();
         //then
-        Assert.assertEquals(message,"×\nI'm a normal danger message. To close use the appropriate button.");
+        Assert.assertEquals(message,expected);
 
     }
 
-    @Test(groups = {"Smoke"})
-    public void boostrapAlert_Click_AutoInfo_Should_Show_Message_And_Disappear()
+    @Test(priority = 1,groups = {"Smoke"},dataProvider = "TestData",dataProviderClass = BoostrapAlertsPage.class,description = "boostrapAlertAutoInfo")
+    public void boostrapAlert_Click_AutoInfo_Should_Show_Message_And_Disappear(String expected)
     {
         //given
         BoostrapAlertsPage boostrapAlertsPage = new BoostrapAlertsPage(driver);
@@ -116,13 +117,13 @@ public class BoostrapAlertsTest extends BaseTest {
                 .clickBoostrapAutoInfoElement()
                 .getBoostrapAutoInfoMessage();
         //then
-        softAssert.assertEquals(message,"I'm an autocloseable info message. I will hide in 6 seconds.");
+        softAssert.assertEquals(message,expected);
         softAssert.assertFalse(boostrapAlertsPage.getBoostrapAutoInfoStatus());
         softAssert.assertAll();
     }
 
-    @Test(groups = {"Smoke"})
-    public void boostrapAlert_Click_Info_Should_Show_Message()
+    @Test(priority = 2,groups = {"Smoke"},dataProvider = "TestData",dataProviderClass = BoostrapAlertsPage.class,description = "boostrapAlertInfo")
+    public void boostrapAlert_Click_Info_Should_Show_Message(String expected)
     {
         //given
         BoostrapAlertsPage boostrapAlertsPage = new BoostrapAlertsPage(driver);
@@ -132,8 +133,7 @@ public class BoostrapAlertsTest extends BaseTest {
                 .clickBoostrapInfoElement()
                 .getBoostrapInfoMessage();
         //then
-        Assert.assertEquals(message,"×\nI'm a normal info message. To close use the appropriate button.");
-
+        Assert.assertEquals(message,expected);
     }
 
 }

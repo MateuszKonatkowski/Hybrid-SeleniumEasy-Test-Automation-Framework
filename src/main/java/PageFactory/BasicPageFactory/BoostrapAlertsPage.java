@@ -1,16 +1,27 @@
 package PageFactory.BasicPageFactory;
 
 import Config.GlobalConsts;
-import PageFactory.BasicPage;
+import PageFactory.BasePage;
+import Util.ExcelDataUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
 import org.openqa.selenium.support.PageFactory;
-public class BoostrapAlertsPage extends BasicPage {
+import org.testng.annotations.DataProvider;
+
+import java.io.IOException;
+import java.lang.reflect.Method;
+
+public class BoostrapAlertsPage extends BasePage {
 
     WebDriver driver;
+
+    public BoostrapAlertsPage()
+    {
+
+    }
 
     public BoostrapAlertsPage(WebDriver driver)
     {
@@ -87,8 +98,15 @@ public class BoostrapAlertsPage extends BasicPage {
 
     private final String exerciseLevel = GlobalConsts.BASIC;
     private final String exercise = GlobalConsts.BOOSTRAP_ALERTS;
+    private final String data_path = GlobalConsts.BOOSTRAP_ALERTS_DATA_PATH;
 
 
+
+    @DataProvider(name = "TestData")
+    public Object[][] getData(Method method) throws IOException
+    {
+        return ExcelDataUtil.getData(method,data_path);
+    }
 
     public void goToExercise()
     {
@@ -185,25 +203,25 @@ public class BoostrapAlertsPage extends BasicPage {
 
     public boolean getBoostrapAutoSuccessStatus()
     {
-        waitForElementToDisapire(boostrapAutoSuccessAlertElement);
+        waitForElementToDisappear(boostrapAutoSuccessAlertElement);
         return boostrapAutoSuccessAlertElement.isDisplayed();
     }
 
     public boolean getBoostrapAutoWarningStatus()
     {
-        waitForElementToDisapire(boostrapAutoWarningAlertElement);
+        waitForElementToDisappear(boostrapAutoWarningAlertElement);
         return boostrapAutoWarningAlertElement.isDisplayed();
     }
 
     public boolean getBoostrapAutoDangerStatus()
     {
-        waitForElementToDisapire(boostrapAutoDangerAlertElement);
+        waitForElementToDisappear(boostrapAutoDangerAlertElement);
         return boostrapAutoDangerAlertElement.isDisplayed();
     }
 
     public boolean getBoostrapAutoInfoStatus()
     {
-        waitForElementToDisapire(boostrapAutoInfoAlertElement);
+        waitForElementToDisappear(boostrapAutoInfoAlertElement);
         return boostrapAutoInfoAlertElement.isDisplayed();
     }
 

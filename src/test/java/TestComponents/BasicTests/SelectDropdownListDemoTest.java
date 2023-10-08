@@ -8,21 +8,21 @@ import org.testng.annotations.Test;
 
 public class SelectDropdownListDemoTest extends BaseTest {
 
-    @Test(groups = "Smoke")
-    public void select_SelectValue_Should_Show_Message()
+    @Test(priority = 1,groups = {"Smoke"},dataProvider = "TestData",dataProviderClass = SelectDropdownListPage.class,description = "selectSelectValueData")
+    public void select_SelectValue_Should_Show_Message(String value,String expected)
     {
         //given
         SelectDropdownListPage selectDropdownListPage = new SelectDropdownListPage(driver);
         //when
         selectDropdownListPage.goToExercise();
         String message = selectDropdownListPage
-                .selectValue("Sunday")
+                .selectValue(value)
                 .getSelectMessage();
         //then
-        Assert.assertEquals(message,"Day selected :- Sunday");
+        Assert.assertEquals(message,expected);
     }
 
-    @Test
+    @Test(priority = 3)
     public void multiSelect_Status_Should_Multiple()
     {
         //given
@@ -33,8 +33,8 @@ public class SelectDropdownListDemoTest extends BaseTest {
         Assert.assertTrue(selectDropdownListPage.multiSelectStatus());
     }
 
-    @Test(retryAnalyzer = IRetryAnalyzerUtil.class)
-    public void multiSelect_SelectAllValues_Should_Show_All_Message()
+    @Test(priority = 1,retryAnalyzer = IRetryAnalyzerUtil.class,dataProvider = "TestData",dataProviderClass = SelectDropdownListPage.class,description = "multiSelectSelectAllValueData")
+    public void multiSelect_SelectAllValues_Should_Show_All_Message(String expected)
     {
         //given
         SelectDropdownListPage selectDropdownListPage = new SelectDropdownListPage(driver);
@@ -46,12 +46,11 @@ public class SelectDropdownListDemoTest extends BaseTest {
                 .getMultiSelectMessage();
 
         //then
-        System.out.println(message);
-        Assert.assertEquals(message,"Options selected are : California,Florida,New Jersey,New York,Ohio,Texas,Pennsylvania,Washington");
+        Assert.assertEquals(message,expected);
     }
 
-    @Test
-    public void multiSelect_SelectFirstSelectedValue_Should_Show_First_Message()
+    @Test(priority = 2,dataProvider = "TestData",dataProviderClass = SelectDropdownListPage.class,description = "multiSelectSelectFirstValueData")
+    public void multiSelect_SelectFirstSelectedValue_Should_Show_First_Message(String expected)
     {
         //given
         SelectDropdownListPage selectDropdownListPage = new SelectDropdownListPage(driver);
@@ -62,7 +61,7 @@ public class SelectDropdownListDemoTest extends BaseTest {
                 .clickMultiSelectFirsSelectedButton()
                 .getMultiSelectMessage();
         //then
-        Assert.assertEquals(message,"First selected option is : Californi");
+        Assert.assertEquals(message,expected);
     }
 
 }

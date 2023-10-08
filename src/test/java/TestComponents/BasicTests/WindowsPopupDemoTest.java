@@ -1,5 +1,6 @@
 package TestComponents.BasicTests;
 
+
 import PageFactory.BasicPageFactory.WindowPopupModalPage;
 import TestComponents.BaseTest;
 import org.testng.Assert;
@@ -7,8 +8,8 @@ import org.testng.annotations.Test;
 
 public class WindowsPopupDemoTest extends BaseTest {
 
-    @Test
-    public void popup_Twitter_Should_Have_Proper_Address()
+    @Test(priority = 2,dataProvider = "TestData",dataProviderClass = WindowPopupModalPage.class,description = "popupTwitterData")
+    public void popup_Twitter_Should_Have_Proper_Address(String expected)
     {
         //when
         WindowPopupModalPage windowPopupModalPage = new WindowPopupModalPage(driver);
@@ -18,11 +19,11 @@ public class WindowsPopupDemoTest extends BaseTest {
                 .clickTwitterButton()
                 .getPopUpWidowsAddress();
         //then
-        Assert.assertEquals(message,"https://twitter.com/i/flow/login?redirect_after_login=%2Fintent%2Ffollow%3Fscreen_name%3Dseleniumeasy");
+        Assert.assertEquals(message,expected);
     }
 
-    @Test(groups = {"Smoke"})
-    public void popup_Facebook_Should_Have_Proper_Address()
+    @Test(priority = 1,groups = {"Smoke"},dataProvider = "TestData",dataProviderClass = WindowPopupModalPage.class,description = "popupFacebookData")
+    public void popup_Facebook_Should_Have_Proper_Address(String expected)
     {
         //when
         WindowPopupModalPage windowPopupModalPage = new WindowPopupModalPage(driver);
@@ -32,7 +33,7 @@ public class WindowsPopupDemoTest extends BaseTest {
                 .clickFacebookButton()
                 .getPopUpWidowsAddress();
         //then
-        Assert.assertEquals(message,"https://www.facebook.com/seleniumeasy");
+        Assert.assertEquals(message,expected);
     }
 
 }

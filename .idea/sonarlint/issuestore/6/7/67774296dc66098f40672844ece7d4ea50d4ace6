@@ -1,12 +1,15 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¬øÌÿÿÿÿÿ
-E
-java:S2387"/"driver" is the name of a field in "BasicPage".(æ¹•‹
-<
-java:S1170+"!Make this final field static too.(ñÐúÿÿÿÿ
-<
-java:S1170,"!Make this final field static too.(ˆŠá×þÿÿÿÿ
-R
-java:S1854K"<Remove this useless assignment to local variable "parentid".(š•…
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¬øÌÿÿÿÿÿ8·—Ö¸¯1
+u	java:S1168"TRename this field "data_path" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êþáëüÿÿÿÿ8Þ›Ø¸¯1
+K
+java:S2387"."driver" is the name of a field in "BasePage".(æ¹•‹8ø—Ö¸¯1
 C
-java:S1481K"-Remove this unused "parentid" local variable.(š•…
+java:S11706"!Make this final field static too.(ñÐúÿÿÿÿ8ø—Ö¸¯1
+C
+java:S11707"!Make this final field static too.(ˆŠá×þÿÿÿÿ8ø—Ö¸¯1
+C
+java:S11708"!Make this final field static too.(êþáëüÿÿÿÿ8Þ›Ø¸¯1
+Y
+java:S1854]"<Remove this useless assignment to local variable "parentid".(š•…8öØØ¸¯1
+J
+java:S1481]"-Remove this unused "parentid" local variable.(š•…8÷ØØ¸¯1

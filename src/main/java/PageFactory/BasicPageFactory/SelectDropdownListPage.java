@@ -1,7 +1,8 @@
 package PageFactory.BasicPageFactory;
 
 import Config.GlobalConsts;
-import PageFactory.BasicPage;
+import PageFactory.BasePage;
+import Util.ExcelDataUtil;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,12 +11,20 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.DataProvider;
 
+import java.io.IOException;
+import java.lang.reflect.Method;
 import java.util.List;
 
-public class SelectDropdownListPage extends BasicPage {
+public class SelectDropdownListPage extends BasePage {
 
     WebDriver driver;
+
+    public SelectDropdownListPage()
+    {
+
+    }
 
     public SelectDropdownListPage(WebDriver driver)
     {
@@ -52,10 +61,17 @@ public class SelectDropdownListPage extends BasicPage {
 
     private final String exerciseLevel = GlobalConsts.BASIC;
     private final String exercise = GlobalConsts.SELECT_DROPDOWN_LIST;
+    private final String data_path = GlobalConsts.SELECT_DROPDOWN_LIST_DEMO_DATA_PATH;
 
 
 
-    public void goToExercise()
+    @DataProvider(name = "TestData")
+    public Object[][] getData(Method method) throws IOException
+    {
+        return ExcelDataUtil.getData(method, data_path);
+    }
+
+        public void goToExercise()
     {
         goTo(exerciseLevel,exercise);
     }
@@ -88,7 +104,7 @@ public class SelectDropdownListPage extends BasicPage {
         Select select = new Select(multiSelectElement);
         Actions actions = new Actions(driver);
         List<WebElement> options = select.getOptions();
-        waitForElementsVisbility(options);
+        waitForElementsVisibility(options);
         options.stream().forEach(option -> actions.keyDown(Keys.CONTROL).click(option).build().perform());
         return new SelectDropdownListPage(driver);
     }
@@ -97,7 +113,7 @@ public class SelectDropdownListPage extends BasicPage {
         Select select = new Select(multiSelectElement);
         Actions actions = new Actions(driver);
         List<WebElement> options = select.getOptions();
-        waitForElementsVisbility(options);
+        waitForElementsVisibility(options);
         options.stream().forEach(option -> actions.keyDown(Keys.CONTROL).click(option).build().perform());
         return new SelectDropdownListPage(driver);
     }

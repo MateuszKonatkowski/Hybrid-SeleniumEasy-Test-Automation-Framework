@@ -9,7 +9,6 @@ public class ExtentReportUtil {
 
      public static ExtentReports getReportObject()
      {
-
          String path = GlobalConsts.EXTEND_REPORT_PATH;
          ExtentReports extent = new ExtentReports();
          ExtentSparkReporter spark = new ExtentSparkReporter(path);
@@ -21,10 +20,7 @@ public class ExtentReportUtil {
          extent.setSystemInfo("Tester","Mateusz Konatkowski");
          extent.createTest(path);
          return extent;
-
     }
-
-
 
 }
 

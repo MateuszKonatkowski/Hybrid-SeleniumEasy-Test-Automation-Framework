@@ -13,8 +13,8 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
 
+    <dependencies>
 
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
@@ -22,15 +22,12 @@
             <artifactId>selenium-java</artifactId>
             <version>4.13.0</version>
         </dependency>
-
-
         <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>5.1.1</version>
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>
@@ -60,6 +57,18 @@
             <artifactId>log4j-core</artifactId>
             <version>2.20.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>5.2.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.4</version>
+        </dependency>
 
     </dependencies>
 
@@ -77,7 +86,7 @@
                             <version>3.1.2</version>
                             <configuration>
                                 <suiteXmlFiles>
-                                    <suiteXmlFile>AllSuits/RegressionTests.xml</suiteXmlFile>
+                                    <suiteXmlFile>src/test/java/Runner/RegressionTests.xml</suiteXmlFile>
                                 </suiteXmlFiles>
                             </configuration>
                         </plugin>
@@ -96,7 +105,7 @@
                             <version>3.1.2</version>
                             <configuration>
                                 <suiteXmlFiles>
-                                    <suiteXmlFile>AllSuits/SmokeTests.xml</suiteXmlFile>
+                                    <suiteXmlFile>src/test/java/Runner/SmokeTests.xml</suiteXmlFile>
                                 </suiteXmlFiles>
                             </configuration>
                         </plugin>
@@ -115,7 +124,7 @@
                             <version>3.1.2</version>
                             <configuration>
                                 <suiteXmlFiles>
-                                    <suiteXmlFile>AllSuits/BasicTests.xml</suiteXmlFile>
+                                    <suiteXmlFile>src/test/java/Runner/BasicTests.xml</suiteXmlFile>
                                 </suiteXmlFiles>
                             </configuration>
                         </plugin>
@@ -134,7 +143,7 @@
                             <version>3.1.2</version>
                             <configuration>
                                 <suiteXmlFiles>
-                                    <suiteXmlFile>AllSuits/IntermediateTests.xml</suiteXmlFile>
+                                    <suiteXmlFile>src/test/java/Runner/IntermediateTests.xml</suiteXmlFile>
                                 </suiteXmlFiles>
                             </configuration>
                         </plugin>
@@ -153,7 +162,7 @@
                             <version>3.1.2</version>
                             <configuration>
                                 <suiteXmlFiles>
-                                    <suiteXmlFile>AllSuits/AdvancedTests.xml</suiteXmlFile>
+                                    <suiteXmlFile>src/test/java/Runner/AdvancedTests.xml</suiteXmlFile>
                                 </suiteXmlFiles>
                             </configuration>
                         </plugin>
@@ -172,7 +181,7 @@
                             <version>3.1.2</version>
                             <configuration>
                                 <suiteXmlFiles>
-                                    <suiteXmlFile>testng.xml</suiteXmlFile>
+                                    <suiteXmlFile>src/test/java/Runner/testng.xml</suiteXmlFile>
                                 </suiteXmlFiles>
                             </configuration>
                         </plugin>

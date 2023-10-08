@@ -4,15 +4,23 @@
   <listeners>
     <listener class-name="Listeners.Listener"/>
   </listeners>
-  <test thread-count="5" parallel="methods" name="test(failed)" verbose="0">
+  <test thread-count="5" parallel="methods" name="Regression(failed)" verbose="0">
     <classes>
-      <class name="TestComponents.BasicTests.SelectDropdownListDemoTest">
+      <class name="TestComponents.BasicTests.SimpleFormDemoTest">
         <methods>
+          <include name="singleInput_Enter_Data_Should_Show_Message"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="multiSelect_SelectAllValues_Should_Show_All_Message"/>
+          <include name="doubleInput_Enter_Data_Should_Show_Message" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestComponents.BasicTests.SimpleFormDemoTest -->
+      <class name="TestComponents.BasicTests.SelectDropdownListDemoTest">
+        <methods>
+          <include name="multiSelect_SelectFirstSelectedValue_Should_Show_First_Message"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- TestComponents.BasicTests.SelectDropdownListDemoTest -->
     </classes>
-  </test> <!-- test(failed) -->
+  </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

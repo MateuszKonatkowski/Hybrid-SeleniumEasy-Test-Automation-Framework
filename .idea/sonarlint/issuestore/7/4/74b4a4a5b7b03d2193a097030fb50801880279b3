@@ -1,4 +1,4 @@
 
-k
-java:S1192"IDefine a constant instead of duplicating this literal "user.dir" 3 times.(¯‰ëùıÿÿÿÿ8•œ¾®1
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê§ö
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê§ö8×å­ƒ°1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(¾Óá¥8Üå­ƒ°1

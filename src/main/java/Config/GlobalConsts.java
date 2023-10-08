@@ -3,13 +3,25 @@ package Config;
 public class GlobalConsts {
 
 
-    //PATHS
-    public static final String SCREENSHOT_PATH = "ScreenShots";
-    public static final String PROPERTIES_PATH = System.getProperty("user.dir")+"\\src\\main\\java\\Config\\GlobalData.properties";
+    //UTIL_PATHS
+    public static final String SCREENSHOT_PATH = System.getProperty("user.dir")+"/ScreenShots/";
+    public static final String PROPERTIES_PATH = "src/main/java/Config/GlobalData.properties";
     public static final String EXTEND_REPORT_PATH = "Reports/report.html";
 
 
-    //EXERCISES LEVELS
+    //DATA_PATHS
+    //BASIC
+    public static final String SIMPLE_FORM_DEMO_DATA_PATH = "src/test/java/TestData/BasicTestsData/SimpleFormDemoData.xlsx";
+    public static final String BOOSTRAP_ALERTS_DATA_PATH = "src/test/java/TestData/BasicTestsData/BoostrapAlertsData.xlsx";
+    public static final String BOOSTRAP_MODALS_DATA_PATH = "src/test/java/TestData/BasicTestsData/BoostrapModalsData.xlsx";
+    public static final String CHECKBOX_DEMO_DATA_PATH = "src/test/java/TestData/BasicTestsData/CheckboxDemoData.xlsx";
+    public static final String JAVASCRIPT_ALERTS_DATA_PATH = "src/test/java/TestData/BasicTestsData/JavaScriptAlertsData.xlsx";
+    public static final String RADIO_BUTTONS_DATA_PATH = "src/test/java/TestData/BasicTestsData/RadioButtonsData.xlsx";
+    public static final String SELECT_DROPDOWN_LIST_DEMO_DATA_PATH = "src/test/java/TestData/BasicTestsData/SelectDropdownListDemoData.xlsx";
+    public static final String WINDOWS_POPUP_DEMO_DATA_PATH = "src/test/java/TestData/BasicTestsData/WindowsPopupDemoData.xlsx";
+
+
+    //EXERCISES_LEVELS
     public static final String BASIC= "basic_example";
     public static final String INTERMEDIATE = "intermediate_example";
     public static final String ADVANCED = "advanced_example";
@@ -27,10 +39,10 @@ public class GlobalConsts {
 
 
     //WAITS
-    public static final int PAGE_LOUD_TIME = 15;
+    public static final int PAGE_LOUD_TIME = 30;
     public static final int EXPLICITE_TIME = 8;
 
-
-
+    //I_RETRY_ANALYZER
+    public static final int I_RETRY_ANALYZER_COUNT=1;
 
 }

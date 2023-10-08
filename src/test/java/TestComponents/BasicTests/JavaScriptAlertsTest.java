@@ -1,6 +1,7 @@
 package TestComponents.BasicTests;
 
 import PageFactory.BasicPageFactory.JavascriptAlertsPage;
+
 import TestComponents.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -8,8 +9,8 @@ import org.testng.asserts.SoftAssert;
 
 public class JavaScriptAlertsTest extends BaseTest {
 
-    @Test(groups = {"Smoke"})
-    public void alertBox_Click_Should_ShowAlertMessage_And_Accept()
+    @Test(priority = 1,groups = {"Smoke"},dataProvider = "TestData",dataProviderClass = JavascriptAlertsPage.class,description = "alertBoxClickData")
+    public void alertBox_Click_Should_ShowAlertMessage_And_Accept(String expected)
     {
         //given
         JavascriptAlertsPage javaScriptAlertPage = new JavascriptAlertsPage(driver);
@@ -19,11 +20,11 @@ public class JavaScriptAlertsTest extends BaseTest {
         String alertMessage = javaScriptAlertPage.getAlertMessage();
         javaScriptAlertPage.clickJavaScriptAlertOkButton();
         //then
-        Assert.assertEquals(alertMessage, "I am an alert box!");
+        Assert.assertEquals(alertMessage, expected);
     }
 
-    @Test
-    public void confirmBox_Click_Should_Show_ConfirmMessage_And_Accept()
+    @Test(priority = 3,dataProvider = "TestData",dataProviderClass = JavascriptAlertsPage.class,description = "confirmBoxClickAcceptData")
+    public void confirmBox_Click_Should_Show_ConfirmMessage_And_Accept(String expected1,String expected2)
     {
         //given
         JavascriptAlertsPage javascriptAlertsPage = new JavascriptAlertsPage(driver);
@@ -37,13 +38,13 @@ public class JavaScriptAlertsTest extends BaseTest {
                        .clickJavaScriptConfirmOkButton()
                        .getJavaScriptConfirmMessage();
         //then
-        softAssert.assertEquals(alertMessage, "Press a button!");
-        softAssert.assertEquals(message, "You pressed OK!");
+        softAssert.assertEquals(alertMessage, expected1);
+        softAssert.assertEquals(message, expected2);
         softAssert.assertAll();
     }
 
-    @Test
-    public void confirmBox_Click_Should_Show_ConfirmMessage_And_Dismiss()
+    @Test(priority = 2,dataProvider = "TestData",dataProviderClass = JavascriptAlertsPage.class,description = "confirmBoxClickDismissData")
+    public void confirmBox_Click_Should_Show_ConfirmMessage_And_Dismiss(String expected1,String expected2)
     {
         //given
         JavascriptAlertsPage javascriptAlertsPage = new JavascriptAlertsPage(driver);
@@ -57,13 +58,13 @@ public class JavaScriptAlertsTest extends BaseTest {
                         .clickJavaScriptConfirmCancelButton()
                         .getJavaScriptConfirmMessage();
         //then
-        softAssert.assertEquals(alertMessage, "Press a button!");
-        softAssert.assertEquals(message, "You pressed Cancel!");
+        softAssert.assertEquals(alertMessage, expected1);
+        softAssert.assertEquals(message, expected2);
         softAssert.assertAll();
     }
 
-    @Test(groups = {"Smoke"})
-    public void promptBox_Click_Enter_Value_Should_Show_Message()
+    @Test(priority = 1,groups = {"Smoke"},dataProvider = "TestData",dataProviderClass = JavascriptAlertsPage.class,description = "promptBoxClickData")
+    public void promptBox_Click_Enter_Value_Should_Show_Message(String value, String expected1,String expected2)
     {
         //given
         JavascriptAlertsPage javascriptAlertsPage = new JavascriptAlertsPage(driver);
@@ -74,12 +75,12 @@ public class JavaScriptAlertsTest extends BaseTest {
         String alertMessage = javascriptAlertsPage.getAlertMessage();
         String message =
                 javascriptAlertsPage
-                        .sendJavaScriptPromptMessage("XD")
+                        .sendJavaScriptPromptMessage(value)
                         .clickJavaScriptPromptOkButton()
                         .getJavaScriptPromptMessage();
         //then
-        softAssert.assertEquals(alertMessage, "Please enter your name");
-        softAssert.assertEquals(message, "You have entered 'XD' !");
+        softAssert.assertEquals(alertMessage, expected1);
+        softAssert.assertEquals(message, expected2);
         softAssert.assertAll();
     }
 

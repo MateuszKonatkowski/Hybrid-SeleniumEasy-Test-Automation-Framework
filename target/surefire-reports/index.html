@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
-              <span class="suite-name border-skipped">All Test Suite</span>
+              <span class="suite-name border-passed">All Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-All_Test_Suite" class="navigator-link ">
-                    <span>C:\Users\Mateusz\SeleniumEasyFramework_Project\testng.xml</span>
+                    <span>C:\Users\Mateusz\SeleniumEasyFramework_Project\src\test\java\Runner\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,  1 skipped,  2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Retried methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods skipped suite-All_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-All_Test_Suite -->
-                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods skipped suite-All_Test_Suite"> (show)</a> <!-- show-methods skipped suite-All_Test_Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-All_Test_Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="TestComponents.BasicTests.SelectDropdownListDemoTest" class="method navigator-link" hash-for-method="multiSelect_SelectAllValues_Should_Show_All_Message">multiSelect_SelectAllValues_Should_Show_All_Message</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-All_Test_Suite -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,12 +103,22 @@
                     <div class="method-list-content passed suite-All_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="TestComponents.BasicTests.SelectDropdownListDemoTest" class="method navigator-link" hash-for-method="multiSelect_Status_Should_Multiple">multiSelect_Status_Should_Multiple</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestComponents.BasicTests.SimpleFormDemoTest" class="method navigator-link" hash-for-method="singleInput_Enter_Data_Should_Show_Message(d1, d1)">singleInput_Enter_Data_Should_Show_Message(d1, d1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="TestComponents.BasicTests.SelectDropdownListDemoTest" class="method navigator-link" hash-for-method="select_SelectValue_Should_Show_Message">select_SelectValue_Should_Show_Message</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestComponents.BasicTests.SimpleFormDemoTest" class="method navigator-link" hash-for-method="singleInput_Enter_Data_Should_Show_Message(Adrian, Adrian)">singleInput_Enter_Data_Should_Show_Message(Adrian, Adrian)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestComponents.BasicTests.SimpleFormDemoTest" class="method navigator-link" hash-for-method="singleInput_Enter_Data_Should_Show_Message(Mateusz, Mateusz)">singleInput_Enter_Data_Should_Show_Message(Mateusz, Mateusz)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestComponents.BasicTests.SimpleFormDemoTest" class="method navigator-link" hash-for-method="singleInput_Enter_Data_Should_Show_Message(18, 18)">singleInput_Enter_Data_Should_Show_Message(18, 18)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
@@ -137,64 +133,50 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
-          <div class="suite-All_Test_Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">TestComponents.BasicTests.SelectDropdownListDemoTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="multiSelect_SelectAllValues_Should_Show_All_Message">
-                  </a> <!-- multiSelect_SelectAllValues_Should_Show_All_Message -->
-                  <span class="method-name">multiSelect_SelectAllValues_Should_Show_All_Message</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Options selected are : California,Florida,New Jersey,New York,Ohio,Texas,Pennsylvania,Washington] but found [Options selected are : Florida,New Jersey,New York,Ohio,Texas,Pennsylvania,Washington]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at TestComponents.BasicTests.SelectDropdownListDemoTest.multiSelect_SelectAllValues_Should_Show_All_Message(SelectDropdownListDemoTest.java:50)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-skipped -->
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestComponents.BasicTests.SelectDropdownListDemoTest</span>
+              <span class="class-name">TestComponents.BasicTests.SimpleFormDemoTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="multiSelect_Status_Should_Multiple">
-                  </a> <!-- multiSelect_Status_Should_Multiple -->
-                  <span class="method-name">multiSelect_Status_Should_Multiple</span>
+                  <a name="singleInput_Enter_Data_Should_Show_Message(d1, d1)">
+                  </a> <!-- singleInput_Enter_Data_Should_Show_Message(d1, d1) -->
+                  <span class="method-name">singleInput_Enter_Data_Should_Show_Message</span>
+                  <span class="parameters">(d1,d1)</span>
+                  <em>
+(singleInputData)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="select_SelectValue_Should_Show_Message">
-                  </a> <!-- select_SelectValue_Should_Show_Message -->
-                  <span class="method-name">select_SelectValue_Should_Show_Message</span>
+                  <a name="singleInput_Enter_Data_Should_Show_Message(Adrian, Adrian)">
+                  </a> <!-- singleInput_Enter_Data_Should_Show_Message(Adrian, Adrian) -->
+                  <span class="method-name">singleInput_Enter_Data_Should_Show_Message</span>
+                  <span class="parameters">(Adrian,Adrian)</span>
+                  <em>
+(singleInputData)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="singleInput_Enter_Data_Should_Show_Message(Mateusz, Mateusz)">
+                  </a> <!-- singleInput_Enter_Data_Should_Show_Message(Mateusz, Mateusz) -->
+                  <span class="method-name">singleInput_Enter_Data_Should_Show_Message</span>
+                  <span class="parameters">(Mateusz,Mateusz)</span>
+                  <em>
+(singleInputData)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="singleInput_Enter_Data_Should_Show_Message(18, 18)">
+                  </a> <!-- singleInput_Enter_Data_Should_Show_Message(18, 18) -->
+                  <span class="method-name">singleInput_Enter_Data_Should_Show_Message</span>
+                  <span class="parameters">(18,18)</span>
+                  <em>
+(singleInputData)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -202,7 +184,7 @@
         </div> <!-- panel All_Test_Suite -->
         <div panel-name="test-xml-All_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Mateusz\SeleniumEasyFramework_Project\testng.xml</span>
+            <span class="header-content">C:\Users\Mateusz\SeleniumEasyFramework_Project\src\test\java\Runner\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -214,7 +196,11 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TestComponents.BasicTests.SelectDropdownListDemoTest&quot;/&gt;
+      &lt;class name=&quot;TestComponents.BasicTests.SimpleFormDemoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;singleInput_Enter_Data_Should_Show_Message&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- TestComponents.BasicTests.SimpleFormDemoTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- test --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
@@ -242,7 +228,7 @@
               <span class="test-group-name">Smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">select_SelectValue_Should_Show_Message</span>
+                <span class="method-in-group-name">singleInput_Enter_Data_Should_Show_Message</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -262,24 +248,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'multiSelect_SelectAllValues_Should_Show_All_Message')
-data.setCell(0, 2, 'TestComponents.BasicTests.SelectDropdownListDemoTest')
-data.setCell(0, 3, 6126);
+data.setCell(0, 1, 'singleInput_Enter_Data_Should_Show_Message')
+data.setCell(0, 2, 'TestComponents.BasicTests.SimpleFormDemoTest')
+data.setCell(0, 3, 2185);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'select_SelectValue_Should_Show_Message')
-data.setCell(1, 2, 'TestComponents.BasicTests.SelectDropdownListDemoTest')
-data.setCell(1, 3, 2340);
+data.setCell(1, 1, 'singleInput_Enter_Data_Should_Show_Message')
+data.setCell(1, 2, 'TestComponents.BasicTests.SimpleFormDemoTest')
+data.setCell(1, 3, 2087);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'multiSelect_Status_Should_Multiple')
-data.setCell(2, 2, 'TestComponents.BasicTests.SelectDropdownListDemoTest')
-data.setCell(2, 3, 1561);
+data.setCell(2, 1, 'singleInput_Enter_Data_Should_Show_Message')
+data.setCell(2, 2, 'TestComponents.BasicTests.SimpleFormDemoTest')
+data.setCell(2, 3, 1965);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'singleInput_Enter_Data_Should_Show_Message')
+data.setCell(3, 2, 'TestComponents.BasicTests.SimpleFormDemoTest')
+data.setCell(3, 3, 1384);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -294,9 +284,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-All_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestComponents.BasicTests.SimpleFormDemoTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">doubleInput_Enter_Data_Should_Show_Message</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-All_Test_Suite" class="panel">
@@ -305,50 +302,54 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestComponents.BasicTests.SelectDropdownListDemoTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestComponents.BasicTests.SimpleFormDemoTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">multiSelect_SelectAllValues_Should_Show_All_Message</span>
-                <span class="method-start">25598 ms</span>
+                <span class="method-name">singleInput_Enter_Data_Should_Show_Message(Mateusz, Mateusz)</span>
+                <span class="method-start">32812 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">31730 ms</span>
+                <span class="method-start">35218 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">32149 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">41204 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">56735 ms</span>
+                <span class="method-start">35750 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">multiSelect_Status_Should_Multiple</span>
-                <span class="method-start">66384 ms</span>
+                <span class="method-name">singleInput_Enter_Data_Should_Show_Message(Adrian, Adrian)</span>
+                <span class="method-start">42431 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">67946 ms</span>
+                <span class="method-start">44585 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">68818 ms</span>
+                <span class="method-start">44746 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">select_SelectValue_Should_Show_Message</span>
-                <span class="method-start">77300 ms</span>
+                <span class="method-name">singleInput_Enter_Data_Should_Show_Message(18, 18)</span>
+                <span class="method-start">50614 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">79641 ms</span>
+                <span class="method-start">52683 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">52829 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">singleInput_Enter_Data_Should_Show_Message(d1, d1)</span>
+                <span class="method-start">56731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58186 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
