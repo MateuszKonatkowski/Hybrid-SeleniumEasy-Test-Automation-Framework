@@ -28,6 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
         
+    - name: Build    
     - uses: browser-actions/setup-chrome@latest
     - run: chrome --version
     
