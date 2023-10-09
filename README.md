@@ -31,6 +31,20 @@ Execute tests with various excel test data sets to maximize test coverage.
 Seamlessly integrate your tests with popular Github Actions for automated testing.
 
 #### Extensibility:
+
+
+
+## SYSTEM REQUIREMENTS
+
+#### - Install JDK 
+
+#### - Install Chrome Browser, Edge Browser, Firefox Browser
+
+#### - Run well on the Windows platform
+
+#### - Use IntelliJ IDEA is the best choice
+
+
 Extend the framework with custom utilities, listeners, and more to suit  your specific needs.
 
 
