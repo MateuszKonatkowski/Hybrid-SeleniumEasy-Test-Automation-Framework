@@ -31,7 +31,7 @@ Execute tests with various excel test data sets to maximize test coverage.
 Seamlessly integrate your tests with popular Github Actions for automated testing.
 
 #### Extensibility:
-
+Extend the framework with custom utilities, listeners, and more to suit  your specific needs.
 
 
 ## SYSTEM REQUIREMENTS
@@ -45,7 +45,7 @@ Seamlessly integrate your tests with popular Github Actions for automated testin
 #### - Use IntelliJ IDEA is the best choice
 
 
-Extend the framework with custom utilities, listeners, and more to suit  your specific needs.
+
 
 
 
