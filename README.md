@@ -3,7 +3,7 @@
 
 Welcome to my Hybrid-SeleniumEasy-Test-Automation-Framework, tailor-made for testing the SeleniumEasy website. This framework is a robust solution crafted to enhance the efficiency and effectiveness of web application testing on <a href="https://demo.seleniumeasy.com/" rel="nofollow">SeleniumEasy</a>
  
- # ✳️ Key Features
+ # 🟩 Key Features
  
 
 #### Modular Structure:
