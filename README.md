@@ -40,6 +40,8 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 
 #### - Install Chrome Browser, Edge Browser, Firefox Browser
 
+#### - Install Maven
+
 #### - Run well on the Windows platform
 
 #### - Use IntelliJ IDEA is the best choice
