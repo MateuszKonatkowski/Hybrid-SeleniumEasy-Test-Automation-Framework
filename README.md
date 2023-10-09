@@ -3,7 +3,7 @@
 
 Welcome to my Hybrid-SeleniumEasy-Test-Automation-Framework, tailor-made for testing the SeleniumEasy website. This framework is a robust solution crafted to enhance the efficiency and effectiveness of web application testing on <a href="https://demo.seleniumeasy.com/" rel="nofollow">SeleniumEasy</a>
 
-✳️ # Key Features
+ # ✳️ Key Features
  
 
 #### Modular Structure:
@@ -34,7 +34,7 @@ Seamlessly integrate your tests with popular Github Actions for automated testin
 Extend the framework with custom utilities, listeners, and more to suit  your specific needs.
 
 
-✳️ ## SYSTEM REQUIREMENTS
+ ## ✳️ SYSTEM REQUIREMENTS
 
 #### - Install JDK 
 
@@ -45,7 +45,7 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 #### - Use IntelliJ IDEA is the best choice
 
 
-✳️ ## Running Tests
+ ## ✳️ Running Tests
 
 To run Regression tests, run the following command
 
