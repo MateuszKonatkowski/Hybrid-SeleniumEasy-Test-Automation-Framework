@@ -45,6 +45,31 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 #### - Use IntelliJ IDEA is the best choice
 
 
+## Running Tests
+
+To run Regression tests, run the following command
+
+```bash
+  mvn test -PRegression
+```
+To run Smoke tests, run the following command
+
+```bash
+  mvn test -PSmoke
+```
+To run  tests on Edge browser, run the following command
+
+```bash
+  mvn test -Dbrowser=edge
+```
+To run Smoke tests on Chrome browser with Headless mode, run the following command
+
+```bash
+  mvn test -PSmoke -Dbrowser=chromeheadless
+```
+
+
+
 
 
 
