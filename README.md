@@ -12,6 +12,9 @@ The framework follows a modular design, allowing you to organize your test cases
 #### Configuration Management:
 Easily configure test environments, browsers, and other settings using external properties files.
 
+#### Selenium WebDriver Integration:
+The framework seamlessly integrates with Selenium WebDriver for easy web automation.
+
 #### TestNG Integration:
 Harness the full capabilities of TestNG for test execution, parallelization, and reporting.
 
@@ -22,7 +25,7 @@ Detailed logs and comprehensive test reports help you identify issues quickly.
 Implement the POM design pattern for cleaner and more maintainable page object classes.
 
 #### Data-Driven Testing:
-Execute tests with various test data sets to maximize test coverage.
+Execute tests with various excel test data sets to maximize test coverage.
 
 #### Continuous Integration:
 Seamlessly integrate your tests with popular Github Actions for automated testing.
