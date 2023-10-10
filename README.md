@@ -225,7 +225,7 @@ The class initializes and configures essential tools and utilities for test moni
 
 #### 🟨 Test Execution Failure (onTestFailure):
 
- In the event of a test failure, it logs the test as `"FAIL"` records the failure details, and captures a `screenshot` if configured.
+ In the event of a test failure, it `logs` the test as `"FAIL"` records the failure details, and captures a `screenshot` if configured.
 
 #### 🟨 Test Execution Skipped (onTestSkipped):
 
