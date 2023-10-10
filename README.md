@@ -69,27 +69,27 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 ## ✳️ Test architecture
 🟨 [POM(PageObjectModel)](#POM(PageObjectModel))
 
-🟨 [Reports](###Reports)
+🟨 [Reports](#Reports)
 
-🟨 [ScreenShots](###ScreenShots)
+🟨 [ScreenShots](#ScreenShots)
 
-🟨 [Config](###Config)
+🟨 [Config](#Config)
 
-🟨 [Driver](###Driver) 
+🟨 [Driver](#Driver) 
 
-🟨 [Listeners](###Listeners) 
+🟨 [Listeners](#Listeners) 
 
-🟨 [PageFactory](###PageFactory) 
+🟨 [PageFactory](#PageFactory) 
 
-🟨 [Util](###Util)
+🟨 [Util](#Util)
 
-🟨 [Resources](###Resources)
+🟨 [Resources](#Resources)
 
-🟨 [Runner](###Runner) 
+🟨 [Runner](#Runner) 
 
-🟨 [TestComponents](###TestComponents)
+🟨 [TestComponents](#TestComponents)
 
-🟨 [TestData](###TestData)
+🟨 [TestData](#TestData)
 
 ### POM(PageObjectModel)
 ### Reports
