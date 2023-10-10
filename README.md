@@ -94,7 +94,7 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 
 ### POM(PageObjectModel)
 
-The Page Object Model (POM) is a design pattern commonly used in test automation to enhance the maintainability and reusability of automated tests. It provides a structured way to represent the web pages of an application as objects in the test code.
+**The Page Object Model (POM) is a design pattern commonly used in test automation to enhance the maintainability and reusability of automated tests. It provides a structured way to represent the web pages of an application as objects in the test code.**
 
 ####  Benefits of POM:
 
@@ -118,11 +118,11 @@ POM divides the application into manageable, modular components, making it easie
 
  Isolating issues to specific Page Objects simplifies the debugging process.
 
-In summary, the Page Object Model (POM) is a design pattern that promotes a structured and maintainable approach to web test automation. By representing web pages as Page Objects, it enhances code readability, reusability, and maintainability while reducing code duplication.
+**In summary, the Page Object Model (POM) is a design pattern that promotes a structured and maintainable approach to web test automation. By representing web pages as Page Objects, it enhances code readability, reusability, and maintainability while reducing code duplication.**
 
 ### Reports
 
-The "Reports" folder is a dedicated directory within a test automation project that serves as a repository for various types of test reports. It plays a crucial role in documenting and tracking the results of automated tests. Within this folder, you'll  find two important types of files:
+**The "Reports" folder is a dedicated directory within a test automation project that serves as a repository for various types of test reports. It plays a crucial role in documenting and tracking the results of automated tests. Within this folder, you'll  find two important types of files:**
 
 #### 1. logs.log
 
@@ -134,11 +134,11 @@ The "report.html" file is a comprehensive and visually appealing test report gen
 
 #### 🟨 Test Execution Summary
 
-The report begins with a high-level summary of the test execution, providing essential details such as the total number of test cases `executed`, the number of `passed` and `failed` tests, and the overall pass percentage. This summary offers a quick overview of test suite health.
+**The report begins with a high-level summary of the test execution, providing essential details such as the total number of test cases `executed`, the number of `passed` and `failed` tests, and the overall pass percentage. This summary offers a quick overview of test suite health.**
 
 #### 🟨 Detailed Test Case Results
 
-For each individual test case, the "report.html" file provides a detailed breakdown of results, including:
+**For each individual test case, the "report.html" file provides a detailed breakdown of results, including:**
 
 - Test Case Description: A clear and concise description of the test case.
 
@@ -152,11 +152,11 @@ For each individual test case, the "report.html" file provides a detailed breakd
 
 ### ScreenShots
 
-Folder "ScreenShots" contains screenshots from various types of tests, including tests that have `passed` , been `skipped`, or `failed`. These screenshots are stored in a single shared folder, rather than separately for each type of test.
+**Folder "ScreenShots" contains screenshots from various types of tests, including tests that have `passed` , been `skipped`, or `failed`. These screenshots are stored in a single shared folder, rather than separately for each type of test.**
 
 ### Config
 
-The "Config" folder contains the "GlobalConst.java" file and the "GlobalData.properties" file, which hold global settings and constants used in the application or project. Here is a brief description of the contents of this folder:
+**The "Config" folder contains the "GlobalConst.java" file and the "GlobalData.properties" file, which hold global settings and constants used in the application or project. Here is a brief description of the contents of this folder:**
 
 #### 1. GlobalConst.java: 
 
@@ -171,7 +171,7 @@ The "GlobalConst.java" file is a Java class that contains global constants and v
 
 ### Driver
 
-The BrowserFactory class is responsible for initializing and configuring web browsers for testing purposes. Here's a brief description of its main functions:
+**The BrowserFactory class is responsible for initializing and configuring web browsers for testing purposes. Here's a brief description of its main functions:**
 
 #### initializeDriver()
 
