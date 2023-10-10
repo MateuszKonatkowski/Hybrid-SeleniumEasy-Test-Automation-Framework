@@ -210,35 +210,37 @@ driver.get(url): //Opens the SeleniumEasy web page in the browser.
 
 **The Listener class, located in the "Listeners" folder, is an implementation of TestNG Listeners responsible for monitoring and reporting on the execution of test cases. Here's a summary of its main functions:**
 
-🟨 Setup and Configuration:
 
-The class initializes and configures essential tools and utilities for test monitoring, including Extent Reports for test reporting, logger for logging, and utilities for taking screenshots.
+#### 🟨 Setup and Configuration:
 
-🟨 Test Execution Start (onTestStart):
+The class initializes and configures essential tools and utilities for test monitoring, including `Extent Reports` for test reporting, `logger` for logging, and utilities for taking `screenshots`.
 
-When a test case starts, it creates an Extent Test instance associated with the test method's name, assigns an author, and logs the test start. If configured, it takes a screenshot.
+#### 🟨 Test Execution Start (onTestStart):
 
-🟨 Test Execution Success (onTestSuccess):
+ When a test case starts, it creates an Extent Test instance associated with the `test method's name`, assigns an `author`, and `logs` the test start. If configured, it takes a `screenshot`.
 
-In case of a test success, it logs the test as "PASS" and captures a screenshot if configured.
+#### 🟨 Test Execution Success (onTestSuccess):
 
-🟨 Test Execution Failure (onTestFailure):
+ In case of a test success, it `logs` the test as `"PASS"` and captures a `screenshot` if configured.
 
-In the event of a test failure, it logs the test as "FAIL" records the failure details, and captures a screenshot if configured.
+#### 🟨 Test Execution Failure (onTestFailure):
 
-🟨 Test Execution Skipped (onTestSkipped):
+ In the event of a test failure, it logs the test as `"FAIL"` records the failure details, and captures a `screenshot` if configured.
 
-When a test is skipped, it logs the test as "SKIP" and captures a screenshot if configured.
+#### 🟨 Test Execution Skipped (onTestSkipped):
 
-🟨 Test Suite Start (onStart) and Finish (onFinish):
+ When a test is skipped, it `logs` the test as `"SKIP"` and captures a `screenshot` if configured.
 
-These methods provide information about the start and finish of the entire test suite, and they also flush the extent reports.
+#### 🟨 Test Suite Start (onStart) and Finish (onFinish):
 
-🟨 Logging and Reporting:
+These methods provide information about the `start` and `finish` of the entire `test suite`, and they also `flush the extent reports`.
 
-The class makes use of logger utilities for detailed logging and Extent Reports for generating test reports.
+#### 🟨 Logging and Reporting:
+
+The class makes use of `logger utilities` for detailed `logging` and `Extent Reports` for generating test reports.
 
 **This class plays a vital role in monitoring and reporting on test executions, making it easier to identify test status and any issues during testing. It allows for the efficient capture of screenshots and logging of test results, contributing to better test management and reporting.**
+
 
 
 ### PageFactory
