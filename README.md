@@ -67,7 +67,7 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 🟨 [GitHub Actions](https://docs.github.com/en/actions)
 
 ## ✳️ Test architecture
-🟨 [POM(PageObjectModel)](#pompageobjectmodel)
+🟨 [POM(PageObjectModel)](#POM(PageObjectModel))
 
 🟨 [Reports](#Reports)
 
@@ -90,6 +90,7 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 🟨 [TestComponents](#TestComponents)
 
 🟨 [TestData](#TestData)
+
 
 ### POM(PageObjectModel)
 
