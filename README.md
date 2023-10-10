@@ -166,7 +166,7 @@ The "GlobalConst.java" file is a Java class that contains global constants and v
 
  The "GlobalData.properties" file is a properties file that contains global configurations and data in a key-value format. It can include configuration parameters such as `environment settings`, `author name`, `tested page URL`. It serves as an external configuration file that can be easily edited without the need to modify the application's source code. This allows for changes in configuration to be made without the need for recompilation.
 
-The "Config" folder is used to centralize global settings and data, making it easier to manage and ensuring consistency throughout the project.
+**The "Config" folder is used to centralize global settings and data, making it easier to manage and ensuring consistency throughout the project.**
 
 
 ### Driver
@@ -202,7 +202,7 @@ driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(GlobalConsts.PAGE_
 driver.get(url): //Opens the SeleniumEasy web page in the browser.
 ```
 
-This class allows for flexible management of different browsers and configuration options to tailor tests to project needs. It is useful to avoid code duplication and simplifies browser management in Selenium tests.
+**This class allows for flexible management of different browsers and configuration options to tailor tests to project needs. It is useful to avoid code duplication and simplifies browser management in Selenium tests.**
 
 ### Listeners
 
