@@ -1,5 +1,5 @@
 
-![](https://i.imgur.com/kHf2sYv.png)
+![](https://i.imgur.com/XxPwebo.gif)
 
 
 # Hybrid-SeleniumEasy-Test-Automation-Framework By Mateusz Konatkowski
