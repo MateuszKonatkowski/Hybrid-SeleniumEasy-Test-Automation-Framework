@@ -184,6 +184,3 @@
 17:22:41.893 [TestNG-test=test-1] INFO  Util.LoggerUtil - Capture singleInput_Enter_Data_Should_Show_Message Screenshot
 17:22:42.453 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
 17:22:44.111 [main] INFO  Util.LoggerUtil - Tests finished
-=======
-
->>>>>>> 2ceb4bacb7792232190cd733a734602f3faec9f5
