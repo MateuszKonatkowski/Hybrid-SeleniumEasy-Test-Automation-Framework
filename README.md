@@ -204,7 +204,9 @@ driver.get(url): //Opens the SeleniumEasy web page in the browser.
 
 **This class allows for flexible management of different browsers and configuration options to tailor tests to project needs. It is useful to avoid code duplication and simplifies browser management in Selenium tests.**
 
+
 ### 🟦 Listeners
+
 
 **The Listener class, located in the "Listeners" folder, is an implementation of TestNG Listeners responsible for monitoring and reporting on the execution of test cases. Here's a summary of its main functions:**
 
@@ -237,6 +239,7 @@ These methods provide information about the start and finish of the entire test 
 The class makes use of logger utilities for detailed logging and Extent Reports for generating test reports.
 
 **This class plays a vital role in monitoring and reporting on test executions, making it easier to identify test status and any issues during testing. It allows for the efficient capture of screenshots and logging of test results, contributing to better test management and reporting.**
+
 
 ### PageFactory
 
