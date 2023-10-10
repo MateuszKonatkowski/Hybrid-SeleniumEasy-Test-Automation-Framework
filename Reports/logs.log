@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 12:54:16.467 [main] INFO  Util.LoggerUtil - Tests started
 12:54:18.238 [TestNG-test=test-1] INFO  Util.LoggerUtil - Read src/test/java/TestData/BasicTestsData/SimpleFormDemoData.xlsx Data
 12:54:18.280 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get browser value
@@ -183,3 +184,6 @@
 17:22:41.893 [TestNG-test=test-1] INFO  Util.LoggerUtil - Capture singleInput_Enter_Data_Should_Show_Message Screenshot
 17:22:42.453 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
 17:22:44.111 [main] INFO  Util.LoggerUtil - Tests finished
+=======
+
+>>>>>>> 2ceb4bacb7792232190cd733a734602f3faec9f5
