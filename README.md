@@ -67,15 +67,15 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 🟨 [GitHub Actions](https://docs.github.com/en/actions)
 
 ## ✳️ Test architecture
-🟨 [POM(PageObjectModel)](#pompageobjectmodel)
+🟨 [POM(PageObjectModel)](#-pompageobjectmodel)
 
-🟨 [Reports](#Reports)
+🟨 [Reports](#-reports)
 
-🟨 [ScreenShots](#ScreenShots)
+🟨 [ScreenShots](#-screenShots)
 
-🟨 [Config](#Config)
+🟨 [Config](#-config)
 
-🟨 [Driver](#Driver) 
+🟨 [Driver](#-driver) 
 
 🟨 [Listeners](#-listeners) 
 
@@ -92,7 +92,7 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 🟨 [TestData](#TestData)
 
 
-### POM(PageObjectModel)
+### 🟦 POM(PageObjectModel)
 
 **The Page Object Model (POM) is a design pattern commonly used in test automation to enhance the maintainability and reusability of automated tests. It provides a structured way to represent the web pages of an application as objects in the test code.**
 
@@ -120,7 +120,7 @@ POM divides the application into manageable, modular components, making it easie
 
 **In summary, the Page Object Model (POM) is a design pattern that promotes a structured and maintainable approach to web test automation. By representing web pages as Page Objects, it enhances code readability, reusability, and maintainability while reducing code duplication.**
 
-### Reports
+### 🟦 Reports
 
 **The "Reports" folder is a dedicated directory within a test automation project that serves as a repository for various types of test reports. It plays a crucial role in documenting and tracking the results of automated tests. Within this folder, you'll  find two important types of files:**
 
@@ -150,11 +150,11 @@ The "report.html" file is a comprehensive and visually appealing test report gen
 
 - Screenshots: If configured, the report includes screenshots captured during test execution, providing visual evidence of test behavior.
 
-### ScreenShots
+### 🟦 ScreenShots
 
 **Folder "ScreenShots" contains screenshots from various types of tests, including tests that have `passed` , been `skipped`, or `failed`. These screenshots are stored in a single shared folder, rather than separately for each type of test.**
 
-### Config
+### 🟦 Config
 
 **The "Config" folder contains the "GlobalConst.java" file and the "GlobalData.properties" file, which hold global settings and constants used in the application or project. Here is a brief description of the contents of this folder:**
 
@@ -169,7 +169,7 @@ The "GlobalConst.java" file is a Java class that contains global constants and v
 **The "Config" folder is used to centralize global settings and data, making it easier to manage and ensuring consistency throughout the project.**
 
 
-### Driver
+### 🟦 Driver
 
 **The "Driver" folder contains BrowserFactory class is responsible for initializing and configuring web browsers for testing purposes. Here's a brief description of its main functions:**
 
