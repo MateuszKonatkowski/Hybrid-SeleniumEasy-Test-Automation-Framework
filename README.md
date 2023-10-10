@@ -46,6 +46,64 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 
 #### - Use IntelliJ IDEA is the best choice
 
+## ✳️ Languages and Frameworks
+
+🟨 [Java 17](https://docs.oracle.com/en/java/javase/17/)
+
+🟨 [Selenium 4](https://www.selenium.dev/documentation/)
+
+🟨 [TestNG](https://testng.org/doc/documentation-main.html) 
+
+🟨 [WebDriverManager 5](https://bonigarcia.dev/webdrivermanager/)
+
+🟨 [Maven](https://maven.apache.org/guides/index.html)
+
+🟨 [Log4j2](https://logging.apache.org/log4j/2.x/)
+
+🟨 [Apache POI](https://poi.apache.org) 
+
+🟨 [ExtentReports 5](https://www.extentreports.com/docs/versions/4/java/index.html)
+
+🟨 [GitHub Actions](https://docs.github.com/en/actions)
+
+## ✳️ Test architecture
+🟨 [POM(PageObjectModel)](#POM(PageObjectModel))
+
+🟨 [Reports](###Reports)
+
+🟨 [ScreenShots](###ScreenShots)
+
+🟨 [Config](###Config)
+
+🟨 [Driver](###Driver) 
+
+🟨 [Listeners](###Listeners) 
+
+🟨 [PageFactory](###PageFactory) 
+
+🟨 [Util](###Util)
+
+🟨 [Resources](###Resources)
+
+🟨 [Runner](###Runner) 
+
+🟨 [TestComponents](###TestComponents)
+
+🟨 [TestData](###TestData)
+
+### POM(PageObjectModel)
+### Reports
+### ScreenShots
+### Config
+### Driver
+### Listeners
+### PageFactory
+### Util
+### Resources
+### Runner
+### TestComponents
+### TestData
+
 
  ## ✳️ Running Tests
 
