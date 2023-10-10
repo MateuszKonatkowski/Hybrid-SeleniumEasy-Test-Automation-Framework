@@ -171,9 +171,9 @@ The "GlobalConst.java" file is a Java class that contains global constants and v
 
 ### Driver
 
-**The BrowserFactory class is responsible for initializing and configuring web browsers for testing purposes. Here's a brief description of its main functions:**
+**The "Driver" folder contains BrowserFactory class is responsible for initializing and configuring web browsers for testing purposes. Here's a brief description of its main functions:**
 
-#### initializeDriver()
+#### 🟨 initializeDriver()
 
  This method initializes and configures a web browser based on the provided settings. It returns a WebDriver instance that will be used to perform operations in the browser.
 
@@ -183,7 +183,7 @@ String browserName = System.getProperty("browser")!=null ? System.getProperty("b
 
  This line of code reads the browser value (`browser`) from the system parameter (`if provided as a runtime argument`) or from the configuration file `ConfigReaderUtil.getProperty("browser")`.
 
-**Initialization of Browsers:**
+#### 🟨 Initialization of Browsers:
 
 `For Chrome:` The WebDriverManager tool is used to manage the Chrome driver. A ChromeDriver instance is created with specified options, such as headless mode, window maximization, etc.
 
