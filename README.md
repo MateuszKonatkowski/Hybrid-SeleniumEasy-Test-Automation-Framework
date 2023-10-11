@@ -180,7 +180,7 @@ The "GlobalConst.java" file is a Java class that contains global constants and v
 
  This method initializes and configures a web browser based on the provided settings. It returns a WebDriver instance that will be used to perform operations in the browser.
 
-```bash
+```java
 String browserName = System.getProperty("browser")!=null ? System.getProperty("browser"): `ConfigReaderUtil.getProperty("browser");
 ```
 
@@ -196,7 +196,7 @@ String browserName = System.getProperty("browser")!=null ? System.getProperty("b
 
 `Browser Options Configuration:`
 For each browser, options such as headless mode, window maximization, disabling extensions, etc., can be configured based on test requirements.
-```bash
+```java
 
 driver.manage().deleteAllCookies(): //Deletes all browser cookies to ensure a clean session.
 
@@ -271,7 +271,7 @@ The class makes use of `logger utilities` for detailed `logging` and `Extent Rep
 
 #### 1. ConfigReaderUtil:
 The  purpose of the `ConfigReaderUtil` class is to read and provide access to configuration data stored in property files. By centralizing configuration management in one utility class, you can easily access and utilize environment-specific settings throughout your test scripts.
-```bash
+```java
 // Access a specific configuration property
 String browser = ConfigReaderUtil.getProperty("browser");
 
@@ -283,7 +283,7 @@ By using the `ConfigReaderUtil` class, you ensure a clean and organized way to m
 
 #### 2. DateUtil:
 The  purpose of the `DateUtil` class is to provide a convenient way to retrieve the current date in a specific format. This utility is valuable for creating timestamps or unique identifiers in your test automation scenarios.
-```bash
+```java
 // Get the current date in the specified format
 String currentDateTime = DateUtil.getCurrentDate();
 
@@ -296,7 +296,7 @@ By using the `DateUtil class`, you can easily generate timestamps or unique iden
 #### 3. ExcelDataUtil:
 The purpose of the `ExcelDataUtil` class is to provide a method for fetching test data from Excel files. It allows you to use Excel sheets as a data source for your test cases. This can be especially useful for parameterized testing.
 
-```bash
+```java
 // Obtain the test data for the current test method
 Object[][] testData = ExcelDataUtil.getData(this.getClass().getMethod("testMethod"), "path/to/your/data.xlsx");
 
@@ -311,7 +311,7 @@ for (Object[] dataRow : testData) {
 By using the `ExcelDataUtil` class, you can separate test data from your test scripts, making your tests more maintainable and adaptable. This class allows you to conveniently store and access data in Excel files, which is a common practice in test automation.
 #### 4. ExtentReportUtil:
 The purpose of the `ExtentReportUtil` class is to provide a method for creating an ExtentReports object and configuring its properties. This class is used for generating HTML reports that document the results of automated tests.
-```bash
+```java
 // Get the ExtentReports object for reporting
 ExtentReports extent = ExtentReportUtil.getReportObject();
 
@@ -328,7 +328,7 @@ extent.flush();
 By using the `ExtentReportUtil` class, you can easily set up and configure ExtentReports for your test automation project, which allows you to generate organized and visually appealing HTML reports to document your test results. This is useful for test documentation and sharing results with stakeholders.
 #### 5. IRetryAnalyzerUtil:
 The  purpose of the `IRetryAnalyzerUtil` class is to define a mechanism for retrying failed test methods based on certain conditions. It allows you to specify the maximum number of retry attempts and whether retrying is enabled or disabled.
-```bash
+```java
 @Test(retryAnalyzer = IRetryAnalyzerUtil.class)
 public void yourTestMethod() {
     // Test logic...
@@ -339,7 +339,7 @@ By using the `IRetryAnalyzerUtil` class and applying the @Test annotation with t
 
 #### 6. LoggerUtil:
 The  purpose of the `LoggerUtil` class is to centralize and simplify the logging process for your test automation framework. By using this class, you can log information, errors, warnings, and debug messages for different parts of your codebase, making it easier to troubleshoot and monitor test execution.
-```bash
+```java
 LoggerUtil.info("This is an information message.");
 LoggerUtil.error("This is an error message.");
 LoggerUtil.warn("This is a warning message.");
@@ -350,7 +350,7 @@ By calling the appropriate method, you can `log` messages with different log lev
 
 #### 7. ScreenShotUtil:
 The purpose of the `ScreenShotUtil` class is to capture screenshots of the web application at specific points during test execution. Screenshots are useful for debugging, error analysis, and generating visual reports.
-```bash
+```java
 String screenshotPath = ScreenShotUtil.captureScreenshot(driver, "TestStepName", "TestClass");
 
 ```
