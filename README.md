@@ -138,7 +138,7 @@ POM divides the application into manageable, modular components, making it easie
 
 ### 🟦 Reports
 
-**The "Reports" folder is a dedicated directory within a test automation project that serves as a repository for various types of test reports. It plays a crucial role in documenting and tracking the results of automated tests. Within this folder, you'll  find two important types of files:**
+**The "[Reports](Reports)" folder is a dedicated directory within a test automation project that serves as a repository for various types of test reports. It plays a crucial role in documenting and tracking the results of automated tests. Within this folder, you'll  find two important types of files:**
 
 #### 1. [logs.log](Reports/logs.log)
 
@@ -172,7 +172,7 @@ The "report.html" file is a comprehensive and visually appealing test report gen
 
 ### 🟦 Config
 
-**The "Config" folder contains the "GlobalConst.java" file and the "GlobalData.properties" file, which hold global settings and constants used in the application or project. Here is a brief description of the contents of this folder:**
+**The "[Config](src/main/java/Config)" folder contains the "GlobalConst.java" file and the "GlobalData.properties" file, which hold global settings and constants used in the application or project. Here is a brief description of the contents of this folder:**
 
 #### 1. [GlobalConst.java](src/main/java/Config/GlobalConsts.java): 
 
@@ -182,7 +182,7 @@ The "GlobalConst.java" file is a Java class that contains global constants and v
 
  The "GlobalData.properties" file is a properties file that contains global configurations and data in a key-value format. It can include configuration parameters such as `environment settings`, `author name`, `tested page URL`. It serves as an external configuration file that can be easily edited without the need to modify the application's source code. This allows for changes in configuration to be made without the need for recompilation.
 
-**The "Config" folder is used to centralize global settings and data, making it easier to manage and ensuring consistency throughout the project.**
+**The "[Config](src/main/java/Config)" folder is used to centralize global settings and data, making it easier to manage and ensuring consistency throughout the project.**
 
 
 ### 🟦 Driver
@@ -370,7 +370,7 @@ String screenshotPath = ScreenShotUtil.captureScreenshot(driver, "TestStepName",
 ```
 By calling this method at relevant points in your test cases, you can capture screenshots for different test steps or actions.
 
-**The "Util" directory's utility classes provide various functionalities that streamline common testing activities, reducing code duplication and promoting code reusability. These utilities enhance the overall efficiency, maintainability, and reliability of your test automation framework. Each utility class serves a specific purpose and can be easily integrated into  test scripts. This structure allows for better organization and keeps the core test scripts focused on test scenarios, while utilities handle various supportive tasks. The result is a clean, efficient, and maintainable test automation project.**
+**The "[Util](src/main/java/Util)" directory's utility classes provide various functionalities that streamline common testing activities, reducing code duplication and promoting code reusability. These utilities enhance the overall efficiency, maintainability, and reliability of your test automation framework. Each utility class serves a specific purpose and can be easily integrated into  test scripts. This structure allows for better organization and keeps the core test scripts focused on test scenarios, while utilities handle various supportive tasks. The result is a clean, efficient, and maintainable test automation project.**
 
 
 ### 🟦 Resources
@@ -389,7 +389,7 @@ By calling this method at relevant points in your test cases, you can capture sc
 #### 🟨 Customization:
  You can tailor logging for specific parts of your application, enabling detailed logging for debugging and less verbose logging for production.
 
-**In summary, the "log4j2.xml" configuration file in the "resources" folder is a critical component for managing and configuring the logging behavior of your Java application. It provides a structured and flexible way to capture and output log messages, helping you monitor and troubleshoot your application.**
+**In summary, the "[log4j2.xml](src/main/resources/log4j2.xml)" configuration file in the "[resources](src/main/resources)" folder is a critical component for managing and configuring the logging behavior of your Java application. It provides a structured and flexible way to capture and output log messages, helping you monitor and troubleshoot your application.**
 
 ### 🟦 Runner
 
@@ -413,7 +413,7 @@ This XML file is designed for running regression tests. It follows the same stru
 
 "SmokeTests.xml" is used for configuring and executing smoke tests. The structure is the same as the other XML files, providing a means to define a test suite, include a listener class, and specify tests, packages, or classes for smoke testing. The XML allows you to set various parameters for the execution of smoke tests.
 
-**In summary, the "runner" folder contains a collection of XML configuration files, each tailored for a specific type of testing (e.g., basic, advanced, intermediate, regression, smoke). These XML files provide the necessary information to execute test suites, which in turn run various test classes and cases with specific configurations.**
+**In summary, the "[runner](src/test/java/Runner)" folder contains a collection of XML configuration files, each tailored for a specific type of testing (e.g., basic, advanced, intermediate, regression, smoke). These XML files provide the necessary information to execute test suites, which in turn run various test classes and cases with specific configurations.**
 
 
 ### 🟦 TestComponents
@@ -434,7 +434,7 @@ The "BasicTests" folder is meant for housing test classes that are focused on fu
 
 The "IntermediateTests" folder is where you store test classes for intermediate-level testing. These tests are more complex than basic tests but not as advanced as those in the "AdvancedTests" folder. Intermediate tests may cover a wide range of test cases, including typical usage scenarios.
 
-**Each of these folders, "AdvancedTests," "BasicTests," and "IntermediateTests," will contain various test classes that are relevant to the respective level of testing. The organization into separate folders simplifies test management, test execution, and test reporting for different testing phases within your automation framework.**
+**Each of these folders, "[AdvancedTests]()," "[BasicTests]((src/test/java/TestComponents/BasicTests)," and "[IntermediateTests]()," will contain various test classes that are relevant to the respective level of testing. The organization into separate folders simplifies test management, test execution, and test reporting for different testing phases within your automation framework.**
 
 ### 🟦 TestData
 
@@ -480,9 +480,9 @@ The "IntermediateData" folder stores Excel files with data for intermediate-leve
 
 `<profiles>`: This section defines different profiles or build configurations for the project. Profiles allow you to customize the build process for specific scenarios.
 
-`Regression`, `Smoke`, and other profiles: Each profile is associated with a specific type of test suite, like "Regression" or "Smoke." Within each profile, the maven-surefire-plugin is configured to execute tests based on a corresponding TestNG XML file.
+`Regression`, `Smoke`, and other profiles: Each profile is associated with a specific type of test suite, like "[Regression](src/test/java/Runner/RegressionTests.xml)" or "[Smoke](src/test/java/Runner/SmokeTests.xml)".Within each profile, the maven-surefire-plugin is configured to execute tests based on a corresponding TestNG XML file.
 
-**In summary, the "pom.xml" file is the cornerstone of a Maven project. It manages project metadata, dependencies, properties, and build profiles. The project's dependencies are crucial libraries like Selenium, TestNG, and Extent Reports, while profiles allow for different test configurations. Overall, this file plays a pivotal role in automating Selenium tests effectively and consistently.**
+**In summary, the "[pom.xml](pom.xml)" file is the cornerstone of a Maven project. It manages project metadata, dependencies, properties, and build profiles. The project's dependencies are crucial libraries like Selenium, TestNG, and Extent Reports, while profiles allow for different test configurations. Overall, this file plays a pivotal role in automating Selenium tests effectively and consistently.**
 
 # ✳️ Run Locally
 
