@@ -50,9 +50,9 @@ Seamlessly integrate your tests with popular Github Actions for automated testin
 Extend the framework with custom utilities, listeners, and more to suit  your specific needs.
 
 
- # ✳️ SYSTEM REQUIREMENTS
+ # ✳️ System Requirements
 
-#### - Install JDK 
+#### - Install JDK(Preferably 17)
 
 #### - Install Chrome Browser, Edge Browser, Firefox Browser
 
