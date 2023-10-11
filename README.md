@@ -37,7 +37,7 @@ Seamlessly integrate your tests with popular Github Actions for automated testin
 Extend the framework with custom utilities, listeners, and more to suit  your specific needs.
 
 
- ## ✳️ SYSTEM REQUIREMENTS
+ # ✳️ SYSTEM REQUIREMENTS
 
 #### - Install JDK 
 
@@ -49,7 +49,7 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 
 #### - Use IntelliJ IDEA is the best choice
 
-## ✳️ Languages and Frameworks
+# ✳️ Languages and Frameworks
 
 🟨 [Java 17](https://docs.oracle.com/en/java/javase/17/)
 
@@ -69,7 +69,7 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 
 🟨 [GitHub Actions](https://docs.github.com/en/actions)
 
-## ✳️ Test architecture
+# ✳️ Test architecture
 🟨 [POM(PageObjectModel)](#-pompageobjectmodel)
 
 🟨 [Reports](#-reports)
@@ -468,7 +468,30 @@ The "IntermediateData" folder stores Excel files with data for intermediate-leve
 
 **In summary, the "pom.xml" file is the cornerstone of a Maven project. It manages project metadata, dependencies, properties, and build profiles. The project's dependencies are crucial libraries like Selenium, TestNG, and Extent Reports, while profiles allow for different test configurations. Overall, this file plays a pivotal role in automating Selenium tests effectively and consistently.**
 
- ## ✳️ Running Tests
+# ✳️ Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/MateuszKonatkowski/Hybrid-SeleniumEasy-Test-Automation-Framework.git
+```
+
+Go to the project directory
+
+```bash
+  cd Hybrid-SeleniumEasy-Test-Automation-Framework
+```
+
+Start the tests
+
+```bash
+  mvn test clean
+```
+
+
+
+
+ # ✳️ Running Tests
 
 To run Regression tests, run the following command
 
