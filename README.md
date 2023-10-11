@@ -281,7 +281,7 @@ System.out.println("Selected browser: " + browser);
 ````
 By using the `ConfigReaderUtil` class, you ensure a clean and organized way to manage configuration data, enhancing the maintainability and flexibility of your test automation framework
 
-#### 2. [DateUtil]():
+#### 2. [DateUtil](src/main/java/Util/DateUtil.java):
 The  purpose of the `DateUtil` class is to provide a convenient way to retrieve the current date in a specific format. This utility is valuable for creating timestamps or unique identifiers in your test automation scenarios.
 ```java
 // Get the current date in the specified format
@@ -293,7 +293,7 @@ System.out.println("Current Date and Time: " + currentDateTime);
 ```
 By using the `DateUtil class`, you can easily generate timestamps or unique identifiers to track and manage various aspects of your test executions, making your test automation framework more versatile and informative.
 
-#### 3. [ExcelDataUtil]():
+#### 3. [ExcelDataUtil](src/main/java/Util/ExcelDataUtil.java):
 The purpose of the `ExcelDataUtil` class is to provide a method for fetching test data from Excel files. It allows you to use Excel sheets as a data source for your test cases. This can be especially useful for parameterized testing.
 
 ```java
@@ -309,7 +309,8 @@ for (Object[] dataRow : testData) {
 
 ```
 By using the `ExcelDataUtil` class, you can separate test data from your test scripts, making your tests more maintainable and adaptable. This class allows you to conveniently store and access data in Excel files, which is a common practice in test automation.
-#### 4. [ExtentReportUtil]():
+
+#### 4. [ExtentReportUtil](src/main/java/Util/ExtentReportUtil.java):
 The purpose of the `ExtentReportUtil` class is to provide a method for creating an ExtentReports object and configuring its properties. This class is used for generating HTML reports that document the results of automated tests.
 ```java
 // Get the ExtentReports object for reporting
@@ -326,7 +327,7 @@ extent.flush();
 
 ```
 By using the `ExtentReportUtil` class, you can easily set up and configure ExtentReports for your test automation project, which allows you to generate organized and visually appealing HTML reports to document your test results. This is useful for test documentation and sharing results with stakeholders.
-#### 5. [IRetryAnalyzerUtil]():
+#### 5. [IRetryAnalyzerUtil](src/main/java/Util/IRetryAnalyzerUtil.java):
 The  purpose of the `IRetryAnalyzerUtil` class is to define a mechanism for retrying failed test methods based on certain conditions. It allows you to specify the maximum number of retry attempts and whether retrying is enabled or disabled.
 ```java
 @Test(retryAnalyzer = IRetryAnalyzerUtil.class)
@@ -337,7 +338,7 @@ public void yourTestMethod() {
 By using the `IRetryAnalyzerUtil` class and applying the @Test annotation with the retryAnalyzer attribute, you can control the behavior of test method retries in your TestNG test suite. This is useful for handling intermittent test failures and ensuring the robustness of your test automation framework.
 
 
-#### 6. [LoggerUtil]():
+#### 6. [LoggerUtil](src/main/java/Util/LoggerUtil.java):
 The  purpose of the `LoggerUtil` class is to centralize and simplify the logging process for your test automation framework. By using this class, you can log information, errors, warnings, and debug messages for different parts of your codebase, making it easier to troubleshoot and monitor test execution.
 ```java
 LoggerUtil.info("This is an information message.");
@@ -348,7 +349,7 @@ LoggerUtil.debug("This is a debug message.");
 ```
 By calling the appropriate method, you can `log` messages with different log levels. The log messages will be captured by the logger and can be configured to be saved in log files or displayed in the console, depending on your Log4j 2 configuration.
 
-#### 7. [ScreenShotUtil}:
+#### 7. [ScreenShotUtil](src/main/java/Util/ScreenShotUtil.java):
 The purpose of the `ScreenShotUtil` class is to capture screenshots of the web application at specific points during test execution. Screenshots are useful for debugging, error analysis, and generating visual reports.
 ```java
 String screenshotPath = ScreenShotUtil.captureScreenshot(driver, "TestStepName", "TestClass");
@@ -361,7 +362,7 @@ By calling this method at relevant points in your test cases, you can capture sc
 
 ### 🟦 Resources
 
-**The "resources" folder in a Java project typically serves as a location for storing non-Java files that are essential for the application's configuration, data, or resources. In the context of the Log4j 2 logging framework, the "resources" folder is used to house the configuration file, such as "log4j2.xml. The "log4j2.xml" file is a configuration file for the Log4j 2 logging framework. It is used to define how log messages are generated, formatted, and where they are output. Here are the key components and purposes of "log4j2.xml":**
+**The "[resources](src/main/resources)" folder in a Java project typically serves as a location for storing non-Java files that are essential for the application's configuration, data, or resources. In the context of the Log4j 2 logging framework, the "resources" folder is used to house the configuration file, such as "[log4j2.xml](src/main/resources/log4j2.xml). The "log4j2.xml" file is a configuration file for the Log4j 2 logging framework. It is used to define how log messages are generated, formatted, and where they are output. Here are the key components and purposes of "log4j2.xml":**
 
 #### 🟨 Log Level:
  You can set the log level for different loggers, determining which log messages are captured (e.g., INFO, DEBUG, ERROR).
@@ -379,23 +380,23 @@ By calling this method at relevant points in your test cases, you can capture sc
 
 ### 🟦 Runner
 
-**The "runner" folder contains multiple XML configuration files that are used for test execution in your automation framework. These XML files are designed to specify the test suites, tests, test classes, and other testing parameters. Below are descriptions of the XML files found in the "runner" folder:**
+**The "[runner](src/test/java/Runner)" folder contains multiple XML configuration files that are used for test execution in your automation framework. These XML files are designed to specify the test suites, tests, test classes, and other testing parameters. Below are descriptions of the XML files found in the "runner" folder:**
 
-#### 1. AdvancedTests.xml:
+#### 1. [AdvancedTests.xml](src/test/java/Runner/AdvancedTests.xml):
 
 This XML file is intended for configuring and executing advanced tests. It defines a test suite with a specified name and includes a listener class. Within the suite, one or more tests can be defined, and each test can include one or more packages or classes that contain the actual test methods. The test suite, as well as individual tests, can be customized with various parameters such as verbosity, thread count, and parallel execution.
 
-#### 2. BasicTests.xml:
+#### 2. [BasicTests.xml](src/test/java/Runner/BasicTests.xml):
 Similar to "AdvancedTests.xml," this XML file is meant for running basic tests. It follows a structure that allows you to define a test suite with a name and a listener class. Inside the suite, you can specify individual tests, packages, or classes containing your basic test cases. You can further configure test execution settings.
 
-#### 3. IntermediateTests.xml:
+#### 3. [IntermediateTests.xml](src/test/java/Runner/IntermediateTests.xml):
 
 Just like the previous XML files, "IntermediateTests.xml" is used to configure and run intermediate-level tests. It defines a test suite, includes a listener class, and allows you to specify tests, packages, or classes for test execution. The XML provides flexibility in setting parameters for test execution.
-#### 4. RegressionTests.xml:
+#### 4. [RegressionTests.xml](src/test/java/Runner/RegressionTests.xml):
 
 This XML file is designed for running regression tests. It follows the same structural pattern as the other XML files, enabling you to define a test suite for regression testing, add a listener class for event handling, and configure various test execution settings.
 
-#### 5. SmokeTests.xml:
+#### 5. [SmokeTests.xml](src/test/java/Runner/SmokeTests.xml):
 
 "SmokeTests.xml" is used for configuring and executing smoke tests. The structure is the same as the other XML files, providing a means to define a test suite, include a listener class, and specify tests, packages, or classes for smoke testing. The XML allows you to set various parameters for the execution of smoke tests.
 
@@ -404,19 +405,19 @@ This XML file is designed for running regression tests. It follows the same stru
 
 ### 🟦 TestComponents
 
-**The "TestComponents" folder contains BasePage class and subfolders, such as "AdvancedTests," "BasicTests," and "IntermediateTests," which organize the test classes used for various levels of testing within your test automation framework. Below is an overview of the "TestComponents" folder structure and its purpose:**
+**The "[TestComponents](src/test/java/TestComponents)" folder contains BasePage class and subfolders, such as "`AdvancedTests,`" "`BasicTests,`" and "`IntermediateTests,`" which organize the test classes used for various levels of testing within your test automation framework. Below is an overview of the "TestComponents" folder structure and its purpose:**
 
-#### 1. BasePage.java
+#### 1. [BasePage.java](src/test/java/TestComponents/BaseTest.java)
 The "BaseTest" class acts as the base class for your test classes. It provides common setup and teardown operations to ensure that each test class starts with a consistent environment and cleans up resources after test execution.
 
-#### 2. AdvancedTests:
+#### 2. [AdvancedTests]():
 The "AdvancedTests" folder is dedicated to storing test classes specifically designed for advanced testing scenarios. Advanced tests often involve more complex functionalities and might include a variety of test cases, possibly covering edge cases and intricate scenarios.
 
-#### 3. BasicTests:
+#### 3. [BasicTests](src/test/java/TestComponents/BasicTests):
 
 The "BasicTests" folder is meant for housing test classes that are focused on fundamental testing scenarios. These tests are typically straightforward and serve as foundational tests for your application or system.
 
-#### 4. IntermediateTests:
+#### 4. [IntermediateTests]():
 
 The "IntermediateTests" folder is where you store test classes for intermediate-level testing. These tests are more complex than basic tests but not as advanced as those in the "AdvancedTests" folder. Intermediate tests may cover a wide range of test cases, including typical usage scenarios.
 
@@ -424,15 +425,17 @@ The "IntermediateTests" folder is where you store test classes for intermediate-
 
 ### 🟦 TestData
 
-**The "TestData" folder contains data files required for running the test cases within the test automation framework. It's a crucial part of the framework for data-driven testing, allowing you to use different sets of data to validate the behavior of your application under various conditions. Below are descriptions of the XML files found in the "TestData" folder**
+**The "[TestData](src/test/java/TestData)" folder contains data files required for running the test cases within the test automation framework. It's a crucial part of the framework for data-driven testing, allowing you to use different sets of data to validate the behavior of your application under various conditions. Below are descriptions of the XML files found in the "TestData" folder**
 
-#### 1. AdvancedTestsData:
+#### 1. [AdvancedTestsData]():
 
 The "AdvancedTestsData" folder contains Excel files that store data required for running advanced-level tests. These data files include test input, expected results, or other relevant data specific to advanced test cases.
-#### 2. BasicData:
+
+#### 2. [BasicData](src/test/java/TestData/BasicTestsData):
 
 The "BasicData" folder holds Excel files that contain data for basic test scenarios. This data may include inputs, expected outcomes, or any other data essential for testing the core functionalities of the application.
-#### 3. IntermediateData:
+
+#### 3. [IntermediateData]():
 
 The "IntermediateData" folder stores Excel files with data for intermediate-level tests. These data files provide input values, expected results, or other relevant data specific to test scenarios of moderate complexity.
 
@@ -440,7 +443,7 @@ The "IntermediateData" folder stores Excel files with data for intermediate-leve
 
 ### 🟦 pom.xml
 
-**The "pom.xml" file is an essential configuration file in a Maven-based Java project. It serves as the blueprint for the project's organization, dependencies, and build instructions. Below is a comprehensive explanation of its key sections and elements:**
+**The "[pom.xml](pom.xml)" file is an essential configuration file in a Maven-based Java project. It serves as the blueprint for the project's organization, dependencies, and build instructions. Below is a comprehensive explanation of its key sections and elements:**
 
 #### 🟨Project Metadata:
 
