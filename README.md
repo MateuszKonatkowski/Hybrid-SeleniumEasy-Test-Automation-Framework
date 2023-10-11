@@ -5,6 +5,19 @@
 # Hybrid-SeleniumEasy-Test-Automation-Framework By Mateusz Konatkowski
 
 Welcome to my Hybrid-SeleniumEasy-Test-Automation-Framework, tailor-made for testing the SeleniumEasy website. This framework is a robust solution crafted to enhance the efficiency and effectiveness of web application testing on <a href="https://demo.seleniumeasy.com/" rel="nofollow">SeleniumEasy</a>
+
+### contents
+**[Key Features](#%EF%B8%8F-key-features)**
+
+**[System Requirements](#%EF%B8%8F-system-requirements)**
+
+**[Languages and Frameworks](#%EF%B8%8F-languages-and-frameworks)**
+
+**[Test architecture](#%EF%B8%8F-test-architecture)**
+
+**[Run Locally](#%EF%B8%8F-run-locally)**
+
+**[Running Tests](#%EF%B8%8F-running-tests)**
  
  # ✳️ Key Features
  
