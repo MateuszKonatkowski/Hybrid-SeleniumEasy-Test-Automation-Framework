@@ -95,7 +95,7 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 
 🟨 [Listeners](#-listeners) 
 
-🟨 [PageFactory](#-pagefactory) 
+🟨 [PageFactory](#pagefactory) 
 
 🟨 [Util](#-util)
 
@@ -434,11 +434,11 @@ The "BasicTests" folder is meant for housing test classes that are focused on fu
 
 The "IntermediateTests" folder is where you store test classes for intermediate-level testing. These tests are more complex than basic tests but not as advanced as those in the "AdvancedTests" folder. Intermediate tests may cover a wide range of test cases, including typical usage scenarios.
 
-**Each of these folders, "[AdvancedTests]()," "[BasicTests]((src/test/java/TestComponents/BasicTests)," and "[IntermediateTests]()," will contain various test classes that are relevant to the respective level of testing. The organization into separate folders simplifies test management, test execution, and test reporting for different testing phases within your automation framework.**
+**Each of these folders, "[AdvancedTests]()," "[BasicTests](src/test/java/TestComponents/BasicTests)," and "[IntermediateTests]()," will contain various test classes that are relevant to the respective level of testing. The organization into separate folders simplifies test management, test execution, and test reporting for different testing phases within your automation framework.**
 
 ### 🟦 TestData
 
-**The "[TestData](src/test/java/TestData)" folder contains data files required for running the test cases within the test automation framework. It's a crucial part of the framework for data-driven testing, allowing you to use different sets of data to validate the behavior of your application under various conditions. Below are descriptions of the XML files found in the "TestData" folder**
+**The "[TestData](src/test/java/TestData)" folder contains data files required for running the test cases within the test automation framework. It's a crucial part of the framework for data-driven testing, allowing you to use different sets of data to validate the behavior of your application under various conditions. Below are descriptions of the Excel files found in the "TestData" folder**
 
 #### 1. [AdvancedTestsData]():
 
