@@ -127,7 +127,7 @@ POM divides the application into manageable, modular components, making it easie
 
 **The "Reports" folder is a dedicated directory within a test automation project that serves as a repository for various types of test reports. It plays a crucial role in documenting and tracking the results of automated tests. Within this folder, you'll  find two important types of files:**
 
-#### 1. logs.log
+#### 1. [logs.log](Hybrid-SeleniumEasy-Test-Automation-Framework/blob/master/Reports/logs.log)
 
 Log files, denoted with the ".log" extension, are text-based records of events, activities, and messages generated during the execution of automated tests. These logs provide valuable insights into the test execution process.
 
