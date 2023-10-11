@@ -440,7 +440,7 @@ The "IntermediateData" folder stores Excel files with data for intermediate-leve
 
 ### 🟦 pom.xml
 
-The "pom.xml" file is an essential configuration file in a Maven-based Java project. It serves as the blueprint for the project's organization, dependencies, and build instructions. Below is a comprehensive explanation of its key sections and elements:
+**The "pom.xml" file is an essential configuration file in a Maven-based Java project. It serves as the blueprint for the project's organization, dependencies, and build instructions. Below is a comprehensive explanation of its key sections and elements:**
 
 #### 🟨Project Metadata:
 
@@ -466,7 +466,7 @@ The "pom.xml" file is an essential configuration file in a Maven-based Java proj
 
 `Regression`, `Smoke`, and other profiles: Each profile is associated with a specific type of test suite, like "Regression" or "Smoke." Within each profile, the maven-surefire-plugin is configured to execute tests based on a corresponding TestNG XML file.
 
-
+**In summary, the "pom.xml" file is the cornerstone of a Maven project. It manages project metadata, dependencies, properties, and build profiles. The project's dependencies are crucial libraries like Selenium, TestNG, and Extent Reports, while profiles allow for different test configurations. Overall, this file plays a pivotal role in automating Selenium tests effectively and consistently.**
 
  ## ✳️ Running Tests
 
