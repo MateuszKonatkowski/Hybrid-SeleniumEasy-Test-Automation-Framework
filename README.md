@@ -82,17 +82,17 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 
 🟨 [Listeners](#-listeners) 
 
-🟨 [PageFactory](#PageFactory) 
+🟨 [PageFactory](#-pagefactory) 
 
-🟨 [Util](#Util)
+🟨 [Util](#-util)
 
-🟨 [Resources](#Resources)
+🟨 [Resources](#-resources)
 
-🟨 [Runner](#Runner) 
+🟨 [Runner](#-runner) 
 
-🟨 [TestComponents](#TestComponents)
+🟨 [TestComponents](#-testcomponents)
 
-🟨 [TestData](#TestData)
+🟨 [TestData](#-TestData)
 
 
 ### 🟦 POM(PageObjectModel)
