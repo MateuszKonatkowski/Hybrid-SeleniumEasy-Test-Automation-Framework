@@ -531,7 +531,7 @@ To run Smoke tests on Chrome browser with Headless mode, run the following comma
 ```
 
 
-## Autho
+## Author
 
 [Mateusz Konatkowski](https://www.linkedin.com/in/mateusz-konatkowski/)
 
