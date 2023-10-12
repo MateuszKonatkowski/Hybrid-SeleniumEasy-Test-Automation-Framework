@@ -16,6 +16,10 @@ Welcome to my Hybrid-SeleniumEasy-Test-Automation-Framework, tailor-made for tes
 **[Run Locally](#%EF%B8%8F-run-locally)**
 
 **[Running Tests](#%EF%B8%8F-running-tests)**
+
+**[pom.xml]()**
+
+**[Sample Test]()**
  
  # ✳️ Key Features
  
@@ -481,6 +485,71 @@ The "IntermediateData" folder stores Excel files with data for intermediate-leve
 `Regression`, `Smoke`, and other profiles: Each profile is associated with a specific type of test suite, like "[Regression](src/test/java/Runner/RegressionTests.xml)" or "[Smoke](src/test/java/Runner/SmokeTests.xml)".Within each profile, the maven-surefire-plugin is configured to execute tests based on a corresponding TestNG XML file.
 
 **In summary, the "[pom.xml](pom.xml)" file is the cornerstone of a Maven project. It manages project metadata, dependencies, properties, and build profiles. The project's dependencies are crucial libraries like Selenium, TestNG, and Extent Reports, while profiles allow for different test configurations. Overall, this file plays a pivotal role in automating Selenium tests effectively and consistently.**
+
+# ✳️ Sample Test
+
+**Here is an example of  test in  framework with added description, indicating that the "description" field in the @Test annotation contains the name of the Excel worksheet from which the test data originates:**
+
+```java
+@Test(priority = 2, dataProvider = "SampleTestData", dataProviderClass = SampleTestPage.class, description = "sampleTestClickButtonData")
+public void sampleTest_Click_SampleButton_Should_Show_SampleMessage(String sampleExpected) {
+    // Step 1: Test Setup
+    SampleTestPage sampleTestPage = new SampleTestPage(driver);
+
+    // Step 2: Performing the Action
+    sampleTestPage.goToExercise();
+    String sampleMessage = sampleTestPage
+            .clickSampleButtonElement()
+            .getSampleButtonMessage();
+
+    // Step 3: Verifying the Results
+    Assert.assertEquals(sampleMessage, sampleExpected);
+}
+
+ ```
+
+ ```java
+@Test(priority = 2, dataProvider = "SampleTestData", dataProviderClass = SampleTestPage.class, description = "sampleTestClickButtonData")
+```
+
+This line contains the TestNG annotation, which signifies that this method is a  test.
+The "`priority = 2`" denotes the test's priority, and "`description = 'sampleTestClickButtonData'`" serves as a description for the test. In your framework, this description corresponds to the name of an Excel worksheet that provides input data for the test.
+
+```java
+public void sampleTest_Click_SampleButton_Should_Show_SampleMessage(String sampleExpected)
+```
+
+This is the test method that TestNG will execute.
+The "`String sampleExpected`" parameter is passed as the expected value for the test. In your case, this value is read from an Excel worksheet named "`sampleTestClickButtonData.`"
+```java
+"SampleTestPage sampleTestPage = new SampleTestPage(driver);"
+```
+
+This line creates an instance of the "`SampleTestPage`" class, enabling interaction with the elements on the web page.
+The "`driver`" object is a WebDriver, which is passed as an argument to the page.
+
+```java
+"sampleTestPage.goToExercise();"
+```
+
+The "`goToExercise()`" method is invoked on the "sampleTestPage" object to navigate to the relevant exercise on the web page.
+
+```java
+"String sampleMessage = sampleTestPage.clickSampleButtonElement().getSampleButtonMessage();"
+```
+A sequence of methods is called on the "sampleTestPage" object:
+- "`clickSampleButtonElement()`": Clicks on the page element associated with the "Sample Button."
+- "`getSampleButtonMessage()`": Retrieves the message displayed after clicking the "Sample Button."
+The obtained message is stored in the "`sampleMessage`" variable.
+
+```java
+"Assert.assertEquals(sampleMessage, sampleExpected);":
+```
+An assertion is performed to compare the actual message ("`sampleMessage`") with the expected message ("`sampleExpected`"). If both messages match, the test is considered successful. Otherwise, the test results in a failure.
+
+**In framework, the test description serves as an identifier for the Excel worksheet from which input data is retrieved. This allows you to dynamically test various test scenarios without modifying the test code.
+This detailed description explains the various steps and the purpose of the test, similar to the example provided earlier.**
+
 
 # ✳️ Run Locally
 
