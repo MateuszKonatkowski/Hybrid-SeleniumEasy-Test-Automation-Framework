@@ -16,9 +16,9 @@ Welcome to my Hybrid-SeleniumEasy-Test-Automation-Framework, tailor-made for tes
 **[Run Locally](#%EF%B8%8F-run-locally)**
 
 **[Running Tests](#%EF%B8%8F-running-tests)**
-
-# ✳️ Key Features
-
+ 
+ # ✳️ Key Features
+ 
 
 #### 🟨 Modular Structure:
 The framework follows a modular design, allowing you to organize your test cases efficiently.
@@ -48,7 +48,7 @@ Seamlessly integrate your tests with popular Github Actions for automated testin
 Extend the framework with custom utilities, listeners, and more to suit  your specific needs.
 
 
-# ✳️ System Requirements
+ # ✳️ System Requirements
 
 #### - Install JDK(Preferably 17)
 
@@ -66,7 +66,7 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 
 🟨 [Selenium 4](https://www.selenium.dev/documentation/)
 
-🟨 [TestNG](https://testng.org/doc/documentation-main.html)
+🟨 [TestNG](https://testng.org/doc/documentation-main.html) 
 
 🟨 [WebDriverManager 5](https://bonigarcia.dev/webdrivermanager/)
 
@@ -74,7 +74,7 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 
 🟨 [Log4j2](https://logging.apache.org/log4j/2.x/)
 
-🟨 [Apache POI](https://poi.apache.org)
+🟨 [Apache POI](https://poi.apache.org) 
 
 🟨 [ExtentReports 5](https://www.extentreports.com/docs/versions/4/java/index.html)
 
@@ -89,17 +89,17 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 
 🟨 [Config](#-config)
 
-🟨 [Driver](#-driver)
+🟨 [Driver](#-driver) 
 
-🟨 [Listeners](#-listeners)
+🟨 [Listeners](#-listeners) 
 
-🟨 [PageFactory](#pagefactory)
+🟨 [PageFactory](#pagefactory) 
 
 🟨 [Util](#-util)
 
 🟨 [Resources](#-resources)
 
-🟨 [Runner](#-runner)
+🟨 [Runner](#-runner) 
 
 🟨 [TestComponents](#-testcomponents)
 
@@ -112,25 +112,25 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 
 ####  Benefits of POM:
 
-#### 🟨 Modularity:
+#### 🟨 Modularity: 
 
 POM divides the application into manageable, modular components, making it easier to create and maintain tests.
 
 #### 🟨 Reduced Code Duplication:
 
-Reusable Page Objects reduce code duplication across test cases, leading to more efficient test development.
+ Reusable Page Objects reduce code duplication across test cases, leading to more efficient test development.
 
 #### 🟨 Enhanced Collaboration:
 
-Testers and developers can collaborate effectively as they work with well-defined Page Objects.
+ Testers and developers can collaborate effectively as they work with well-defined Page Objects.
 
 #### 🟨 Scalability:
 
-POM scales well with growing test suites, ensuring maintainability as the project evolves.
+ POM scales well with growing test suites, ensuring maintainability as the project evolves.
 
 #### 🟨 Improved Debugging:
 
-Isolating issues to specific Page Objects simplifies the debugging process.
+ Isolating issues to specific Page Objects simplifies the debugging process.
 
 **In summary, the Page Object Model (POM) is a design pattern that promotes a structured and maintainable approach to web test automation. By representing web pages as Page Objects, it enhances code readability, reusability, and maintainability while reducing code duplication.**
 
@@ -172,13 +172,13 @@ The "report.html" file is a comprehensive and visually appealing test report gen
 
 **The "[Config](src/main/java/Config)" folder contains the "GlobalConst.java" file and the "GlobalData.properties" file, which hold global settings and constants used in the application or project. Here is a brief description of the contents of this folder:**
 
-#### 1. [GlobalConst.java](src/main/java/Config/GlobalConsts.java):
+#### 1. [GlobalConst.java](src/main/java/Config/GlobalConsts.java): 
 
 The "GlobalConst.java" file is a Java class that contains global constants and variables used throughout the project or application. These constants  include items such as `file paths`, `waits time`, `browser config`, `IRetryAnalyzer count`.Storing these constants in one place makes it easier to manage and update them as needed.
 
 #### 2. [GlobalData.properties](src/main/java/Config/GlobalData.properties):
 
-The "GlobalData.properties" file is a properties file that contains global configurations and data in a key-value format. It can include configuration parameters such as `environment settings`, `author name`, `tested page URL`. It serves as an external configuration file that can be easily edited without the need to modify the application's source code. This allows for changes in configuration to be made without the need for recompilation.
+ The "GlobalData.properties" file is a properties file that contains global configurations and data in a key-value format. It can include configuration parameters such as `environment settings`, `author name`, `tested page URL`. It serves as an external configuration file that can be easily edited without the need to modify the application's source code. This allows for changes in configuration to be made without the need for recompilation.
 
 **The "[Config](src/main/java/Config)" folder is used to centralize global settings and data, making it easier to manage and ensuring consistency throughout the project.**
 
@@ -189,13 +189,13 @@ The "GlobalData.properties" file is a properties file that contains global confi
 
 #### 🟨 initializeDriver()
 
-This method initializes and configures a web browser based on the provided settings. It returns a WebDriver instance that will be used to perform operations in the browser.
+ This method initializes and configures a web browser based on the provided settings. It returns a WebDriver instance that will be used to perform operations in the browser.
 
 ```java
 String browserName = System.getProperty("browser")!=null ? System.getProperty("browser"): `ConfigReaderUtil.getProperty("browser");
 ```
 
-This line of code reads the browser value (`browser`) from the system parameter (`if provided as a runtime argument`) or from the configuration file `ConfigReaderUtil.getProperty("browser")`.
+ This line of code reads the browser value (`browser`) from the system parameter (`if provided as a runtime argument`) or from the configuration file `ConfigReaderUtil.getProperty("browser")`.
 
 #### 🟨 Initialization of Browsers:
 
@@ -231,19 +231,19 @@ The class initializes and configures essential tools and utilities for test moni
 
 #### 🟨 Test Execution Start (onTestStart):
 
-When a test case starts, it creates an Extent Test instance associated with the `test method's name`, assigns an `author`, and `logs` the test start. If configured, it takes a `screenshot`.
+ When a test case starts, it creates an Extent Test instance associated with the `test method's name`, assigns an `author`, and `logs` the test start. If configured, it takes a `screenshot`.
 
 #### 🟨 Test Execution Success (onTestSuccess):
 
-In case of a test success, it `logs` the test as `"PASS"` and captures a `screenshot` if configured.
+ In case of a test success, it `logs` the test as `"PASS"` and captures a `screenshot` if configured.
 
 #### 🟨 Test Execution Failure (onTestFailure):
 
-In the event of a test failure, it `logs` the test as `"FAIL"` records the failure details, and captures a `screenshot` if configured.
+ In the event of a test failure, it `logs` the test as `"FAIL"` records the failure details, and captures a `screenshot` if configured.
 
 #### 🟨 Test Execution Skipped (onTestSkipped):
 
-When a test is skipped, it `logs` the test as `"SKIP"` and captures a `screenshot` if configured.
+ When a test is skipped, it `logs` the test as `"SKIP"` and captures a `screenshot` if configured.
 
 #### 🟨 Test Suite Start (onStart) and Finish (onFinish):
 
@@ -262,18 +262,18 @@ The class makes use of `logger utilities` for detailed `logging` and `Extent Rep
 **The "[PageFactory](src/main/java/PageFactory)" directory serves as the foundation for organizing and structuring web page interactions in a Selenium-based test automation project. It provides a unified `BasePage` class containing `common methods` and elements shared across various page classes within the project. These page classes are further categorized into the `BasicPageFactory`, `IntermediatePageFactory`, and `AdvancedPageFactory` subdirectories, each housing page classes specifically tailored to their respective testing levels: `Basic`, `Intermediate`, and `Advanced`.**
 
 #### 1. [BasePage.java](src/main/java/PageFactory/BasePage.java):
-The central class containing common methods for interacting with web elements, waiting for elements, and navigating between web pages. All page classes within the project extend this base class to ensure consistent and standardized interactions.
+ The central class containing common methods for interacting with web elements, waiting for elements, and navigating between web pages. All page classes within the project extend this base class to ensure consistent and standardized interactions.
 
 #### 2. [BasicPageFactory](src/main/java/PageFactory/BasicPageFactory):
-A directory specifically designed for page classes related to basic-level tests. These page classes inherit from BasePage and provide methods for handling elements on web pages relevant to basic test scenarios.
+ A directory specifically designed for page classes related to basic-level tests. These page classes inherit from BasePage and provide methods for handling elements on web pages relevant to basic test scenarios.
 
 #### 3. [IntermediatePageFactory]():
-A directory dedicated to page classes related to intermediate-level tests. Similar to the BasicPageFactory, these page classes inherit from BasePage but cater to more complex test scenarios at the intermediate level.
+ A directory dedicated to page classes related to intermediate-level tests. Similar to the BasicPageFactory, these page classes inherit from BasePage but cater to more complex test scenarios at the intermediate level.
 
 #### 4. [AdvancedPageFactory]():
-This directory focuses on page classes related to advanced-level tests, offering extensive and specialized methods for handling web elements and navigating through web pages associated with advanced test cases.
+ This directory focuses on page classes related to advanced-level tests, offering extensive and specialized methods for handling web elements and navigating through web pages associated with advanced test cases.
 
-**The "[PageFactory](src/main/java/PageFactory)" directory, with its `BasePage` class and subdirectories, promotes code reusability, maintainability, and consistency across the test automation project. By centralizing `common methods` within `BasePage`, it ensures that interaction with web elements is uniform across all tests. The subdirectories segregate page classes based on test complexity, streamlining the structure and making it easier to locate relevant page classes for each test level.**
+ **The "[PageFactory](src/main/java/PageFactory)" directory, with its `BasePage` class and subdirectories, promotes code reusability, maintainability, and consistency across the test automation project. By centralizing `common methods` within `BasePage`, it ensures that interaction with web elements is uniform across all tests. The subdirectories segregate page classes based on test complexity, streamlining the structure and making it easier to locate relevant page classes for each test level.**
 
 ### 🟦 Util
 
@@ -376,16 +376,16 @@ By calling this method at relevant points in your test cases, you can capture sc
 **The "[resources](src/main/resources)" folder in a Java project typically serves as a location for storing non-Java files that are essential for the application's configuration, data, or resources. In the context of the Log4j 2 logging framework, the "resources" folder is used to house the configuration file, such as "[log4j2.xml](src/main/resources/log4j2.xml). The "log4j2.xml" file is a configuration file for the Log4j 2 logging framework. It is used to define how log messages are generated, formatted, and where they are output. Here are the key components and purposes of "log4j2.xml":**
 
 #### 🟨 Log Level:
-You can set the log level for different loggers, determining which log messages are captured (e.g., INFO, DEBUG, ERROR).
+ You can set the log level for different loggers, determining which log messages are captured (e.g., INFO, DEBUG, ERROR).
 
 #### 🟨 Output Destinations:
-You can specify where log messages are sent, such as the console, log files, or other custom appenders.
+ You can specify where log messages are sent, such as the console, log files, or other custom appenders.
 
 #### 🟨 Log Message Format:
-You can define the format of log messages, including timestamp, log level, and more.
+ You can define the format of log messages, including timestamp, log level, and more.
 
 #### 🟨 Customization:
-You can tailor logging for specific parts of your application, enabling detailed logging for debugging and less verbose logging for production.
+ You can tailor logging for specific parts of your application, enabling detailed logging for debugging and less verbose logging for production.
 
 **In summary, the "[log4j2.xml](src/main/resources/log4j2.xml)" configuration file in the "[resources](src/main/resources)" folder is a critical component for managing and configuring the logging behavior of your Java application. It provides a structured and flexible way to capture and output log messages, helping you monitor and troubleshoot your application.**
 
@@ -472,7 +472,7 @@ The "IntermediateData" folder stores Excel files with data for intermediate-leve
 
 #### 🟨 Project Dependencies:
 
-`<dependencies>`: This section lists the external libraries and dependencies required for the project. Each `<dependency`> element specifies a particular library, including its `<groupId>`, `<artifactId>`, and `<version>`.
+`<dependencies>`: This section lists the external libraries and dependencies required for the project. Each `<dependency`> element specifies a particular library, including its `<groupId>`, `<artifactId>`, and `<version>`. 
 
 #### 🟨 Maven Profiles:
 
@@ -505,7 +505,7 @@ Start the tests
 
 
 
-# ✳️ Running Tests
+ # ✳️ Running Tests
 
 To run Regression tests, run the following command
 
@@ -532,4 +532,10 @@ To run Smoke tests on Chrome browser with Headless mode, run the following comma
 ## Author
 
 [Mateusz Konatkowski](https://www.linkedin.com/in/mateusz-konatkowski/)
+
+
+
+
+
+
 
