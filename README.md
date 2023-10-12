@@ -13,13 +13,13 @@ Welcome to my Hybrid-SeleniumEasy-Test-Automation-Framework, tailor-made for tes
 
 **[Test architecture](#%EF%B8%8F-test-architecture)**
 
+**[Sample Test](#%EF%B8%8F-sample-test)**
+
 **[Run Locally](#%EF%B8%8F-run-locally)**
 
 **[Running Tests](#%EF%B8%8F-running-tests)**
 
-**[pom.xml]()**
 
-**[Sample Test]()**
  
  # ✳️ Key Features
  
@@ -85,6 +85,7 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 🟨 [GitHub Actions](https://docs.github.com/en/actions)
 
 # ✳️ Test architecture
+
 🟨 [POM(PageObjectModel)](#-pompageobjectmodel)
 
 🟨 [Reports](#-reports)
@@ -108,6 +109,8 @@ Extend the framework with custom utilities, listeners, and more to suit  your sp
 🟨 [TestComponents](#-testcomponents)
 
 🟨 [TestData](#-TestData)
+
+🟨 [pom.xml](#-pomxml)
 
 
 ### 🟦 POM(PageObjectModel)
@@ -522,20 +525,20 @@ public void sampleTest_Click_SampleButton_Should_Show_SampleMessage(String sampl
 This is the test method that TestNG will execute.
 The "`String sampleExpected`" parameter is passed as the expected value for the test. In your case, this value is read from an Excel worksheet named "`sampleTestClickButtonData.`"
 ```java
-"SampleTestPage sampleTestPage = new SampleTestPage(driver);"
+SampleTestPage sampleTestPage = new SampleTestPage(driver);
 ```
 
 This line creates an instance of the "`SampleTestPage`" class, enabling interaction with the elements on the web page.
 The "`driver`" object is a WebDriver, which is passed as an argument to the page.
 
 ```java
-"sampleTestPage.goToExercise();"
+sampleTestPage.goToExercise();
 ```
 
 The "`goToExercise()`" method is invoked on the "sampleTestPage" object to navigate to the relevant exercise on the web page.
 
 ```java
-"String sampleMessage = sampleTestPage.clickSampleButtonElement().getSampleButtonMessage();"
+String sampleMessage = sampleTestPage.clickSampleButtonElement().getSampleButtonMessage();
 ```
 A sequence of methods is called on the "sampleTestPage" object:
 - "`clickSampleButtonElement()`": Clicks on the page element associated with the "Sample Button."
@@ -543,7 +546,7 @@ A sequence of methods is called on the "sampleTestPage" object:
 The obtained message is stored in the "`sampleMessage`" variable.
 
 ```java
-"Assert.assertEquals(sampleMessage, sampleExpected);":
+Assert.assertEquals(sampleMessage, sampleExpected);
 ```
 An assertion is performed to compare the actual message ("`sampleMessage`") with the expected message ("`sampleExpected`"). If both messages match, the test is considered successful. Otherwise, the test results in a failure.
 
