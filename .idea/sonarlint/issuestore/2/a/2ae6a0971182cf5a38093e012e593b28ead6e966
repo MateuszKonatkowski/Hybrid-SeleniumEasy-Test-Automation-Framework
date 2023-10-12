@@ -1,9 +1,7 @@
 
 m	java:S117
 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÿÙ£8¬ßö‚°1
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÉŸ8ïâù‚°1
-‚
-java:S1488"eImmediately return this expression instead of assigning it to the temporary variable "PropertyValue".(ğÉŸ8ñâù‚°1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÉŸ8ïâù‚°1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê§ö8­ßö‚°1
 j
 java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(½‡¢É8„ü‚°1

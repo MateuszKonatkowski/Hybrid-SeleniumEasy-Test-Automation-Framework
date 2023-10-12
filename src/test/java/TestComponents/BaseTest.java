@@ -31,16 +31,8 @@ public class BaseTest{
 
 
  @AfterMethod(alwaysRun = true)
- public void tearDown()
- {
-  if (driver != null) {
-   try {
-    driver.quit();
-   } catch (Exception e) {
-    System.err.println("Błąd podczas zamykania WebDriver: " + e.getMessage());
-    LoggerUtil.error("Driver doesnt exist");
-   }
-  }
-  LoggerUtil.info("Driver tear down");
+ public void tearDown() {
+   driver.quit();
+   LoggerUtil.info("Driver tear down");
  }
 }

@@ -111,23 +111,7 @@ public class Brudnopis {
         System.out.println(id);
     }
 
-    @Test(dataProvider ="driverTest")
-    public void test1() throws IOException {
-        ArrayList list = getData("name");
-        System.out.println(list.get(2));
-    }
-    @Test
-    public void test() throws InterruptedException {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("https://demo.seleniumeasy.com/bootstrap-modal-demo.html");
-       WebElement buton= driver.findElement(By.cssSelector("a[href='#myModal']"));
-       buton.click();
-       Thread.sleep(2000);
-       driver.findElement(By.cssSelector("a[href='#myModal2']")).click();
 
-    }
 
     private static final Logger logger = LogManager.getLogger();
     @Test

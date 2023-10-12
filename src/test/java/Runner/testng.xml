@@ -2,14 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <listeners>
-        <listener class-name="Listeners.Listener"/>
+
     </listeners>
     <test verbose="2" preserve-order="true" parallel="true" thread-count="1" name="test">
         <classes>
-            <class name="TestComponents.BasicTests.SimpleFormDemoTest">
-                <methods>
-                    <include name="singleInput_Enter_Data_Should_Show_Message"/>
-                </methods>
+            <class name="TestComponents.Brudnopis">
             </class>
         </classes>
     </test>

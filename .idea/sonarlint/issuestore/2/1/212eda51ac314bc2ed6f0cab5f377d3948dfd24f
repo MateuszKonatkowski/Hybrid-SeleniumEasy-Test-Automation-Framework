@@ -7,9 +7,9 @@ N
 java:S1444",Make this "public static driver" field final(ÜçÁÈûÿÿÿÿ8ÌÉß°1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ãçœ8ĞÉß°1
 h
-java:S2259F"FA "NullPointerException" could be thrown; "exercise" is nullable here.(ÙûŞğøÿÿÿÿ8ãÉß°1
-h
 java:S2259S"FA "NullPointerException" could be thrown; "exercise" is nullable here.(ÙûŞğøÿÿÿÿ8ãÉß°1
+h
+java:S2259F"FA "NullPointerException" could be thrown; "exercise" is nullable here.(ÙûŞğøÿÿÿÿ8ãÉß°1
 @
 java:S3010"#Remove this assignment of "driver".(ÁÜÑ¥8çÉß°1
 R

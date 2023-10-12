@@ -75,3 +75,7 @@ M
 src/main/resources/log4j2.xml,3\6\36b9f0d33e4b7e602e3cd701314fae81543db66f
 @
 Reports/logs.log,4\f\4f3ad01b959b353378afba953cd39a1ff77d90e5
+S
+#src/test/java/Runner/BasicTests.xml,b\c\bc68edacee5fad9beedcaca97f62bfa34599044f
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

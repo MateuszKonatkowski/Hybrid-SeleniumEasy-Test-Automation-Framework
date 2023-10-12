@@ -48,6 +48,7 @@ public class BrowserFactory {
             driver = new ChromeDriver(options);
 
         }
+
         else if(browserName.contains("edge"))
         {
             WebDriverManager.edgedriver().setup();
