@@ -510,7 +510,7 @@ public void sampleTest_Click_SampleButton_Should_Show_SampleMessage(String sampl
 }
 
  ```
-
+  ### 🟨 Details
  ```java
 @Test(priority = 2, dataProvider = "SampleTestData", dataProviderClass = SampleTestPage.class, description = "sampleTestClickButtonData")
 ```
