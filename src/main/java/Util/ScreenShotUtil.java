@@ -16,7 +16,7 @@ public class ScreenShotUtil {
         File srcScreenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         String destinationScreenshotPath = GlobalConsts.SCREENSHOT_PATH+testClass+"_"+testName+"_"+DateUtil.getCurrentDate()+".png";
         FileHandler.copy(srcScreenshot,new File(destinationScreenshotPath));
-        LoggerUtil.info("Capture "+testName+" Screenshot");
+        LoggerUtil.info("Capture "+testName+" screenshot");
         return destinationScreenshotPath;
     }
 }

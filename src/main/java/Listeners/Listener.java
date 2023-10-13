@@ -57,6 +57,7 @@ public class Listener extends BasePage implements ITestListener {
             try {
                 test.get().addScreenCaptureFromPath(ScreenShotUtil.captureScreenshot(driver, result.getMethod().getMethodName(), result.getTestClass().getName()));
             } catch (IOException e) {
+                LoggerUtil.error("Failed to capture "+ result.getMethod().getMethodName()+" screenshot");
                 throw new RuntimeException(e);
             }
         }
@@ -72,6 +73,7 @@ public class Listener extends BasePage implements ITestListener {
             try {
                 test.get().addScreenCaptureFromPath(ScreenShotUtil.captureScreenshot(driver, result.getMethod().getMethodName(), result.getTestClass().getName()));
             } catch (IOException e) {
+                LoggerUtil.error("Failed to capture "+ result.getMethod().getMethodName()+" screenshot");
                 throw new RuntimeException(e);
             }
         }
@@ -97,6 +99,7 @@ public class Listener extends BasePage implements ITestListener {
             try {
                 test.get().addScreenCaptureFromPath(ScreenShotUtil.captureScreenshot(driver, result.getMethod().getMethodName(), result.getTestClass().getName()));
             } catch (IOException e) {
+                LoggerUtil.error("Failed to capture "+ result.getMethod().getMethodName()+" screenshot");
                 throw new RuntimeException(e);
             }
         }

@@ -7,7 +7,7 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 public class ConfigReaderUtil {
-    public static String getProperty(String PropertyName)
+    public static String getProperty(String propertyName)
     {
         Properties properties=new Properties();
         try
@@ -16,11 +16,12 @@ public class ConfigReaderUtil {
 
         } catch (Throwable e)
         {
+            LoggerUtil.error("Failed to get "+propertyName+" value");
             e.printStackTrace();
 
         }
-        String PropertyValue=properties.getProperty(PropertyName);
-        LoggerUtil.info("Get "+PropertyName+" value");
+        String PropertyValue=properties.getProperty(propertyName);
+        LoggerUtil.info("Get "+propertyName+" value");
         return PropertyValue;
     }
 }

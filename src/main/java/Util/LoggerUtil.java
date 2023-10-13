@@ -22,4 +22,9 @@ public class LoggerUtil {
     {
         logger.debug(message);
     }
+
+    public static void fatal(String message)
+    {
+        logger.fatal(message);
+    }
 }
