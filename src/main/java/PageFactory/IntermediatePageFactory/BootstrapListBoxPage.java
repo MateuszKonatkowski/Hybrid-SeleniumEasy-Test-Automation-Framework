@@ -40,21 +40,27 @@ public class BootstrapListBoxPage extends BasePage {
     private WebElement boostrapListRightSearchInputElement;
 
 	@FindBy(css=".list-left .btn")
+    @CacheLookup
 	private WebElement boostrapListLeftSelectAllButtonElement;
 
 	@FindBy(css=".list-right .btn")
+    @CacheLookup
 	private WebElement boostrapListRightLeftSelectAllButtonElement;
 
 	@FindBy(css=".move-left")
+    @CacheLookup
 	private WebElement boostrapListLeftMoveButtonElement;
 
     @FindBy(css=".move-right")
+    @CacheLookup
     private WebElement boostrapListRightMoveButtonElement;
 
 	@FindBy(css=".list-left .list-group li")
+    @CacheLookup
 	private List<WebElement> boostrapListLeftValuesElements;
 
     @FindBy(css=".list-right .list-group li")
+    @CacheLookup
     private List<WebElement> boostrapListRightValuesElements;
 
 

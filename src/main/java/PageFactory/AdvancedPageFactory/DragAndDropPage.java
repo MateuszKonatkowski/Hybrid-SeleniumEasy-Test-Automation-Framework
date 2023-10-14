@@ -5,6 +5,7 @@ import Util.ExcelDataUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import PageFactory.BasePage;
@@ -32,12 +33,15 @@ public class DragAndDropPage extends BasePage {
     }
 
 	@FindBy(css="#todrag span")
+    @CacheLookup
 	private List<WebElement> dragAndDropItemsToDragElements;
 
 	@FindBy(css="#mydropzone")
+    @CacheLookup
 	private WebElement dragAndDropItemDropZoneElement;
 
 	@FindBy(css="#droppedlist span")
+    @CacheLookup
 	private List<WebElement> dragAndDropItemsDroppedElements;
 
 
