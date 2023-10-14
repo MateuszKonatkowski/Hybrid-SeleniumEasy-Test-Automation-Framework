@@ -17,7 +17,6 @@ public class SimpleFormDemoTest extends BaseTest {
     public void singleInput_Enter_Data_Should_Show_Message(String value, String expected) {
         //given
         SimpleFormPage simpleFormPage = new SimpleFormPage(driver);
-        SoftAssert softAssert = new SoftAssert();
         //when
         simpleFormPage.goToExercise();
         String result = simpleFormPage
@@ -25,7 +24,7 @@ public class SimpleFormDemoTest extends BaseTest {
                 .clickSingleInputButton()
                 .getSingleInputMessage();
         //then
-        softAssert.assertEquals(result,expected);
+        Assert.assertEquals(result,expected);
     }
 
     @Test(priority = 1,dependsOnMethods = {"singleInput_Enter_Data_Should_Show_Message"},groups = {"Smoke"},dataProvider = "TestData",dataProviderClass = SimpleFormPage.class,description = "doubleInputData")
