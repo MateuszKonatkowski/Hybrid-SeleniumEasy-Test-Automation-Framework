@@ -358,7 +358,7 @@ LoggerUtil.info("This is an information message.");
 LoggerUtil.error("This is an error message.");
 LoggerUtil.warn("This is a warning message.");
 LoggerUtil.debug("This is a debug message.");
-
+LoggerUtil.fatal("This is a fatal message.");
 ```
 By calling the appropriate method, you can `log` messages with different log levels. The log messages will be captured by the logger and can be configured to be saved in log files or displayed in the console, depending on your `Log4j 2` configuration.
 
@@ -511,7 +511,7 @@ public void sampleTest_Click_SampleButton_Should_Show_SampleMessage(String sampl
 ```
 
 This line contains the `TestNG` annotation, which signifies that this method is a  test.
-The "`priority = 2`" denotes the test's priority, and "`description = 'sampleTestClickButtonData'`" serves as a description for the test. In your framework, this description corresponds to the name of an `Excel worksheet` that provides input data for the test.
+The "`priority = 2`" denotes the test's priority, and "`description = 'sampleTestClickButtonData'`" serves as a description for the test. In framework, this description corresponds to the name of an `Excel worksheet` that provides input data for the test.
 
 ```java
 public void sampleTest_Click_SampleButton_Should_Show_SampleMessage(String sampleExpected)

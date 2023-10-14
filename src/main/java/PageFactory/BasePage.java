@@ -33,7 +33,7 @@ public class BasePage {
     @CacheLookup
     private List<WebElement> exercisesElementsLevel;
 
-    @FindBy(css="#basic .list-group a")
+    @FindBy(css=".active.in .list-group a")
     @CacheLookup
     private List<WebElement> exercisesElements;
 
@@ -43,7 +43,6 @@ public class BasePage {
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(GlobalConsts.EXPLICITE_TIME));
         wait.until(ExpectedConditions.visibilityOfAllElements(elements));
         LoggerUtil.info("Wait for "+elements+" to be visible");
-
     }
 
     public  void  waitForElementVisibility(WebElement element)
@@ -60,7 +59,14 @@ public class BasePage {
         LoggerUtil.info("Wait for "+element+" to disappear");
     }
 
+    public void waitForElementTextAToBeEquals(WebElement element,String expected)
+    {
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(GlobalConsts.EXPLICITE_TIME));
+        wait.until(ExpectedConditions.textToBePresentInElement(element,expected));
+    }
+
     protected void choseExerciseLevel(String choseLevel) {
+        System.out.println(exercisesElementsLevel);
         waitForElementsVisibility(exercisesElementsLevel);
         WebElement exercise = exercisesElementsLevel
                 .stream()
@@ -69,12 +75,13 @@ public class BasePage {
                 .orElse(null);
         exercise.click();
         LoggerUtil.info("Chose "+choseLevel+" level");
-
     }
 
     protected void choseExercise(String choseExercise)
     {
-        waitForElementsVisibility(exercisesElements);
+
+        System.out.println(exercisesElements);
+        //waitForElementsVisibility(exercisesElements);
         WebElement exercise = exercisesElements
                 .stream()
                 .filter(a->a.getText().equals(choseExercise))
@@ -87,6 +94,11 @@ public class BasePage {
     protected void goTo(String level,String exerciseLevel)
     {
         choseExerciseLevel(level);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         choseExercise(exerciseLevel);
     }
 

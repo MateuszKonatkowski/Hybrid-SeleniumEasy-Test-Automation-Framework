@@ -17,6 +17,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -121,5 +122,17 @@ public class Brudnopis {
         logger.error("XD");
         logger.debug("XD");
         LoggerUtil.info("Mateusz");
+    }
+
+    @Test
+    public void test()
+    {
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://demo.seleniumeasy.com/table-search-filter-demo.html");
+        driver.manage().window().maximize();
+        WebElement tableDataTaskInputElement = driver.findElement(By.cssSelector("#task-table-filter"));
+        List<WebElement> tableDataTaskListElements = driver.findElements(By.cssSelector("#task-table tbody tr td"));
+        tableDataTaskListElements.stream().forEach(a -> System.out.println(a.getText()));
+
     }
 }

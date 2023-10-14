@@ -19,15 +19,24 @@ public class GlobalConsts {
     public static final String RADIO_BUTTONS_DATA_PATH = "src/test/java/TestData/BasicTestsData/RadioButtonsData.xlsx";
     public static final String SELECT_DROPDOWN_LIST_DEMO_DATA_PATH = "src/test/java/TestData/BasicTestsData/SelectDropdownListDemoData.xlsx";
     public static final String WINDOWS_POPUP_DEMO_DATA_PATH = "src/test/java/TestData/BasicTestsData/WindowsPopupDemoData.xlsx";
+    //INTERMEDIATE
+    public static final String INPUT_FORM_WITH_VALIDATIONS_DATA_PATH = "src/test/java/TestData/IntermediateTestsData/AjaxFormSubmitData.xlsx";
+    public static final String AJAX_FORM_SUBMIT_DATA_PATH = "src/test/java/TestData/IntermediateTestsData/AjaxFormSubmitData.xlsx";
+    public static final String BOOSTRAP_LIST_BOX_DATA_PATH = "src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx";
+    //ADVANCED
+    public static final String DRAG_AND_DROP_DATA_PATH = "src/test/java/TestData/AdvancedTestsData/DragAndDropData.xlsx";
+    public static final String TABLE_DATA_SEARCH_DATA_PATH = "src/test/java/TestData/AdvancedTestsData/TableDataSearchData.xlsx";
+
 
 
     //EXERCISES_LEVELS
     public static final String BASIC= "basic_example";
-    public static final String INTERMEDIATE = "intermediate_example";
+    public static final String INTERMEDIATE = "inter_example";
     public static final String ADVANCED = "advanced_example";
 
 
     //EXERCISES
+    //BASIC
     public static final String SIMPLE_FORM = "Simple Form Demo";
     public static final String BOOSTRAP_ALERTS = "Bootstrap Alerts";
     public static final String BOOSTRAP_MODALS = "Bootstrap Modals";
@@ -36,6 +45,13 @@ public class GlobalConsts {
     public static final String RADIO_BUTTON = "Radio Buttons Demo";
     public static final String SELECT_DROPDOWN_LIST = "Select Dropdown List";
     public static final String WINDOWS_POPUP = "Window Popup Modal";
+    //INTERMEDIATE
+    public static final String INPUT_FORM_WITH_VALIDATIONS= "Input Form with Validations";
+    public static final String AJAX_FORM_SUBMIT= "Ajax Form Submit";
+    public static final String BOOSTRAP_LIST_BOX = "Bootstrap List Box";
+    //ADVANCED
+    public static final String DRAG_AND_DROP = "Drag and Drop";
+    public static final String TABLE_DATA_SEARCH = "Table Data Search";
 
 
     //WAITS
@@ -54,5 +70,11 @@ public class GlobalConsts {
     public static final String REMOTE_ALLOW_ORIGINS = "--remote-allow-origins=*";
     public static final String HEADLESS = "-headless";
     public static final String DISABLE_EXTENSIONS = "--disable-extensions";
+
+
+    //BORDER_COLORS
+    public static final String ERROR_COLOR = "rgb(255, 0, 0)";
+    public static final String SUCCESS_COLOR = "rgb(0, 255, 0)";
+    public static final String WARNING_COLOR = "";
 
 }

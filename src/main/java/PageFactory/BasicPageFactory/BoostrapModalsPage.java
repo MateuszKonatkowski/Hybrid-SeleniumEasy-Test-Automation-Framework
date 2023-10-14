@@ -87,7 +87,7 @@ public class BoostrapModalsPage extends BasePage {
         goTo(exerciseLevel,exercise);
     }
 
-    public BoostrapModalsPage clickSingelModalButton()
+    public BoostrapModalsPage clickSingleModalButton()
     {
         singleModalButtonElement.click();
         return new BoostrapModalsPage(driver);
@@ -99,7 +99,7 @@ public class BoostrapModalsPage extends BasePage {
         return new BoostrapModalsPage(driver);
     }
 
-    public String getSingelModalAlertMessage()
+    public String getSingleModalAlertMessage()
     {
         waitForElementVisibility(singleModalAlertElement);
         return singleModalAlertMessageElement.getText();

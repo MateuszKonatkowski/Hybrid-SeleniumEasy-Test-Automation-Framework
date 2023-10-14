@@ -1022,3 +1022,844 @@
 14:05:59.342 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a]] to be visible
 14:06:00.830 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose Bootstrap Alerts exercise
 14:06:01.877 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
+14:25:53.683 [TestNG-test=test-1] INFO  Util.LoggerUtil - Read src/test/java/TestData/BasicTestsData/BoostrapAlertsData.xlsx data
+14:25:53.777 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get browser value
+14:25:53.777 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get url value
+14:25:58.116 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get headless value
+14:26:20.219 [TestNG-test=test-1] INFO  Util.LoggerUtil - Initializing driver
+14:26:21.506 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (53139bbd6dd184607244154609c8e4c9)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (53139bbd6dd184607244154609c8e4c9)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (53139bbd6dd184607244154609c8e4c9)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (53139bbd6dd184607244154609c8e4c9)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (53139bbd6dd184607244154609c8e4c9)] -> css selector: #myTab a]] to be visible
+14:26:21.841 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose basic_example level
+14:26:22.581 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (53139bbd6dd184607244154609c8e4c9)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (53139bbd6dd184607244154609c8e4c9)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (53139bbd6dd184607244154609c8e4c9)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (53139bbd6dd184607244154609c8e4c9)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (53139bbd6dd184607244154609c8e4c9)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (53139bbd6dd184607244154609c8e4c9)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (53139bbd6dd184607244154609c8e4c9)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (53139bbd6dd184607244154609c8e4c9)] -> css selector: #basic .list-group a]] to be visible
+14:26:25.968 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose Bootstrap Alerts exercise
+14:26:26.528 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
+14:27:45.080 [main] INFO  Util.LoggerUtil - Tests started
+14:27:46.089 [TestNG-test=test-1] INFO  Util.LoggerUtil - Read src/test/java/TestData/BasicTestsData/BoostrapAlertsData.xlsx data
+14:27:46.165 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get browser value
+14:27:46.165 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get url value
+14:27:46.786 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get headless value
+14:28:12.030 [TestNG-test=test-1] INFO  Util.LoggerUtil - Initializing driver
+14:28:12.034 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get author value
+14:28:12.084 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test boostrapAlert_Click_Success_Should_Show_Message Started
+14:28:12.748 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (d80b8bcb4a13bf6fe53f75f64c09b10f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d80b8bcb4a13bf6fe53f75f64c09b10f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d80b8bcb4a13bf6fe53f75f64c09b10f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d80b8bcb4a13bf6fe53f75f64c09b10f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d80b8bcb4a13bf6fe53f75f64c09b10f)] -> css selector: #myTab a]] to be visible
+14:28:13.727 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose basic_example level
+14:28:14.426 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (d80b8bcb4a13bf6fe53f75f64c09b10f)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (d80b8bcb4a13bf6fe53f75f64c09b10f)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (d80b8bcb4a13bf6fe53f75f64c09b10f)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (d80b8bcb4a13bf6fe53f75f64c09b10f)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (d80b8bcb4a13bf6fe53f75f64c09b10f)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (d80b8bcb4a13bf6fe53f75f64c09b10f)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (d80b8bcb4a13bf6fe53f75f64c09b10f)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (d80b8bcb4a13bf6fe53f75f64c09b10f)] -> css selector: #basic .list-group a]] to be visible
+14:28:15.457 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose Bootstrap Alerts exercise
+14:28:15.871 [TestNG-test=test-1] INFO  Util.LoggerUtil - Test boostrapAlert_Click_Success_Should_Show_Message Passed
+14:28:15.872 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get screenshotOnSuccess value
+14:28:17.171 [TestNG-test=test-1] INFO  Util.LoggerUtil - Capture boostrapAlert_Click_Success_Should_Show_Message screenshot
+14:28:17.837 [TestNG-test=test-1] INFO  Util.LoggerUtil - Driver tear down
+14:28:19.287 [main] INFO  Util.LoggerUtil - Tests finished
+16:02:23.071 [main] INFO  Util.LoggerUtil - Get browser value
+16:02:23.119 [main] INFO  Util.LoggerUtil - Get url value
+16:02:34.781 [main] INFO  Util.LoggerUtil - Get headless value
+16:02:57.559 [main] INFO  Util.LoggerUtil - Initializing driver
+16:02:59.087 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (02e471d63dc26d6507e97edfc0ca79c5)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (02e471d63dc26d6507e97edfc0ca79c5)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (02e471d63dc26d6507e97edfc0ca79c5)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (02e471d63dc26d6507e97edfc0ca79c5)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (02e471d63dc26d6507e97edfc0ca79c5)] -> css selector: #myTab a]] to be visible
+16:03:03.339 [main] INFO  Util.LoggerUtil - Driver tear down
+16:06:01.259 [main] INFO  Util.LoggerUtil - Get browser value
+16:06:01.291 [main] INFO  Util.LoggerUtil - Get url value
+16:06:05.190 [main] INFO  Util.LoggerUtil - Get headless value
+16:06:23.581 [main] INFO  Util.LoggerUtil - Initializing driver
+16:06:24.593 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (51850bba5b077453cc5eff0dbed3822f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (51850bba5b077453cc5eff0dbed3822f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (51850bba5b077453cc5eff0dbed3822f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (51850bba5b077453cc5eff0dbed3822f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (51850bba5b077453cc5eff0dbed3822f)] -> css selector: #myTab a]] to be visible
+16:06:24.791 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:06:33.379 [main] INFO  Util.LoggerUtil - Driver tear down
+16:08:37.371 [main] INFO  Util.LoggerUtil - Get browser value
+16:08:37.375 [main] INFO  Util.LoggerUtil - Get url value
+16:08:38.088 [main] INFO  Util.LoggerUtil - Get headless value
+16:08:52.630 [main] INFO  Util.LoggerUtil - Initializing driver
+16:08:53.257 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (0645a112df266b6b5b8e141a83d563a7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0645a112df266b6b5b8e141a83d563a7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0645a112df266b6b5b8e141a83d563a7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0645a112df266b6b5b8e141a83d563a7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0645a112df266b6b5b8e141a83d563a7)] -> css selector: #myTab a]] to be visible
+16:08:53.773 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:09:02.690 [main] INFO  Util.LoggerUtil - Driver tear down
+16:12:42.071 [main] INFO  Util.LoggerUtil - Get browser value
+16:12:42.075 [main] INFO  Util.LoggerUtil - Get url value
+16:12:42.719 [main] INFO  Util.LoggerUtil - Get headless value
+16:12:57.660 [main] INFO  Util.LoggerUtil - Initializing driver
+16:12:58.951 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (63ce01b0f7d2ec2c9191dc6861f9f090)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (63ce01b0f7d2ec2c9191dc6861f9f090)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (63ce01b0f7d2ec2c9191dc6861f9f090)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (63ce01b0f7d2ec2c9191dc6861f9f090)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (63ce01b0f7d2ec2c9191dc6861f9f090)] -> css selector: #myTab a]] to be visible
+16:12:59.115 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:13:06.673 [main] INFO  Util.LoggerUtil - Driver tear down
+16:16:03.868 [main] INFO  Util.LoggerUtil - Get browser value
+16:16:03.883 [main] INFO  Util.LoggerUtil - Get url value
+16:16:04.957 [main] INFO  Util.LoggerUtil - Get headless value
+16:16:22.268 [main] INFO  Util.LoggerUtil - Initializing driver
+16:16:23.368 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (0f0121a2e0599388362501307f5e219a)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0f0121a2e0599388362501307f5e219a)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0f0121a2e0599388362501307f5e219a)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0f0121a2e0599388362501307f5e219a)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0f0121a2e0599388362501307f5e219a)] -> css selector: #myTab a]] to be visible
+16:16:23.549 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:16:32.083 [main] INFO  Util.LoggerUtil - Driver tear down
+16:17:20.281 [main] INFO  Util.LoggerUtil - Get browser value
+16:17:20.284 [main] INFO  Util.LoggerUtil - Get url value
+16:17:20.747 [main] INFO  Util.LoggerUtil - Get headless value
+16:17:27.982 [main] INFO  Util.LoggerUtil - Initializing driver
+16:17:28.146 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (0cea553624e6e159a7dbf3b09324d8cd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0cea553624e6e159a7dbf3b09324d8cd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0cea553624e6e159a7dbf3b09324d8cd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0cea553624e6e159a7dbf3b09324d8cd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0cea553624e6e159a7dbf3b09324d8cd)] -> css selector: #myTab a]] to be visible
+16:17:28.245 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:17:37.979 [main] INFO  Util.LoggerUtil - Driver tear down
+16:19:57.816 [main] INFO  Util.LoggerUtil - Get browser value
+16:19:57.820 [main] INFO  Util.LoggerUtil - Get url value
+16:19:58.243 [main] INFO  Util.LoggerUtil - Get headless value
+16:20:11.774 [main] INFO  Util.LoggerUtil - Initializing driver
+16:20:13.845 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (e2d09ad352ce6602672c4b029329e1ec)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (e2d09ad352ce6602672c4b029329e1ec)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (e2d09ad352ce6602672c4b029329e1ec)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (e2d09ad352ce6602672c4b029329e1ec)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (e2d09ad352ce6602672c4b029329e1ec)] -> css selector: #myTab a]] to be visible
+16:20:14.410 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:20:15.153 [main] INFO  Util.LoggerUtil - Driver tear down
+16:22:02.095 [main] INFO  Util.LoggerUtil - Get browser value
+16:22:02.099 [main] INFO  Util.LoggerUtil - Get url value
+16:22:02.519 [main] INFO  Util.LoggerUtil - Get headless value
+16:22:20.205 [main] INFO  Util.LoggerUtil - Initializing driver
+16:22:21.066 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (662226a1425330923cd40663d000ccc2)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (662226a1425330923cd40663d000ccc2)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (662226a1425330923cd40663d000ccc2)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (662226a1425330923cd40663d000ccc2)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (662226a1425330923cd40663d000ccc2)] -> css selector: #myTab a]] to be visible
+16:22:21.410 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:22:22.472 [main] INFO  Util.LoggerUtil - Driver tear down
+16:24:52.305 [main] INFO  Util.LoggerUtil - Get browser value
+16:24:52.309 [main] INFO  Util.LoggerUtil - Get url value
+16:24:52.686 [main] INFO  Util.LoggerUtil - Get headless value
+16:25:07.351 [main] INFO  Util.LoggerUtil - Initializing driver
+16:25:08.397 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (8108471602e338af8b9c5032f10f8ca9)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (8108471602e338af8b9c5032f10f8ca9)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (8108471602e338af8b9c5032f10f8ca9)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (8108471602e338af8b9c5032f10f8ca9)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (8108471602e338af8b9c5032f10f8ca9)] -> css selector: #myTab a]] to be visible
+16:25:08.713 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:25:09.219 [main] INFO  Util.LoggerUtil - Driver tear down
+16:25:46.068 [main] INFO  Util.LoggerUtil - Get browser value
+16:25:46.071 [main] INFO  Util.LoggerUtil - Get url value
+16:25:46.485 [main] INFO  Util.LoggerUtil - Get headless value
+16:25:54.030 [main] INFO  Util.LoggerUtil - Initializing driver
+16:25:54.178 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (3ffb3002c4cc3866281c607d4e032d0b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3ffb3002c4cc3866281c607d4e032d0b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3ffb3002c4cc3866281c607d4e032d0b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3ffb3002c4cc3866281c607d4e032d0b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3ffb3002c4cc3866281c607d4e032d0b)] -> css selector: #myTab a]] to be visible
+16:25:54.300 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:26:03.008 [main] INFO  Util.LoggerUtil - Driver tear down
+16:27:36.738 [main] INFO  Util.LoggerUtil - Get browser value
+16:27:36.742 [main] INFO  Util.LoggerUtil - Get url value
+16:27:37.115 [main] INFO  Util.LoggerUtil - Get headless value
+16:27:50.124 [main] INFO  Util.LoggerUtil - Initializing driver
+16:27:50.258 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> css selector: #myTab a]] to be visible
+16:27:50.353 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:27:51.013 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> css selector: #intermediate .list-group a], [[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> css selector: #intermediate .list-group a], [[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> css selector: #intermediate .list-group a], [[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> css selector: #intermediate .list-group a], [[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> css selector: #intermediate .list-group a], [[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> css selector: #intermediate .list-group a], [[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> css selector: #intermediate .list-group a], [[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> css selector: #intermediate .list-group a]] to be visible
+16:27:52.615 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+16:27:54.941 [main] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (c780768d36da2c8be4833670c4c26f7b)] -> xpath: //div[text()='Form submited Successfully!']] to be visible
+16:27:55.234 [main] INFO  Util.LoggerUtil - Driver tear down
+16:30:46.091 [main] INFO  Util.LoggerUtil - Get browser value
+16:30:46.094 [main] INFO  Util.LoggerUtil - Get url value
+16:30:46.453 [main] INFO  Util.LoggerUtil - Get headless value
+16:30:59.350 [main] INFO  Util.LoggerUtil - Initializing driver
+16:30:59.515 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (cda52129f313ebf398e10f47d70a2246)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (cda52129f313ebf398e10f47d70a2246)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (cda52129f313ebf398e10f47d70a2246)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (cda52129f313ebf398e10f47d70a2246)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (cda52129f313ebf398e10f47d70a2246)] -> css selector: #myTab a]] to be visible
+16:30:59.613 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:31:08.671 [main] INFO  Util.LoggerUtil - Driver tear down
+16:33:21.821 [main] INFO  Util.LoggerUtil - Get browser value
+16:33:21.827 [main] INFO  Util.LoggerUtil - Get url value
+16:33:22.249 [main] INFO  Util.LoggerUtil - Get headless value
+16:33:30.523 [main] INFO  Util.LoggerUtil - Initializing driver
+16:33:30.771 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (be1e68e1fdf4218ce418e8aaf171384f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (be1e68e1fdf4218ce418e8aaf171384f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (be1e68e1fdf4218ce418e8aaf171384f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (be1e68e1fdf4218ce418e8aaf171384f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (be1e68e1fdf4218ce418e8aaf171384f)] -> css selector: #myTab a]] to be visible
+16:33:30.868 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:33:39.395 [main] INFO  Util.LoggerUtil - Driver tear down
+16:36:49.762 [main] INFO  Util.LoggerUtil - Get browser value
+16:36:49.767 [main] INFO  Util.LoggerUtil - Get url value
+16:36:50.219 [main] INFO  Util.LoggerUtil - Get headless value
+16:36:58.461 [main] INFO  Util.LoggerUtil - Initializing driver
+16:36:59.962 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (b9821744eb851dffb3855937ee60dadd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b9821744eb851dffb3855937ee60dadd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b9821744eb851dffb3855937ee60dadd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b9821744eb851dffb3855937ee60dadd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b9821744eb851dffb3855937ee60dadd)] -> css selector: #myTab a]] to be visible
+16:37:00.229 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:37:09.061 [main] INFO  Util.LoggerUtil - Driver tear down
+16:41:03.341 [main] INFO  Util.LoggerUtil - Get browser value
+16:41:03.369 [main] INFO  Util.LoggerUtil - Get url value
+16:41:05.284 [main] INFO  Util.LoggerUtil - Get headless value
+16:41:24.160 [main] INFO  Util.LoggerUtil - Initializing driver
+16:41:25.069 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (47bec5f473a386dfafe195ce0a6eb6f2)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (47bec5f473a386dfafe195ce0a6eb6f2)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (47bec5f473a386dfafe195ce0a6eb6f2)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (47bec5f473a386dfafe195ce0a6eb6f2)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (47bec5f473a386dfafe195ce0a6eb6f2)] -> css selector: #myTab a]] to be visible
+16:41:25.247 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:41:34.128 [main] INFO  Util.LoggerUtil - Driver tear down
+16:51:10.639 [main] INFO  Util.LoggerUtil - Get browser value
+16:51:10.655 [main] INFO  Util.LoggerUtil - Get url value
+16:51:11.513 [main] INFO  Util.LoggerUtil - Get headless value
+16:51:35.911 [main] INFO  Util.LoggerUtil - Initializing driver
+16:51:38.943 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (2aa3ec3a30052c44ad450029b1aee9a4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2aa3ec3a30052c44ad450029b1aee9a4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2aa3ec3a30052c44ad450029b1aee9a4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2aa3ec3a30052c44ad450029b1aee9a4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2aa3ec3a30052c44ad450029b1aee9a4)] -> css selector: #myTab a]] to be visible
+16:51:40.067 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:51:48.707 [main] INFO  Util.LoggerUtil - Driver tear down
+16:55:28.251 [main] INFO  Util.LoggerUtil - Get browser value
+16:55:28.267 [main] INFO  Util.LoggerUtil - Get url value
+16:55:30.537 [main] INFO  Util.LoggerUtil - Get headless value
+16:56:01.191 [main] INFO  Util.LoggerUtil - Initializing driver
+16:56:02.428 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> css selector: #myTab a]] to be visible
+16:56:02.630 [main] INFO  Util.LoggerUtil - Chose inter_example level
+16:56:03.775 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> css selector: .active.in .list-group a], [[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> css selector: .active.in .list-group a], [[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> css selector: .active.in .list-group a], [[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> css selector: .active.in .list-group a], [[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> css selector: .active.in .list-group a], [[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> css selector: .active.in .list-group a], [[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> css selector: .active.in .list-group a], [[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> css selector: .active.in .list-group a]] to be visible
+16:56:06.027 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+16:56:08.490 [main] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (546ef5b05a9da1382e5026ad5e05fe6b)] -> xpath: //div[text()='Form submited Successfully!']] to be visible
+16:56:10.885 [main] INFO  Util.LoggerUtil - Driver tear down
+20:29:44.360 [main] INFO  Util.LoggerUtil - Get browser value
+20:29:44.388 [main] INFO  Util.LoggerUtil - Get url value
+20:29:51.647 [main] INFO  Util.LoggerUtil - Get headless value
+21:14:36.450 [main] INFO  Util.LoggerUtil - Get browser value
+21:14:36.478 [main] INFO  Util.LoggerUtil - Get url value
+21:14:39.034 [main] INFO  Util.LoggerUtil - Get headless value
+21:15:04.833 [main] INFO  Util.LoggerUtil - Initializing driver
+21:15:06.412 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (99a8bd1468b83f74adcb604a3352968a)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (99a8bd1468b83f74adcb604a3352968a)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (99a8bd1468b83f74adcb604a3352968a)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (99a8bd1468b83f74adcb604a3352968a)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (99a8bd1468b83f74adcb604a3352968a)] -> css selector: #myTab a]] to be visible
+21:15:06.726 [main] INFO  Util.LoggerUtil - Chose inter_example level
+21:15:15.416 [main] INFO  Util.LoggerUtil - Driver tear down
+21:16:33.034 [main] INFO  Util.LoggerUtil - Get browser value
+21:16:33.038 [main] INFO  Util.LoggerUtil - Get url value
+21:16:33.439 [main] INFO  Util.LoggerUtil - Get headless value
+21:16:41.796 [main] INFO  Util.LoggerUtil - Initializing driver
+21:16:41.965 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (ea240e0266a75c27452dd421bdec420d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ea240e0266a75c27452dd421bdec420d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ea240e0266a75c27452dd421bdec420d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ea240e0266a75c27452dd421bdec420d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ea240e0266a75c27452dd421bdec420d)] -> css selector: #myTab a]] to be visible
+21:16:42.063 [main] INFO  Util.LoggerUtil - Chose inter_example level
+21:16:50.563 [main] INFO  Util.LoggerUtil - Driver tear down
+21:28:23.021 [main] INFO  Util.LoggerUtil - Get browser value
+21:28:23.035 [main] INFO  Util.LoggerUtil - Get url value
+21:28:24.401 [main] INFO  Util.LoggerUtil - Get headless value
+21:28:37.876 [main] INFO  Util.LoggerUtil - Initializing driver
+21:28:39.050 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (d6b0a2f3a989830bdea2c752a48457bc)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d6b0a2f3a989830bdea2c752a48457bc)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d6b0a2f3a989830bdea2c752a48457bc)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d6b0a2f3a989830bdea2c752a48457bc)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d6b0a2f3a989830bdea2c752a48457bc)] -> css selector: #myTab a]] to be visible
+21:28:39.196 [main] INFO  Util.LoggerUtil - Chose inter_example level
+21:28:42.815 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+21:28:45.292 [main] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (d6b0a2f3a989830bdea2c752a48457bc)] -> xpath: //div[text()='Form submited Successfully!']] to be visible
+21:28:45.928 [main] INFO  Util.LoggerUtil - Driver tear down
+17:29:21.487 [main] INFO  Util.LoggerUtil - Get browser value
+17:29:21.509 [main] INFO  Util.LoggerUtil - Get url value
+17:29:26.181 [main] INFO  Util.LoggerUtil - Get headless value
+17:30:00.828 [main] INFO  Util.LoggerUtil - Initializing driver
+17:30:02.142 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (767cdb65ffb93162deb0b4b40e090f0a)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (767cdb65ffb93162deb0b4b40e090f0a)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (767cdb65ffb93162deb0b4b40e090f0a)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (767cdb65ffb93162deb0b4b40e090f0a)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (767cdb65ffb93162deb0b4b40e090f0a)] -> css selector: #myTab a]] to be visible
+17:30:03.373 [main] INFO  Util.LoggerUtil - Chose inter_example level
+17:30:08.139 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+17:30:10.387 [main] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (767cdb65ffb93162deb0b4b40e090f0a)] -> xpath: //div[text()='Form submited Successfully!']] to be visible
+17:30:12.416 [main] INFO  Util.LoggerUtil - Driver tear down
+17:40:29.482 [main] INFO  Util.LoggerUtil - Get browser value
+17:40:29.513 [main] INFO  Util.LoggerUtil - Get url value
+17:40:32.084 [main] INFO  Util.LoggerUtil - Get headless value
+17:40:50.222 [main] INFO  Util.LoggerUtil - Initializing driver
+17:40:51.723 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (f63f767ca23295e279981e42ef8dff61)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f63f767ca23295e279981e42ef8dff61)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f63f767ca23295e279981e42ef8dff61)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f63f767ca23295e279981e42ef8dff61)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f63f767ca23295e279981e42ef8dff61)] -> css selector: #myTab a]] to be visible
+17:40:51.989 [main] INFO  Util.LoggerUtil - Chose inter_example level
+17:40:54.924 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+17:40:56.770 [main] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (f63f767ca23295e279981e42ef8dff61)] -> xpath: //div[text()='Form submited Successfully!']] to be visible
+17:40:58.526 [main] INFO  Util.LoggerUtil - Driver tear down
+17:50:51.521 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/AjaxFormSubmitData.xlsx data
+17:50:51.573 [main] INFO  Util.LoggerUtil - Get browser value
+17:50:51.574 [main] INFO  Util.LoggerUtil - Get url value
+17:50:52.478 [main] INFO  Util.LoggerUtil - Get headless value
+17:51:32.878 [main] INFO  Util.LoggerUtil - Get browser value
+17:51:32.879 [main] INFO  Util.LoggerUtil - Get url value
+17:51:32.909 [main] INFO  Util.LoggerUtil - Get headless value
+17:51:57.045 [main] INFO  Util.LoggerUtil - Initializing driver
+17:51:57.630 [main] INFO  Util.LoggerUtil - Driver tear down
+17:52:22.220 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/AjaxFormSubmitData.xlsx data
+17:52:22.245 [main] INFO  Util.LoggerUtil - Get browser value
+17:52:22.245 [main] INFO  Util.LoggerUtil - Get url value
+17:52:22.673 [main] INFO  Util.LoggerUtil - Get headless value
+17:52:29.992 [main] INFO  Util.LoggerUtil - Initializing driver
+17:52:30.407 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (c988b49a2c0b89328fd9e8d8a0231c0d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c988b49a2c0b89328fd9e8d8a0231c0d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c988b49a2c0b89328fd9e8d8a0231c0d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c988b49a2c0b89328fd9e8d8a0231c0d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c988b49a2c0b89328fd9e8d8a0231c0d)] -> css selector: #myTab a]] to be visible
+17:52:30.595 [main] INFO  Util.LoggerUtil - Chose inter_example level
+17:52:34.726 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+17:52:36.569 [main] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (c988b49a2c0b89328fd9e8d8a0231c0d)] -> xpath: //div[text()='Form submited Successfully!']] to be visible
+17:52:37.022 [main] INFO  Util.LoggerUtil - Driver tear down
+17:52:37.024 [main] INFO  Util.LoggerUtil - Get browser value
+17:52:37.025 [main] INFO  Util.LoggerUtil - Get url value
+17:52:37.054 [main] INFO  Util.LoggerUtil - Get headless value
+17:52:42.963 [main] INFO  Util.LoggerUtil - Initializing driver
+17:52:43.591 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (1b99d1c86124ed711d3b779f411a44d7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (1b99d1c86124ed711d3b779f411a44d7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (1b99d1c86124ed711d3b779f411a44d7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (1b99d1c86124ed711d3b779f411a44d7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (1b99d1c86124ed711d3b779f411a44d7)] -> css selector: #myTab a]] to be visible
+17:52:43.677 [main] INFO  Util.LoggerUtil - Chose inter_example level
+17:52:46.577 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+17:52:48.132 [main] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (1b99d1c86124ed711d3b779f411a44d7)] -> xpath: //div[text()='Form submited Successfully!']] to be visible
+17:52:48.521 [main] INFO  Util.LoggerUtil - Driver tear down
+18:07:32.105 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/AjaxFormSubmitData.xlsx data
+18:07:46.703 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/AjaxFormSubmitData.xlsx data
+18:08:13.679 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/AjaxFormSubmitData.xlsx data
+18:08:13.748 [main] INFO  Util.LoggerUtil - Get browser value
+18:08:13.749 [main] INFO  Util.LoggerUtil - Get url value
+18:08:14.802 [main] INFO  Util.LoggerUtil - Get headless value
+18:08:25.075 [main] INFO  Util.LoggerUtil - Initializing driver
+18:08:26.333 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (fe2a5b7b27b08ec8868eb50ed695d9fd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (fe2a5b7b27b08ec8868eb50ed695d9fd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (fe2a5b7b27b08ec8868eb50ed695d9fd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (fe2a5b7b27b08ec8868eb50ed695d9fd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (fe2a5b7b27b08ec8868eb50ed695d9fd)] -> css selector: #myTab a]] to be visible
+18:08:26.692 [main] INFO  Util.LoggerUtil - Chose inter_example level
+18:08:29.208 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+18:08:31.344 [main] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (fe2a5b7b27b08ec8868eb50ed695d9fd)] -> xpath: //div[text()='Form submited Successfully!']] to be visible
+18:08:31.672 [main] INFO  Util.LoggerUtil - Driver tear down
+18:08:31.679 [main] INFO  Util.LoggerUtil - Get browser value
+18:08:31.680 [main] INFO  Util.LoggerUtil - Get url value
+18:08:31.743 [main] INFO  Util.LoggerUtil - Get headless value
+18:08:36.851 [main] INFO  Util.LoggerUtil - Initializing driver
+18:08:36.939 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (2659b420b5a8d7d8b20baa6c0d607039)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2659b420b5a8d7d8b20baa6c0d607039)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2659b420b5a8d7d8b20baa6c0d607039)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2659b420b5a8d7d8b20baa6c0d607039)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2659b420b5a8d7d8b20baa6c0d607039)] -> css selector: #myTab a]] to be visible
+18:08:37.030 [main] INFO  Util.LoggerUtil - Chose inter_example level
+18:08:40.185 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+18:08:41.764 [main] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (2659b420b5a8d7d8b20baa6c0d607039)] -> xpath: //div[text()='Form submited Successfully!']] to be visible
+18:08:42.020 [main] INFO  Util.LoggerUtil - Driver tear down
+18:08:42.023 [main] INFO  Util.LoggerUtil - Get browser value
+18:08:42.023 [main] INFO  Util.LoggerUtil - Get url value
+18:08:42.096 [main] INFO  Util.LoggerUtil - Get headless value
+18:08:47.842 [main] INFO  Util.LoggerUtil - Initializing driver
+18:08:47.929 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (39f2941db703cd37cc06f3ddf40e4493)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (39f2941db703cd37cc06f3ddf40e4493)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (39f2941db703cd37cc06f3ddf40e4493)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (39f2941db703cd37cc06f3ddf40e4493)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (39f2941db703cd37cc06f3ddf40e4493)] -> css selector: #myTab a]] to be visible
+18:08:48.025 [main] INFO  Util.LoggerUtil - Chose inter_example level
+18:08:50.544 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+18:08:59.481 [main] INFO  Util.LoggerUtil - Driver tear down
+18:32:42.723 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/AjaxFormSubmitData.xlsx data
+18:32:42.871 [main] INFO  Util.LoggerUtil - Get browser value
+18:32:42.871 [main] INFO  Util.LoggerUtil - Get url value
+18:32:59.250 [main] INFO  Util.LoggerUtil - Get headless value
+18:33:55.624 [main] INFO  Util.LoggerUtil - Get browser value
+18:33:55.625 [main] INFO  Util.LoggerUtil - Get url value
+18:33:55.679 [main] INFO  Util.LoggerUtil - Get headless value
+18:34:06.304 [main] INFO  Util.LoggerUtil - Initializing driver
+18:34:07.327 [main] INFO  Util.LoggerUtil - Driver tear down
+18:34:07.329 [main] INFO  Util.LoggerUtil - Get browser value
+18:34:07.330 [main] INFO  Util.LoggerUtil - Get url value
+18:34:07.363 [main] INFO  Util.LoggerUtil - Get headless value
+18:34:13.873 [main] INFO  Util.LoggerUtil - Initializing driver
+18:34:14.259 [main] INFO  Util.LoggerUtil - Driver tear down
+18:34:40.483 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/AjaxFormSubmitData.xlsx data
+18:34:40.526 [main] INFO  Util.LoggerUtil - Get browser value
+18:34:40.526 [main] INFO  Util.LoggerUtil - Get url value
+18:34:41.038 [main] INFO  Util.LoggerUtil - Get headless value
+18:34:49.015 [main] INFO  Util.LoggerUtil - Initializing driver
+18:34:49.425 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (85c9138a558d7612d3c30730f7ff2152)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (85c9138a558d7612d3c30730f7ff2152)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (85c9138a558d7612d3c30730f7ff2152)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (85c9138a558d7612d3c30730f7ff2152)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (85c9138a558d7612d3c30730f7ff2152)] -> css selector: #myTab a]] to be visible
+18:34:49.702 [main] INFO  Util.LoggerUtil - Chose inter_example level
+18:34:52.590 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+18:34:54.361 [main] INFO  Util.LoggerUtil - Driver tear down
+18:34:54.363 [main] INFO  Util.LoggerUtil - Get browser value
+18:34:54.363 [main] INFO  Util.LoggerUtil - Get url value
+18:34:54.402 [main] INFO  Util.LoggerUtil - Get headless value
+18:34:59.868 [main] INFO  Util.LoggerUtil - Initializing driver
+18:34:59.986 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (dbee76670e36a5d4c809ad7a36130036)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (dbee76670e36a5d4c809ad7a36130036)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (dbee76670e36a5d4c809ad7a36130036)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (dbee76670e36a5d4c809ad7a36130036)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (dbee76670e36a5d4c809ad7a36130036)] -> css selector: #myTab a]] to be visible
+18:35:00.093 [main] INFO  Util.LoggerUtil - Chose inter_example level
+18:35:03.020 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+18:35:04.794 [main] INFO  Util.LoggerUtil - Driver tear down
+18:35:04.796 [main] INFO  Util.LoggerUtil - Get browser value
+18:35:04.796 [main] INFO  Util.LoggerUtil - Get url value
+18:35:04.823 [main] INFO  Util.LoggerUtil - Get headless value
+18:35:10.416 [main] INFO  Util.LoggerUtil - Initializing driver
+18:35:10.508 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (100a7ea4e23f8213f7cdd5d8147acf7b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (100a7ea4e23f8213f7cdd5d8147acf7b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (100a7ea4e23f8213f7cdd5d8147acf7b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (100a7ea4e23f8213f7cdd5d8147acf7b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (100a7ea4e23f8213f7cdd5d8147acf7b)] -> css selector: #myTab a]] to be visible
+18:35:10.608 [main] INFO  Util.LoggerUtil - Chose inter_example level
+18:35:41.962 [main] INFO  Util.LoggerUtil - Driver tear down
+18:36:22.498 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/AjaxFormSubmitData.xlsx data
+18:36:22.523 [main] INFO  Util.LoggerUtil - Get browser value
+18:36:22.523 [main] INFO  Util.LoggerUtil - Get url value
+18:36:22.919 [main] INFO  Util.LoggerUtil - Get headless value
+18:36:28.968 [main] INFO  Util.LoggerUtil - Initializing driver
+18:36:29.104 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (d4803c352f11f938354a278ff0fead2e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d4803c352f11f938354a278ff0fead2e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d4803c352f11f938354a278ff0fead2e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d4803c352f11f938354a278ff0fead2e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d4803c352f11f938354a278ff0fead2e)] -> css selector: #myTab a]] to be visible
+18:36:29.206 [main] INFO  Util.LoggerUtil - Chose inter_example level
+18:36:32.449 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+18:36:34.746 [main] INFO  Util.LoggerUtil - Driver tear down
+18:36:34.748 [main] INFO  Util.LoggerUtil - Get browser value
+18:36:34.748 [main] INFO  Util.LoggerUtil - Get url value
+18:36:34.778 [main] INFO  Util.LoggerUtil - Get headless value
+18:36:40.831 [main] INFO  Util.LoggerUtil - Initializing driver
+18:36:40.907 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (b46e390681c5cfa429ba0635c2348b4d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b46e390681c5cfa429ba0635c2348b4d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b46e390681c5cfa429ba0635c2348b4d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b46e390681c5cfa429ba0635c2348b4d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b46e390681c5cfa429ba0635c2348b4d)] -> css selector: #myTab a]] to be visible
+18:36:40.994 [main] INFO  Util.LoggerUtil - Chose inter_example level
+18:36:43.345 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+18:36:45.274 [main] INFO  Util.LoggerUtil - Driver tear down
+18:36:45.276 [main] INFO  Util.LoggerUtil - Get browser value
+18:36:45.277 [main] INFO  Util.LoggerUtil - Get url value
+18:36:45.330 [main] INFO  Util.LoggerUtil - Get headless value
+18:36:50.296 [main] INFO  Util.LoggerUtil - Initializing driver
+18:36:50.391 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (5bacbcb3995842f2422c97f649d58ac5)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5bacbcb3995842f2422c97f649d58ac5)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5bacbcb3995842f2422c97f649d58ac5)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5bacbcb3995842f2422c97f649d58ac5)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5bacbcb3995842f2422c97f649d58ac5)] -> css selector: #myTab a]] to be visible
+18:36:50.480 [main] INFO  Util.LoggerUtil - Chose inter_example level
+18:36:53.257 [main] INFO  Util.LoggerUtil - Chose Ajax Form Submit exercise
+18:36:53.823 [main] INFO  Util.LoggerUtil - Driver tear down
+19:44:25.920 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+19:45:02.422 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+19:45:02.476 [main] INFO  Util.LoggerUtil - Get browser value
+19:45:02.477 [main] INFO  Util.LoggerUtil - Get url value
+19:45:04.688 [main] INFO  Util.LoggerUtil - Get headless value
+19:45:16.735 [main] INFO  Util.LoggerUtil - Initializing driver
+19:45:17.483 [main] INFO  Util.LoggerUtil - Driver tear down
+19:46:22.169 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+19:46:22.192 [main] INFO  Util.LoggerUtil - Get browser value
+19:46:22.193 [main] INFO  Util.LoggerUtil - Get url value
+19:46:22.589 [main] INFO  Util.LoggerUtil - Get headless value
+19:46:28.759 [main] INFO  Util.LoggerUtil - Initializing driver
+19:46:29.779 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (599538ea74b6cf98fea1186e16e4234f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (599538ea74b6cf98fea1186e16e4234f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (599538ea74b6cf98fea1186e16e4234f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (599538ea74b6cf98fea1186e16e4234f)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (599538ea74b6cf98fea1186e16e4234f)] -> css selector: #myTab a]] to be visible
+19:46:29.977 [main] INFO  Util.LoggerUtil - Chose inter_example level
+19:46:31.905 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+19:46:33.411 [main] INFO  Util.LoggerUtil - Driver tear down
+19:47:16.441 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+19:47:16.466 [main] INFO  Util.LoggerUtil - Get browser value
+19:47:16.466 [main] INFO  Util.LoggerUtil - Get url value
+19:47:16.856 [main] INFO  Util.LoggerUtil - Get headless value
+19:47:22.569 [main] INFO  Util.LoggerUtil - Initializing driver
+19:47:22.716 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (3bdad578ea7bdbae1ddf3f5f29e84388)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3bdad578ea7bdbae1ddf3f5f29e84388)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3bdad578ea7bdbae1ddf3f5f29e84388)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3bdad578ea7bdbae1ddf3f5f29e84388)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3bdad578ea7bdbae1ddf3f5f29e84388)] -> css selector: #myTab a]] to be visible
+19:47:22.808 [main] INFO  Util.LoggerUtil - Chose inter_example level
+19:47:24.841 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+19:47:25.807 [main] INFO  Util.LoggerUtil - Driver tear down
+19:48:06.958 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+19:48:06.981 [main] INFO  Util.LoggerUtil - Get browser value
+19:48:06.981 [main] INFO  Util.LoggerUtil - Get url value
+19:48:07.365 [main] INFO  Util.LoggerUtil - Get headless value
+19:48:16.023 [main] INFO  Util.LoggerUtil - Initializing driver
+19:48:16.160 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (a7fe5606a3d4d86fd4d318a95b7997fd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (a7fe5606a3d4d86fd4d318a95b7997fd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (a7fe5606a3d4d86fd4d318a95b7997fd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (a7fe5606a3d4d86fd4d318a95b7997fd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (a7fe5606a3d4d86fd4d318a95b7997fd)] -> css selector: #myTab a]] to be visible
+19:48:16.258 [main] INFO  Util.LoggerUtil - Chose inter_example level
+19:48:18.043 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+19:48:19.077 [main] INFO  Util.LoggerUtil - Driver tear down
+19:49:35.881 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+19:49:35.916 [main] INFO  Util.LoggerUtil - Get browser value
+19:49:35.917 [main] INFO  Util.LoggerUtil - Get url value
+19:49:36.306 [main] INFO  Util.LoggerUtil - Get headless value
+19:49:41.930 [main] INFO  Util.LoggerUtil - Initializing driver
+19:49:42.074 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (745859615a8c3d0b0ec3e05c4474666c)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (745859615a8c3d0b0ec3e05c4474666c)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (745859615a8c3d0b0ec3e05c4474666c)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (745859615a8c3d0b0ec3e05c4474666c)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (745859615a8c3d0b0ec3e05c4474666c)] -> css selector: #myTab a]] to be visible
+19:49:42.167 [main] INFO  Util.LoggerUtil - Chose inter_example level
+19:49:44.214 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+19:49:44.433 [main] INFO  Util.LoggerUtil - Driver tear down
+19:50:09.484 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+19:50:09.509 [main] INFO  Util.LoggerUtil - Get browser value
+19:50:09.510 [main] INFO  Util.LoggerUtil - Get url value
+19:50:09.919 [main] INFO  Util.LoggerUtil - Get headless value
+19:50:18.556 [main] INFO  Util.LoggerUtil - Initializing driver
+19:50:18.707 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (bcf8188a4976630f1436d3ee6e034cc4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bcf8188a4976630f1436d3ee6e034cc4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bcf8188a4976630f1436d3ee6e034cc4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bcf8188a4976630f1436d3ee6e034cc4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bcf8188a4976630f1436d3ee6e034cc4)] -> css selector: #myTab a]] to be visible
+19:50:18.801 [main] INFO  Util.LoggerUtil - Chose inter_example level
+19:50:20.600 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+19:50:20.820 [main] INFO  Util.LoggerUtil - Driver tear down
+19:52:16.608 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+19:52:16.633 [main] INFO  Util.LoggerUtil - Get browser value
+19:52:16.633 [main] INFO  Util.LoggerUtil - Get url value
+19:52:17.086 [main] INFO  Util.LoggerUtil - Get headless value
+19:52:30.147 [main] INFO  Util.LoggerUtil - Initializing driver
+19:52:30.321 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (f5b10758ef46a90bf0159cdde0447a3e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f5b10758ef46a90bf0159cdde0447a3e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f5b10758ef46a90bf0159cdde0447a3e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f5b10758ef46a90bf0159cdde0447a3e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f5b10758ef46a90bf0159cdde0447a3e)] -> css selector: #myTab a]] to be visible
+19:52:30.414 [main] INFO  Util.LoggerUtil - Chose inter_example level
+19:52:32.093 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+19:52:32.359 [main] INFO  Util.LoggerUtil - Driver tear down
+19:53:12.884 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+19:53:12.914 [main] INFO  Util.LoggerUtil - Get browser value
+19:53:12.915 [main] INFO  Util.LoggerUtil - Get url value
+19:53:13.345 [main] INFO  Util.LoggerUtil - Get headless value
+19:53:25.317 [main] INFO  Util.LoggerUtil - Initializing driver
+19:53:25.479 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (f3154dd426ad3b3c622655ce3a1fd1db)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f3154dd426ad3b3c622655ce3a1fd1db)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f3154dd426ad3b3c622655ce3a1fd1db)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f3154dd426ad3b3c622655ce3a1fd1db)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f3154dd426ad3b3c622655ce3a1fd1db)] -> css selector: #myTab a]] to be visible
+19:53:25.579 [main] INFO  Util.LoggerUtil - Chose inter_example level
+19:53:27.773 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+19:53:28.027 [main] INFO  Util.LoggerUtil - Driver tear down
+19:55:04.755 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+19:55:04.780 [main] INFO  Util.LoggerUtil - Get browser value
+19:55:04.781 [main] INFO  Util.LoggerUtil - Get url value
+19:55:05.200 [main] INFO  Util.LoggerUtil - Get headless value
+19:55:13.016 [main] INFO  Util.LoggerUtil - Initializing driver
+19:55:13.173 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (ddabc16d255e7b601e1e297666679d48)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ddabc16d255e7b601e1e297666679d48)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ddabc16d255e7b601e1e297666679d48)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ddabc16d255e7b601e1e297666679d48)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ddabc16d255e7b601e1e297666679d48)] -> css selector: #myTab a]] to be visible
+19:55:13.271 [main] INFO  Util.LoggerUtil - Chose inter_example level
+19:55:15.233 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+19:55:15.468 [main] INFO  Util.LoggerUtil - Driver tear down
+19:58:13.188 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+19:58:13.211 [main] INFO  Util.LoggerUtil - Get browser value
+19:58:13.211 [main] INFO  Util.LoggerUtil - Get url value
+19:58:13.605 [main] INFO  Util.LoggerUtil - Get headless value
+19:58:20.166 [main] INFO  Util.LoggerUtil - Initializing driver
+19:58:20.301 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (640c8a0c76ba837eb455e9ea806a4c68)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (640c8a0c76ba837eb455e9ea806a4c68)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (640c8a0c76ba837eb455e9ea806a4c68)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (640c8a0c76ba837eb455e9ea806a4c68)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (640c8a0c76ba837eb455e9ea806a4c68)] -> css selector: #myTab a]] to be visible
+19:58:20.400 [main] INFO  Util.LoggerUtil - Chose inter_example level
+19:58:22.092 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+19:58:22.304 [main] INFO  Util.LoggerUtil - Driver tear down
+19:58:22.306 [main] INFO  Util.LoggerUtil - Get browser value
+19:58:22.306 [main] INFO  Util.LoggerUtil - Get url value
+19:58:22.339 [main] INFO  Util.LoggerUtil - Get headless value
+19:58:29.901 [main] INFO  Util.LoggerUtil - Initializing driver
+19:58:29.993 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (848037324c45aa839ac7027c17406f45)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (848037324c45aa839ac7027c17406f45)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (848037324c45aa839ac7027c17406f45)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (848037324c45aa839ac7027c17406f45)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (848037324c45aa839ac7027c17406f45)] -> css selector: #myTab a]] to be visible
+19:58:30.091 [main] INFO  Util.LoggerUtil - Chose inter_example level
+19:58:31.748 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+19:58:32.512 [main] INFO  Util.LoggerUtil - Driver tear down
+19:58:32.515 [main] INFO  Util.LoggerUtil - Get browser value
+19:58:32.516 [main] INFO  Util.LoggerUtil - Get url value
+19:58:32.552 [main] INFO  Util.LoggerUtil - Get headless value
+19:58:42.860 [main] INFO  Util.LoggerUtil - Initializing driver
+19:58:42.941 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (756891c2f726a8091e9c0bb1ae8997b7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (756891c2f726a8091e9c0bb1ae8997b7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (756891c2f726a8091e9c0bb1ae8997b7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (756891c2f726a8091e9c0bb1ae8997b7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (756891c2f726a8091e9c0bb1ae8997b7)] -> css selector: #myTab a]] to be visible
+19:58:43.034 [main] INFO  Util.LoggerUtil - Chose inter_example level
+19:58:44.693 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+19:58:44.927 [main] INFO  Util.LoggerUtil - Driver tear down
+19:58:44.929 [main] INFO  Util.LoggerUtil - Get browser value
+19:58:44.930 [main] INFO  Util.LoggerUtil - Get url value
+19:58:44.964 [main] INFO  Util.LoggerUtil - Get headless value
+19:58:55.893 [main] INFO  Util.LoggerUtil - Initializing driver
+19:58:55.980 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (bc7117449030bfc5c6675a415e40b142)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bc7117449030bfc5c6675a415e40b142)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bc7117449030bfc5c6675a415e40b142)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bc7117449030bfc5c6675a415e40b142)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bc7117449030bfc5c6675a415e40b142)] -> css selector: #myTab a]] to be visible
+19:58:56.077 [main] INFO  Util.LoggerUtil - Chose inter_example level
+19:58:58.466 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+19:58:58.691 [main] INFO  Util.LoggerUtil - Driver tear down
+20:12:44.406 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+20:12:44.573 [main] INFO  Util.LoggerUtil - Get browser value
+20:12:44.574 [main] INFO  Util.LoggerUtil - Get url value
+20:12:46.608 [main] INFO  Util.LoggerUtil - Get headless value
+20:12:58.163 [main] INFO  Util.LoggerUtil - Initializing driver
+20:12:59.407 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (4cd2b4d8921c7fd3be38b26722cb8984)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (4cd2b4d8921c7fd3be38b26722cb8984)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (4cd2b4d8921c7fd3be38b26722cb8984)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (4cd2b4d8921c7fd3be38b26722cb8984)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (4cd2b4d8921c7fd3be38b26722cb8984)] -> css selector: #myTab a]] to be visible
+20:12:59.501 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:13:01.603 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:13:02.055 [main] INFO  Util.LoggerUtil - Driver tear down
+20:13:02.394 [main] INFO  Util.LoggerUtil - Get browser value
+20:13:02.395 [main] INFO  Util.LoggerUtil - Get url value
+20:13:02.435 [main] INFO  Util.LoggerUtil - Get headless value
+20:13:17.425 [main] INFO  Util.LoggerUtil - Initializing driver
+20:13:17.508 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (7a6999e66089bd4fea68927fc75224f7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (7a6999e66089bd4fea68927fc75224f7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (7a6999e66089bd4fea68927fc75224f7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (7a6999e66089bd4fea68927fc75224f7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (7a6999e66089bd4fea68927fc75224f7)] -> css selector: #myTab a]] to be visible
+20:13:17.630 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:13:19.282 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:13:19.731 [main] INFO  Util.LoggerUtil - Driver tear down
+20:13:20.334 [main] INFO  Util.LoggerUtil - Get browser value
+20:13:20.334 [main] INFO  Util.LoggerUtil - Get url value
+20:13:20.834 [main] INFO  Util.LoggerUtil - Get headless value
+20:13:39.986 [main] INFO  Util.LoggerUtil - Initializing driver
+20:13:40.076 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (cd606c51d54946c5c06348d81bd92d27)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (cd606c51d54946c5c06348d81bd92d27)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (cd606c51d54946c5c06348d81bd92d27)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (cd606c51d54946c5c06348d81bd92d27)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (cd606c51d54946c5c06348d81bd92d27)] -> css selector: #myTab a]] to be visible
+20:13:40.172 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:13:41.969 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:13:42.387 [main] INFO  Util.LoggerUtil - Driver tear down
+20:13:42.567 [main] INFO  Util.LoggerUtil - Get browser value
+20:13:42.567 [main] INFO  Util.LoggerUtil - Get url value
+20:13:42.852 [main] INFO  Util.LoggerUtil - Get headless value
+20:13:58.816 [main] INFO  Util.LoggerUtil - Initializing driver
+20:13:58.901 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (2963f0a1db4f5e1bb3ccebd3e36d238b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2963f0a1db4f5e1bb3ccebd3e36d238b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2963f0a1db4f5e1bb3ccebd3e36d238b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2963f0a1db4f5e1bb3ccebd3e36d238b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2963f0a1db4f5e1bb3ccebd3e36d238b)] -> css selector: #myTab a]] to be visible
+20:13:59.006 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:14:01.875 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:14:02.289 [main] INFO  Util.LoggerUtil - Driver tear down
+20:17:48.984 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+20:17:49.062 [main] INFO  Util.LoggerUtil - Get browser value
+20:17:49.063 [main] INFO  Util.LoggerUtil - Get url value
+20:17:50.250 [main] INFO  Util.LoggerUtil - Get headless value
+20:18:01.089 [main] INFO  Util.LoggerUtil - Initializing driver
+20:18:01.403 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (012227252fef78a14fe3f3bad4061eb3)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (012227252fef78a14fe3f3bad4061eb3)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (012227252fef78a14fe3f3bad4061eb3)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (012227252fef78a14fe3f3bad4061eb3)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (012227252fef78a14fe3f3bad4061eb3)] -> css selector: #myTab a]] to be visible
+20:18:01.509 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:18:03.149 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:18:03.493 [main] INFO  Util.LoggerUtil - Driver tear down
+20:18:03.494 [main] INFO  Util.LoggerUtil - Get browser value
+20:18:03.494 [main] INFO  Util.LoggerUtil - Get url value
+20:18:03.524 [main] INFO  Util.LoggerUtil - Get headless value
+20:18:11.506 [main] INFO  Util.LoggerUtil - Initializing driver
+20:18:11.595 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (ba4d2d41e82e7af43e89ef00dff9b7bb)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ba4d2d41e82e7af43e89ef00dff9b7bb)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ba4d2d41e82e7af43e89ef00dff9b7bb)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ba4d2d41e82e7af43e89ef00dff9b7bb)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ba4d2d41e82e7af43e89ef00dff9b7bb)] -> css selector: #myTab a]] to be visible
+20:18:11.679 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:18:13.780 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:18:14.106 [main] INFO  Util.LoggerUtil - Driver tear down
+20:18:14.110 [main] INFO  Util.LoggerUtil - Get browser value
+20:18:14.110 [main] INFO  Util.LoggerUtil - Get url value
+20:18:14.142 [main] INFO  Util.LoggerUtil - Get headless value
+20:18:29.366 [main] INFO  Util.LoggerUtil - Initializing driver
+20:18:29.445 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (60a96efc766827283e6b7170295be545)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (60a96efc766827283e6b7170295be545)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (60a96efc766827283e6b7170295be545)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (60a96efc766827283e6b7170295be545)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (60a96efc766827283e6b7170295be545)] -> css selector: #myTab a]] to be visible
+20:18:29.531 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:18:31.218 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:18:31.542 [main] INFO  Util.LoggerUtil - Driver tear down
+20:18:31.543 [main] INFO  Util.LoggerUtil - Get browser value
+20:18:31.543 [main] INFO  Util.LoggerUtil - Get url value
+20:18:31.568 [main] INFO  Util.LoggerUtil - Get headless value
+20:18:43.036 [main] INFO  Util.LoggerUtil - Initializing driver
+20:18:43.128 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (0e7cd70fc8466de0e330e3770b8cd444)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0e7cd70fc8466de0e330e3770b8cd444)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0e7cd70fc8466de0e330e3770b8cd444)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0e7cd70fc8466de0e330e3770b8cd444)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (0e7cd70fc8466de0e330e3770b8cd444)] -> css selector: #myTab a]] to be visible
+20:18:43.224 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:18:44.998 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:18:45.308 [main] INFO  Util.LoggerUtil - Driver tear down
+20:21:48.645 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+20:21:48.672 [main] INFO  Util.LoggerUtil - Get browser value
+20:21:48.673 [main] INFO  Util.LoggerUtil - Get url value
+20:21:49.073 [main] INFO  Util.LoggerUtil - Get headless value
+20:21:56.242 [main] INFO  Util.LoggerUtil - Initializing driver
+20:21:56.395 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (82b09d5a45d972f8639639307414eda9)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (82b09d5a45d972f8639639307414eda9)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (82b09d5a45d972f8639639307414eda9)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (82b09d5a45d972f8639639307414eda9)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (82b09d5a45d972f8639639307414eda9)] -> css selector: #myTab a]] to be visible
+20:21:56.490 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:21:58.237 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:21:59.347 [main] INFO  Util.LoggerUtil - Driver tear down
+20:21:59.348 [main] INFO  Util.LoggerUtil - Get browser value
+20:21:59.349 [main] INFO  Util.LoggerUtil - Get url value
+20:21:59.385 [main] INFO  Util.LoggerUtil - Get headless value
+20:22:04.470 [main] INFO  Util.LoggerUtil - Initializing driver
+20:22:04.558 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (5ae72190a5520ad1de0cb5ee44ff5b4b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5ae72190a5520ad1de0cb5ee44ff5b4b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5ae72190a5520ad1de0cb5ee44ff5b4b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5ae72190a5520ad1de0cb5ee44ff5b4b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5ae72190a5520ad1de0cb5ee44ff5b4b)] -> css selector: #myTab a]] to be visible
+20:22:04.648 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:22:06.999 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:22:07.828 [main] INFO  Util.LoggerUtil - Driver tear down
+20:22:07.832 [main] INFO  Util.LoggerUtil - Get browser value
+20:22:07.833 [main] INFO  Util.LoggerUtil - Get url value
+20:22:07.922 [main] INFO  Util.LoggerUtil - Get headless value
+20:22:13.757 [main] INFO  Util.LoggerUtil - Initializing driver
+20:22:13.841 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (df2f83ec25f6f76228668ed5ecf7de23)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (df2f83ec25f6f76228668ed5ecf7de23)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (df2f83ec25f6f76228668ed5ecf7de23)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (df2f83ec25f6f76228668ed5ecf7de23)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (df2f83ec25f6f76228668ed5ecf7de23)] -> css selector: #myTab a]] to be visible
+20:22:13.941 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:22:15.761 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:22:17.006 [main] INFO  Util.LoggerUtil - Driver tear down
+20:22:17.009 [main] INFO  Util.LoggerUtil - Get browser value
+20:22:17.010 [main] INFO  Util.LoggerUtil - Get url value
+20:22:17.078 [main] INFO  Util.LoggerUtil - Get headless value
+20:22:22.798 [main] INFO  Util.LoggerUtil - Initializing driver
+20:22:22.876 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (d3acfebf10f5a593f64cc73bfd5d68fd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d3acfebf10f5a593f64cc73bfd5d68fd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d3acfebf10f5a593f64cc73bfd5d68fd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d3acfebf10f5a593f64cc73bfd5d68fd)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d3acfebf10f5a593f64cc73bfd5d68fd)] -> css selector: #myTab a]] to be visible
+20:22:22.972 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:22:24.823 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:22:25.457 [main] INFO  Util.LoggerUtil - Driver tear down
+20:22:41.199 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+20:22:41.225 [main] INFO  Util.LoggerUtil - Get browser value
+20:22:41.225 [main] INFO  Util.LoggerUtil - Get url value
+20:22:41.613 [main] INFO  Util.LoggerUtil - Get headless value
+20:22:49.333 [main] INFO  Util.LoggerUtil - Initializing driver
+20:22:49.471 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (566f3f98f362bf80da3a6ac067e0d768)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (566f3f98f362bf80da3a6ac067e0d768)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (566f3f98f362bf80da3a6ac067e0d768)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (566f3f98f362bf80da3a6ac067e0d768)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (566f3f98f362bf80da3a6ac067e0d768)] -> css selector: #myTab a]] to be visible
+20:22:49.570 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:22:51.271 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:22:52.087 [main] INFO  Util.LoggerUtil - Driver tear down
+20:22:52.091 [main] INFO  Util.LoggerUtil - Get browser value
+20:22:52.091 [main] INFO  Util.LoggerUtil - Get url value
+20:22:52.184 [main] INFO  Util.LoggerUtil - Get headless value
+20:22:59.738 [main] INFO  Util.LoggerUtil - Initializing driver
+20:22:59.830 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (970d3d2eb0ad693f5b6dd098b11b76b4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (970d3d2eb0ad693f5b6dd098b11b76b4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (970d3d2eb0ad693f5b6dd098b11b76b4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (970d3d2eb0ad693f5b6dd098b11b76b4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (970d3d2eb0ad693f5b6dd098b11b76b4)] -> css selector: #myTab a]] to be visible
+20:22:59.934 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:23:01.636 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:23:02.225 [main] INFO  Util.LoggerUtil - Driver tear down
+20:23:02.227 [main] INFO  Util.LoggerUtil - Get browser value
+20:23:02.228 [main] INFO  Util.LoggerUtil - Get url value
+20:23:02.274 [main] INFO  Util.LoggerUtil - Get headless value
+20:23:09.185 [main] INFO  Util.LoggerUtil - Initializing driver
+20:23:09.261 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (eeb486fbf09b6c7e8f8ac1b472ca879e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (eeb486fbf09b6c7e8f8ac1b472ca879e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (eeb486fbf09b6c7e8f8ac1b472ca879e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (eeb486fbf09b6c7e8f8ac1b472ca879e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (eeb486fbf09b6c7e8f8ac1b472ca879e)] -> css selector: #myTab a]] to be visible
+20:23:09.344 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:23:11.122 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:23:11.819 [main] INFO  Util.LoggerUtil - Driver tear down
+20:23:11.820 [main] INFO  Util.LoggerUtil - Get browser value
+20:23:11.821 [main] INFO  Util.LoggerUtil - Get url value
+20:23:11.854 [main] INFO  Util.LoggerUtil - Get headless value
+20:23:17.188 [main] INFO  Util.LoggerUtil - Initializing driver
+20:23:17.269 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (8bac3f79893b6da54efbe9d9629fe841)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (8bac3f79893b6da54efbe9d9629fe841)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (8bac3f79893b6da54efbe9d9629fe841)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (8bac3f79893b6da54efbe9d9629fe841)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (8bac3f79893b6da54efbe9d9629fe841)] -> css selector: #myTab a]] to be visible
+20:23:17.353 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:23:19.422 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:23:19.992 [main] INFO  Util.LoggerUtil - Driver tear down
+20:24:00.798 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+20:24:00.823 [main] INFO  Util.LoggerUtil - Get browser value
+20:24:00.823 [main] INFO  Util.LoggerUtil - Get url value
+20:24:01.227 [main] INFO  Util.LoggerUtil - Get headless value
+20:24:07.718 [main] INFO  Util.LoggerUtil - Initializing driver
+20:24:07.864 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (15f9da6514374f9e4f30f44e904f5e57)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (15f9da6514374f9e4f30f44e904f5e57)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (15f9da6514374f9e4f30f44e904f5e57)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (15f9da6514374f9e4f30f44e904f5e57)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (15f9da6514374f9e4f30f44e904f5e57)] -> css selector: #myTab a]] to be visible
+20:24:07.960 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:24:09.745 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:24:10.871 [main] INFO  Util.LoggerUtil - Driver tear down
+20:24:10.872 [main] INFO  Util.LoggerUtil - Get browser value
+20:24:10.873 [main] INFO  Util.LoggerUtil - Get url value
+20:24:10.907 [main] INFO  Util.LoggerUtil - Get headless value
+20:24:16.337 [main] INFO  Util.LoggerUtil - Initializing driver
+20:24:16.422 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (f80d154b3b044929ae77db081df47820)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f80d154b3b044929ae77db081df47820)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f80d154b3b044929ae77db081df47820)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f80d154b3b044929ae77db081df47820)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f80d154b3b044929ae77db081df47820)] -> css selector: #myTab a]] to be visible
+20:24:16.520 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:24:18.161 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:24:18.709 [main] INFO  Util.LoggerUtil - Driver tear down
+20:24:18.710 [main] INFO  Util.LoggerUtil - Get browser value
+20:24:18.710 [main] INFO  Util.LoggerUtil - Get url value
+20:24:18.743 [main] INFO  Util.LoggerUtil - Get headless value
+20:24:24.273 [main] INFO  Util.LoggerUtil - Initializing driver
+20:24:24.361 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (4bf1239cae243830915812ec67a18ae0)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (4bf1239cae243830915812ec67a18ae0)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (4bf1239cae243830915812ec67a18ae0)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (4bf1239cae243830915812ec67a18ae0)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (4bf1239cae243830915812ec67a18ae0)] -> css selector: #myTab a]] to be visible
+20:24:24.456 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:24:26.088 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:24:27.187 [main] INFO  Util.LoggerUtil - Driver tear down
+20:24:27.188 [main] INFO  Util.LoggerUtil - Get browser value
+20:24:27.189 [main] INFO  Util.LoggerUtil - Get url value
+20:24:27.217 [main] INFO  Util.LoggerUtil - Get headless value
+20:24:33.108 [main] INFO  Util.LoggerUtil - Initializing driver
+20:24:33.184 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (ce6c1cff2232e5aba797d42599540ec8)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ce6c1cff2232e5aba797d42599540ec8)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ce6c1cff2232e5aba797d42599540ec8)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ce6c1cff2232e5aba797d42599540ec8)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ce6c1cff2232e5aba797d42599540ec8)] -> css selector: #myTab a]] to be visible
+20:24:33.271 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:24:34.919 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:24:35.803 [main] INFO  Util.LoggerUtil - Driver tear down
+20:53:13.744 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+20:57:12.623 [main] INFO  Util.LoggerUtil - Get browser value
+20:57:12.628 [main] INFO  Util.LoggerUtil - Get url value
+20:57:15.079 [main] INFO  Util.LoggerUtil - Get headless value
+20:57:31.358 [main] INFO  Util.LoggerUtil - Initializing driver
+20:57:31.691 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (bf2262676275cce48d6f9c93d64d5d76)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bf2262676275cce48d6f9c93d64d5d76)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bf2262676275cce48d6f9c93d64d5d76)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bf2262676275cce48d6f9c93d64d5d76)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bf2262676275cce48d6f9c93d64d5d76)] -> css selector: #myTab a]] to be visible
+20:57:31.787 [main] INFO  Util.LoggerUtil - Chose inter_example level
+20:57:34.033 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+20:57:34.741 [main] INFO  Util.LoggerUtil - Driver tear down
+21:05:16.276 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+21:05:16.315 [main] INFO  Util.LoggerUtil - Get browser value
+21:05:16.316 [main] INFO  Util.LoggerUtil - Get url value
+21:05:17.049 [main] INFO  Util.LoggerUtil - Get headless value
+21:05:28.080 [main] INFO  Util.LoggerUtil - Initializing driver
+21:05:28.734 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (e63f0a9acd8da170a643d59ec9755b54)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (e63f0a9acd8da170a643d59ec9755b54)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (e63f0a9acd8da170a643d59ec9755b54)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (e63f0a9acd8da170a643d59ec9755b54)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (e63f0a9acd8da170a643d59ec9755b54)] -> css selector: #myTab a]] to be visible
+21:05:28.836 [main] INFO  Util.LoggerUtil - Chose inter_example level
+21:05:30.518 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+21:05:32.208 [main] INFO  Util.LoggerUtil - Driver tear down
+21:05:32.213 [main] INFO  Util.LoggerUtil - Get browser value
+21:05:32.214 [main] INFO  Util.LoggerUtil - Get url value
+21:05:32.260 [main] INFO  Util.LoggerUtil - Get headless value
+21:05:37.695 [main] INFO  Util.LoggerUtil - Initializing driver
+21:05:37.790 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (ab199caa85eb563b69600827d989e5d2)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ab199caa85eb563b69600827d989e5d2)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ab199caa85eb563b69600827d989e5d2)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ab199caa85eb563b69600827d989e5d2)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (ab199caa85eb563b69600827d989e5d2)] -> css selector: #myTab a]] to be visible
+21:05:37.893 [main] INFO  Util.LoggerUtil - Chose inter_example level
+21:05:39.544 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+21:05:40.161 [main] INFO  Util.LoggerUtil - Driver tear down
+21:05:40.164 [main] INFO  Util.LoggerUtil - Get browser value
+21:05:40.164 [main] INFO  Util.LoggerUtil - Get url value
+21:05:40.235 [main] INFO  Util.LoggerUtil - Get headless value
+21:05:47.278 [main] INFO  Util.LoggerUtil - Initializing driver
+21:05:47.369 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (8deef8ed93d0460b97a3f42be709e087)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (8deef8ed93d0460b97a3f42be709e087)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (8deef8ed93d0460b97a3f42be709e087)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (8deef8ed93d0460b97a3f42be709e087)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (8deef8ed93d0460b97a3f42be709e087)] -> css selector: #myTab a]] to be visible
+21:05:47.469 [main] INFO  Util.LoggerUtil - Chose inter_example level
+21:05:49.134 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+21:05:49.620 [main] INFO  Util.LoggerUtil - Driver tear down
+21:11:34.885 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/IntermediateTestsData/BoostrapListBoxData.xlsx data
+21:11:34.910 [main] INFO  Util.LoggerUtil - Get browser value
+21:11:34.910 [main] INFO  Util.LoggerUtil - Get url value
+21:11:35.353 [main] INFO  Util.LoggerUtil - Get headless value
+21:11:41.893 [main] INFO  Util.LoggerUtil - Initializing driver
+21:11:42.028 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (c2324314b5b29ff219f8e7a10e92b0ef)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c2324314b5b29ff219f8e7a10e92b0ef)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c2324314b5b29ff219f8e7a10e92b0ef)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c2324314b5b29ff219f8e7a10e92b0ef)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c2324314b5b29ff219f8e7a10e92b0ef)] -> css selector: #myTab a]] to be visible
+21:11:42.124 [main] INFO  Util.LoggerUtil - Chose inter_example level
+21:11:43.771 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+21:11:44.300 [main] INFO  Util.LoggerUtil - Driver tear down
+21:11:44.302 [main] INFO  Util.LoggerUtil - Get browser value
+21:11:44.302 [main] INFO  Util.LoggerUtil - Get url value
+21:11:44.342 [main] INFO  Util.LoggerUtil - Get headless value
+21:11:51.994 [main] INFO  Util.LoggerUtil - Initializing driver
+21:11:52.101 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (3e57ca8c5d26135f05f223185ccd59fa)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3e57ca8c5d26135f05f223185ccd59fa)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3e57ca8c5d26135f05f223185ccd59fa)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3e57ca8c5d26135f05f223185ccd59fa)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3e57ca8c5d26135f05f223185ccd59fa)] -> css selector: #myTab a]] to be visible
+21:11:52.204 [main] INFO  Util.LoggerUtil - Chose inter_example level
+21:11:53.922 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+21:11:55.075 [main] INFO  Util.LoggerUtil - Driver tear down
+21:11:55.076 [main] INFO  Util.LoggerUtil - Get browser value
+21:11:55.077 [main] INFO  Util.LoggerUtil - Get url value
+21:11:55.106 [main] INFO  Util.LoggerUtil - Get headless value
+21:12:01.624 [main] INFO  Util.LoggerUtil - Initializing driver
+21:12:01.720 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (65f472d671456aefe475625a70b03dec)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (65f472d671456aefe475625a70b03dec)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (65f472d671456aefe475625a70b03dec)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (65f472d671456aefe475625a70b03dec)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (65f472d671456aefe475625a70b03dec)] -> css selector: #myTab a]] to be visible
+21:12:01.821 [main] INFO  Util.LoggerUtil - Chose inter_example level
+21:12:03.606 [main] INFO  Util.LoggerUtil - Chose Bootstrap List Box exercise
+21:12:04.403 [main] INFO  Util.LoggerUtil - Driver tear down
+22:21:02.881 [main] INFO  Util.LoggerUtil - Get browser value
+22:21:02.902 [main] INFO  Util.LoggerUtil - Get url value
+22:21:09.630 [main] INFO  Util.LoggerUtil - Get headless value
+22:21:26.609 [main] INFO  Util.LoggerUtil - Initializing driver
+22:21:27.234 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (9bbdb248b24932e1181c0345722813a6)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (9bbdb248b24932e1181c0345722813a6)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (9bbdb248b24932e1181c0345722813a6)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (9bbdb248b24932e1181c0345722813a6)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (9bbdb248b24932e1181c0345722813a6)] -> css selector: #myTab a]] to be visible
+22:21:27.344 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+22:21:29.163 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+22:21:29.848 [main] INFO  Util.LoggerUtil - Driver tear down
+22:22:27.715 [main] INFO  Util.LoggerUtil - Get browser value
+22:22:27.718 [main] INFO  Util.LoggerUtil - Get url value
+22:22:28.144 [main] INFO  Util.LoggerUtil - Get headless value
+22:22:35.208 [main] INFO  Util.LoggerUtil - Initializing driver
+22:22:35.354 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (d617fc1458b55c0799bd6d41c08d300b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d617fc1458b55c0799bd6d41c08d300b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d617fc1458b55c0799bd6d41c08d300b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d617fc1458b55c0799bd6d41c08d300b)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (d617fc1458b55c0799bd6d41c08d300b)] -> css selector: #myTab a]] to be visible
+22:22:35.450 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+22:22:37.330 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+22:22:37.398 [main] INFO  Util.LoggerUtil - Driver tear down
+22:24:08.422 [main] INFO  Util.LoggerUtil - Get browser value
+22:24:08.426 [main] INFO  Util.LoggerUtil - Get url value
+22:24:08.807 [main] INFO  Util.LoggerUtil - Get headless value
+22:24:16.421 [main] INFO  Util.LoggerUtil - Initializing driver
+22:24:16.435 [main] INFO  Util.LoggerUtil - Driver tear down
+22:27:42.506 [main] INFO  Util.LoggerUtil - Get browser value
+22:27:42.510 [main] INFO  Util.LoggerUtil - Get url value
+22:27:42.905 [main] INFO  Util.LoggerUtil - Get headless value
+22:27:57.735 [main] INFO  Util.LoggerUtil - Initializing driver
+22:27:57.871 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (e8bf805fff25e06eadf10e7f5256b033)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (e8bf805fff25e06eadf10e7f5256b033)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (e8bf805fff25e06eadf10e7f5256b033)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (e8bf805fff25e06eadf10e7f5256b033)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (e8bf805fff25e06eadf10e7f5256b033)] -> css selector: #myTab a]] to be visible
+22:27:57.978 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+22:27:59.821 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+22:27:59.896 [main] INFO  Util.LoggerUtil - Driver tear down
+22:28:17.897 [main] INFO  Util.LoggerUtil - Get browser value
+22:28:17.901 [main] INFO  Util.LoggerUtil - Get url value
+22:28:18.285 [main] INFO  Util.LoggerUtil - Get headless value
+22:28:28.817 [main] INFO  Util.LoggerUtil - Initializing driver
+22:28:28.958 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (023dbe5bebeea1935dfa132d598d82af)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (023dbe5bebeea1935dfa132d598d82af)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (023dbe5bebeea1935dfa132d598d82af)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (023dbe5bebeea1935dfa132d598d82af)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (023dbe5bebeea1935dfa132d598d82af)] -> css selector: #myTab a]] to be visible
+22:28:29.056 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+22:28:30.789 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+22:28:30.860 [main] INFO  Util.LoggerUtil - Driver tear down
+22:38:54.332 [main] INFO  Util.LoggerUtil - Get browser value
+22:38:54.341 [main] INFO  Util.LoggerUtil - Get url value
+22:38:56.282 [main] INFO  Util.LoggerUtil - Get headless value
+22:39:10.941 [main] INFO  Util.LoggerUtil - Initializing driver
+22:39:11.543 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (9ad294087a2ef715987fcd678f668d80)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (9ad294087a2ef715987fcd678f668d80)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (9ad294087a2ef715987fcd678f668d80)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (9ad294087a2ef715987fcd678f668d80)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (9ad294087a2ef715987fcd678f668d80)] -> css selector: #myTab a]] to be visible
+22:39:11.668 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+22:39:13.631 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+22:39:14.017 [main] INFO  Util.LoggerUtil - Driver tear down
+22:48:33.124 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/AdvancedTestsData/DragAndDropData.xlsx data
+22:48:33.143 [main] INFO  Util.LoggerUtil - Get browser value
+22:48:33.144 [main] INFO  Util.LoggerUtil - Get url value
+22:48:33.506 [main] INFO  Util.LoggerUtil - Get headless value
+22:48:39.904 [main] INFO  Util.LoggerUtil - Initializing driver
+22:48:40.041 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (4faa4ed627bfc0249043842385dbba85)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (4faa4ed627bfc0249043842385dbba85)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (4faa4ed627bfc0249043842385dbba85)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (4faa4ed627bfc0249043842385dbba85)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (4faa4ed627bfc0249043842385dbba85)] -> css selector: #myTab a]] to be visible
+22:48:40.151 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+22:48:41.916 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+22:48:42.246 [main] INFO  Util.LoggerUtil - Driver tear down
+22:48:42.247 [main] INFO  Util.LoggerUtil - Get browser value
+22:48:42.247 [main] INFO  Util.LoggerUtil - Get url value
+22:48:42.283 [main] INFO  Util.LoggerUtil - Get headless value
+22:48:53.065 [main] INFO  Util.LoggerUtil - Initializing driver
+22:48:53.186 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (53c5384b15648ffc7aeb9c3894b6e5ce)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (53c5384b15648ffc7aeb9c3894b6e5ce)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (53c5384b15648ffc7aeb9c3894b6e5ce)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (53c5384b15648ffc7aeb9c3894b6e5ce)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (53c5384b15648ffc7aeb9c3894b6e5ce)] -> css selector: #myTab a]] to be visible
+22:48:53.297 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+22:48:55.650 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+22:48:55.974 [main] INFO  Util.LoggerUtil - Driver tear down
+22:48:55.975 [main] INFO  Util.LoggerUtil - Get browser value
+22:48:55.976 [main] INFO  Util.LoggerUtil - Get url value
+22:48:56.005 [main] INFO  Util.LoggerUtil - Get headless value
+22:49:03.000 [main] INFO  Util.LoggerUtil - Initializing driver
+22:49:03.081 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (1ffbc6c8f37512b74490770c6cf58d25)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (1ffbc6c8f37512b74490770c6cf58d25)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (1ffbc6c8f37512b74490770c6cf58d25)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (1ffbc6c8f37512b74490770c6cf58d25)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (1ffbc6c8f37512b74490770c6cf58d25)] -> css selector: #myTab a]] to be visible
+22:49:03.178 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+22:49:04.995 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+22:49:05.343 [main] INFO  Util.LoggerUtil - Driver tear down
+22:49:05.345 [main] INFO  Util.LoggerUtil - Get browser value
+22:49:05.837 [main] INFO  Util.LoggerUtil - Get url value
+22:49:05.865 [main] INFO  Util.LoggerUtil - Get headless value
+22:49:14.317 [main] INFO  Util.LoggerUtil - Initializing driver
+22:49:14.409 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (f98736ec6743f9233d4e3ea164792ceb)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f98736ec6743f9233d4e3ea164792ceb)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f98736ec6743f9233d4e3ea164792ceb)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f98736ec6743f9233d4e3ea164792ceb)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (f98736ec6743f9233d4e3ea164792ceb)] -> css selector: #myTab a]] to be visible
+22:49:14.517 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+22:49:16.365 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+22:49:16.710 [main] INFO  Util.LoggerUtil - Driver tear down
+22:52:49.723 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/AdvancedTestsData/DragAndDropData.xlsx data
+22:53:48.558 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/AdvancedTestsData/DragAndDropData.xlsx data
+22:53:48.594 [main] INFO  Util.LoggerUtil - Get browser value
+22:53:48.595 [main] INFO  Util.LoggerUtil - Get url value
+22:53:49.072 [main] INFO  Util.LoggerUtil - Get headless value
+22:53:57.747 [main] INFO  Util.LoggerUtil - Initializing driver
+22:53:57.921 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (24c09fcc3b6781b1b1851b08f0073ae0)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (24c09fcc3b6781b1b1851b08f0073ae0)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (24c09fcc3b6781b1b1851b08f0073ae0)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (24c09fcc3b6781b1b1851b08f0073ae0)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (24c09fcc3b6781b1b1851b08f0073ae0)] -> css selector: #myTab a]] to be visible
+22:53:58.019 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+22:53:59.960 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+22:54:00.367 [main] INFO  Util.LoggerUtil - Driver tear down
+22:54:00.369 [main] INFO  Util.LoggerUtil - Get browser value
+22:54:00.369 [main] INFO  Util.LoggerUtil - Get url value
+22:54:00.404 [main] INFO  Util.LoggerUtil - Get headless value
+22:54:07.625 [main] INFO  Util.LoggerUtil - Initializing driver
+22:54:07.714 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (11648f5a22b0d517164c569447a760d3)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (11648f5a22b0d517164c569447a760d3)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (11648f5a22b0d517164c569447a760d3)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (11648f5a22b0d517164c569447a760d3)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (11648f5a22b0d517164c569447a760d3)] -> css selector: #myTab a]] to be visible
+22:54:07.813 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+22:54:09.587 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+22:54:09.921 [main] INFO  Util.LoggerUtil - Driver tear down
+22:54:09.923 [main] INFO  Util.LoggerUtil - Get browser value
+22:54:09.923 [main] INFO  Util.LoggerUtil - Get url value
+22:54:09.959 [main] INFO  Util.LoggerUtil - Get headless value
+22:54:17.918 [main] INFO  Util.LoggerUtil - Initializing driver
+22:54:17.995 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (fc74655e5de852f174d9bc9b54693732)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (fc74655e5de852f174d9bc9b54693732)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (fc74655e5de852f174d9bc9b54693732)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (fc74655e5de852f174d9bc9b54693732)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (fc74655e5de852f174d9bc9b54693732)] -> css selector: #myTab a]] to be visible
+22:54:18.087 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+22:54:19.772 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+22:54:20.115 [main] INFO  Util.LoggerUtil - Driver tear down
+22:54:20.116 [main] INFO  Util.LoggerUtil - Get browser value
+22:54:20.118 [main] INFO  Util.LoggerUtil - Get url value
+22:54:20.145 [main] INFO  Util.LoggerUtil - Get headless value
+22:54:33.584 [main] INFO  Util.LoggerUtil - Initializing driver
+22:54:33.661 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (2def223f89899eb03a43635493038b0e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2def223f89899eb03a43635493038b0e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2def223f89899eb03a43635493038b0e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2def223f89899eb03a43635493038b0e)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (2def223f89899eb03a43635493038b0e)] -> css selector: #myTab a]] to be visible
+22:54:33.756 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+22:54:35.822 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+22:54:36.176 [main] INFO  Util.LoggerUtil - Driver tear down
+23:00:25.258 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/AdvancedTestsData/DragAndDropData.xlsx data
+23:00:25.307 [main] INFO  Util.LoggerUtil - Get browser value
+23:00:25.307 [main] INFO  Util.LoggerUtil - Get url value
+23:00:25.934 [main] INFO  Util.LoggerUtil - Get headless value
+23:00:40.142 [main] INFO  Util.LoggerUtil - Initializing driver
+23:00:40.788 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (5690c493c693f069b54106f42b91b4f7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5690c493c693f069b54106f42b91b4f7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5690c493c693f069b54106f42b91b4f7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5690c493c693f069b54106f42b91b4f7)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5690c493c693f069b54106f42b91b4f7)] -> css selector: #myTab a]] to be visible
+23:00:41.000 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+23:00:42.849 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+23:00:44.287 [main] INFO  Util.LoggerUtil - Driver tear down
+23:02:25.158 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/AdvancedTestsData/DragAndDropData.xlsx data
+23:02:25.184 [main] INFO  Util.LoggerUtil - Get browser value
+23:02:25.184 [main] INFO  Util.LoggerUtil - Get url value
+23:02:25.592 [main] INFO  Util.LoggerUtil - Get headless value
+23:02:39.492 [main] INFO  Util.LoggerUtil - Initializing driver
+23:02:39.629 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (fdd96cafe6b64c63d9903eb03cb53504)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (fdd96cafe6b64c63d9903eb03cb53504)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (fdd96cafe6b64c63d9903eb03cb53504)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (fdd96cafe6b64c63d9903eb03cb53504)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (fdd96cafe6b64c63d9903eb03cb53504)] -> css selector: #myTab a]] to be visible
+23:02:39.727 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+23:02:41.603 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+23:02:42.793 [main] INFO  Util.LoggerUtil - Driver tear down
+23:05:33.165 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/AdvancedTestsData/DragAndDropData.xlsx data
+23:05:33.192 [main] INFO  Util.LoggerUtil - Get browser value
+23:05:33.193 [main] INFO  Util.LoggerUtil - Get url value
+23:05:33.637 [main] INFO  Util.LoggerUtil - Get headless value
+23:05:40.821 [main] INFO  Util.LoggerUtil - Initializing driver
+23:05:40.960 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (49f0b9f0e30561d23bdd9979410fdc91)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (49f0b9f0e30561d23bdd9979410fdc91)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (49f0b9f0e30561d23bdd9979410fdc91)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (49f0b9f0e30561d23bdd9979410fdc91)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (49f0b9f0e30561d23bdd9979410fdc91)] -> css selector: #myTab a]] to be visible
+23:05:41.064 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+23:05:42.932 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+23:05:44.621 [main] INFO  Util.LoggerUtil - Driver tear down
+23:10:01.639 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/AdvancedTestsData/DragAndDropData.xlsx data
+23:10:01.662 [main] INFO  Util.LoggerUtil - Get browser value
+23:10:01.664 [main] INFO  Util.LoggerUtil - Get url value
+23:10:02.063 [main] INFO  Util.LoggerUtil - Get headless value
+23:10:14.194 [main] INFO  Util.LoggerUtil - Initializing driver
+23:10:14.326 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (3895b051573f6d770e230bed325606ab)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3895b051573f6d770e230bed325606ab)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3895b051573f6d770e230bed325606ab)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3895b051573f6d770e230bed325606ab)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (3895b051573f6d770e230bed325606ab)] -> css selector: #myTab a]] to be visible
+23:10:14.430 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+23:10:16.268 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+23:10:17.470 [main] INFO  Util.LoggerUtil - Driver tear down
+23:13:28.214 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/AdvancedTestsData/DragAndDropData.xlsx data
+23:13:28.251 [main] INFO  Util.LoggerUtil - Get browser value
+23:13:28.252 [main] INFO  Util.LoggerUtil - Get url value
+23:13:28.692 [main] INFO  Util.LoggerUtil - Get headless value
+23:13:37.042 [main] INFO  Util.LoggerUtil - Initializing driver
+23:13:37.176 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (de8ce7ef4000225278e1d6b1f4ad5837)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (de8ce7ef4000225278e1d6b1f4ad5837)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (de8ce7ef4000225278e1d6b1f4ad5837)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (de8ce7ef4000225278e1d6b1f4ad5837)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (de8ce7ef4000225278e1d6b1f4ad5837)] -> css selector: #myTab a]] to be visible
+23:13:37.275 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+23:13:39.042 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+23:13:40.281 [main] INFO  Util.LoggerUtil - Driver tear down
+23:13:40.345 [main] INFO  Util.LoggerUtil - Read src/test/java/TestData/AdvancedTestsData/DragAndDropData.xlsx data
+23:13:40.347 [main] INFO  Util.LoggerUtil - Get browser value
+23:13:40.347 [main] INFO  Util.LoggerUtil - Get url value
+23:13:40.382 [main] INFO  Util.LoggerUtil - Get headless value
+23:13:47.844 [main] INFO  Util.LoggerUtil - Initializing driver
+23:13:47.930 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (6529104691575d883e2ee0e49c93a31d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (6529104691575d883e2ee0e49c93a31d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (6529104691575d883e2ee0e49c93a31d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (6529104691575d883e2ee0e49c93a31d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (6529104691575d883e2ee0e49c93a31d)] -> css selector: #myTab a]] to be visible
+23:13:48.045 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+23:13:49.743 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+23:13:50.092 [main] INFO  Util.LoggerUtil - Driver tear down
+23:13:50.093 [main] INFO  Util.LoggerUtil - Get browser value
+23:13:50.093 [main] INFO  Util.LoggerUtil - Get url value
+23:13:50.124 [main] INFO  Util.LoggerUtil - Get headless value
+23:14:04.120 [main] INFO  Util.LoggerUtil - Initializing driver
+23:14:04.211 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (77d3aca34dc9cd17c3df3648f9bc676c)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (77d3aca34dc9cd17c3df3648f9bc676c)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (77d3aca34dc9cd17c3df3648f9bc676c)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (77d3aca34dc9cd17c3df3648f9bc676c)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (77d3aca34dc9cd17c3df3648f9bc676c)] -> css selector: #myTab a]] to be visible
+23:14:04.432 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+23:14:07.068 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+23:14:07.392 [main] INFO  Util.LoggerUtil - Driver tear down
+23:14:07.393 [main] INFO  Util.LoggerUtil - Get browser value
+23:14:07.394 [main] INFO  Util.LoggerUtil - Get url value
+23:14:07.429 [main] INFO  Util.LoggerUtil - Get headless value
+23:14:18.293 [main] INFO  Util.LoggerUtil - Initializing driver
+23:14:18.374 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (456ef0363afb1c52593c2f80691f7502)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (456ef0363afb1c52593c2f80691f7502)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (456ef0363afb1c52593c2f80691f7502)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (456ef0363afb1c52593c2f80691f7502)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (456ef0363afb1c52593c2f80691f7502)] -> css selector: #myTab a]] to be visible
+23:14:18.482 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+23:14:20.286 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+23:14:20.642 [main] INFO  Util.LoggerUtil - Driver tear down
+23:14:20.644 [main] INFO  Util.LoggerUtil - Get browser value
+23:14:20.644 [main] INFO  Util.LoggerUtil - Get url value
+23:14:20.675 [main] INFO  Util.LoggerUtil - Get headless value
+23:14:46.148 [main] INFO  Util.LoggerUtil - Initializing driver
+23:14:46.228 [main] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (db9bb924c29b77e1b4dd240e36bacd3d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (db9bb924c29b77e1b4dd240e36bacd3d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (db9bb924c29b77e1b4dd240e36bacd3d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (db9bb924c29b77e1b4dd240e36bacd3d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (db9bb924c29b77e1b4dd240e36bacd3d)] -> css selector: #myTab a]] to be visible
+23:14:46.339 [main] INFO  Util.LoggerUtil - Chose advanced_example level
+23:14:48.696 [main] INFO  Util.LoggerUtil - Chose Drag and Drop exercise
+23:14:49.043 [main] INFO  Util.LoggerUtil - Driver tear down

@@ -18,8 +18,8 @@ public class BoostrapModalsTest extends BaseTest {
         //given
         boostrapModalsPage.goToExercise();
         String message =boostrapModalsPage
-                .clickSingelModalButton()
-                .getSingelModalAlertMessage();
+                .clickSingleModalButton()
+                .getSingleModalAlertMessage();
         boostrapModalsPage.acceptSingelModalAlert();
         //then
         softAssert.assertEquals(message,expected);
