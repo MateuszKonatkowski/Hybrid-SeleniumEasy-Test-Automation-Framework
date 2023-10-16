@@ -44,7 +44,7 @@ public class TableDataSearchPage extends BasePage {
 
 	@FindBy(css=".filters input")
     @CacheLookup
-	private List<WebElement> tableDataUsersFilterInputElements;//
+	private List<WebElement> tableDataUsersFilterInputElements;
 
     @FindBy(css=".filterable tbody tr td")
     @CacheLookup
