@@ -29,6 +29,7 @@ public class TableDataSearchPage extends BasePage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
     @FindBy(css="#task-table-filter")
     @CacheLookup
 	private WebElement tableDataTaskInputElement;
