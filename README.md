@@ -598,10 +598,10 @@ To run `Smoke tests` on `Chrome browser` with `Headless mode`, run the following
 ```
 # ✳️ Report
 
-![](https://i.imgur.com/fG5BKVX.png)
-![](https://i.imgur.com/8G0Lyjx.png)
-![](https://i.imgur.com/Ti3oLIZ.png)
-![](https://i.imgur.com/DqrLTzH.png)
+![](https://i.imgur.com/yGhIcjA.png)
+![](https://i.imgur.com/H44omLe.png)
+![](https://i.imgur.com/Y1hEdRB.png)
+![](https://i.imgur.com/nN3fFp3.png)
 
 
 
