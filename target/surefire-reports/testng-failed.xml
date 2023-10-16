@@ -1,91 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Surefire suite]" verbose="0">
-  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Listeners.Listener"/>
+  </listeners>
+  <test thread-count="5" name="test(failed)" verbose="0">
     <classes>
-      <class name="TestComponents.BasicTests.SelectDropdownListDemoTest">
-        <methods>
-          <include name="multiSelect_SelectFirstSelectedValue_Should_Show_First_Message"/>
-          <include name="tearDown"/>
-          <include name="select_SelectValue_Should_Show_Message"/>
-          <include name="setUp"/>
-          <include name="multiSelect_SelectAllValues_Should_Show_All_Message"/>
-          <include name="multiSelect_Status_Should_Multiple"/>
-        </methods>
-      </class> <!-- TestComponents.BasicTests.SelectDropdownListDemoTest -->
-      <class name="TestComponents.BasicTests.JavaScriptAlertsTest">
-        <methods>
-          <include name="confirmBox_Click_Should_Show_ConfirmMessage_And_Dismiss"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="alertBox_Click_Should_ShowAlertMessage_And_Accept"/>
-          <include name="confirmBox_Click_Should_Show_ConfirmMessage_And_Accept"/>
-          <include name="promptBox_Click_Enter_Value_Should_Show_Message"/>
-        </methods>
-      </class> <!-- TestComponents.BasicTests.JavaScriptAlertsTest -->
-      <class name="TestComponents.BasicTests.WindowsPopupDemoTest">
-        <methods>
-          <include name="popup_Facebook_Should_Have_Proper_Address"/>
-          <include name="popup_Twitter_Should_Have_Proper_Address"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- TestComponents.BasicTests.WindowsPopupDemoTest -->
       <class name="TestComponents.BasicTests.SimpleFormDemoTest">
         <methods>
-          <include name="singleInput_Enter_Data_Should_Show_Message"/>
+          <include name="singleInput_Enter_Data_Should_Show_Message" invocation-numbers="4"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="doubleInput_Enter_Data_Should_Show_Message"/>
         </methods>
       </class> <!-- TestComponents.BasicTests.SimpleFormDemoTest -->
-      <class name="TestComponents.BasicTests.RadioButtonsDemoTest">
-        <methods>
-          <include name="groupRadioButton_ClickBoth_Should_Show_Message"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="radioButton_ButtonClick_Should_Show_Message"/>
-          <include name="groupRadioButton_ClickOnlyAge_Should_Show_Message"/>
-          <include name="groupRadioButton_ClickOnlySex_Should_Show_Message"/>
-        </methods>
-      </class> <!-- TestComponents.BasicTests.RadioButtonsDemoTest -->
-      <class name="TestComponents.BasicTests.CheckboxDemoTest">
-        <methods>
-          <include name="multipleCheckBox_Click_UncheckAll_Should_Change_Button_Name_And_UncheckAll"/>
-          <include name="checkBox_CLick_Should_Show_Message"/>
-          <include name="tearDown"/>
-          <include name="checkBoxDisable_Should_Be_Disable"/>
-          <include name="setUp"/>
-          <include name="checkBoxChecked_CLick_Should_Unchecked_Checkbox"/>
-          <include name="multipleCheckBox_Check_All_Should_Change_Button_Name_And_CheckAll"/>
-          <include name="checkBoxChecked_DoubleCLick_Should_Check_Checkbox"/>
-          <include name="checkBox_DoubleCLick_Should_Hide_Message"/>
-          <include name="multipleCheckBox_Click_MultipleCheckBoxAllButton_Should_Change_Button_Name_And_CheckAll"/>
-        </methods>
-      </class> <!-- TestComponents.BasicTests.CheckboxDemoTest -->
-      <class name="TestComponents.BasicTests.BoostrapModalsTest">
-        <methods>
-          <include name="multiModal_Click_Should_Show_Message_And_Disappear"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="multiModal_Lunch_Click_Should_Show_Message_And_Disappear"/>
-          <include name="singleModal_Click_Should_Show_Message_And_Disappear"/>
-        </methods>
-      </class> <!-- TestComponents.BasicTests.BoostrapModalsTest -->
-      <class name="TestComponents.BasicTests.BoostrapAlertsTest">
-        <methods>
-          <include name="boostrapAlert_Click_AutoWarning_Should_Show_Message_And_Disappear"/>
-          <include name="boostrapAlert_Click_Info_Should_Show_Message"/>
-          <include name="boostrapAlert_Click_AutoDanger_Should_Show_Message_And_Disappear"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="boostrapAlert_Click_Warning_Should_Show_Message"/>
-          <include name="boostrapAlert_Click_AutoSuccess_Should_Show_Message_And_Disappear"/>
-          <include name="boostrapAlert_Click_Success_Should_Show_Message"/>
-          <include name="boostrapAlert_Click_Danger_Should_Show_Message_And_Disappear"/>
-          <include name="boostrapAlert_Click_AutoInfo_Should_Show_Message_And_Disappear"/>
-        </methods>
-      </class> <!-- TestComponents.BasicTests.BoostrapAlertsTest -->
     </classes>
-  </test> <!-- Surefire test(failed) -->
-</suite> <!-- Failed suite [Surefire suite] -->
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

@@ -20,6 +20,7 @@ public class ConfigReaderUtil {
             e.printStackTrace();
 
         }
+
         String PropertyValue=properties.getProperty(propertyName);
         LoggerUtil.info("Get "+propertyName+" value");
         return PropertyValue;

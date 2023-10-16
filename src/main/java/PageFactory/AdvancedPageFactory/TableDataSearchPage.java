@@ -40,11 +40,22 @@ public class TableDataSearchPage extends BasePage {
     @CacheLookup
 	private List<WebElement> tableDataTaskListElements;
 
+	@FindBy(css=".btn-filter")
+	private WebElement tableDataUsersFilterButtonElement;
+
+	@FindBy(css=".filters input")
+	private List<WebElement> tableDataUsersFilterInputElements;//
+
+    @FindBy(css=".filterable tbody tr td")
+    @CacheLookup
+    private List<WebElement> tableDataUsersFilterListElements;
+
+
 
 
     private final String exerciseLevel = GlobalConsts.ADVANCED;
     private final String exercise = GlobalConsts.TABLE_DATA_SEARCH;
-    private final String data_path = GlobalConsts.AJAX_FORM_SUBMIT_DATA_PATH;
+    private final String data_path = GlobalConsts.TABLE_DATA_SEARCH_DATA_PATH;
 
 
 
@@ -73,6 +84,40 @@ public class TableDataSearchPage extends BasePage {
 
     public String getTaskListElementCount(String element)
     {
-        return String.valueOf(tableDataTaskListElements.stream().filter(a -> a.getText().equalsIgnoreCase(element)).count());
+        return String.valueOf(tableDataTaskListElements
+                .stream()
+                .filter(a -> a.getText().equalsIgnoreCase(element)).count());
     }
+
+    public TableDataSearchPage clickUsersFilterButtonButton()
+    {
+        tableDataUsersFilterButtonElement.click();
+        return new TableDataSearchPage(driver);
+    }
+
+    public TableDataSearchPage sendUsersFilterInputValue(String filter, String value)
+    {
+        WebElement inputFilter = tableDataUsersFilterInputElements
+                .stream()
+                .filter(a -> a.getAttribute("placeholder").equalsIgnoreCase(filter))
+                .findFirst()
+                .orElse(null);
+        inputFilter.sendKeys(value);
+        return new TableDataSearchPage(driver);
+    }
+
+    public boolean getUsersFilterListElementStatus(String element)
+    {
+        return tableDataUsersFilterListElements
+                .stream()
+                .anyMatch(a -> a.getText().equalsIgnoreCase(element));
+    }
+
+    public String getUsersFilterListElementCount(String element)
+    {
+        return String.valueOf(tableDataUsersFilterListElements
+                .stream()
+                .filter(a -> a.getText().equalsIgnoreCase(element)).count());
+    }
+
 }

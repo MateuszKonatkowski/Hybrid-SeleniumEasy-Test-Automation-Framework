@@ -42,7 +42,7 @@ public class DragAndDropPage extends BasePage {
 
 	@FindBy(css="#droppedlist span")
     @CacheLookup
-	private List<WebElement> dragAndDropItemsDroppedElements;
+    private List<WebElement> dragAndDropItemsDroppedElements;
 
 
 
@@ -91,13 +91,9 @@ public class DragAndDropPage extends BasePage {
 
     public String getItemsDroppedCount()
     {
-         String count = String.valueOf(dragAndDropItemsDroppedElements.stream().count());
-        return count;
+         return String.valueOf(dragAndDropItemsDroppedElements.stream().count());
+
     }
 
-    public String getItemsToDragCount()
-    {
-        return String.valueOf(dragAndDropItemsToDragElements.stream().count());
-    }
 
 }

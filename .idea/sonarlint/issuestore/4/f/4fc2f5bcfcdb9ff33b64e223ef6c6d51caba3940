@@ -3,8 +3,6 @@ h
 java:S1192X"FDefine a constant instead of duplicating this literal "value" 3 times.(¯æäıÿÿÿÿ8‡Ü°³¯1
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¬øÌÿÿÿÿÿ8ˆÜ°³¯1
 u	java:S116@"TRename this field "data_path" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—öú·ÿÿÿÿÿ8ŞÈ³³¯1
-K
-java:S2387"."driver" is the name of a field in "BasePage".(æ¹•‹8Ü°³¯1
 C
 java:S1170>"!Make this final field static too.(ñĞúÿÿÿÿ8Ü°³¯1
 C

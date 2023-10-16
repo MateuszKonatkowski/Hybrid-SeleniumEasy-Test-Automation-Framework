@@ -1,8 +1,6 @@
 
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¬øÌÿÿÿÿÿ8·—Ö¸¯1
 u	java:S1168"TRename this field "data_path" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êşáëüÿÿÿÿ8Ş›Ø¸¯1
-K
-java:S2387"."driver" is the name of a field in "BasePage".(æ¹•‹8ø—Ö¸¯1
 C
 java:S11706"!Make this final field static too.(ñĞúÿÿÿÿ8ø—Ö¸¯1
 C

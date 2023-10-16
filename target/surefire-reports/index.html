@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
-              <span class="suite-name border-passed">All Test Suite</span>
+              <span class="suite-name border-failed">All Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-All_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestComponents.BasicTests.SimpleFormDemoTest" class="method navigator-link" hash-for-method="singleInput_Enter_Data_Should_Show_Message(Faile, Failed for Raport Purpoose)">singleInput_Enter_Data_Should_Show_Message(Faile, Failed for Raport Purpoose)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,9 +117,22 @@
                     <div class="method-list-content passed suite-All_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="TestComponents.BasicTests.BoostrapAlertsTest" class="method navigator-link" hash-for-method="boostrapAlert_Click_Success_Should_Show_Message(×
-I&#039;m a normal success message. To close use the appropriate button.)">boostrapAlert_Click_Success_Should_Show_Message(×
-I'm a normal success message. To close use the appropriate button.)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestComponents.BasicTests.SimpleFormDemoTest" class="method navigator-link" hash-for-method="singleInput_Enter_Data_Should_Show_Message(Adrian, Adrian)">singleInput_Enter_Data_Should_Show_Message(Adrian, Adrian)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestComponents.BasicTests.SimpleFormDemoTest" class="method navigator-link" hash-for-method="singleInput_Enter_Data_Should_Show_Message(d1, d1)">singleInput_Enter_Data_Should_Show_Message(d1, d1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestComponents.BasicTests.SimpleFormDemoTest" class="method navigator-link" hash-for-method="singleInput_Enter_Data_Should_Show_Message(18, 18)">singleInput_Enter_Data_Should_Show_Message(18, 18)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestComponents.BasicTests.SimpleFormDemoTest" class="method navigator-link" hash-for-method="singleInput_Enter_Data_Should_Show_Message(Mateusz, Mateusz)">singleInput_Enter_Data_Should_Show_Message(Mateusz, Mateusz)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
@@ -120,23 +147,102 @@ I'm a normal success message. To close use the appropriate button.)</a> <!-- met
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
-          <div class="suite-All_Test_Suite-class-passed">
+          <div class="suite-All_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestComponents.BasicTests.BoostrapAlertsTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">TestComponents.BasicTests.SimpleFormDemoTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="boostrapAlert_Click_Success_Should_Show_Message(×
-I&#039;m a normal success message. To close use the appropriate button.)">
-                  </a> <!-- boostrapAlert_Click_Success_Should_Show_Message(×
-I'm a normal success message. To close use the appropriate button.) -->
-                  <span class="method-name">boostrapAlert_Click_Success_Should_Show_Message</span>
-                  <span class="parameters">(×
-I'm a normal success message. To close use the appropriate button.)</span>
+                  <a name="singleInput_Enter_Data_Should_Show_Message(Faile, Failed for Raport Purpoose)">
+                  </a> <!-- singleInput_Enter_Data_Should_Show_Message(Faile, Failed for Raport Purpoose) -->
+                  <span class="method-name">singleInput_Enter_Data_Should_Show_Message</span>
+                  <span class="parameters">(Faile,Failed for Raport Purpoose)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Failed for Raport Purpoose] but found [Faile]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at TestComponents.BasicTests.SimpleFormDemoTest.singleInput_Enter_Data_Should_Show_Message(SimpleFormDemoTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
                   <em>
-(boostrapAlertSuccess)                  </em>
+(singleInputData)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-failed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestComponents.BasicTests.SimpleFormDemoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="singleInput_Enter_Data_Should_Show_Message(Adrian, Adrian)">
+                  </a> <!-- singleInput_Enter_Data_Should_Show_Message(Adrian, Adrian) -->
+                  <span class="method-name">singleInput_Enter_Data_Should_Show_Message</span>
+                  <span class="parameters">(Adrian,Adrian)</span>
+                  <em>
+(singleInputData)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="singleInput_Enter_Data_Should_Show_Message(d1, d1)">
+                  </a> <!-- singleInput_Enter_Data_Should_Show_Message(d1, d1) -->
+                  <span class="method-name">singleInput_Enter_Data_Should_Show_Message</span>
+                  <span class="parameters">(d1,d1)</span>
+                  <em>
+(singleInputData)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="singleInput_Enter_Data_Should_Show_Message(18, 18)">
+                  </a> <!-- singleInput_Enter_Data_Should_Show_Message(18, 18) -->
+                  <span class="method-name">singleInput_Enter_Data_Should_Show_Message</span>
+                  <span class="parameters">(18,18)</span>
+                  <em>
+(singleInputData)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="singleInput_Enter_Data_Should_Show_Message(Mateusz, Mateusz)">
+                  </a> <!-- singleInput_Enter_Data_Should_Show_Message(Mateusz, Mateusz) -->
+                  <span class="method-name">singleInput_Enter_Data_Should_Show_Message</span>
+                  <span class="parameters">(Mateusz,Mateusz)</span>
+                  <em>
+(singleInputData)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -151,13 +257,16 @@ I'm a normal success message. To close use the appropriate button.)</span>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;test&quot; verbose=&quot;2&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listeners.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TestComponents.BasicTests.BoostrapAlertsTest&quot;&gt;
+      &lt;class name=&quot;TestComponents.BasicTests.SimpleFormDemoTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;boostrapAlert_Click_Success_Should_Show_Message&quot;/&gt;
+          &lt;include name=&quot;singleInput_Enter_Data_Should_Show_Message&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- TestComponents.BasicTests.BoostrapAlertsTest --&gt;
+      &lt;/class&gt; &lt;!-- TestComponents.BasicTests.SimpleFormDemoTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- test --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
@@ -185,7 +294,7 @@ I'm a normal success message. To close use the appropriate button.)</span>
               <span class="test-group-name">Smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">boostrapAlert_Click_Success_Should_Show_Message</span>
+                <span class="method-in-group-name">singleInput_Enter_Data_Should_Show_Message</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -205,16 +314,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'boostrapAlert_Click_Success_Should_Show_Message')
-data.setCell(0, 2, 'TestComponents.BasicTests.BoostrapAlertsTest')
-data.setCell(0, 3, 5173);
+data.setCell(0, 1, 'singleInput_Enter_Data_Should_Show_Message')
+data.setCell(0, 2, 'TestComponents.BasicTests.SimpleFormDemoTest')
+data.setCell(0, 3, 2000);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'singleInput_Enter_Data_Should_Show_Message')
+data.setCell(1, 2, 'TestComponents.BasicTests.SimpleFormDemoTest')
+data.setCell(1, 3, 1771);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'singleInput_Enter_Data_Should_Show_Message')
+data.setCell(2, 2, 'TestComponents.BasicTests.SimpleFormDemoTest')
+data.setCell(2, 3, 1698);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'singleInput_Enter_Data_Should_Show_Message')
+data.setCell(3, 2, 'TestComponents.BasicTests.SimpleFormDemoTest')
+data.setCell(3, 3, 1510);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'singleInput_Enter_Data_Should_Show_Message')
+data.setCell(4, 2, 'TestComponents.BasicTests.SimpleFormDemoTest')
+data.setCell(4, 3, 1324);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -229,25 +354,13 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-All_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">7 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">TestComponents.BasicTests.BoostrapAlertsTest</span>
+              <span class="ignored-class-name">TestComponents.BasicTests.SimpleFormDemoTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">boostrapAlert_Click_AutoWarning_Should_Show_Message_And_Disappear</span>
-                <br/>
-                <span class="ignored-method-name">boostrapAlert_Click_Info_Should_Show_Message</span>
-                <br/>
-                <span class="ignored-method-name">boostrapAlert_Click_AutoSuccess_Should_Show_Message_And_Disappear</span>
-                <br/>
-                <span class="ignored-method-name">boostrapAlert_Click_Warning_Should_Show_Message</span>
-                <br/>
-                <span class="ignored-method-name">boostrapAlert_Click_AutoDanger_Should_Show_Message_And_Disappear</span>
-                <br/>
-                <span class="ignored-method-name">boostrapAlert_Click_Danger_Should_Show_Message_And_Disappear</span>
-                <br/>
-                <span class="ignored-method-name">boostrapAlert_Click_AutoInfo_Should_Show_Message_And_Disappear</span>
+                <span class="ignored-method-name">doubleInput_Enter_Data_Should_Show_Message</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -259,19 +372,68 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestComponents.BasicTests.BoostrapAlertsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestComponents.BasicTests.SimpleFormDemoTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">boostrapAlert_Click_Success_Should_Show_Message(×
-I'm a normal success message. To close use the appropriate button.)</span>
-                <span class="method-start">70152 ms</span>
+                <span class="method-name">singleInput_Enter_Data_Should_Show_Message(Mateusz, Mateusz)</span>
+                <span class="method-start">8408 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">75328 ms</span>
+                <span class="method-start">10412 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">singleInput_Enter_Data_Should_Show_Message(Adrian, Adrian)</span>
+                <span class="method-start">16042 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17825 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">singleInput_Enter_Data_Should_Show_Message(18, 18)</span>
+                <span class="method-start">23801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25587 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">singleInput_Enter_Data_Should_Show_Message(d1, d1)</span>
+                <span class="method-start">30845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">32844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">singleInput_Enter_Data_Should_Show_Message(Faile, Failed for Raport Purpoose)</span>
+                <span class="method-start">38124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40146 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

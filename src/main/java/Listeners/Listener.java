@@ -27,7 +27,7 @@ public class Listener extends BasePage implements ITestListener {
 
     ExtentReports extent = ExtentReportUtil.getReportObject();
 
-    ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
+    ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 
 
 

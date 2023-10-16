@@ -10,3 +10,5 @@ java:S1444",Make this "public static driver" field final(ÜçÁÈûÿÿÿÿ8»âÃ›²1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ô‹ÖÜ8ÁâÃ›²1
 W
 java:S1118":Add a private constructor to hide the implicit public one.(úÓ˜â8ÌâÃ›²1
+
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(šÅšÂøÿÿÿÿ8–«Œÿ²1

@@ -156,7 +156,6 @@ public class BootstrapListBoxPage extends BasePage {
     public String getLeftValuesCount()
     {
          int all_values = (int) boostrapListLeftValuesElements.stream().count();
-
          int hidden_values = (int) boostrapListLeftValuesElements
                 .stream()
                 .filter(a -> a.getAttribute("style").equalsIgnoreCase("display: none;"))

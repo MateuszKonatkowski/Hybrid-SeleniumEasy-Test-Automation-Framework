@@ -26,6 +26,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.stream.Collectors;
+
 import org.apache.poi.ss.usermodel.Row;
 
 public class Brudnopis {
@@ -130,9 +132,13 @@ public class Brudnopis {
         WebDriver driver = new ChromeDriver();
         driver.get("https://demo.seleniumeasy.com/table-search-filter-demo.html");
         driver.manage().window().maximize();
-        WebElement tableDataTaskInputElement = driver.findElement(By.cssSelector("#task-table-filter"));
-        List<WebElement> tableDataTaskListElements = driver.findElements(By.cssSelector("#task-table tbody tr td"));
-        tableDataTaskListElements.stream().forEach(a -> System.out.println(a.getText()));
+        WebElement tableDataUsersFilterButtonElement = driver.findElement(By.cssSelector(".btn-filter"));
+        List<WebElement> tableDataUsersFilterInputElements = driver.findElements(By.cssSelector(".filters input"));
+        tableDataUsersFilterButtonElement.click();
+        WebElement input = tableDataUsersFilterInputElements.stream().filter(a -> a.getAttribute("placeholder").equalsIgnoreCase("First Name")).findFirst().orElse(null);
+        input.sendKeys("Daniel");
+
+
 
     }
 }

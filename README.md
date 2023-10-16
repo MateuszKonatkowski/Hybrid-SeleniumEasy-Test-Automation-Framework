@@ -18,6 +18,8 @@ Welcome to my Hybrid-SeleniumEasy-Test-Automation-Framework, tailor-made for tes
 **[Run Locally](#%EF%B8%8F-run-locally)**
 
 **[Running Tests](#%EF%B8%8F-running-tests)**
+
+**[Report]()**
  
  # ✳️ Key Features
  
@@ -269,10 +271,10 @@ The class makes use of `logger utilities` for detailed `logging` and `Extent Rep
 #### 2. [BasicPageFactory](src/main/java/PageFactory/BasicPageFactory):
  A directory specifically designed for page classes related to `basic-level tests`. These page classes inherit from BasePage and provide methods for handling elements on web pages relevant to basic test scenarios.
 
-#### 3. [IntermediatePageFactory]():
+#### 3. [IntermediatePageFactory](src/main/java/PageFactory/IntermediatePageFactory):
  A directory dedicated to page classes related to `intermediate-level tests`. Similar to the BasicPageFactory, these page classes inherit from BasePage but cater to more complex test scenarios at the intermediate level.
 
-#### 4. [AdvancedPageFactory]():
+#### 4. [AdvancedPageFactory](src/main/java/PageFactory/AdvancedPageFactory):
  This directory focuses on page classes related to `advanced-level tests`, offering extensive and specialized methods for handling web elements and navigating through web pages associated with advanced test cases.
 
  **The "[PageFactory](src/main/java/PageFactory)" directory, with its `BasePage` class and subdirectories, promotes code reusability, maintainability, and consistency across the test automation project. By centralizing common methods within `BasePage`, it ensures that interaction with web elements is uniform across all tests. The subdirectories segregate page classes based on test complexity, streamlining the structure and making it easier to locate relevant page classes for each test level.**
@@ -423,14 +425,14 @@ This XML file is designed for running `regression` tests. It follows the same st
 #### 1. [BasePage.java](src/test/java/TestComponents/BaseTest.java)
 The "`BaseTest`" class acts as the base class for your test classes. It provides common setup and teardown operations to ensure that each test class starts with a consistent environment and cleans up resources after test execution.
 
-#### 2. [AdvancedTests]():
+#### 2. [AdvancedTests](src/test/java/TestComponents/AdvancedTests):
 The "`AdvancedTests`" folder is dedicated to storing test classes specifically designed for advanced testing scenarios. Advanced tests often involve more complex functionalities and might include a variety of test cases, possibly covering edge cases and intricate scenarios.
 
-#### 3. [BasicTests](src/test/java/TestComponents/BasicTests):
+#### 3. [BasicTests](src/test/java/TestComponents/IntermediateTests):
 
 The "`BasicTests`" folder is meant for housing test classes that are focused on fundamental testing scenarios. These tests are typically straightforward and serve as foundational tests for your application or system.
 
-#### 4. [IntermediateTests]():
+#### 4. [IntermediateTests](src/test/java/TestComponents/BasicTests):
 
 The "`IntermediateTests`" folder is where you store test classes for intermediate-level testing. These tests are more complex than basic tests but not as advanced as those in the "`AdvancedTests`" folder. Intermediate tests may cover a wide range of test cases, including typical usage scenarios.
 
@@ -594,6 +596,13 @@ To run `Smoke tests` on `Chrome browser` with `Headless mode`, run the following
 ```bash
   mvn test -PSmoke -Dbrowser=chromeheadless
 ```
+# ✳️ Report
+
+![](https://i.imgur.com/fG5BKVX.png)
+![](https://i.imgur.com/8G0Lyjx.png)
+![](https://i.imgur.com/Ti3oLIZ.png)
+![](https://i.imgur.com/DqrLTzH.png)
+
 
 
 ## Author

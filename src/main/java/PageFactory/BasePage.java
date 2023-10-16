@@ -33,6 +33,9 @@ public class BasePage {
     @CacheLookup
     private List<WebElement> exercisesElementsLevel;
 
+	@FindBy(css=".active.in .list-group")
+	private WebElement exerciseActualElements;
+
     @FindBy(css=".active.in .list-group a")
     @CacheLookup
     private List<WebElement> exercisesElements;
@@ -66,7 +69,6 @@ public class BasePage {
     }
 
     protected void choseExerciseLevel(String choseLevel) {
-        System.out.println(exercisesElementsLevel);
         waitForElementsVisibility(exercisesElementsLevel);
         WebElement exercise = exercisesElementsLevel
                 .stream()
@@ -79,9 +81,7 @@ public class BasePage {
 
     protected void choseExercise(String choseExercise)
     {
-
-        System.out.println(exercisesElements);
-        //waitForElementsVisibility(exercisesElements);
+        waitForElementVisibility(exerciseActualElements);
         WebElement exercise = exercisesElements
                 .stream()
                 .filter(a->a.getText().equals(choseExercise))
@@ -91,15 +91,10 @@ public class BasePage {
         LoggerUtil.info("Chose "+choseExercise+" exercise");
     }
 
-    protected void goTo(String level,String exerciseLevel)
+    protected void goTo(String level,String exercise)
     {
         choseExerciseLevel(level);
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-        choseExercise(exerciseLevel);
+        choseExercise(exercise);
     }
 
 }

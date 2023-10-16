@@ -72,9 +72,6 @@ public class GlobalConsts {
     public static final String DISABLE_EXTENSIONS = "--disable-extensions";
 
 
-    //BORDER_COLORS
-    public static final String ERROR_COLOR = "rgb(255, 0, 0)";
-    public static final String SUCCESS_COLOR = "rgb(0, 255, 0)";
-    public static final String WARNING_COLOR = "";
+
 
 }

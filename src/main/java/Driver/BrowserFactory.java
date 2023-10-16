@@ -17,15 +17,14 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 
 
-import java.io.IOException;
 import java.time.Duration;
 
 
 public class BrowserFactory {
 
-    public static WebDriver driver;
+    public static  WebDriver driver;
 
-    public static WebDriver initializeDriver() throws IOException {
+    public static WebDriver initializeDriver()  {
 
         String browserName = System.getProperty("browser")!=null ? System.getProperty("browser"): ConfigReaderUtil.getProperty("browser");
         String url = ConfigReaderUtil.getProperty("url");

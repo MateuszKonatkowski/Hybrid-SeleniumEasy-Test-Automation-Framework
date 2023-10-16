@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="85.297" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="43.52" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Mateusz\.cache\selenium\chromedriver\win64\117.0.5938.149\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Mateusz\AppData\Local\Temp\surefire15114291838150440141\surefirebooter-20231013140435043_3.jar C:\Users\Mateusz\AppData\Local\Temp\surefire15114291838150440141 2023-10-13T14-04-34_201-jvmRun1 surefire-20231013140435043_1tmp surefire_0-20231013140435043_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Mateusz\AppData\Local\Temp\surefire2818871267048316347\surefirebooter-20231016155221612_3.jar C:\Users\Mateusz\AppData\Local\Temp\surefire2818871267048316347 2023-10-16T15-52-21_307-jvmRun1 surefire-20231016155221612_1tmp surefire_0-20231016155221612_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Mateusz\SeleniumEasyFramework_Project\target\test-classes;C:\Users\Mateusz\SeleniumEasyFramework_Project\target\classes;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-java\4.13.0\selenium-java-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-api\4.13.0\selenium-api-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.13.0\selenium-chrome-driver-4.13.0.jar;C:\Users\Mateusz\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Mateusz\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Mateusz\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Mateusz\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Mateusz\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Mateusz\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Mateusz\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Mateusz\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.13.0\selenium-chromium-driver-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-json\4.13.0\selenium-json-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.13.0\selenium-manager-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.13.0\selenium-devtools-v115-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.13.0\selenium-devtools-v116-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.13.0\selenium-devtools-v117-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.13.0\selenium-devtools-v85-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.13.0\selenium-edge-driver-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.13.0\selenium-firefox-driver-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-http\4.13.0\selenium-http-4.13.0.jar;C:\Users\Mateusz\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.13.0\selenium-ie-driver-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.13.0\selenium-remote-driver-4.13.0.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\Mateusz\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Mateusz\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Mateusz\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Mateusz\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Mateusz\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Mateusz\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Mateusz\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Mateusz\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Mateusz\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Mateusz\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Mateusz\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Mateusz\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Mateusz\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Mateusz\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Mateusz\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Mateusz\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Mateusz\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Mateusz\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Mateusz\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-os\4.13.0\selenium-os-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.13.0\selenium-safari-driver-4.13.0.jar;C:\Users\Mateusz\.m2\repository\org\seleniumhq\selenium\selenium-support\4.13.0\selenium-support-4.13.0.jar;C:\Users\Mateusz\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\Mateusz\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\Mateusz\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Mateusz\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\Mateusz\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\Mateusz\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\Mateusz\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Mateusz\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Mateusz\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Mateusz\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\Mateusz\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\Mateusz\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\Mateusz\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Mateusz\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\Mateusz\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\Mateusz\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Mateusz\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Mateusz\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Mateusz\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Mateusz\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Mateusz\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Mateusz\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Mateusz\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Mateusz\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Mateusz\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\Users\Mateusz\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Mateusz\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Mateusz\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Mateusz\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Mateusz\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Mateusz\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Mateusz\.m2\repository\org\apache\poi\poi\5.2.4\poi-5.2.4.jar;C:\Users\Mateusz\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Mateusz\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Mateusz\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Mateusz\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\Mateusz\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Mateusz\.m2\repository\org\apache\poi\poi-ooxml\5.2.4\poi-ooxml-5.2.4.jar;C:\Users\Mateusz\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.4\poi-ooxml-lite-5.2.4.jar;C:\Users\Mateusz\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Mateusz\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Mateusz\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Mateusz\AppData\Local\Temp\surefire15114291838150440141\surefirebooter-20231013140435043_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mateusz\AppData\Local\Temp\surefire2818871267048316347\surefirebooter-20231016155221612_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+10"/>
@@ -48,6 +48,7 @@
     <property name="java.version" value="17.0.6"/>
     <property name="user.dir" value="C:\Users\Mateusz\SeleniumEasyFramework_Project"/>
     <property name="os.arch" value="amd64"/>
+    <property name="threads" value="2"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1250"/>
@@ -58,20 +59,142 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="boostrapAlert_Click_Success_Should_Show_Message[×&#10;I&apos;m a normal success message. To close use the appropriate button.](1)" classname="TestComponents.BasicTests.BoostrapAlertsTest" time="5.17">
-    <system-out><![CDATA[14:04:45.939 [TestNG-test=test-1] INFO  Util.LoggerUtil - Read src/test/java/TestData/BasicTestsData/BoostrapAlertsData.xlsx data
-14:04:46.045 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get browser value
-14:04:46.045 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get url value
-14:04:53.778 [TestNG-test=test-1] INFO  Util.LoggerUtil - Get headless value
-14:05:56.162 [TestNG-test=test-1] INFO  Util.LoggerUtil - Initializing driver
-14:05:57.965 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #myTab a]] to be visible
-14:05:59.004 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose basic_example level
-14:05:59.342 [TestNG-test=test-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a], [[ChromeDriver: chrome on windows (5f2bf9e306a488a4cb1135dbd7f31ad4)] -> css selector: #basic .list-group a]] to be visible
-14:06:00.830 [TestNG-test=test-1] INFO  Util.LoggerUtil - Chose Bootstrap Alerts exercise
+  <testcase name="singleInput_Enter_Data_Should_Show_Message[Mateusz, Mateusz](1)" classname="TestComponents.BasicTests.SimpleFormDemoTest" time="2.003">
+    <system-out><![CDATA[15:52:24.000 [TestNG-suites-1] INFO  Util.LoggerUtil - Tests started
+15:52:24.893 [TestNG-suites-1] INFO  Util.LoggerUtil - Read src/test/java/TestData/BasicTestsData/SimpleFormDemoData.xlsx data
+15:52:24.940 [TestNG-suites-1] INFO  Util.LoggerUtil - Get browser value
+15:52:24.941 [TestNG-suites-1] INFO  Util.LoggerUtil - Get url value
+15:52:25.424 [TestNG-suites-1] INFO  Util.LoggerUtil - Get headless value
+15:52:33.314 [TestNG-suites-1] INFO  Util.LoggerUtil - Initializing driver
+15:52:33.318 [TestNG-suites-1] INFO  Util.LoggerUtil - Get author value
+15:52:33.632 [TestNG-suites-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Started
+15:52:33.909 [TestNG-suites-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (aa39c50ef09c77a6c7be3a7bb3ca2ef4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (aa39c50ef09c77a6c7be3a7bb3ca2ef4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (aa39c50ef09c77a6c7be3a7bb3ca2ef4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (aa39c50ef09c77a6c7be3a7bb3ca2ef4)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (aa39c50ef09c77a6c7be3a7bb3ca2ef4)] -> css selector: #myTab a]] to be visible
+15:52:33.991 [TestNG-suites-1] INFO  Util.LoggerUtil - Chose basic_example level
+15:52:34.603 [TestNG-suites-1] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (aa39c50ef09c77a6c7be3a7bb3ca2ef4)] -> css selector: .active.in .list-group] to be visible
+15:52:35.176 [TestNG-suites-1] INFO  Util.LoggerUtil - Chose Simple Form Demo exercise
+15:52:35.317 [TestNG-suites-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Passed
+15:52:35.318 [TestNG-suites-1] INFO  Util.LoggerUtil - Get screenshotOnSuccess value
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
+  </testcase>
+  <testcase name="singleInput_Enter_Data_Should_Show_Message[Adrian, Adrian](2)" classname="TestComponents.BasicTests.SimpleFormDemoTest" time="1.509">
+    <system-out><![CDATA[15:52:35.553 [TestNG-suites-1] INFO  Util.LoggerUtil - Driver tear down
+15:52:35.556 [TestNG-suites-1] INFO  Util.LoggerUtil - Get browser value
+15:52:35.557 [TestNG-suites-1] INFO  Util.LoggerUtil - Get url value
+15:52:35.653 [TestNG-suites-1] INFO  Util.LoggerUtil - Get headless value
+15:52:40.949 [TestNG-suites-1] INFO  Util.LoggerUtil - Initializing driver
+15:52:40.950 [TestNG-suites-1] INFO  Util.LoggerUtil - Get author value
+15:52:40.951 [TestNG-suites-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Started
+15:52:41.035 [TestNG-suites-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (b2517594e6f74d96c52435f08c606d21)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b2517594e6f74d96c52435f08c606d21)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b2517594e6f74d96c52435f08c606d21)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b2517594e6f74d96c52435f08c606d21)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (b2517594e6f74d96c52435f08c606d21)] -> css selector: #myTab a]] to be visible
+15:52:41.107 [TestNG-suites-1] INFO  Util.LoggerUtil - Chose basic_example level
+15:52:41.690 [TestNG-suites-1] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (b2517594e6f74d96c52435f08c606d21)] -> css selector: .active.in .list-group] to be visible
+15:52:42.331 [TestNG-suites-1] INFO  Util.LoggerUtil - Chose Simple Form Demo exercise
+15:52:42.461 [TestNG-suites-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Passed
+15:52:42.461 [TestNG-suites-1] INFO  Util.LoggerUtil - Get screenshotOnSuccess value
+]]></system-out>
+    <system-err><![CDATA[paź 16, 2023 3:52:35 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+]]></system-err>
+  </testcase>
+  <testcase name="singleInput_Enter_Data_Should_Show_Message[18, 18](3)" classname="TestComponents.BasicTests.SimpleFormDemoTest" time="1.325">
+    <system-out><![CDATA[15:52:42.730 [TestNG-suites-1] INFO  Util.LoggerUtil - Driver tear down
+15:52:42.734 [TestNG-suites-1] INFO  Util.LoggerUtil - Get browser value
+15:52:42.735 [TestNG-suites-1] INFO  Util.LoggerUtil - Get url value
+15:52:42.822 [TestNG-suites-1] INFO  Util.LoggerUtil - Get headless value
+15:52:48.708 [TestNG-suites-1] INFO  Util.LoggerUtil - Initializing driver
+15:52:48.709 [TestNG-suites-1] INFO  Util.LoggerUtil - Get author value
+15:52:48.711 [TestNG-suites-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Started
+15:52:48.812 [TestNG-suites-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (bebed1187f6ac0eacf8ac4060597d113)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bebed1187f6ac0eacf8ac4060597d113)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bebed1187f6ac0eacf8ac4060597d113)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bebed1187f6ac0eacf8ac4060597d113)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (bebed1187f6ac0eacf8ac4060597d113)] -> css selector: #myTab a]] to be visible
+15:52:48.888 [TestNG-suites-1] INFO  Util.LoggerUtil - Chose basic_example level
+15:52:49.468 [TestNG-suites-1] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (bebed1187f6ac0eacf8ac4060597d113)] -> css selector: .active.in .list-group] to be visible
+15:52:49.916 [TestNG-suites-1] INFO  Util.LoggerUtil - Chose Simple Form Demo exercise
+15:52:50.032 [TestNG-suites-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Passed
+15:52:50.033 [TestNG-suites-1] INFO  Util.LoggerUtil - Get screenshotOnSuccess value
+]]></system-out>
+  </testcase>
+  <testcase name="singleInput_Enter_Data_Should_Show_Message[d1, d1](4)" classname="TestComponents.BasicTests.SimpleFormDemoTest" time="1.781">
+    <system-out><![CDATA[15:52:50.493 [TestNG-suites-1] INFO  Util.LoggerUtil - Driver tear down
+15:52:50.495 [TestNG-suites-1] INFO  Util.LoggerUtil - Get browser value
+15:52:50.495 [TestNG-suites-1] INFO  Util.LoggerUtil - Get url value
+15:52:50.535 [TestNG-suites-1] INFO  Util.LoggerUtil - Get headless value
+15:52:55.752 [TestNG-suites-1] INFO  Util.LoggerUtil - Initializing driver
+15:52:55.753 [TestNG-suites-1] INFO  Util.LoggerUtil - Get author value
+15:52:55.753 [TestNG-suites-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Started
+15:52:55.846 [TestNG-suites-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (797784b626e9e0823420f9ae8e386b34)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (797784b626e9e0823420f9ae8e386b34)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (797784b626e9e0823420f9ae8e386b34)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (797784b626e9e0823420f9ae8e386b34)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (797784b626e9e0823420f9ae8e386b34)] -> css selector: #myTab a]] to be visible
+15:52:55.939 [TestNG-suites-1] INFO  Util.LoggerUtil - Chose basic_example level
+15:52:56.537 [TestNG-suites-1] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (797784b626e9e0823420f9ae8e386b34)] -> css selector: .active.in .list-group] to be visible
+15:52:57.404 [TestNG-suites-1] INFO  Util.LoggerUtil - Chose Simple Form Demo exercise
+15:52:57.523 [TestNG-suites-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Passed
+15:52:57.524 [TestNG-suites-1] INFO  Util.LoggerUtil - Get screenshotOnSuccess value
+]]></system-out>
+  </testcase>
+  <testcase name="singleInput_Enter_Data_Should_Show_Message[Faile, Failed for Raport Purpoose](5)" classname="TestComponents.BasicTests.SimpleFormDemoTest" time="2.02">
+    <failure message="expected [Failed for Raport Purpoose] but found [Faile]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Failed for Raport Purpoose] but found [Faile]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at TestComponents.BasicTests.SimpleFormDemoTest.singleInput_Enter_Data_Should_Show_Message(SimpleFormDemoTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[15:52:57.750 [TestNG-suites-1] INFO  Util.LoggerUtil - Driver tear down
+15:52:57.752 [TestNG-suites-1] INFO  Util.LoggerUtil - Get browser value
+15:52:57.753 [TestNG-suites-1] INFO  Util.LoggerUtil - Get url value
+15:52:57.815 [TestNG-suites-1] INFO  Util.LoggerUtil - Get headless value
+15:53:03.030 [TestNG-suites-1] INFO  Util.LoggerUtil - Initializing driver
+15:53:03.033 [TestNG-suites-1] INFO  Util.LoggerUtil - Get author value
+15:53:03.034 [TestNG-suites-1] INFO  Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message Started
+15:53:03.108 [TestNG-suites-1] INFO  Util.LoggerUtil - Wait for [[[ChromeDriver: chrome on windows (c4c4e5dfc02ee3e37acbf3a36883f67d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c4c4e5dfc02ee3e37acbf3a36883f67d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c4c4e5dfc02ee3e37acbf3a36883f67d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c4c4e5dfc02ee3e37acbf3a36883f67d)] -> css selector: #myTab a], [[ChromeDriver: chrome on windows (c4c4e5dfc02ee3e37acbf3a36883f67d)] -> css selector: #myTab a]] to be visible
+15:53:03.189 [TestNG-suites-1] INFO  Util.LoggerUtil - Chose basic_example level
+15:53:03.779 [TestNG-suites-1] INFO  Util.LoggerUtil - Wait for [[ChromeDriver: chrome on windows (c4c4e5dfc02ee3e37acbf3a36883f67d)] -> css selector: .active.in .list-group] to be visible
+15:53:04.602 [TestNG-suites-1] INFO  Util.LoggerUtil - Chose Simple Form Demo exercise
+15:53:04.731 [TestNG-suites-1] ERROR Util.LoggerUtil - Test singleInput_Enter_Data_Should_Show_Message failed
+15:53:04.731 [TestNG-suites-1] INFO  Util.LoggerUtil - Get screenshotOnFail value
+15:53:05.048 [TestNG-suites-1] INFO  Util.LoggerUtil - Capture singleInput_Enter_Data_Should_Show_Message screenshot
+]]></system-out>
   </testcase>
 </testsuite>

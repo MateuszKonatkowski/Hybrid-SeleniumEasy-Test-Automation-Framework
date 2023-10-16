@@ -27,7 +27,7 @@ public class SimpleFormDemoTest extends BaseTest {
         Assert.assertEquals(result,expected);
     }
 
-    @Test(priority = 1,dependsOnMethods = {"singleInput_Enter_Data_Should_Show_Message"},groups = {"Smoke"},dataProvider = "TestData",dataProviderClass = SimpleFormPage.class,description = "doubleInputData")
+    @Test(priority = 1,groups = {"Smoke"},dataProvider = "TestData",dataProviderClass = SimpleFormPage.class,description = "doubleInputData")
     public void doubleInput_Enter_Data_Should_Show_Message(String value1,String value2,String expected)
     {
         //given

@@ -1,8 +1,11 @@
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\PageFactory\BasicPageFactory\BoostrapAlertsPage.java
+C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\PageFactory\AdvancedPageFactory\DragAndDropPage.java
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\Config\GlobalConsts.java
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\Util\ExcelDataUtil.java
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\Listeners\Listener.java
+C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\PageFactory\IntermediatePageFactory\AjaxFormSubmitPage.java
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\PageFactory\BasicPageFactory\CheckboxPage.java
+C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\PageFactory\AdvancedPageFactory\TableDataSearchPage.java
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\PageFactory\BasicPageFactory\SelectDropdownListPage.java
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\Util\LoggerUtil.java
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\PageFactory\BasicPageFactory\RadioButtonPage.java
@@ -14,6 +17,7 @@ C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\Driver\BrowserFacto
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\Util\ConfigReaderUtil.java
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\Util\DateUtil.java
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\Util\IRetryAnalyzerUtil.java
+C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\PageFactory\IntermediatePageFactory\BootstrapListBoxPage.java
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\Util\ExtentReportUtil.java
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\PageFactory\BasicPageFactory\WindowPopupModalPage.java
 C:\Users\Mateusz\SeleniumEasyFramework_Project\src\main\java\PageFactory\BasePage.java

@@ -6,10 +6,7 @@
     </listeners>
     <test verbose="2" preserve-order="true" parallel="true" thread-count="1" name="test">
         <classes>
-            <class name="TestComponents.BasicTests.BoostrapAlertsTest">
-                <methods>
-                    <include name="boostrapAlert_Click_Success_Should_Show_Message"/>
-                </methods>
+            <class name="TestComponents.BasicTests.SimpleFormDemoTest">
             </class>
         </classes>
     </test>
