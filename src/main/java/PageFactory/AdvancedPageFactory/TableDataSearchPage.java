@@ -41,9 +41,11 @@ public class TableDataSearchPage extends BasePage {
 	private List<WebElement> tableDataTaskListElements;
 
 	@FindBy(css=".btn-filter")
+    @CacheLookup
 	private WebElement tableDataUsersFilterButtonElement;
 
 	@FindBy(css=".filters input")
+    @CacheLookup
 	private List<WebElement> tableDataUsersFilterInputElements;//
 
     @FindBy(css=".filterable tbody tr td")
