@@ -19,7 +19,7 @@ Welcome to my Hybrid-SeleniumEasy-Test-Automation-Framework, tailor-made for tes
 
 **[Running Tests](#%EF%B8%8F-running-tests)**
 
-**[Report]()**
+**[Report](#%EF%B8%8F-report)**
  
  # ✳️ Key Features
  
