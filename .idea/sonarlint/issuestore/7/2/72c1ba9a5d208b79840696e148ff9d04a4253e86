@@ -1,0 +1,11 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ù°Ú’úÿÿÿÿ8¾¿İ³1
+k
+java:S2259i"IA "NullPointerException" could be thrown; "inputFilter" is nullable here.( ³Î‚úÿÿÿÿ8¤Òä³1
+u	java:S116:"TRename this field "data_path" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…óšÕùÿÿÿÿ8Ö¿İ³1
+>
+java:S11708"!Make this final field static too.(õŒ…è8Ù¿İ³1
+C
+java:S11709"!Make this final field static too.(¨¢ûÿÿÿÿ8Ú¿İ³1
+C
+java:S1170:"!Make this final field static too.(…óšÕùÿÿÿÿ8Ú¿İ³1

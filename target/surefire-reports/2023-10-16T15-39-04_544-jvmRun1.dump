@@ -1,0 +1,298 @@
+# Created at 2023-10-16T15:39:13.035
+Thread dump for process (24444@DESKTOP-HU880DN):
+"main" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@17.0.6/java.io.RandomAccessFile.readBytes(Native Method)
+        at java.base@17.0.6/java.io.RandomAccessFile.read(RandomAccessFile.java:405)
+        at java.base@17.0.6/java.io.RandomAccessFile.readFully(RandomAccessFile.java:469)
+        at java.base@17.0.6/java.util.zip.ZipFile$Source.readFullyAt(ZipFile.java:1348)
+        at java.base@17.0.6/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(ZipFile.java:915)
+        at java.base@17.0.6/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:931)
+        at java.base@17.0.6/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:448)
+        at java.base@17.0.6/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+        at java.base@17.0.6/jdk.internal.loader.Resource.getBytes(Resource.java:126)
+        at java.base@17.0.6/jdk.internal.loader.URLClassPath$JarLoader$2.getBytes(URLClassPath.java:893)
+        at java.base@17.0.6/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:859)
+        at java.base@17.0.6/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+        at java.base@17.0.6/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+        at java.base@17.0.6/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+        at java.base@17.0.6/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+        at java.base@17.0.6/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+        at app//org.apache.hc.client5.http.impl.io.ManagedHttpClientConnectionFactory.<init>(ManagedHttpClientConnectionFactory.java:83)
+        at app//org.apache.hc.client5.http.impl.io.ManagedHttpClientConnectionFactory.<init>(ManagedHttpClientConnectionFactory.java:102)
+        at app//org.apache.hc.client5.http.impl.io.ManagedHttpClientConnectionFactory.<init>(ManagedHttpClientConnectionFactory.java:117)
+        at app//org.apache.hc.client5.http.impl.io.ManagedHttpClientConnectionFactory.<init>(ManagedHttpClientConnectionFactory.java:124)
+        at app//org.apache.hc.client5.http.impl.io.ManagedHttpClientConnectionFactory.<init>(ManagedHttpClientConnectionFactory.java:128)
+        at app//org.apache.hc.client5.http.impl.io.ManagedHttpClientConnectionFactory.<clinit>(ManagedHttpClientConnectionFactory.java:63)
+        at app//org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.<init>(PoolingHttpClientConnectionManager.java:222)
+        at app//org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.<init>(PoolingHttpClientConnectionManager.java:173)
+        at app//org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.<init>(PoolingHttpClientConnectionManager.java:162)
+        at app//org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.<init>(PoolingHttpClientConnectionManager.java:145)
+        at app//org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.<init>(PoolingHttpClientConnectionManager.java:137)
+        at app//org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.<init>(PoolingHttpClientConnectionManager.java:131)
+        at app//io.github.bonigarcia.wdm.online.HttpClient.<init>(HttpClient.java:119)
+        at app//io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:411)
+        at app//Driver.BrowserFactory.initializeDriver(BrowserFactory.java:35)
+        at app//TestComponents.BaseTest.setUp(BaseTest.java:28)
+        at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base@17.0.6/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+        at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+        at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+        at app//org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+        at app//org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+        at app//org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+        at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+        at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+        at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+        at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+        at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+        at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+        at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+        at app//org.testng.TestRunner$$Lambda$169/0x0000000800cab558.accept(Unknown Source)
+        at java.base@17.0.6/java.util.ArrayList.forEach(ArrayList.java:1511)
+        at app//org.testng.TestRunner.privateRun(TestRunner.java:848)
+        at app//org.testng.TestRunner.run(TestRunner.java:621)
+        at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+        at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+        at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+        at app//org.testng.SuiteRunner.run(SuiteRunner.java:336)
+        at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+        at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+        at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+        at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+        at app//org.testng.TestNG.runSuites(TestNG.java:1114)
+        at app//org.testng.TestNG.run(TestNG.java:1082)
+        at app//org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+        at app//org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+        at app//org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+        at app//org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+"Reference Handler" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@17.0.6/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+        at java.base@17.0.6/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+        at java.base@17.0.6/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+"Finalizer" 
+   java.lang.Thread.State: WAITING
+        at java.base@17.0.6/java.lang.Object.wait(Native Method)
+        at java.base@17.0.6/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@17.0.6/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+        at java.base@17.0.6/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+"Signal Dispatcher" 
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" 
+   java.lang.Thread.State: RUNNABLE
+
+"Notification Thread" 
+   java.lang.Thread.State: RUNNABLE
+
+"Common-Cleaner" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@17.0.6/java.lang.Object.wait(Native Method)
+        at java.base@17.0.6/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@17.0.6/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+        at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+        at java.base@17.0.6/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+"surefire-forkedjvm-stream-flusher" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+        at java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+        at java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+        at java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+        at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+        at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+        at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+        at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+
+"surefire-forkedjvm-command-thread" 
+   java.lang.Thread.State: RUNNABLE
+        at java.management@17.0.6/sun.management.ThreadImpl.getThreadInfo1(Native Method)
+        at java.management@17.0.6/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:197)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.generateThreadDump(ForkedBooter.java:579)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.access$600(ForkedBooter.java:79)
+        at app//org.apache.maven.surefire.booter.ForkedBooter$4.update(ForkedBooter.java:322)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.callListeners(CommandReader.java:357)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:309)
+        at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+
+"ForkJoinPool.commonPool-worker-1" 
+   java.lang.Thread.State: WAITING
+        at java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@17.0.6/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+"ForkJoinPool.commonPool-worker-2" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+"ForkJoinPool.commonPool-worker-3" 
+   java.lang.Thread.State: WAITING
+        at java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@17.0.6/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+
+# Created at 2023-10-16T15:39:13.096
+Exiting self fork JVM. Received SHUTDOWN command from Maven shutdown hook.
+Thread dump before exiting the process (24444@DESKTOP-HU880DN):
+"main" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@17.0.6/java.io.RandomAccessFile.readBytes(Native Method)
+        at java.base@17.0.6/java.io.RandomAccessFile.read(RandomAccessFile.java:405)
+        at java.base@17.0.6/java.util.zip.ZipFile$Source.readAt(ZipFile.java:1361)
+        at java.base@17.0.6/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:941)
+        at java.base@17.0.6/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:448)
+        at java.base@17.0.6/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+        at java.base@17.0.6/jdk.internal.loader.Resource.getBytes(Resource.java:126)
+        at java.base@17.0.6/jdk.internal.loader.URLClassPath$JarLoader$2.getBytes(URLClassPath.java:893)
+        at java.base@17.0.6/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:859)
+        at java.base@17.0.6/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+        at java.base@17.0.6/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+        at java.base@17.0.6/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+        at java.base@17.0.6/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+        at java.base@17.0.6/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+        at app//io.github.bonigarcia.wdm.online.HttpClient.<init>(HttpClient.java:127)
+        at app//io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:411)
+        at app//Driver.BrowserFactory.initializeDriver(BrowserFactory.java:35)
+        at app//TestComponents.BaseTest.setUp(BaseTest.java:28)
+        at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base@17.0.6/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+        at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+        at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+        at app//org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+        at app//org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+        at app//org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+        at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+        at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+        at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+        at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+        at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+        at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+        at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+        at app//org.testng.TestRunner$$Lambda$169/0x0000000800cab558.accept(Unknown Source)
+        at java.base@17.0.6/java.util.ArrayList.forEach(ArrayList.java:1511)
+        at app//org.testng.TestRunner.privateRun(TestRunner.java:848)
+        at app//org.testng.TestRunner.run(TestRunner.java:621)
+        at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+        at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+        at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+        at app//org.testng.SuiteRunner.run(SuiteRunner.java:336)
+        at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+        at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+        at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+        at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+        at app//org.testng.TestNG.runSuites(TestNG.java:1114)
+        at app//org.testng.TestNG.run(TestNG.java:1082)
+        at app//org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+        at app//org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+        at app//org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+        at app//org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+"Reference Handler" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@17.0.6/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+        at java.base@17.0.6/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+        at java.base@17.0.6/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+"Finalizer" 
+   java.lang.Thread.State: WAITING
+        at java.base@17.0.6/java.lang.Object.wait(Native Method)
+        at java.base@17.0.6/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@17.0.6/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+        at java.base@17.0.6/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+"Signal Dispatcher" 
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" 
+   java.lang.Thread.State: RUNNABLE
+
+"Notification Thread" 
+   java.lang.Thread.State: RUNNABLE
+
+"Common-Cleaner" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@17.0.6/java.lang.Object.wait(Native Method)
+        at java.base@17.0.6/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@17.0.6/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+        at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+        at java.base@17.0.6/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+"surefire-forkedjvm-stream-flusher" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@17.0.6/java.io.BufferedOutputStream.write(BufferedOutputStream.java:118)
+        at app//org.apache.maven.surefire.api.util.internal.Channels$4.writeImpl(Channels.java:199)
+        at app//org.apache.maven.surefire.api.util.internal.AbstractNoninterruptibleWritableChannel.write(AbstractNoninterruptibleWritableChannel.java:66)
+        at app//org.apache.maven.surefire.api.util.internal.AbstractNoninterruptibleWritableChannel.write(AbstractNoninterruptibleWritableChannel.java:44)
+        at app//org.apache.maven.surefire.booter.spi.AbstractMasterProcessChannelProcessorFactory$1.run(AbstractMasterProcessChannelProcessorFactory.java:57)
+        at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+        at java.base@17.0.6/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+        at java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+        at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+        at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+        at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+
+"surefire-forkedjvm-command-thread" 
+   java.lang.Thread.State: RUNNABLE
+        at java.management@17.0.6/sun.management.ThreadImpl.getThreadInfo1(Native Method)
+        at java.management@17.0.6/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:197)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.generateThreadDump(ForkedBooter.java:579)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.access$600(ForkedBooter.java:79)
+        at app//org.apache.maven.surefire.booter.ForkedBooter$4.update(ForkedBooter.java:315)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.callListeners(CommandReader.java:357)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.exitByConfiguration(CommandReader.java:367)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:330)
+        at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+
+"ForkJoinPool.commonPool-worker-1" 
+   java.lang.Thread.State: WAITING
+        at java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@17.0.6/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+"ForkJoinPool.commonPool-worker-2" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+"ForkJoinPool.commonPool-worker-3" 
+   java.lang.Thread.State: WAITING
+        at java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@17.0.6/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+        at java.base@17.0.6/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+

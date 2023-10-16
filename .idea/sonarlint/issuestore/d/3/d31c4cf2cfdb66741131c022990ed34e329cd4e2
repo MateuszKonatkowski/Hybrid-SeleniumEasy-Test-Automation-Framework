@@ -1,0 +1,17 @@
+
+n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å›™°8›‰ü²1
+n	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—éÏ·8Ÿ›‰ü²1
+n	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ‚á˜8Ÿ›‰ü²1
+n	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò¶èµ8Ÿ›‰ü²1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ËÈÒÀüÿÿÿÿ8 ›‰ü²1
+c
+java:S2259€"EA "NullPointerException" could be thrown; "element" is nullable here.(äÒœç8­›‰ü²1
+c
+java:S2259‹"EA "NullPointerException" could be thrown; "element" is nullable here.(äÒœç8­›‰ü²1
+u	java:S116F"TRename this field "data_path" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é·¸¢ùÿÿÿÿ8®›‰ü²1
+C
+java:S1170D"!Make this final field static too.(Ù™„ÿÿÿÿÿ8®›‰ü²1
+C
+java:S1170E"!Make this final field static too.(–ë‚€ıÿÿÿÿ8®›‰ü²1
+C
+java:S1170F"!Make this final field static too.(é·¸¢ùÿÿÿÿ8®›‰ü²1

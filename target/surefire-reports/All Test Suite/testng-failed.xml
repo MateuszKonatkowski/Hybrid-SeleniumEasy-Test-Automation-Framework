@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Listeners.Listener"/>
+  </listeners>
+  <test thread-count="5" name="test(failed)" verbose="0">
+    <classes>
+      <class name="TestComponents.BasicTests.SimpleFormDemoTest">
+        <methods>
+          <include name="singleInput_Enter_Data_Should_Show_Message" invocation-numbers="4"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestComponents.BasicTests.SimpleFormDemoTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

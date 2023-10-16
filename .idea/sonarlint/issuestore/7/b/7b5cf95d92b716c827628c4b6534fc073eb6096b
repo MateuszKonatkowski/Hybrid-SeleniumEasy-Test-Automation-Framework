@@ -1,0 +1,9 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ËÈÒÀüÿÿÿÿ8¸ã±÷²1
+u	java:S1166"TRename this field "data_path" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í˜·ûÿÿÿÿ8Éã±÷²1
+C
+java:S11704"!Make this final field static too.(Ù™„ÿÿÿÿÿ8Éã±÷²1
+>
+java:S11705"!Make this final field static too.(‡éñ‰8Éã±÷²1
+C
+java:S11706"!Make this final field static too.(Í˜·ûÿÿÿÿ8Éã±÷²1
