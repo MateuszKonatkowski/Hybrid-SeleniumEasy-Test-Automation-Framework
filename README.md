@@ -422,27 +422,27 @@ This XML file is designed for running `regression` tests. It follows the same st
 
 **The "[TestComponents](src/test/java/TestComponents)" folder contains BasePage class and subfolders, such as "`AdvancedTests`", "`BasicTests`" and "`IntermediateTests`" which organize the test classes used for various levels of testing within your test automation framework. Below is an overview of the "`TestComponents`" folder structure and its purpose:**
 
-#### 1. [BasePage.java](src/test/java/TestComponents/BaseTest.java)
+#### 1. [BaseTest.java](src/test/java/TestComponents/BaseTest.java)
 The "`BaseTest`" class acts as the base class for your test classes. It provides common setup and teardown operations to ensure that each test class starts with a consistent environment and cleans up resources after test execution.
 
 #### 2. [AdvancedTests](src/test/java/TestComponents/AdvancedTests):
 The "`AdvancedTests`" folder is dedicated to storing test classes specifically designed for advanced testing scenarios. Advanced tests often involve more complex functionalities and might include a variety of test cases, possibly covering edge cases and intricate scenarios.
 
-#### 3. [BasicTests](src/test/java/TestComponents/IntermediateTests):
+#### 3. [BasicTests](src/test/java/TestComponents/BasicTests):
 
 The "`BasicTests`" folder is meant for housing test classes that are focused on fundamental testing scenarios. These tests are typically straightforward and serve as foundational tests for your application or system.
 
-#### 4. [IntermediateTests](src/test/java/TestComponents/BasicTests):
+#### 4. [IntermediateTests](src/test/java/TestComponents/IntermediateTests):
 
 The "`IntermediateTests`" folder is where you store test classes for intermediate-level testing. These tests are more complex than basic tests but not as advanced as those in the "`AdvancedTests`" folder. Intermediate tests may cover a wide range of test cases, including typical usage scenarios.
 
-**Each of these folders, "[AdvancedTests]()," "[BasicTests](src/test/java/TestComponents/BasicTests)," and "[IntermediateTests]()," will contain various test classes that are relevant to the respective level of testing. The organization into separate folders simplifies test management, test execution, and test reporting for different testing phases within your automation framework.**
+**Each of these folders, "[AdvancedTests](src/test/java/TestComponents/AdvancedTests)," "[BasicTests](src/test/java/TestComponents/BasicTests)," and "[IntermediateTests](src/test/java/TestComponents/IntermediateTests)," will contain various test classes that are relevant to the respective level of testing. The organization into separate folders simplifies test management, test execution, and test reporting for different testing phases within your automation framework.**
 
 ### 🟦 TestData
 
 **The "[TestData](src/test/java/TestData)" folder contains data files required for running the test cases within the test automation framework. It's a crucial part of the framework for `data-driven testing`, allowing you to use different sets of data to validate the behavior of your application under various conditions. Below are descriptions of the `Excel files` found in the "[TestData](src/test/java/TestData)" folder**
 
-#### 1. [AdvancedTestsData]():
+#### 1. [AdvancedTestsData](src/test/java/TestData/AdvancedTestsData):
 
 The "`AdvancedTestsData`" folder contains `Excel files` that store data required for running advanced-level tests. These data files include test input, expected results, or other relevant data specific to advanced test cases.
 
@@ -450,7 +450,7 @@ The "`AdvancedTestsData`" folder contains `Excel files` that store data required
 
 The "`BasicData`" folder holds `Excel files` that contain data for basic test scenarios. This data may include inputs, expected outcomes, or any other data essential for testing the core functionalities of the application.
 
-#### 3. [IntermediateData]():
+#### 3. [IntermediateData](src/test/java/TestData/IntermediateTestsData):
 
 The "`IntermediateData"` folder stores `Excel files` with data for intermediate-level tests. These data files provide input values, expected results, or other relevant data specific to test scenarios of moderate complexity.
 

@@ -1,9 +1,11 @@
 
-g	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Êé±İ°1
-g	java:S112K"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Êé±İ°1
-g	java:S112d"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8”Ù²İ°1
-{
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(éÀÏûÿÿÿÿ8Ëé±İ°1
+g	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Êé±İ°1
+g	java:S112M"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Êé±İ°1
+g	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8”Ù²İ°1
 c
 java:S11925"FDefine a constant instead of duplicating this literal "Test " 4 times.(ØÒ³‡8Ëé±İ°1
+i
+java:S1192<"LDefine a constant instead of duplicating this literal " screenshot" 3 times.(ıŞÑ¢8çÇÆÈ³1
+p
+java:S1192<"SDefine a constant instead of duplicating this literal "Failed to capture " 3 times.(ıŞÑ¢8èÇÆÈ³1
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şü³”ıÿÿÿÿ8Îé±İ°1
